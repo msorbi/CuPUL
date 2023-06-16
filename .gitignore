@@ -3,3 +3,6 @@
 *.pt
 
 
+*.npy
+
+src/__pycache__/
