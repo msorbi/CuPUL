@@ -1,10 +1,4 @@
-geo_loc
-facility
-movie
-company
-product
-person
-other
-sportsteam
-tvshow
-musicartist
+PER
+LOC
+ORG
+MISC

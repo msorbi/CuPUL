@@ -22,6 +22,19 @@ loss_type = {
         "curriculum": "Conf-MPU"
     }, 
     "Twitter": {
+        "voter": "MPN-CE",
+        "curriculum": "Conf-MPU-CE"
+    },
+    "Ontonote_5.0": {
+        "voter": "MPN-CE",
+        "curriculum": "Conf-MPU-CE"
+    },
+    "Wikigold": {
+        "voter": "MPN",
+        "curriculum": "Conf-MPU"
+        # "curriculum": "MPN"
+    },
+    "Webpage": {
         "voter": "MPN",
         "curriculum": "Conf-MPU"
     }
@@ -41,10 +54,8 @@ class NERClassifier(object):
         os.makedirs(self.temp_dir, exist_ok=True)
 
         self.dir_path = "../data"
-        # self.dataset_name = "CoNLL2003_KB"
         self.dataset_name = args.dataset_name
         self.pretrained_model = args.pretrained_model
-        # self.label_list = ["O", "PER", "LOC", "ORG", "MISC"]
         self.max_seq_length = args.max_seq_length
         self.train_batch_size = args.train_batch_size
         self.gradient_accumulation_steps = 1
@@ -75,8 +86,7 @@ class NERClassifier(object):
         self.vocab = self.tokenizer.get_vocab()
         self.inv_vocab = {k: v for v, k in self.vocab.items()}
         self.mask_id = self.tokenizer.mask_token_id
-        # print(self.mask_id)
-        # exit()
+
         # setup model
         self.model = NERModel.from_pretrained(args.pretrained_model, num_labels=self.num_labels,
                                                  hidden_dropout_prob=0.1, attention_probs_dropout_prob=0.1,
@@ -88,15 +98,15 @@ class NERClassifier(object):
     def setup_dataset(self, args):
         # setup data
         if args.do_train:
-            tensor_data = self.processor.get_tensor(data_name="train", max_seq_length=self.max_seq_length, drop_o_ratio=args.drop_other, drop_e_ratio=args.drop_entity)
-            
+            # tensor_data = self.processor.get_tensor(data_name="train0.010.8", max_seq_length=self.max_seq_length, drop_o_ratio=args.drop_other, drop_e_ratio=args.drop_entity)
+            tensor_data = self.processor.get_tensor(data_name=args.train_on, max_seq_length=self.max_seq_length, drop_o_ratio=args.drop_other, drop_e_ratio=args.drop_entity)
+
             all_idx = tensor_data["all_idx"]
             all_input_ids = tensor_data["all_input_ids"]
             all_attention_mask = tensor_data["all_attention_mask"]
             all_labels = tensor_data["all_labels"]
             all_valid_pos = tensor_data["all_valid_pos"]
             self.token_weight = torch.zeros_like(all_input_ids).float()
-            #self.truth_labels = self.processor.get_train_truth_tensor(max_seq_length=self.max_seq_length)
             self.truth_labels = None
 
             self.gce_type_weight = torch.ones_like(all_input_ids).float()
@@ -130,15 +140,13 @@ class NERClassifier(object):
 
 
     # prepare model, optimizer and scheduler for training
-    def prepare_train(self, lr, epochs=100000000000000000):
+    def prepare_train(self, lr, epochs=1000):
         if torch.cuda.device_count() > 1:
             print("Let's use", torch.cuda.device_count(), "GPUs!")
-            # dim = 0 [30, xxx] -> [10, ...], [10, ...], [10, ...] on 3 GPUs
             model = nn.DataParallel(model)
 
         model = self.model.to(self.device)
-        # if self.multi_gpu:
-        #     model = nn.DataParallel(model)
+
         num_train_steps = int(len(self.train_data)/self.train_batch_size/self.gradient_accumulation_steps) * epochs
         param_optimizer = list(model.named_parameters())
         no_decay = ['bias', 'LayerNorm.weight']
@@ -161,7 +169,6 @@ class NERClassifier(object):
         model, optimizer, scheduler = self.prepare_train(lr=self.train_lr, epochs=self.train_epochs)
         train_sampler = RandomSampler(self.train_data)
         train_dataloader = DataLoader(self.train_data, sampler=train_sampler, batch_size=self.train_batch_size)
-        # self.noise_train_update_interval = 200
 
         batch_idx = 0
         rs = []
@@ -170,8 +177,7 @@ class NERClassifier(object):
             for step, batch in enumerate(tqdm(train_dataloader, desc=f"Epoch {epoch}")):
                 idx, input_ids, attention_mask, valid_pos, labels = tuple(t.to(self.device) for t in batch)
                 max_len = attention_mask.sum(-1).max().item()
-                # input_ids, attention_mask, valid_pos, labels, bin_weights, type_weights = tuple(t[:, :max_len] for t in \
-                #         (input_ids, attention_mask, valid_pos, labels, bin_weights, type_weights))
+                
                 input_ids, attention_mask, valid_pos, labels = tuple(t[:, :max_len] for t in \
                         (input_ids, attention_mask, valid_pos, labels))
 
@@ -198,9 +204,6 @@ class NERClassifier(object):
                 y_pred, _ = self.eval(model, self.eval_dataloader)
                 print(f"\n****** Model Evaluating on {self.args.eval_on} set: ******\n")
                 self.performance_report(self.y_true, y_pred)
-                # self.predict_data()
-
-        # np.save(os.path.join(self.temp_dir, f"{self.dataset_name}_voter_train_loss"), np.array(loss_sum))
 
         eval_sampler = SequentialSampler(self.train_data)
         eval_dataloader = DataLoader(self.train_data, sampler=eval_sampler, batch_size=self.args.eval_batch_size)
@@ -236,17 +239,13 @@ class NERClassifier(object):
             if f.startswith('y_pred'):
                 pred = torch.load(os.path.join(file_dir, f))
                 pred_prob_list.append(pred["pred_probs"])
-        # print(pred_prob_list[0][0].shape)
-        # print(len(pred_prob_list[0]))
-        # loss_fct = nn.KLDivLoss(reduction="sum")
+
         if len(pred_prob_list) <= 1:
             self.tokens_score_matrix = np.ones(self.token_weight.shape)
             return
         self.tokens_score = []
         self.max_hardness_score = 0
-        # random.shuffle(pred_prob_list)
-        # print(pred_prob_list.shape)
-        # zip list of list
+
         for sentences in zip(*pred_prob_list):
             scores = []
             for i in range(self.voter_num):
@@ -272,9 +271,7 @@ class NERClassifier(object):
             if f.startswith('y_pred'):
                 pred = torch.load(os.path.join(fild_dir, f))
                 pred_prob_list.append(pred["pred_probs"])
-        # pred_prob_list = [pred_prob_list[0]]
-        # print(len(pred_prob_list))
-        # exit()
+        # pred_prob_list = pred_prob_list[:1]
         ensemble_probs = []
         for i in range(len(pred_prob_list[0])):
             ensemble_prob_sent = []
@@ -282,23 +279,6 @@ class NERClassifier(object):
                 all_pred_probs = torch.cat([pred_prob_list[k][i][j].unsqueeze(0) for k in range(len(pred_prob_list))], dim=0)
                 ensemble_prob_sent.append(torch.mean(all_pred_probs, dim=0, keepdim=True))
             ensemble_probs.append(torch.cat(ensemble_prob_sent, dim=0))
-        # # print(ensemble_probs[0])
-        # probs = []
-        # # print(self.num_labels)
-        # for prob, label in zip(ensemble_probs, self.tensor_data["all_labels"]):
-        #     label = label[label>=0]
-        #     label = F.one_hot(label, num_classes = self.num_labels)
-        #     # print(prob, label)
-        #     # probs.append((0.2*prob + 0.8*label))
-        #     # probs.append((0.0*prob + 1.0*label))
-        #     probs.append((1.0*prob + 0.0*label))
-        #     # probs.append((0.5*prob + 0.5*label))
-        #     # probs.append((0.8*prob + 0.2*label))
-        # # torch.concat(probs)
-        # # # print()
-        # ensemble_probs = probs
-        print(ensemble_probs[0])
-        # # exit()
         ensemble_preds = []
         for pred_prob in ensemble_probs:
             preds = pred_prob.argmax(dim=-1)
@@ -308,6 +288,7 @@ class NERClassifier(object):
         ensemble_label = -100 * torch.ones(all_valid_pos.size(0), all_valid_pos.size(1), self.num_labels)
         ensemble_label[all_valid_pos > 0] = torch.cat(ensemble_probs, dim=0)
         self.ensemble_label = ensemble_label
+        torch.save({"ensemble_label": self.ensemble_label}, os.path.join(self.temp_dir, f"ensemble_label.pt"))
 
     def update_token_weight(self, threshold):        
         self.token_weight = torch.zeros_like(self.token_weight).float()
@@ -316,7 +297,6 @@ class NERClassifier(object):
 
     def curriculum_train(self):
         print("\n\n******* Training curriculum model *******\n\n")
-        #self.load_model(f"{self.output_dir}/cl_model_0")
         model, optimizer, scheduler = self.prepare_train(lr=self.curriculum_train_lr, epochs=self.curriculum_train_epochs*self.curriculum_train_sub_epochs)
 
         all_idx = self.tensor_data["all_idx"]
@@ -327,17 +307,14 @@ class NERClassifier(object):
         # all_soft_labels = self.tensor_data["all_labels"]
         all_soft_labels = self.ensemble_label
         self.token_weight = torch.ones_like(all_input_ids).float()
-        # self.fusion_labels = self.ensemble_label.to(self.device)
 
         curriculum_train_data = TensorDataset(all_idx, all_input_ids, all_attention_mask, all_valid_pos, all_labels, all_soft_labels)
         train_sampler = RandomSampler(curriculum_train_data)
         train_dataloader = DataLoader(curriculum_train_data, sampler=train_sampler, batch_size=self.train_batch_size)
 
-        # thresholds = [(self.max_hardness_score/self.curriculum_train_epochs) * (i+1) for i in range(self.curriculum_train_epochs)]
         hardness_scores = self.tokens_score_matrix
         scores = hardness_scores[hardness_scores!=1000]
         thresholds = self.log_split(scores, self.curriculum_train_epochs)
-        # self.lower_bound = thresholds[0] / 4
         self.lower_bound = 0
 
         # batch_idx = 0
@@ -346,16 +323,15 @@ class NERClassifier(object):
             batch_idx = 0
             model.train()
             print(f"Threshold: {thresholds[epoch]}")
-            self.update_token_weight(thresholds[epoch])
+            if self.args.curriculum:
+                print("with curriculum")
+                self.update_token_weight(thresholds[epoch])
             # self.update_token_weight(10000)
-            for _ in range(self.curriculum_train_sub_epochs):
+            for _i in range(self.curriculum_train_sub_epochs):
                 for step, batch in enumerate(tqdm(train_dataloader, desc=f"Epoch {epoch}")):
 
                     idx, input_ids, attention_mask, valid_pos, labels, soft_labels = tuple(t.to(self.device) for t in batch)
-                    # print(labels.shape)
 
-                    # if batch_idx % 200==0:
-                    #    self.update_token_weight(thresholds[batch_idx//200])
                     batch_idx += 1
                     token_weights = self.token_weight[idx].to(self.device)
                     max_len = attention_mask.sum(-1).max().item()
@@ -363,72 +339,25 @@ class NERClassifier(object):
                             (input_ids, attention_mask, valid_pos, labels, soft_labels, token_weights))
 
                     type_logits = model(input_ids, attention_mask, valid_pos)
-                    # print(token_weights.shape)
-                    # # print(labels.shape)
+
                     soft_labels = soft_labels[valid_pos > 0]
                     labels = labels[valid_pos > 0]
-                    # # print(labels.shape)
-                    # # exit()
+
                     token_weights = token_weights[valid_pos > 0]
                     curriculum_pos = token_weights==1
-                    # # print(token_weights==1)
-                    # # print(token_weights==0)
-                    # # exit()
                     soft_labels = soft_labels[curriculum_pos]
                     type_logits = type_logits[curriculum_pos]
                     labels = labels[curriculum_pos]
                     if len(labels) == 0:
                         continue
-                    # # print(labels.shape)
-                    # # print(type_logits.shape)
-                    # # exit()
-                    # labels = labels[token_weights!=0]
-                    # type_logits = type_logits[token_weights!=0]
-                    # labels[token_weights==0] = -100
-                    # print(token_weights)
-                    # exit()
-                    # print(labels)
-                    # print(token_weights)
-                    # exit()
 
-                    #if batch_idx < (len(self.train_data)/self.train_batch_size/self.gradient_accumulation_steps) \
-                    #                * self.curriculum_train_epochs * self.curriculum_train_sub_epochs * self.ratio:
-                    #    self.curriculum_risk_type = "Conf-MPU-CE"
-                    #else:
-                    #    self.curriculum_risk_type = "Conf-MPU"
-                    # self.curriculum_risk_type = "Conf-MPU-CE"
-                    # self.curriculum_risk_type = "MPN"
-                    # priors = [0.0314966102568, 0.0376880632424, 0.0354240324761, 0.015502139428]
-                    # # # priors = [0.0314966102568, , 0.0354240324761, 0.015502139428]
-                    # risk = Risk("MPN", 25, 0.5, self.num_labels, priors)
-                    # loss = self.risk.compute_risk(type_logits, labels)
-                    # loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN")
-                    # loss = self.risk.compute_risk(type_logits, labels, risk_type="MPU")
-                    # loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN-CE2")
-                    # print(type_logits.shape, labels.shape)
-                    # loss = self.risk.compute_risk(type_logits, labels, risk_type="Conf-MPU", probs=1-soft_labels[:,0])
-                    # loss = self.risk.compute_risk(type_logits, labels, risk_type="Conf-MPU-CE", probs=1-soft_labels[:,0])
-                    loss = self.risk.compute_risk(type_logits, labels, risk_type=self.curriculum_risk_type, probs=1-soft_labels[:,0])
-                    # loss = self.risk.compute_risk2(type_logits, soft_labels, labels)
+                    # loss = self.risk.compute_risk(type_logits, labels, risk_type=loss_type[self.args.dataset_name]["curriculum"], probs=1-soft_labels[:,0])
+                    loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN-CE", probs=1-soft_labels[:,0])
+                    # loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN", probs=1-soft_labels[:,0])
                     if loss.item() == 0:
                         continue
                     # exit()
                     loss_sum.append(loss.item())
-                    # mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(self.device) for i in range(self.num_labels)]
-                    # type_logits_set = [torch.index_select(type_logits, dim=0, index=mask[i]) for i in range(self.num_labels)]
-                    # soft_labels_set = [torch.index_select(soft_labels, dim=0, index=mask[i]) for i in range(self.num_labels)]
-                    # loss_fct = nn.KLDivLoss(reduction='sum')
-                    # ft_loss = []
-                    # for i in range(self.num_labels):
-                    #     # print(i)
-                    #     # print(type_logits_set[i].shape)
-                    #     # print(soft_labels_set[i].shape)
-                    #     loss = loss_fct(type_logits_set[i], soft_labels_set[i])
-                    #     print(loss)
-                    #     loss = loss / type_logits_set[i].size(0)
-                    #     ft_loss.append(loss)
-                    # print(ft_loss)
-                    # loss = sum(loss)
 
                     if self.gradient_accumulation_steps > 1:
                         loss = loss / self.gradient_accumulation_steps
@@ -448,10 +377,13 @@ class NERClassifier(object):
                 y_pred, _ = self.eval(model, self.eval_dataloader)
                 print(f"\n****** Evaluating on {self.args.eval_on} set: ******\n")
                 self.performance_report(self.y_true, y_pred)
-
             os.makedirs(f"{self.output_dir}/cl_model_{epoch}", exist_ok=True)
             self.save_model(model, f"cl_model_{epoch}.pt", f"{self.output_dir}/cl_model_{epoch}")
-        np.save(os.path.join(self.temp_dir, f"{self.dataset_name}_curr_train_loss"), np.array(loss_sum))
+            with open(f"Curriculum_conf_only_{epoch}.txt", "w") as fp:
+                for i in y_pred:
+                    fp.writelines(" ".join(i)+"\n")
+            np.save(os.path.join(self.temp_dir, f"{self.dataset_name}_curr_train_loss"), np.array(loss_sum))
+
 
     def eval(self, model, eval_dataloader):
         model = model.to(self.device)
@@ -467,12 +399,6 @@ class NERClassifier(object):
 
             with torch.no_grad():
                 logits = model(input_ids, attention_mask, valid_pos)
-                # entity_prob = torch.sigmoid(bin_logits)
-                # type_prob = F.softmax(logits, dim=-1) * entity_prob
-                # non_type_prob = 1 - entity_prob
-                # type_prob = torch.cat([non_type_prob, type_prob], dim=-1)
-                
-                # preds = torch.argmax(type_prob, dim=-1)
                 probs = logits
                 preds = torch.argmax(logits, dim=-1)
                 preds = preds.cpu().numpy()
@@ -493,8 +419,7 @@ class NERClassifier(object):
             if len(y_true[i]) > len(y_pred[i]):
                 print(f"Warning: Sequence {i} is truncated for eval! ({len(y_pred[i])}/{len(y_true[i])})")
                 y_pred[i] = y_pred[i] + ['O'] * (len(y_true[i])-len(y_pred[i]))
-        # print(y_true[0:2])
-        # print(y_pred[0:2])
+
         report = classification_report(y_true, y_pred, digits=4)
         print(report)
         return report 
@@ -505,13 +430,184 @@ class NERClassifier(object):
         model_to_save = self.model.module if hasattr(self.model, 'module') else self.model  # Only save the model it-self
         model_to_save.save_pretrained(save_dir)
         self.tokenizer.save_pretrained(save_dir)
-        # model_to_save = model.module if hasattr(model, 'module') else model
-        # torch.save(model_to_save.state_dict(), os.path.join(save_dir, model_name))
-        # self.tokenizer.save_pretrained(save_dir)
-        # model_config = {"max_seq_length": self.max_seq_length, 
-        #                 "num_labels": self.num_labels, 
-        #                 "label_map": self.label_map}
-        # json.dump(model_config, open(os.path.join(save_dir, "model_config.json"), "w"))
 
     def load_model(self, model_dir):
         self.model = NERModel.from_pretrained(model_dir)
+
+   # use pre-trained RoBERTa to create contextualized augmentations given original sequences
+    def aug(self, mask_prob=0.15, save_name="aug.pt"):
+        model = self.model.to(self.device)
+        model.eval()
+        train_sampler = RandomSampler(self.train_data)
+        train_dataloader = DataLoader(self.train_data, sampler=train_sampler, batch_size=self.args.eval_batch_size)
+        all_aug_input_ids = []
+        all_idx = []
+        for batch in tqdm(train_dataloader, desc="Creating augmentations"):
+            idx, input_ids, attention_mask, valid_pos, _ = tuple(t.to(self.device) for t in batch)
+            aug_input_ids = input_ids.clone()
+            
+            mask_pos = torch.rand(input_ids.size(), device=self.device) < mask_prob
+            orig_ids = input_ids[valid_pos > 0]
+            input_ids[mask_pos] = self.mask_id
+            with torch.no_grad():
+                mlm_logits = model.mlm_pred(input_ids, attention_mask, valid_pos)
+                
+                top_logits, top_idx = mlm_logits.topk(k=5, dim=-1)
+                sample_probs = F.softmax(top_logits, dim=-1)
+                sampled_token_idx = torch.multinomial(sample_probs, 1).view(-1)
+                sampled_ids = top_idx[torch.arange(top_idx.size(0)), sampled_token_idx]
+            for i in range(len(sampled_ids)):
+                sampled_token = self.inv_vocab[sampled_ids[i].item()]
+                orig_token = self.inv_vocab[orig_ids[i].item()]
+                if (sampled_token.startswith('Ġ') ^ orig_token.startswith('Ġ')) or sampled_token == 'Ġ' or orig_token == 'Ġ' \
+                    or (sampled_token.split('Ġ')[-1][0].isupper() ^ orig_token.split('Ġ')[-1][0].isupper()):
+                    sampled_ids[i] = orig_ids[i]
+            
+            aug_input_ids[valid_pos > 0] = sampled_ids
+            all_aug_input_ids.append(aug_input_ids)
+            all_idx.append(idx)
+        all_aug_input_ids = torch.cat(all_aug_input_ids)
+        all_idx = torch.cat(all_idx)
+
+        all_aug_res = {}
+        for data_idx, aug_input_ids in zip(all_idx, all_aug_input_ids):
+            all_aug_res[data_idx.item()] = aug_input_ids
+        aug_input_ids = []
+        for i in range(len(all_aug_res)):
+            aug_input_ids.append(all_aug_res[i].unsqueeze(0))
+        aug_input_ids = torch.cat(aug_input_ids, dim=0)
+        torch.save(aug_input_ids, os.path.join(self.temp_dir, save_name))
+
+    # compute soft labels for self-training on entity type classes
+    def soft_labels(self, model, entity_threshold=0.8):
+        train_sampler = RandomSampler(self.train_data)
+        train_dataloader = DataLoader(self.train_data, sampler=train_sampler, batch_size=self.args.eval_batch_size)
+        model.eval()
+
+        type_preds = []
+        indices = []
+        for batch in tqdm(train_dataloader, desc="Computing soft labels"):
+            idx, input_ids, attention_mask, valid_pos, labels = tuple(t.to(self.device) for t in batch)
+            type_distrib = torch.zeros(input_ids.size(0), self.max_seq_length, self.num_labels).to(self.device)
+
+            max_len = attention_mask.sum(-1).max().item()
+            input_ids, attention_mask, valid_pos, labels = tuple(t[:, :max_len] for t in \
+                        (input_ids, attention_mask, valid_pos, labels))
+            with torch.no_grad():
+                type_logits = model(input_ids, attention_mask, valid_pos)
+                other_rows = type_logits[:, 0].squeeze() >= (1-entity_threshold)
+
+                type_logits[other_rows][:, 1:] = 0
+
+                type_distrib[:, :max_len][valid_pos > 0] = type_logits
+                type_preds.append(type_distrib)
+
+            indices.append(idx)
+        
+        type_preds = torch.cat(type_preds, dim=0)
+        all_idx = torch.cat(indices)
+
+        type_distribution = torch.zeros(len(self.train_data), self.max_seq_length, self.num_labels)
+        for idx, type_pred in zip(all_idx, type_preds):
+            type_distribution[idx] = type_pred
+
+        type_distribution = type_distribution.view(-1, type_distribution.size(-1))
+        valid_rows = type_distribution[:, 1:].sum(dim=-1) > 0
+        weight = type_distribution[valid_rows][:, 1:]**2 / torch.sum(type_distribution[valid_rows][:, 1:], dim=0)
+        target_distribution = (weight.t() / torch.sum(weight, dim=-1)).t()
+        type_distribution[valid_rows][:, 1:] = target_distribution
+        type_distribution = type_distribution.view(len(self.train_data), self.max_seq_length, self.num_labels)
+        
+        print("Soft Label Done!")
+        return type_distribution
+
+    # self-training with augmentation
+    def self_train(self):
+        if os.path.exists(os.path.join(self.output_dir, "final_model.pt")):
+            print(f"\n\n******* Final model found; skip training *******\n\n")
+            return
+        else:
+            print("\n\n******* Self-training *******\n\n")
+        self.load_model(f"{self.output_dir}/cl_model_{self.curriculum_train_epochs-2}")
+        model, optimizer, scheduler = self.prepare_train(lr=self.self_train_lr, epochs=self.self_train_epochs)
+
+        all_idx = self.tensor_data["all_idx"]
+        all_input_ids = self.tensor_data["all_input_ids"]
+        all_attention_mask = self.tensor_data["all_attention_mask"]
+        all_valid_pos = self.tensor_data["all_valid_pos"]
+
+        i = 0
+        for epoch in range(self.self_train_epochs):
+            type_loss_sum = 0
+            aug_loss_sum = 0
+
+            self.aug(mask_prob=0.15)
+            data_file = os.path.join(self.temp_dir, "aug.pt")
+            all_aug_input_ids = torch.load(data_file)
+            aug_train_data = TensorDataset(all_idx, all_input_ids, all_aug_input_ids, all_attention_mask, all_valid_pos)
+            train_sampler = RandomSampler(aug_train_data)
+            train_dataloader = DataLoader(aug_train_data, sampler=train_sampler, batch_size=self.train_batch_size)
+
+            for step, batch in enumerate(tqdm(train_dataloader, desc=f"Epoch {epoch}")):
+                if i % self.self_train_update_interval == 0:
+                    type_distribution = self.soft_labels(model, entity_threshold=self.entity_threshold)
+                    model.train()
+                
+                idx, input_ids, aug_input_ids, attention_mask, valid_pos = tuple(t.to(self.device) for t in batch)
+                target_type = type_distribution[idx].to(self.device)
+
+                token_weights = self.token_weight[idx].to(self.device)
+
+                max_len = attention_mask.sum(-1).max().item()
+                input_ids, aug_input_ids, attention_mask, valid_pos, target_type, token_weights = tuple(t[:, :max_len] for t in \
+                        (input_ids, aug_input_ids, attention_mask, valid_pos, target_type, token_weights))
+
+                type_logits = model(input_ids, attention_mask, valid_pos)
+                token_weights = token_weights[valid_pos > 0]
+                
+                valid_type = target_type[valid_pos > 0].sum(dim=-1) > 0
+                type_logits = type_logits[valid_type]
+                target_type = target_type[valid_pos > 0][valid_type]
+                loss_fct = nn.KLDivLoss(reduction='sum')
+
+                preds = type_logits.log()
+                orig_pred_type = preds.argmax(-1)
+
+                type_loss = loss_fct(preds, target_type)
+                if type_logits.size(0) > 0:
+                    type_loss = type_loss / type_logits.size(0)
+                    type_loss_sum += type_loss.item()
+                
+                aug_logits = model(aug_input_ids, attention_mask, valid_pos)
+                aug_logits = aug_logits[valid_type]
+
+                preds = aug_logits.log()
+                aug_pred_type = preds.argmax(-1)
+                agree_pos = aug_pred_type == orig_pred_type
+                preds = preds[agree_pos]
+                target_type = target_type[agree_pos]
+                aug_loss = loss_fct(preds, target_type)
+                if preds.size(0) > 0:
+                    aug_loss = aug_loss / preds.size(0)
+                    aug_loss_sum += aug_loss.item()
+
+                loss = type_loss + aug_loss
+                
+                if self.gradient_accumulation_steps > 1:
+                    loss = loss / self.gradient_accumulation_steps
+
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+
+                if (step+1) % self.gradient_accumulation_steps == 0:
+                    optimizer.step()
+                    scheduler.step()
+                    model.zero_grad()
+                i += 1
+            
+            if self.args.do_eval:
+                y_pred, _ = self.eval(model, self.eval_dataloader)
+                print(f"\n****** Evaluating on {self.args.eval_on} set: ******\n")
+                self.performance_report(self.y_true, y_pred)
+        
+        self.save_model(model, "final_model.pt", self.output_dir)

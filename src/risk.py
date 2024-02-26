@@ -22,14 +22,8 @@ class Risk(object):
             self.risk_type = risk_type
 
         if self.risk_type == 'MPN':
-            # print(labels.shape)
-            # print(logits.shape)
             mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
             logits_set = [torch.index_select(logits, dim=0, index=mask[i]) for i in range(self.num_class)]
-            # mask = [self.mask_of_label(labels, i) for i in range(self.num_class)]
-            # logits_set = [logits.masked_select(torch.from_numpy(mask[i]).bool().cuda()).contiguous().view(-1, self.num_class)
-            #               for i in range(self.num_class)]
-            # # print(logits_set)
 
             neg_prior = 1 - sum(self.priors)
 
@@ -40,23 +34,14 @@ class Risk(object):
 
             # risk2 = N(-)_risk
             risk2 = neg_prior * self.MAE(logits_set[0], np.eye(self.num_class)[0])
-
-            # batch_risk.append([i.item() for i in risk1_list] + [risk2.item()])
             risk = risk1 * self.m + risk2
 
         if self.risk_type == 'MPN-CE':
-            # print(labels.shape)
-            # print(logits.shape)
             mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
             logits_set = [torch.index_select(logits, dim=0, index=mask[i]) for i in range(self.num_class)]
-            # mask = [self.mask_of_label(labels, i) for i in range(self.num_class)]
-            # logits_set = [logits.masked_select(torch.from_numpy(mask[i]).bool().cuda()).contiguous().view(-1, self.num_class)
-            #               for i in range(self.num_class)]
-            # # print(logits_set)
 
             neg_prior = 1 - sum(self.priors)
 
-            # risk1 = P(+)_risk
             risk1_list = [self.CE(logits_set[i], np.eye(self.num_class)[i]) for i in range(1, self.num_class)]
             risk1 = sum([self.priors[i - 1] * risk1_list[i - 1]
                          for i in range(1, self.num_class)])  # index of "O" is 1, and remove [CLS] and [SEP]
@@ -64,15 +49,10 @@ class Risk(object):
             # risk2 = N(-)_risk
             risk2 = neg_prior * self.CE(logits_set[0], np.eye(self.num_class)[0])
 
-            # batch_risk.append([i.item() for i in risk1_list] + [risk2.item()])
-            # print(self.m)
             risk = risk1 * self.m + risk2
 
-
-
         elif self.risk_type == 'MPU':
-            # print(labels.shape)
-            # print(logits.shape)
+
             mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
             logits_set = [torch.index_select(logits, dim=0, index=mask[i]) for i in range(self.num_class)]
 
@@ -85,17 +65,14 @@ class Risk(object):
                      sum([self.priors[i - 1] * self.MAE(logits_set[i], np.eye(self.num_class)[0])
                           for i in range(1, self.num_class)]))
 
-            # batch_risk.append([i.item() for i in risk1_list] + [risk2.item()])
             risk = risk1 * self.m + risk2
             if risk2 < 0:
                 risk = - risk2
 
         elif self.risk_type == 'MPU-CE':
-            # print(labels.shape)
-            # print(logits.shape)
+
             mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
             logits_set = [torch.index_select(logits, dim=0, index=mask[i]) for i in range(self.num_class)]
-            # print(logits_set)
 
             # risk1 = P(+)_risk
             risk1_list = [self.CE(logits_set[i], np.eye(self.num_class)[i]) for i in range(1, self.num_class)]
@@ -111,16 +88,10 @@ class Risk(object):
                 risk = - risk2
 
         elif self.risk_type == 'Conf-MPU':
-            # print(probs)
-            # l_mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
-            # p_mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
-            # exit()
             l_mask = []
             p_mask = []
-            # print(probs)
             labels = labels.unsqueeze(0)
             logits = logits.unsqueeze(0)
-            # probs = (probs**2).unsqueeze(0)
             probs = probs.unsqueeze(0)
             for i in range(self.num_class):
                 mask1, mask2 = self.mask_of_label_prob(self.eta, labels, probs, i)
@@ -152,23 +123,16 @@ class Risk(object):
             negative_risk = risk1
             positive_risk = risk2 - risk3 + risk4
 
-            # print(negative_risk, positive_risk)
             risk = positive_risk * self.m + negative_risk
             
             if positive_risk < 0:
                 risk = negative_risk
 
         elif self.risk_type == 'Conf-MPU-CE':
-            # print(probs)
-            # l_mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
-            # p_mask = [(labels == i).nonzero(as_tuple=False).squeeze().to(device) for i in range(self.num_class)]
-            # exit()
             l_mask = []
             p_mask = []
-            # print(probs)
             labels = labels.unsqueeze(0)
             logits = logits.unsqueeze(0)
-            # probs = (probs**2).unsqueeze(0)
             probs = probs.unsqueeze(0)
             for i in range(self.num_class):
                 mask1, mask2 = self.mask_of_label_prob(self.eta, labels, probs, i)
@@ -201,7 +165,6 @@ class Risk(object):
             negative_risk = risk1
             positive_risk = risk2 - risk3 + risk4
 
-            # print(negative_risk, positive_risk)
             risk = positive_risk * self.m + negative_risk
             if positive_risk < 0:
                 risk = negative_risk

@@ -104,8 +104,8 @@ class DataProcessor(object):
 
     def get_tensor(self, data_name, max_seq_length, drop_o_ratio=0, drop_e_ratio=0):
         data_file = os.path.join(self.data_dir, f"{self.dataset_name}_{data_name}.pt")
-        # if os.path.exists(data_file) and False:
-        if os.path.exists(data_file):
+        if os.path.exists(data_file) and False:
+        # if os.path.exists(data_file):
             print(f"Loading data from {data_file}")
             tensor_data = torch.load(data_file)
         else:
