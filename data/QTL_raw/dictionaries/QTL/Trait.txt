@@ -1,0 +1,3884 @@
+body weight
+average daily gain
+fatty acid content
+milk yield
+meat color
+fat percentage
+fat weight
+fat thickness
+feed intake
+milk fat yield
+milk protein yield
+muscle weight
+backfat thickness
+ADG
+carcass weight
+milk fat percentage
+amount of fatty acid
+litter size
+ham weight
+shank length
+amount in meat of fatty acid DIGIT
+body length
+egg weight
+milk protein percentage
+protein content
+total number born
+hemoglobin
+somatic cell score
+amount in milk of a saturated fatty acid with a DIGIT carbon backbone
+androstenone
+bone weight
+feed conversion ratio
+growth rate
+kleiber ratio
+meat weight
+non-return rate
+transdigit octadecenoic acid content
+backfat at last rib
+bone mineral content
+bone mineral density
+disease susceptibility
+dry matter intake
+mummified pigs
+subcutaneous fat thickness
+teat number
+total number born alive
+amount in milk of fatty acid transdigit
+birth weight
+fat area
+fertility
+interval from DIGIT to last insemination
+leg conformation
+leukocyte number
+live weight
+milk transdigit octadecenoic acid content
+number of mummified pigs
+number of stillborn
+number weaned
+osteochondrosis
+abdominal fat
+amount of fatty acid DIGIT 
+backfat at tenth rib
+body height
+calving interval
+cannon bone circumference
+cholesterol level
+conception rate
+cortisol level
+desaturation index
+interval to DIGIT estrus after calving
+ketosis
+linoleic acid content
+locomotion
+mastitis
+muscle pH
+number of teats
+omega-digit fatty acid content
+shank diameter
+age at puberty
+amount in milk of fatty acid cisdigit
+amount in milk of fatty acid cis-digit
+body weight gain
+calving ease
+calving to conception interval
+clinical mastitis
+coat color
+conformation score
+curd firmness
+disease resistance
+fat androstenone level
+fat color
+high-density lipoprotein
+milk DIGIT desaturation index
+milk DIGIT index
+milk dry matter
+neck weight
+nitrogen content
+number of neutrophils
+osteochondrosis dissecans
+spleen bacterial burden
+stature
+teat placement
+teat size
+udder attachment
+udder depth
+weight of loin
+white blood cell count
+wool color
+abdominal circumference
+angularity
+average backfat
+average feeding rate
+body slanting length
+body temperature
+breast bone length
+carcass length
+chest girth
+cisdigit heptadecenoic acid content
+egg number
+egg production
+epidermolysis bullosa
+fecal egg count
+feed intake per feeding
+gait score
+gestation length
+glucose level
+hip height
+igg level
+inseminations per conception
+interleukidigit level
+leg weight
+longissimus muscle area
+marbling
+mean corpuscular hemoglobin
+meat percentage
+milk acetone content
+milk beta-hydroxybutyrate content
+milk fat-to-protein ratio
+milk lactose content
+number of eggs
+omega-digit to omega-digit fatty acid ratio
+packed red blood cell volume
+pH change per hour from DIGIT hours to DIGIT hours post-mortem
+phosphorus level
+polyunsaturated fatty acid content
+potassium level
+proportion of total lymphocytes or leukocytes consisting of CDDIGIT
+proportion of total lymphocytes or leukocytes consisting of CDDIGIT+
+rear leg set
+rennet coagulation time
+sperm motility
+stillbirth
+total number born alive {DIGIT thprty}
+vertebra number
+withers height
+ACTH level
+age at sexual maturation
+amount in milk of a saturated fatty acid with an DIGIT carbon backbone
+amount in tissue of fatty acid DIGIT
+amount of fatty acid DIGIT in muscle and/or associated fat
+antibody response to NDV (Newcastle disease virus)
+antibody response to SE (Salmonella enteritidis)
+arachidonic acid content
+average backfat thickness
+backfat at DIGIT rib
+backfat at last lumbar
+bilirubin level
+bone fracture
+bone percentage
+bovine spongiform encephalopathy
+breast pH
+calcium level
+calf size
+calving difficulty
+carcass width
+CDDIGIT positive leukocyte number
+CDDIGIT positive leukocyte percentage
+CDDIGIT+CDDIGIT+CDDIGIT+ cell number
+chest width
+cis-vaccenic acid content
+concentration in blood of the cytokine interleukidigit (IL-DIGIT)
+conjugated linoleic acid content
+diameter of white fibers
+dystocia
+eicosapentaenoic acid content
+eicosenoic acid content
+finishing precocity
+ham fat weight
+hematocrit
+insulin-like growth factor DIGIT level
+interleukindigit level
+iron content
+juiciness
+laminitis
+lean content
+length of productive life
+lightness meat color coordinate
+linolenic acid content
+litter size {DIGIT thprty}
+litter weight
+loin and neck weight
+lymphocyte number
+marbling score
+marek's disease
+meat color-l
+meat flavor
+meat-to-bone ratio
+milk fat content
+milking speed
+milk protein content
+monounsaturated fatty acid content
+muscle fiber cross-sectional area
+muscularity
+myristic acid content
+nematodirus FEC
+neutrophil number
+number of eosinophils
+number of litters
+number of mummified pigs {DIGIT thprty}
+number of stillborn {DIGIT thprty}
+offspring born alive
+oleic acid content
+packed cell volume
+palmitic acid content
+palmitoleic acid content
+pregnancy rate
+residual feed intake
+residual gain
+retained placenta
+ribeye area
+rump width
+saturated fatty acid content
+shank girth
+shank weight
+shear force
+skinfold thickness
+sperm per ejaculate
+stearic acid content
+thigh muscle weight
+thigh weight
+time spent feeding
+time spent lying
+total bone
+total lean
+total milk yield
+transdigit fatty acid content
+twinning
+unsaturated fatty acid content
+viral load
+weaning weight
+white spotting
+zinc content
+acid flavor
+adipocyte area
+adipocyte volume
+age at DIGIT calving
+age at DIGIT insemination
+alanine transaminase level
+alkaline phosphatase activity
+amount in milk of fatty acid DIGIT
+amount of bilirubin in serum
+amount of casein in milk
+amount of fat in milk
+amount of protein in milk
+angle of the rump structure
+antibody response to BA (Brucella abortus)
+antibody response to e.coli vaccine
+antibody response to LPS (Lipopolysaccharide)
+antibody response to LTA (Lipoteichoic acid)
+antibody response to MB (Mycobacterium butyricum)
+antidigit e.coli igg levels
+arachidic acid content
+ash content
+aspartate aminotransferase level
+atherogenic index
+average muscle fiber cross-sectional area
+backfat at DIGIT rd lumbar
+backfat between DIGIT th and DIGIT th ribs
+bacon depth
+behenic acid content
+belly weight
+bicarbonate level
+blood cortisol levels
+body conformation
+body structure
+bone area
+breast muscle weight
+DIGIT fatty acid content
+capric acid content
+carbon dioxide level
+carnosine content
+CDDIGIT negative leukocyte percentage
+chest depth
+cholinesterase level
+cisdigit eicosenoic acid content
+cisdigit fatty acid content
+claw weight
+colostrum immunoglobulin GDIGIT concentration
+combined weight of loin and neck
+concentration of immunoglobulin GDIGIT in colostrum
+concentration of immunoglobulin GDIGIT in serum
+concentration of the cytokine interleukindigit (ILDIGIT) in serum
+concentration of the cytokine interleukin DIGIT (IL-DIGIT) in serum
+concentration of the toll-like receptor DIGIT protein (TLRDIGIT) in serum
+connective tissue protein
+corticosterone level
+corticosterone response
+creatinine level
+cross-sectional area of muscle fibers
+curd yield
+daily feed intake
+dairy form
+decanoic acid content
+DHA content
+diaphragm weight
+difficult delivery of offspring
+dilution
+distance measured around the body
+distance measured around the shank
+docosahexaenoic acid content
+docosanoic acid content
+docosapentaenoic acid content
+dodecanoic acid content
+drumstick muscle weight
+dry matter intake per visit
+egg aftertaste
+egg odor
+eggshell color
+eggshell thickness
+eicosanoic acid content
+entropion
+eosinophil number
+eviscerated weight
+facial morphology
+faecal egg count from DIGIT challenge with trichostrongylus colubriformis
+fat cover
+fat distribution
+fat thickness at the DIGIT th rib
+fatty acid DIGIT to DIGIT ratio
+feather density
+feather pecking
+fecal oocyst count
+feed efficiency
+fertility treatments
+fiber diameter coefficient of variance
+DIGIT place finishes
+flavor score
+foot angle
+gadoleic acid content
+gamma-glutamyl transferase level
+gizzard weight
+half carcass weight
+ham percentage
+head length
+heifer conception rate
+heifer pregnancy
+herd life
+hind leg conformation
+hoof and leg disorders
+horn length
+humerus bone mineral density
+immunoglobulin GDIGIT level
+interferon-gamma level
+intestine length
+jaw length
+lactate level
+lactose percentage
+lauric acid content
+LDL cholesterol
+lean meat + bone in ham
+lean meat percentage
+lean meat yield
+leg length
+leg yield
+lifetime nonproductive UNIT
+lignoceric acid content
+liver color
+loin muscle area
+loin weight
+loin yield
+long-chain fatty acid content
+longissmus muscle area
+luteal activity
+lymphocyte count
+magnesium level
+margaric acid content
+maximum daily gain
+meat area
+meat color a*
+meat color l*
+meat color-l {DIGIT hPM}
+meat omega-digit fatty acid content
+medium-chain fatty acid content
+milk alphadigit casein percentage
+milk cisdigit heptadecenoic acid content
+milk fat percentage in DIGIT lactation
+milk fat yield in DIGIT lactation
+milk omega-digit fatty acid content
+milk protein yield in DIGIT lactation
+milk solids percentage
+milk yield in DIGIT lactation
+mobility
+moisture content
+muscle depth at DIGIT rd lumbar
+muscle fiber number
+mycoplasma hyopneumoniae antibody titer
+myristoleic acid content
+neck fat weight
+non-esterified fatty acid level
+number of basophils
+number of corpora lutea
+number of degenerate embryos
+number of embryos
+number of monocytes
+number of muscle fibers per unit area
+number of transferable embryos
+number of viable embryos
+number of viable fetuses
+oxygen saturation
+parasite load
+pelvis breadth
+pentadecanoic acid content
+pentadecylic acid content
+percentage decrease in PCV up to day DIGIT after challenge
+perinatal mortality
+phosphate level
+piglet mortality
+pleuritis
+pneumonia susceptibility
+polled
+polyunsaturated fatty acid to saturated fatty acid ratio
+polyunsaturated to saturated fatty acid ratio
+pork flavor in fat
+pork flavor in lean
+primary fiber diameter
+ratio of insulin to glucagon
+ratio of polyunsaturated fatty acids to saturated fatty acids
+ratio of triiodothyronine to thyroxine
+ratio of unsaturated omega-digit to omega-digit fatty acids
+red/green meat color coordinate
+rib weight
+roan
+round weight
+salmonella count in liver
+salmonella shedding
+short-chain fatty acid content
+shoulder external fat weight
+shoulder weight
+side fat
+skin thickness
+smell intensity
+sole ulcer
+sperm count
+sperm head abnormalities
+sperm progressive motility
+spleen size
+squareness of hind legs relative to the body
+staple length
+strongyle FEC
+structural soundness
+subcutaneous fat thickness measured between the DIGIT th and DIGIT th ribs
+subcutaneous neck adipose tissue
+teat morphology
+temperament
+testes weight
+tetanus antibody titer
+thickness or diameter of the teats
+thigh percentage
+tibia breaking force
+tibia strength
+time between DIGIT and last insemination (per pregnancy)
+time elapsed between rennet coagulation time and attainment of desired curd firmness
+time in feeder per day
+time spent drinking
+time spent rooting
+time spent walking
+time to achieve maximum antibody response to BA
+time to achieve maximum antibody response to KLH
+time to achieve maximum antibody response to LPS
+time to achieve maximum antibody response to LTA
+time to achieve maximum antibody response to MB
+time to achieve maximum antibody response to NDV
+time to achieve maximum antibody response to SE
+time to achieve maximum antibody response to SRBC
+toll-like receptor DIGIT level
+total bilirubin
+total lipid
+total muscle area
+total number of fibers
+total number of ova
+total ventricular weight as percentage of body weight
+trans-vaccenic acid content
+trichostrongylus colubriformis FEDIGIT
+tricosanoic acid content
+tridecylic acid content
+tuberculosis susceptibility
+udder height
+udder morphology
+udder volume
+udder width
+unsaturated index
+unsaturated to saturated fatty acid ratio
+uric acid level
+vaccenic acid content
+vulva height
+vulva width
+weight of the head
+weight of the leg cut
+weight of the liver
+weight of the proventriculus
+weight of the shank
+white line disease
+white markings
+width of the head
+wool yield
+yearling weight
+yellow/blue meat color coordinate
+yellow follicle number
+yield grade
+yolk height
+DIGIT beta-estradiol level
+DIGIT st-digit rd place finishes
+DIGIT hydroxyvitamin d level
+DIGIT rd UNIT total milk yield
+DIGIT th UNIT total milk yield
+DIGIT octadecenoic acid percentage
+abdominal circumference {yearling}
+abdominal fat percentage
+abdominal fat weight
+abdominal girth
+abdominal width
+ability of cows to become pregnant and produce a live calf annually
+ability of sperm to move forward in an essentially straight line
+ability to calve without difficulty
+ability to deliver lambs without difficulty
+ability to perform gaits other than the walk
+ability to regulate body temperature under cold conditions
+ability to regulate body temperature under hot conditions
+ability to withstand the conditions present at high altitude
+abnormal flavor intensity
+abnormally low levels of cholesterol in the blood
+abnormal odor intensity
+abomasal pH
+abomasom pH
+abomasum displacement
+ACTH basal level
+ACTH level variations
+actinobacillus pleuropneumoniae susceptibility
+activity during lying
+activity level of GGT in blood
+activity of glucose DIGIT phosphatase in muscle samples
+activity of lactate dehydrogenase in muscle samples
+activity of NADP-malate dehydrogenase
+activity of the alternative complement pathway following incubation of serum with bovine red blood cells
+activity of the classical complement pathway following incubation of serum with sheep red blood cells
+activity of the enzyme aspartate aminotransferase in plasma
+actual or estimated percentage of the carcass or portion of carcass comprised of subcutaneous adipose tissue
+actual or estimated weight of fat in the carcass or portion of carcass
+ADG during birth to weaning
+ADG during finishing period.
+ADG during finishing period
+ADG during grower period.
+ADG during growing period
+ADG during nursery and growing period (between weaning and slaughter).
+ADG during nursery period
+adipocyte diameter
+adipocyte number
+adipocyte perimeter
+adjusted weaning weight
+adjusted yearling weight
+adrenal gland weight
+adrenocorticotropic hormone level
+ADV antibody titer
+ADV igg level
+aeromonas disease resistance
+aeromonas salmonicida survival rate
+aeromonas salmonicida survival time
+age at DIGIT breeding
+age at DIGIT corpus luteum
+age at DIGIT egg
+age at DIGIT farrowing
+age at DIGIT lambing
+age at DIGIT service
+age at inflection point in growth curve
+age at last farrowing
+age at maximum daily gain
+age at puberty (EBV)
+age at sexual maturity
+age at slaughter
+age at weaning
+age at which a female is capable of reproducing
+age at which a male is capable of reproducing
+age at which reproductive function is initiated
+age of a cow when she delivers her DIGIT offspring
+age of a ewe at birth of DIGIT offspring
+age of the animal at slaughter
+age of the hen at laying of the DIGIT egg
+age of the sow at the time of birth of her DIGIT litter
+aggressive behavior
+aggressive maternal attack on newborn piglets
+aggressiveness during gestation
+aggressive pecks delivered
+aggressive pecks received
+agouti
+alanine transaminase (ALT) level in serum
+albumen height
+albumen percentage
+albumen weight
+alkaline phosphatase activity in serum
+alkaline phosphatase (ALP) level in serum
+alkaline phosphatase level
+alternate gaits
+alternative complement activation by BRBC
+altitude adaptation
+amount in meat of a DIGIT carbon fatty acid with DIGIT double bonds
+amount in meat of all fatty acids containing more than one carbon-carbon double bond
+amount in meat of any/all isomers of linoleic acid DIGIT in which the double bonds are conjugated (double bonds alternate with single bonds)
+amount in meat of fatty acids containing one c-c double bond
+amount in meat of fatty acids with a chain length of fewer than DIGIT carbons
+amount in meat of fatty acids with a chain length ranging from DIGIT to DIGIT carbons
+amount in meat of fatty acids with chain length between DIGIT and DIGIT carbons
+amount in meat of unsaturated fatty acids with the DIGIT double bond in the DIGIT position
+amount in milk of cisdigit octadecenoic acid
+amount in milk of fatty acids containing more than one c-c double bond
+amount in milk of fatty acids in which the parent hydrocarbon chain has one or more alkyl substituents
+amount in milk of fatty acids with a chain length of between DIGIT and DIGIT carbon atoms
+amount in milk of fatty acids with a chain length of fewer than DIGIT carbon atoms
+amount in milk of fatty acids with a chain length ranging from DIGIT to DIGIT carbon atoms
+amount in milk of fatty acids with a double bond at the DIGIT position
+amount in milk of fatty acids with a double bone at the DIGIT position
+amount in milk of fatty acid trans-digit
+amount in milk of unsaturated fatty acids containing cis double bonds
+amount in serum of ACTH
+amount of DIGIT carbon fatty acid in muscle and/or associated fat
+amount of DIGIT carbon fatty acid in tissue
+amount of adipose tissue between the muscles
+amount of alpha-casein in milk
+amount of alpha-lactalbumin protein in milk
+amount of alphadigit casein in milk
+amount of ALT enzymatic activity in blood
+amount of arachidonic acid in a tissue sample
+amount of ash in the carcass
+amount of AST enzymatic activity in blood
+amount of beta-lactoglobulin protein in milk
+amount of bicarbonate (HCODIGIT) in the blood
+amount of circulating growth hormone
+amount of cis-vaccenic acid (DIGIT) in a tissue sample
+amount of clean wool that remains after scouring
+amount of colostrum produced following parturition
+amount of connective tissue in a cut of meat
+amount of connective tissue protein (collagen and elastin)
+amount of creatine kinase in the blood
+amount of creatinine in serum
+amount of docosadienoic acid (DIGIT) in a tissue sample
+amount of docosahexaenoic acid (DIGIT) in a tissue sample
+amount of docosahexaenoic acid (DIGIT) in muscle and/or associated fat
+amount of docosapentaenoic acid in a tissue sample
+amount of docosatetraenoic acid in a tissue sample
+amount of eicosadienoic acid (DIGIT) divided by amount of linoleic acid (DIGIT)
+amount of eicosanoic acid (DIGIT) divided by amount of eicosenoic/arachidic acid (DIGIT)
+amount of eicosapentaenoic acid (DIGIT) in a tissue sample
+amount of eicosatrienoic acid (DIGIT) in a tissue sample
+amount of energy contained in milk
+amount of fat deposits in the tail (qualitative)
+amount of fat extracted from muscle
+amount of fat in carcass
+amount of fat in milk (not percentage)
+amount of fat in the carcass (ether extract)
+amount of fat on the loin
+amount of fatty acid DIGIT in meat
+amount of fatty acid DIGIT(DIGIT) in a tissue sample
+amount of fatty acid DIGIT(DIGIT) in milk
+amount of fatty acids (DIGIT+DIGIT)/total fatty acids
+amount of fatty acids containing a single carbon-carbon double bond
+amount of fatty acids containing more than one carbon-carbon double bond
+amount of feed consumed over a given period of time
+amount of fiber type i myosin isoforms
+amount of gamma-linolenic acid (DIGIT) in a tissue sample
+amount of hemoglobin per red blood cell
+amount of high-density lipoprotein in serum
+amount of interferon-gamma in plasma
+amount of intramuscular fat
+amount of lactate in blood
+amount of lactate in serum
+amount of lactose in milk
+amount of linoleic acid (DIGIT) divided by amount of linolenic acid (DIGIT)
+amount of low-density lipoprotein in serum
+amount of matter in the bones
+amount of methane produced during enteric fermentation
+amount of monounsaturated (DIGIT c-c double bond) fatty acids in milk
+amount of monounsaturated fatty acids divided by amount of saturated fatty acids
+amount of natural bare skin around the perineum and breech area
+amount of omega-digit fatty acid in muscle and/or associated fat
+amount of omega-digit fatty acid present in muscle and/or associated fat
+amount of palmitoleic acid (DIGIT) divided by amount of oleic acid (DIGIT)
+amount of palmitoleic acid (DIGIT) divided by amount of palmitic acid (DIGIT)
+amount of protein in carcass
+amount of protein in fat tissue
+amount of protein in milk (not percentage)
+amount of protein in muscle
+amount of protein in the carcass
+amount of saturated fatty acids (no c-c double bonds) in milk
+amount of stearic acid (DIGIT) divided by amount of palmitic acid (DIGIT)
+amount of the hormone estrone in fat or meat
+amount of time spent exploring the environment during exposure to an unfamiliar object
+amount of time spent exploring the environment during open field test
+amount of time spent in periods of activity during exposure to an unfamiliar object
+amount of time spent in periods of activity during open field test
+amount of time spent in periods of inactivity during exposure to an unfamiliar object
+amount of time spent in periods of inactivity during open field test
+amount of unsaturated fatty acids (contain c-c double bonds) in milk
+amount of unsaturated fatty acids with the DIGIT double bond in the sixth position from the omega carbon
+amount of urea nitrogen in milk
+amount of vaccenic acid (DIGIT) divided by amount of palmitoleic acid (DIGIT)
+amount of vaccenic acid (DIGIT) divided by amount of stearic acid (DIGIT)
+amount of water contained in waste matter
+amount of water in muscle
+amount of water in the carcass
+AM rectal temperature
+anal atresia
+androstenone level measured at slaughter
+angle and openness of the ribs
+angle of teats from side view (poor-good)
+angle of the rump structure from hips to pins
+angle of the semimembranosus
+angularity of the animal's back
+animal's tendency to move away from the feeder when approached by a human being
+anogenital distance
+anovulation
+anterior grow-finish lesions
+antibody-mediated immune response
+antibody response following infection with b. suis
+antibody response to brucella suis
+antibody response to e. coli
+antibody response to KLH antigen
+antibody response to KLH (Keyhole lympet hemocyanin)
+antibody response to LPS antigen
+antibody response to LTA antigen
+antibody response to MB antigen
+antibody response to NDV (Newcastle disease virus) vaccine
+antibody response to SE (Salmonella enteritidis) vaccination
+antibody response to SRBC antigen
+antibody response to SRBC (Sheep red blood cells)
+antibody titer to AIV
+antibody titer to aujeszky's disease virus
+antibody titer to fowl cholera
+antibody titer to fowl typhoid
+antibody titer to IBD
+antibody titer to IBV
+antibody titer to KLH antigen
+antibody titer to LPS antigen
+antibody titer to LTA antigen
+antibody titer to MDV
+antibody titer to mycoplasma hyopneumoniae (Mh)
+antibody titer to NDV
+antibody titer to pasturella multocida
+antibody titer to porcine reproductive and respiratory stress syndrome virus
+antibody titer to salmonella enterica serovar gallinarum
+antibody titer to SRBC antigen
+antibody titer to tetanus
+anti-mÂllerian hormone level
+antidigit e.coli igg level response
+antral follicle number
+appraisal of the thickness and width of the bone structure
+approximate amount of protein ingested
+approximate area of the comb
+approximate volume of the tibia
+arachidic acid to stearic acid ratio
+arachidonic acid to dihomo-gamma-linolenic acid ratio
+arachidonic acid to eicosadienoic acid ratio
+arachidonic acid to gamma-linolenic acid ratio
+arachidonic acid to linoleic acid ratio
+area occupied by bone in a cross-sectional scan
+area of either the left or right ear
+area of fat on the belly
+area of fat surrounding the longissimus dorsi muscle
+ascites syndrome incidence
+aseasonal reproduction
+aspartate amino transferase activity
+aspartate aminotransferase activity
+aspartate aminotransferase (AST) level in serum
+assessment of bowed legs
+assessment of crooked or curved digit
+assessment of facial morphology
+assessment of fat color in meat or carcass
+assessment of fat distribution between abdominal and subcutaneous fat
+assessment of movement at the trot
+assessment of overall conformation of the rump
+assessment of overall teat size (large to small)
+assessment of overall teat size (small to large)
+assessment of the animal's locomotion patterns
+assessment of the color of subcutaneous fat obtained from a biopsy
+assessment of the degree of convex curvature of the spine
+assessment of the strength of the sucking reflex of a newborn calf
+assessment of the structure of the hind limbs
+assessment of the variation in red blood cell size
+assessment of twisting of the legs
+assessment of walking speed
+AST activity
+AST to ALT ratio
+ATP breakdown rate
+atresia follicle number
+atretic follicle number
+average adipocyte area
+average adipocyte volume
+average amount of feed consumed per day
+average amount of feed consumed per visit to feeder
+average amount of time spent per visit to the feeder
+average amount of weight gained each day over a specified period of time
+average backfat thickness obtained from multiple measurements
+average bone mineral content divided by bone area
+average chain length
+average cross-sectional area of muscle fibers
+average curvature of wool fibers
+average daily change in subcutaneous fat (backfat) thickness
+average daily feed intake
+average daily gain (ADG)/metabolizable energy intake
+average daily gain (birth-end of test)
+average daily gain {BirthToWeaning}
+average daily gain {cows}
+average daily gain during a defined test period
+average daily gain during a test period.
+average daily gain (EBV)
+average daily gain (entire life)
+average daily gain {heifers}
+average daily gain in longissimus muscle area
+average daily gain (on test)
+average daily gain {on test}
+average daily gain (on weaning)
+average daily gain {post-weaning}
+average daily gain {pre-weaning}
+average daily gain (RR)
+average daily ham weight gain
+average daily lean meat gain
+average daily loin weight gain
+average daily milk yield
+average diameter of the muscle fibers
+average diameter of the seminiferous tubules
+average diameter of the wool fibers
+average distance across eggs at the widest point
+average distance across the muscle fibers
+average dry matter intake per visit to feeder
+average ease with which a sire's daughters will calve as DIGIT calf heifers.
+average egg weight
+average feed consumed per visit to feeder
+average feed intake per visit to feeder
+average glycogen
+average glycolytic potential
+average instron (star probe) force
+average lactate
+average length of adult worms
+average lifetime UNIT open
+average lifetime fat yield
+average lifetime milk yield
+average lifetime protein yield
+average lifetime services to conception
+average mineral content of bone(s)
+average number of capillaries per type IIa (fast-twitch oxidative) muscle fiber
+average number of capillaries per type i (slow-twitch oxidative) muscle fiber
+average number of eggs per adult female nematode
+average number of muscle fibers per unit area in cross-section
+average perimeter of adipocytes
+average rate of milk flow over the milking period
+average size of the colloidal particles in milk containing casein proteins and other components
+average speed attained during a race
+average thickness of cortical bone in the tibia
+average velocity of the sperm head along a straight line
+average volume or size of a single red blood cell
+average weight of hemoglobin within a red blood cell
+avian influenza susceptibility
+back conformation
+backfat above muscle dorsi
+backfat at DIGIT th/digit th ribs
+backfat at DIGIT rd lumbar corrected for live weight
+backfat at DIGIT th rib
+backfat at c site
+backfat at fifth rib
+backfat at GR site
+backfat at mid-back
+backfat at neck
+backfat at PDIGIT position
+backfat at rump
+backfat at third lumbar
+backfat (average) thickness - by fatdigit meater
+backfat (average) thickness - ultrasound
+backfat between DIGIT rd and DIGIT th last ribs
+backfat between last rib and DIGIT lumbar
+backfat between the last DIGIT rd and DIGIT th lumbar
+backfat depth at last rib
+backfat depth at max. mus. depth
+backfat intercept at last rib
+backfat intercept at tenth rib
+backfat linear at last rib
+backfat linear at tenth rib
+backfat percentage
+backfat side
+backfat thickness at last rib
+backfat thickness at the mid-point of the body length.
+backfat thickness at thorax-waist
+backfat thickness between DIGIT rd and DIGIT th rib
+backfat thickness (EBV)
+BACKFAT THICKNESS IN THE LAST RIB
+backfat thickness measured by fatdigit meater (FOM).
+backfat thickness measured by ultrasound
+backfat thickness measured with ruler between the third and fourth ribs
+backfat thickness (RR)
+backfat weight
+back length
+back percentage
+back weight
+back width
+bacon depth at last rib
+bacterial coldwater disease survival rate
+bacterial coldwater disease survival time
+bacterial load in the liver following challenge with salmonella enteritidis
+band-formed neutrophil number
+basal adrenocorticotropic hormone (ACTH) levels
+base coat color
+base excess
+basophil number
+basophil percentage
+beef flavor intensity
+beef odor intensity
+behavioral response to human presence or contact
+behavior observed in response to a stressful situation/stimulus
+belly fat area
+belly meat content
+belly percentage
+belly weight / carcass weight
+best km time
+beta DIGIT globulin level
+betadigit globulin level
+beta-carotene concentration in fat
+biceps brachii length
+biceps brachii weight
+biceps femoris muscle weight
+bicoastal diameter
+bilateral convergent strabismus with exophthalmus
+birth index
+birth weight (maternal)
+birth weight variability
+black vs white color
+black-white pigmentation
+blastocyst development rate of cleaved embryos
+bleeding in the sole of the hoof
+blood adiponectin level
+blood alanine aminotransferase level
+blood alanine transaminase level
+blood albumin level
+blood albumin to globulin ratio
+blood and meat inclusions
+blood and meat spots
+blood androstenone level
+blood antibody level to keyhole limpet haemocyanin
+blood antibody level to lipopolysaccharide
+blood antibody level to lipoteichoic acid
+blood antibody level to marek's disease virus
+blood antibody level to pasturella multocida
+blood antibody level to salmonella enterica serovar gallinarum
+blood aspartate aminotransferase level
+blood aspartate transaminase level
+blood bicarbonate level
+blood bile acid level
+blood calcium level
+blood carbon dioxide level
+blood cell count (total)
+blood cortisol level
+blood creatinine level
+blood gamma-glutamyltransferase level
+blood gamma-glutamyltranspeptidase level
+blood globulin level
+blood glucose concentration
+blood glucose level
+blood hemoglobin level
+blood insulin concentration
+blood lactate level
+blood non-esterified fatty acid level
+blood pH
+blood phosphorus level
+blood potassium level
+blood serum level of glucose
+blood serum levels of non-esterified fatty acids
+blood sugar concentration
+blood total protein level
+blood urea level
+blood urea nitrogen
+blood uric acid level
+blue to yellow component of objective meat color assessment
+blue to yellow meat color coordinate (CIELAB b*)
+BLV proviral load
+BLV susceptibility
+body capacity
+body circumference
+body color
+body condition score
+body depth
+body energy content
+body form composite index
+body height at maturity
+body height at the point of the hip
+body length (birth)
+body length {yearling}
+body mass index
+body mass of an individual raised to the power of DIGIT
+body slope length
+body weight {DIGIT stcalving}
+body weight (adult)
+body weight (ascites conditions)
+body weight at a given timepoint or average body weight
+body weight at a non-specified time
+body weight at birth
+body weight (at castration)
+body weight at castration
+body weight at four months of age
+body weight at hatch
+body weight at one UNIT of age
+body weight at slaughter
+body weight at tagging
+body weight at the end of a defined test period
+body weight at the end of the test period
+body weight at the time of slaughter
+body weight (birth)
+body weight {birth}
+body weight change
+body weight (day of DIGIT egg)
+body weight (EBV)
+body weight (end of test)
+body weight (hatch)
+body weight (initial)
+body weight linear
+body weight (mature)
+body weight (mean)
+body weight normalized to body length at unspecified or variable ages
+body weight on the day the DIGIT egg is laid
+body weight (slaughter)
+body weight (test end)
+body weight {testend}
+body weight (weaning)
+body weight {weaning}
+body weight (yearling)
+body weight {yearling}
+body width
+body wrinkle
+bone density
+bone index
+bone/lean meat ratio in ham
+bone mineral content of the femur
+bone mineral content of the humerus
+bone mineral content of the tibia
+bone mineral density of the distal femur
+bone mineral density of the femur
+bone quality
+bone weight in carcass
+bottom round weight
+bovine coronavirus and bovine respiratory disease incidence
+bovine coronavirus susceptibility
+bovine leukemia virus susceptibility
+bovine respiratory disease susceptibility
+bovine spongiform encephalopathy susceptibility
+bovine tuberculosis susceptibility
+bovine viral diarrhea virus susceptibility
+breast bone crest length
+breast circumference
+breast color
+breast muscle percentage
+breast muscle pH
+breast muscle weight 
+breast percentage
+breast weight
+breast width view from the horizontal
+breathing frequency
+breech cover
+breech traits
+breech wrinkle
+brightness component of the tristimulus values used to determine wool color
+broody frequency
+BSE susceptibility
+bursa of fabricius weight
+butt circumference
+BVDV susceptibility
+DIGIT c concentration
+calcidiol level
+calcium ions in serum
+calcium to phosphorus ratio
+calculation of number of adipocytes in abdominal fat
+calf mortality
+calf size (direct)
+calf size (maternal)
+calf sucking reflex
+calpain activity
+calves weaned
+calving ability
+calving ease (direct)
+calving ease (maternal)
+calving index
+calving interval {DIGIT stprty}
+calving interval {DIGIT ndprty}
+calving interval {DIGIT rdprty}
+calving interval (PTA)
+calving to conception interval {DIGIT stprty}
+calving to conception interval {DIGIT ndprty}
+calving to conception interval {DIGIT rdprty}
+calving to conception interval (EBV)
+campylobacter intestinal colonization
+cannon bone circumference {forelimb}
+cannon bone circumference {hindlimb}
+cannon bone circumference {yearling}
+canter collected score
+cantering ability
+carcass ash content
+carcass bone percentage
+carcass circumference around the buttocks
+carcass compactness
+carcass conformation score
+carcass daily gain
+carcass dressing
+carcass fat content
+carcass fat depth measured at the DIGIT th rib
+carcass fat-free weight
+carcass fatness
+carcass fat percentage
+carcass gain with long finishing period
+carcass gain with short finishing period
+carcass length (EBV)
+carcass proportions
+carcass protein content
+carcass quality
+carcass subcutaneous fat estimate
+carcass water content
+carcass weight (cold)
+carcass weight (hot)
+carcass yield
+carpus fracture
+caseous cecal core
+CDDIGIT positive/cddigit positive leukocyte ratio
+CDDIGIT positive to CDDIGIT positive leukocyte ratio
+cecal bacterial burden after challenge with pathogens SE (Salmonella enteritidis)
+cecal bacterial burden after challenge with pathogens ST (Salmonella typhimurium)
+cecal bacterial burden after challenge with salmonella e
+cecal bacterial burden after challenge with salmonella t
+cell-mediated immune response
+central ligament
+ceratomyxa shasta survival rate
+ceratomyxa shasta survival time
+cerebellar abiotrophy
+cervical vertebra length
+change in body weight following parasitic inoculation 
+change in eosinophil number
+change in hematocrit
+change in interferon-gamma level
+change in mycoplasma hyopneumoniae antibody titer
+change in packed cell volume
+change in shank length between time points
+change in tetanus antibody titer
+change in the percentage volume of blood occupied by red blood cells
+channel fat weight
+cheese energy recovery
+cheese fat recovery
+cheese protein recovery
+cheese solids recovery
+cheese yield
+chemistry
+chest breadth
+chest circumference
+chest girth {yearling}
+chewiness score
+chew score
+cholesterol deficiency
+cholesterol level in meat
+cholesterol level (total)
+cholinesterase level in serum
+chromium release rate
+chronic pleuritis
+chronic progressive lymphedema
+CIE-a*
+CIE-b*
+CIE-L*
+CIELAB a* coordinate
+CIELAB b* coordinate
+CIELAB l* coordinate
+cingular fat width
+circumference around the body at the deepest part of the breast
+circumference around the chest
+circumference measured on a hanging carcass
+circumference of the body
+circumference of the endosteum surrounding the medullary cavity of the femur
+circumference of the thickest part of the abdomen
+circumference of the widest point of the scrotum
+cisdigit pentadecenoic acid content
+cisdigit eicosenoic acid to arachidic acid ratio
+cisdigit eicosenoic acid to oleic acid ratio
+cisdigit tetradecenoic acid content
+classical complement activation by SRBC
+claw percentage
+claws length (front inside)
+claws length (front outside)
+claws length (hind inside)
+claws length (hind outside)
+claw trimming status
+clean fleece weight
+clean wool yield
+cleavage rate
+clinical ketosis
+clinical mastitis (DYD)
+clinical mastitis (EBV)
+clinical ulceration of tumors
+cloacal bacterial burden after challenge with salmonella e
+cloacal bacterial burden after challenge with salmonella t
+cloacal swabs after challenging with pathogen SE (Salmonella enteritidis)
+cloacal swabs after challenging with pathogen ST (Salmonella typhimurium)
+clupanodonic acid content
+CODIGIT partial pressure
+coat color intensity
+coat color modifier
+coat score
+coat texture
+coefficient of variance for fiber diameter
+cold carcass weight
+cold tolerance
+color of milk
+color of the fat component of milk
+color of the skin
+color of the yolk of an egg
+colostrum albumin concentration
+colostrum immunoglobulin a concentration
+colostrum immunoglobulin g concentration
+colostrum immunoglobulin m concentration
+colostrum production
+colostrum quality
+colostrum quantity
+columnaris disease resistance
+columnaris disease survival rate
+comb area
+comb color
+comb height
+combined alpha-lactalbumin and beta-lactoglobulin content in milk
+combined assessment of front and hind legs
+combined number of neutrophils
+combined salmonella count (cfu) for liver and spleen
+combined weight of all piglets born in a litter
+combined weight of all piglets in a litter born alive
+combined weight of fat in the areas of the kidneys
+combined weight of fat in the leg
+combined weight of pectoralis major and pectoralis minor
+combined weight of the feet
+combined weight of the head and neck
+combined weight of the liver and gallbladder
+combined weight of the muscle of the drumstick and thigh
+combined weight of the muscles of the leg
+combined weight of the muscle tissue from the drumstick and thigh
+combined weight of the proventriculus and gizzard (glandular and muscular stomach)
+combined weight of the thigh and drumstick
+combined weight of visceral adipose tissue and subcutaneous neck adipose tissue
+combined weight of white adipose around the heart
+comb length
+comb shape
+comb size
+comb weight
+complement hemolytic activity
+complex environment test
+cona-induced cell proliferation
+concentration in blood of the cytokine interleukidigit (IL-DIGIT) beta
+concentration in blood of the thyroid hormone thyroxine
+concentration in blood of the thyroid hormone triiodothyronine
+concentration in milk of DIGIT hydroxybutyrate
+concentration in milk of acetone
+concentration in milk of alphadigit casein
+concentration in milk of of lactoferrin
+concentration in milk of vitamin BDIGIT
+concentration in the blood of uric acid
+concentration of DIGIT beta-estradiol in plasma
+concentration of adrenocorticotropic hormone in the blood
+concentration of albumin in colostrum
+concentration of albumin in the blood
+concentration of all globulins in the blood
+concentration of all proteins in blood
+concentration of beta-carotene in milk fat
+concentration of beta-carotene in subcutaneous fat biopsy samples
+concentration of beta-lactoglobulin protein in milk
+concentration of calcium ions in blood
+concentration of calcium ions in the blood
+concentration of complement DIGIT c in serum
+concentration of cortisol in the blood
+concentration of creatinine in the blood
+concentration of estrone sulfate in plasma
+concentration of glucose in the blood
+concentration of glycogen in muscle samples
+concentration of glycosylated protein in serum over previous UNIT
+concentration of haptoglobin in serum
+concentration of IGF-DIGIT in serum
+concentration of immunoglobulin a in colostrum
+concentration of immunoglobulin a in serum
+concentration of immunoglobulin g in colostrum
+concentration of immunoglobulin g in serum
+concentration of immunoglobulin g in the blood
+concentration of immunoglobulin m in colostrum
+concentration of immunoglobulin m in serum
+concentration of inhibin in serum
+concentration of insulin circulating in the blood
+concentration of insulin-like growth factor DIGIT in plasma
+concentration of iron in meat
+concentration of iron in muscle samples
+concentration of lactose in milk
+concentration of leptin in serum or plasma
+concentration of leptin in the blood
+concentration of luteinizing hormone in plasma
+concentration of non-esterified fatty acids in blood
+concentration of non-esterified fatty acids in plasma
+concentration of pepsinogen in serum (indicator of mucosal damage caused by gastrointestinal nematodes)
+concentration of phosphorus in the blood
+concentration of phosphorus ions in blood
+concentration of phosphorus ions in serum
+concentration of potassium in the blood
+concentration of sodium in the blood
+concentration of testosterone in serum
+concentration of the chloride ion in serum
+concentration of the cytokine interferon-gamma in serum
+concentration of the cytokine interleukin DIGIT (ILDIGIT) in serum
+concentration of the cytokine interleukidigit (IL-DIGIT) in serum
+concentration of the magnesium ion in serum
+concentration of the steroid androstenone in plasma
+concentration of total casein in milk
+concentration of triglycerides in blood
+concentration of urea in the blood
+concentration of urea nitrogen in the blood
+concentration of uric acid in the blood
+concentration of very low density lipoprotein in the blood
+concentration of vitamin DIGIT in milk
+concentration of zinc in meat
+concentrations of follicle stimulating hormone in peripheral blood at castration
+conception rate at estrus
+condition factor
+conductivity DIGIT hours post mortem
+conductivity DIGIT hours post-mortem
+conductivity DIGIT hours postmortem (ham)
+conductivity DIGIT hours postmortem (loin)
+confinement stress response
+conformation of the feet
+conformation score {weaning}
+conformation score {yearling}
+congenital entropion
+congenital myotonia
+congenital stationary night blindness
+connective tissue amount
+consolidated pneumonia score
+content in milk of fatty acid transdigit
+contour feather density
+contrafreeloading
+cooking loss
+cooking yield
+cooling loss
+coping behavior
+corpus luteum number
+cortisol level variations
+count of recently inflicted skin lesions caused by pig-pig aggression
+count of white blood cells
+creatine kinase level
+crooked digits
+cross-sectional area of subcutaneous fat deposits
+cross-sectional area of the lean portion of the longissimus dorsi
+cross-sectional area of the lean portion of the semispinalis capitus
+cross-sectional area of the lean portion of the trapezius
+cross-sectional area of the longissimus muscle
+cross-sectional area of the thigh (whole or partial)
+cross-sectional area of type IIa muscle fibers
+cross-sectional area of type IIb muscle fibers
+cross-sectional area of type i muscle fibers
+croup height
+croup length
+crude fat content in meat
+crude protein content of muscle
+crude protein intake
+cryptorchidism
+CSFV antibody level
+cull-cow weight
+cumulative effective energy balance
+curd firming rate
+curd firming time
+curd solids yield
+curd water yield
+curly coat
+cutability
+cutlet weight
+cutting yield
+cystic ovaries
+cytoplasmic droplet rate
+daily body weight gain averaged over a period of time
+daily fat yield
+daily protein yield
+daily total of time spent feeding
+dairy capacity composite index
+dairy character
+dairyness
+dairy strength
+dam productivity
+daughter fertility
+daughter pregnancy rate
+daughter yield deviation for clinical mastitis
+daughter yield deviation for milk fat percentage
+daughter yield deviation for milk fat yield
+daughter yield deviation for milk protein percentage
+daughter yield deviation for milk protein yield
+daughter yield deviation for milk yield
+daughter yield deviation for non-return rate
+daughter yield deviation for retained placenta
+daughter yield deviation for somatic cell score
+daughter yield deviation for the requirement of treatment for fertility-related issues
+UNIT on feed
+UNIT to calving
+UNIT to death after exposure to aeromonas salmonicida bacteria
+UNIT to death after exposure to ceratomyxa shasta infection
+UNIT to death after exposure to flavobacterium psychrophilum infection
+UNIT to death after exposure to infectious hematopoietic necrosis virus infection
+UNIT to death after exposure to infectious pancreatic necrosis virus infection
+UNIT to death after exposure to viral hemorrhagic septicemia virus infection
+death of a calf within DIGIT hours of birth
+decrease in the weight of a cut of meat during cooking
+deep pectoral myopathy
+degenerative suspensory ligament desmitis
+degree and quantity of wrinkles on the body
+degree of attentiveness displayed toward offspring
+degree of DNA fragmentation in sperm cells
+degree of fat cover
+degree of muscling based on visual inspection of the shoulders
+degree of purity or saturation of the animal's coat pigmentation
+degree of spotting
+degree of udder swelling prior to calving
+degree of wrinkle at the tail set
+density of adipose tissue in cross-sectional scan
+density of mammillary cones in the mammillary layer of the eggshell
+density of muscle tissue in cross-sectional scan
+deposition or aggregation of coloring matter in the feathers
+deposition or aggretation of coloring matter in the iris of the eye
+depth of fat and muscle tissue DIGIT cm off midline
+depth of rear udder in relation to depth of front udder
+depth of the gluteus medius muscle
+dermal shank pigmentation
+dermatitis digitalis
+diameter of angular fibers
+diameter of giant fibers
+diameter of muscle fibers
+diameter of the main part of a hair
+diameter of the shank
+diameter of type IIa muscle fibers
+diameter of type IIb muscle fibers
+diameter of type i muscle fibers
+difference between time points in antibody titer for mycoplasma hyopneumoniae
+difference between time points in antibody titer for tetanus
+difference between time points in serum levels of interferon-gamma
+difference in adrenocorticotropic hormone (ACTH) levels
+difference in blood cortisol levels
+difference in blood glucose levels
+difference in body weight between two time points
+difference in teat number between the left and right sides
+difficult delivery of offspring observed in daughters of a given sire
+digital cushion thickness
+digital dermatitis
+dihomo-gamma-linolenic acid content
+dihomo-gamma-linolenic acid to gamma-linolenic acic ratio
+dihomo-gamma-linolenic acid to linoleic acid ratio
+direct bilirubin level
+direct calving difficulty
+direct perinatal mortality
+display of behaviors related to aggression
+dissected total backfat weight.
+dissected total fat weight.
+dissected weight of the comb
+distance across the body at the widest part of the shoulders
+distance around the body
+distance around the bone extending from the knee or hock to the fetlock (metacarpal or metatarsal)
+distance around the bone of the lower leg
+distance around the large joint of the front leg
+distance around the large joint of the hind leg
+distance between anterior and posterior borders of the breast bone crest
+distance between the bottom of the vulva and the top of the secretory tissue of the mammary gland
+distance between the front legs
+distance between the most posterior point of the pin bones
+distance between the shoulder blades
+distance between the top of the spine and bottom of the body at the deepest point (start of the last rib)
+distance between the top of the spine and the bottom of the body
+distance from back to sternum viewed from side
+distance from chest or base of neck to rump
+distance from chest to rump
+distance from end to end (longest axis) of one or both testicles
+distance from eye to corner of mouth
+distance from eye to end of snout
+distance from DIGIT thoracic to last lumbar vertebra
+distance from inner corner of eye to end of the snout
+distance from one inner edge to the other inner edge of the mouth when it is fully open
+distance from one lateral edge to the other lateral edge of the mouth when it is fully open
+distance from side to side of the carcass
+distance from side to side of the fleshy folds surrounding the mouth
+distance from side to side of the vulva
+distance from the center of the anus to the base of the clitoris
+distance from the ground to a point on the topline
+distance from the ground to the sternum
+distance from the hip to the base of the tail
+distance from the inner corner of the eye to the corner of the mouth
+distance from the sternum to the pin bone
+distance from the tip of the hoof to the hairline at the rear of the hoof
+distance from top to bottom of the comb
+distance measured across the body from side to side
+distance measured around the body at the navel
+distance measured around the horns at the base
+distance measured around the lower foreleg
+distance measured around the shank (metatarsus)
+distance moved per DIGIT during open field test
+distance traveled during open field test
+docosadienoic acid content
+docosatetraenoic acid content
+dominant black
+dopamine level
+double-bond index
+double muscling
+dressage ability
+dressage test scores
+dressed carcass weight
+dressing - ham over carcass
+dressing percentage
+dried curd yield
+drip loss
+drumstick and thigh muscle percentage
+drumstick and thigh muscle weight
+drumstick and thigh percentage
+drumstick and thigh weight
+drumstick bone weight
+drumstick meat-to-bone ratio
+drumstick muscle percentage
+drumstick muscle weight 
+drumstick percentage
+drumstick weight
+dry matter digestibility
+dry matter intake {cows}
+dry matter intake {heifers}
+dry matter intake {Per UNIT/cows}
+dry matter intake {Per UNIT/heifers}
+duodenum length
+duodenum weight
+duration of activity during novel object test
+duration of activity during open field test
+duration of a pregnancy
+duration of broodiness
+duration of exploration during novel object test
+duration of exploration during open field test
+duration of inactivity during novel object test
+duration of inactivity during open field test
+dwarfism
+dystocia (direct)
+dystocia (maternal)
+ear area
+ear erectness
+ear length
+earlobe color
+earlobe pigmentation
+early development of sexual characteristics
+early embryonic survival
+early heifer pregnancy
+early mortality
+early pregnancy
+early puberty
+ear size
+ear weight
+EAV resistance
+EBV growth rate
+e. coli KDIGIT infection susceptibility
+e coli DIGIT vaccine response
+e. coli DIGIT vaccine response
+efficiency of gain
+egg diameter
+egg laying intensity
+egg number (EBV)
+egg production rate
+egg quality
+eggshell biliverdin amount
+egg shell color
+eggshell color density
+eggshell cuticle coverage
+eggshell effective layer thickness
+egg shell lightness
+eggshell lightness
+eggshell mammillary density
+eggshell mammillary layer thickness
+egg shell percentage
+eggshell percentage
+eggshell protoporphyrin amount
+egg shell redness
+eggshell redness
+egg shell shape
+eggshell shape
+egg shell stiffness
+eggshell stiffness
+egg shell strength
+eggshell strength
+egg shell thickness
+eggshell thickness at equator of egg
+eggshell total pigment amount
+egg shell weight
+eggshell weight
+egg shell yellowness
+eggshell yellowness
+eggs laid per day
+eggs per worm
+egg weight {DIGIT stegg}
+egg weight (EBV)
+eicosadienoic acid content
+eicosadienoic acid to linoleic acid ratio
+eicosapentaenoic acid to alpha-linolenic acid ratio
+eicosatrienoic acid content
+eicosatrienoic acid to alpha-linolenic acid ratio
+eicosenoic acid to eicosanoic acid ratio
+ejaculation duration
+ejaculation times
+elaidic acid content
+electrical conductivity of skeletal muscle
+elongation index
+embryonic development rate
+embryonic mortality
+embryo survival
+embryo weight
+empty body lipid content
+empty body lipid intercept
+empty body protein content
+empty body protein intercept
+empty body protein linear
+endometritis
+energy content of milk
+energy-corrected milk yield
+energy efficiency
+enterotoxigenic e. coli susceptibility
+enzoonotic pneumonia-like score
+eosinophil count
+eosinophil percentage
+epidermolysis bullosa susceptibility
+epididymis weight
+epistaxis
+equine arteritis virus
+equine degenerative myelopathy
+equine malignant hyperthermia
+equine metabolic syndrome
+equine pastern dermatitis
+equine sarcoids
+equine sarcoid susceptibility
+erythrocyte count
+erythrocyte number
+ESC disease resistance
+estimated breeding value for backfat thickness
+estimated breeding value for beef marbling score
+estimated breeding value for body weight
+estimated breeding value for clinical mastitis
+estimated breeding value for egg weight
+estimated breeding value for feed conversion ratio
+estimated breeding value for ham weight
+estimated breeding value for length of productive life
+estimated breeding value for length of the carcass
+estimated breeding value for milk fat percentage
+estimated breeding value for milking speed
+estimated breeding value for milk protein percentage
+estimated breeding value for milk yield
+estimated breeding value for non-return rate
+estimated breeding value for number of inseminations required per conception
+estimated breeding value for objective scoring of rear limb conformation
+estimated breeding value for rear leg set (squareness of rear legs relative to the body)
+estimated breeding value for somatic cell score
+estimated breeding value for subcutaneous fat thickness
+estimated breeding value for the interval between calving and conception
+estimated breeding value for time between DIGIT and last insemination (per pregnancy)
+estimated breeding value for twinning rate
+estimated breeding value for udder depth
+estimated carcass lean content
+estimated percentage of the carcass that will be processed into retail cuts
+estimate of the saleable meat in a carcass
+estimate of tibia strength
+estimation of total body energy as it accumulates throughout lactation
+estrone sulfate level
+ether-extractable fat
+eumelanin pigmentation
+EUROP fat score
+eviscerated weight with giblets
+evisceration weight
+excreta nitrogen/phosphorus ratio
+excreta water content
+excreta weight
+exit velocity
+exploration during stress
+external fat on ham
+external fat on loin
+external fat on shoulder
+external fat thickness at the DIGIT th rib.
+eye area pigmentation
+eye color
+eye fissure width
+eye muscle depth
+face markings
+facial eczema susceptibility
+facial pigmentation
+facial wrinkles
+factor fear
+faecal egg count from DIGIT challenge with haemonchus contortus
+failure to ovulate
+fat area percentage in carcass
+fat area to ribeye area ratio
+fat cell diameter
+fat color in carcass
+fat-cuts percentage
+fat density
+fat depth at side
+fat-free lean tissue linear
+fat luster
+fat melting point
+fat percentage in carcass
+fat protein content
+fat ratio (percentage)
+fat skatole level
+fattening ADG
+fat thickness at shoulder
+fat thickness at the narrowest part of the gluteus medius
+fat thickness on the loin
+fat thickness under skin
+fat to meat ratio
+fat trim yield
+fatty acid atherogenic index
+fatty acid composition
+fatty acids containing an odd number of carbon atoms
+fatty acid thrombogenic index
+fat weight in carcass
+fat weight (total)
+fear-call latency
+fear factor
+fear-headflicks
+fear-related behavior
+fear-restraint test
+fear-stand latency
+fear symptom - headflicks females
+fear symptom - latency time to calling
+fear symptom - latency time to standing
+fear symptom - latency time to walking
+fear symptom - restraint test
+fear symptom - TI duration
+fear-tonic immobility attempts
+fear-tonic immobility duration
+fear-walk latency
+feather-crested head
+feathered feet
+feathering
+feather length
+feather pigmentation
+feather rate
+feather tract width
+fecal egg count following challenge with haemonchus contortus
+fecal egg count for nematodirus
+fecal larva count
+fecal oocyst count for mixed coccidial infestation
+FEC EBV
+fecundity
+feed consumed/gain
+feed consumption
+feed conversion efficiency
+feed conversion ratio (EBV)
+feed conversion ratio (RR)
+feed intake {Per UNIT}
+feed intake per DIGIT
+feed intake per unit time
+feet and leg composite index
+feet and leg conformation
+feet and leg disorders
+feet and legs score
+feet score (front)
+feet score (hind)
+feet weight
+female age at puberty
+female age at sexual maturation
+female fertility
+femur area
+femur bending strength
+femur bone mineral content
+femur bone mineral density
+femur dimensions
+femur endosteal circumference
+femur length
+femur torsional strength
+femur weight
+fertility index
+fertility treatments (DYD)
+fertilization rate
+fetal death
+fetal viability
+fetlock osteochondrosis dissecans
+fiber curvature
+fiber diameter on longgissimus dorsi between DIGIT/DIGIT ribs.
+fiber diameter standard deviation
+fiber number on longgissimus dorsi between DIGIT/DIGIT ribs.
+fiber percentage on longgissimus dorsi between DIGIT/DIGIT ribs.
+fiber type II myosin isoform ratio
+fiber type i myosin isoform percentage
+filet weight
+filet yield
+fillet weight
+fillet yield
+final packed red blood cell volume
+fineness dispersion
+fineness SD
+finishing precocity {weaning}
+finishing precocity {yearling}
+finishing weight
+finish status
+firmness of coagulated milk curd
+first rib backfat
+first service conception
+fleece yield
+flight from feeder
+flight speed
+flight time
+fluid in the heart sac
+FMDV peptide-induced cell proliferation
+foal immunodeficiency syndrome
+foot-and-mouth disease susceptibility
+foot angle (YD)
+foot diagonal
+foot rot susceptibility
+footrot susceptibility
+force at DIGIT (usually highest) peak
+force required to break the humerus
+foreleg length
+forelimbs score
+foreloin weight post-dissection
+foreloin weight pre-dissection
+forequarter weight
+foreshank weight
+fore teat distance
+fore udder attachment
+fore udder length
+fork length
+fowl typhoid susceptibility
+frame size
+frequency of calling
+frequency of defecation
+frizzle feather
+front feet conformation
+front foot size
+front leg conformation
+front leg pastern
+front legs turned in/out
+front leg weight
+front uneven toes
+fructosamine level
+FSH at castration
+functional teat number
+furunculosis survival rate
+furunculosis survival time
+gaitedness
+gait score (front)
+gait score (hind)
+gait score (overall)
+gait type
+gamma-delta t cell count
+gamma-delta t cell number
+gamma-glutamyl transferase activity
+gamma-glutamyl transferase level in serum
+gamma-linolenic acid content
+gamma-linolenic acid to linoleic acid ratio
+gastrointestinal nematode burden
+gastrointestinal tract percentage
+gastrointestinal tract weight
+general disease susceptibility
+general health index
+gestation length {DIGIT stprty}
+gestation length {DIGIT ndprty}
+gestation length {DIGIT rdprty}
+gill arch DIGIT s rDNA level
+gizzard percentage
+glucagon level
+glucosedigit phosphate content
+glucose level variations
+glutamate dehydrogenase activity
+glutamate level
+gluteus medius depth
+gluteus medius muscle weight
+glycated serum protein level
+glycemia
+glycogen branching enzyme deficiency
+glycolytic muscles weight ratio to meat and bone
+gonadosomatic index
+granular leukocyte to lymphocyte ratio
+granulocyte number
+granulocyte percentage
+greasy fleece weight
+green muscle disease
+growth hormone level
+growth index
+growth (post-challenge)
+guttural pouch tympany
+haematocrit value
+haemonchus contortus FEC
+haemonchus contortus resistance
+hair amount
+hair/coat quality
+hair density
+hair length
+hair shaft diameter
+ham angle
+ham fat percentage
+ham fat thickness
+ham lean meat percentage
+ham meat percentage
+ham meat weight
+ham weight (EBV)
+ham weight (RR)
+handicap rating
+haptoglobin concentration
+haptoglobin level
+haugh units
+HCWT
+HDL cholesterol
+HDL/LDL ratio
+head and neck weight
+head percentage
+head profile
+head score
+head shape
+head weight
+head width
+heart fat weight
+heart girth
+heart percentage
+heart weight
+heat intensity
+heat tolerance
+heaves
+heel depth
+heel horn erosion
+heifer conception rate at DIGIT breeding
+heifer rebreeding
+height (mature)
+height (yearling)
+hematin pigmentation
+hematin pigment concentration
+hematocrit value
+hemoglobin content in blood
+hemoglobin content in blood.
+hemolytic complement activity (alternative pathway)
+hemolytic complement activity (classical pathway)
+heneicosanoic acid content
+heneicosylic acid content
+heptadecanoic acid content
+hereditary equine regional dermal asthenia
+heritable cataract
+herlitz junctional epidermolysis bullosa
+heterophil/lymphocyte ratio
+heterophil number
+high-density lipoprotein concentration
+hind feet conformation
+hind foot size
+hind hock weight
+hind leg bone weight
+hind leg conformation (EBV)
+hind leg length
+hind leg weight
+hindquarter muscle weight
+hindquarter percentage
+hindquarter proportions
+hindquarter weight
+hindshank weight
+hip bone length
+hip height {yearling}
+hip structure
+hip width
+hock circumference
+hock osteochondrosis dissecans
+homlolonolenic acid content
+homolonolenic acid content
+hoof-and-mouth disease susceptibility
+hoof conformation
+hoof disorders
+hoof pigmentation
+hoof trimming status
+horn circumference
+horn number
+horn type
+hot carcass weight
+hucklebone width
+humerus area
+humerus bone mineral content
+humerus bone mineral density adjusted to body weight and cumulative egg production
+humerus breaking strength
+humerus length
+humerus width
+hydrocephalus
+hyperkalemic periodic paralysis
+hypotrichosis
+hypoxia tolerance
+iga level
+igg response to DIGIT e.coli
+igm-positive leukocyte number
+IHN virus survival rate
+IHN virus survival time
+ILDIGIT level
+IL-DIGIT level
+ileum length
+ileum weight
+image analysis total lean content
+immune capacity
+immunocrit
+immunoglobulin a activity
+immunoglobulin a level
+immunoglobulin a titer in serum
+immunoglobulin e level
+immunoglobulin e nematode challenge DIGIT
+immunoglobulin g level
+immunoglobulin m level
+immunoglobulin y level
+IMP/ATP ratio
+impedance DIGIT hours postmortem
+infectious bovine keratoconjunctivitis susceptibility
+infectious bursal disease virus antibody titer
+inflammation of the endometrium of the uterus
+inflammation of the lining of the lung
+inflammation of the uterus
+inguinal hernia
+inherited ovine arthrogryposis
+inhibin level
+initial packed red blood cell volume
+initial sperm motility
+inorganic phosphate level
+inorganic phosphorus level
+insect bite hypersensitivity
+inseminations per conception (EBV)
+inseminations per conception {heifers}
+inside ham weight
+insoluble collagen content
+insulin level
+insulin-like growth factor II level
+insulin-like growth factor level
+insulin to glucagon ratio
+interdigital hyperplasia
+interferon-gamma to interleukindigit ratio
+interleukidigit beta level
+intermediate cell mass count
+intermediate cell mass percentage
+intermuscular fat content
+intermuscular fat percentage
+intermuscular fat weight
+internal fat amount
+internal fat ratio
+internal fat weight
+interval between DIGIT and DIGIT lambing
+interval calving to DIGIT insemi
+interval DIGIT to successful insemination (EBV)
+interval from calving to DIGIT insemination
+interval from DIGIT to last insemination {DIGIT stprty}
+interval from DIGIT to last insemination {DIGIT ndprty}
+interval from DIGIT to last insemination {DIGIT rdprty}
+interval from DIGIT to last insemination {DIGIT thprty}
+interval from DIGIT to last insemination (EBV)
+interval from DIGIT to last insemination {heifers}
+interval to DIGIT estrus after calving {DIGIT stprty}
+interval to DIGIT estrus after calving {DIGIT ndprty}
+interval to DIGIT estrus after calving {DIGIT rdprty}
+interval to DIGIT estrus after calving (EBV)
+interval to DIGIT estrus after calving (PTA)
+intestinal fat percentage
+intestinal fat to carcass UNIT by weight
+intestinal fat weight
+intestine weight/length ratio
+intramuscular fat amount
+intramuscular fat content
+intramuscular fat percentage
+inverted teat number
+IPN virus survival rate
+IPN virus survival time
+iris pigmentation
+isolation box test score
+japanese color scale
+jaw alignment
+jejunum length
+jejunum weight
+johne's disease tolerance
+joint abnormalities
+joint lesions
+jowl weight
+juiciness score
+jumping ability
+jumping test scores
+junctional epidermolysis bullosa DIGIT
+keel length
+ketosis {DIGIT stprty}
+ketosis {DIGIT ndprty}
+ketosis {DIGIT rdprty}
+kidney fat weight
+kidney weight
+kleiber ratio {BirthToWeaning}
+knee circumference
+knuckle ham weight
+knuckle weight
+kyphosis
+lactate dehydrogenase level
+lactate / diameter of white fibers
+lactation persistency
+lactose content of fresh milk
+lambing ease
+lamb mortality
+lambs born alive
+lameness
+large intestine weight
+late mortality
+latency to struggle during backtest
+latency to vocalization during backtest
+lavender foal syndrome
+LDL cholesterol level
+leaf fat percentage
+leaf fat weight
+lean cuts percentage
+lean cuts (RR)
+lean cuts weight
+lean meat + bone in back
+lean meat + bone in ham + back
+lean meat content of the belly
+lean meat weight
+lean meat yield percentage
+lean percentage
+lean thickness between DIGIT rd and DIGIT th last ribs
+lean-to-fat ratio
+left teat number
+leg angle
+leg bowing
+leg buttock circumference
+leg conformation (overall)
+leg fat weight
+leg markings
+leg muscle ratio
+leg muscle weight
+leg pastern (front)
+leg pastern (hind)
+legs angularity (front)
+legs angularity (hind)
+leg score (front)
+leg score (hind)
+leg score (total)
+leg set view
+leg stance
+leg torsion (front)
+leg torsion (hind)
+leg twisting
+length of anestrous period 
+length of individual or total of all cervical vertebra
+length of individual or total of all lumbar vertebrae
+length of individual or total of all thoracic vertebrae
+length of the biceps brachii muscle
+length of the comb from end to end
+length of the ear(s)
+length of the femur
+length of the final section of the small intestine
+length of the DIGIT section of the small intestine
+length of the forelimb
+length of the humerus
+length of the jaw
+length of the longissimus dorsi
+length of the metacarpal bone
+length of the oviduct
+length of the rear leg
+length of the scapula
+length of the DIGIT part of the small intestine
+length of the sternum
+length of the tail
+length of the tibia
+length of the tongue
+length of the ulna
+leptin level
+level of aggressiveness
+level of antibody to pseudorabies virus present in blood
+level of antibody to sheep red blood cells in plasma
+level of beta DIGIT globulin in plasma
+level of cholesterol in serum
+level of corticosterone in blood
+level of glucagon in plasma
+level of high-density lipoprotein in serum
+level of immunoglobulin g antibody to the protozoan parasite sarcocystis miescheriana
+level of immunoglobulin g in the serum
+level of immunoglobulin m antibody to the protozoan parasite sarcocystis miescheriana
+level of insulin-like growth factor II in plasma
+level of lactate in plasma
+level of low-density lipoprotein in serum
+level of the thyroid hormone thyroxine in the plasma
+level of the thyroid hormone triiodothyronine in plasma
+level of triglycerides in serum
+lifetime earnings
+life time growth ADG.
+lifetime number born alive
+lifetime number of offspring born alive
+lifetime production
+lifetime profit index
+lifetime total number born
+lifetime total number of offspring
+lifetime total number of parities
+light butt ham weight
+lightness component of objective meat color assessment
+lightness meat color coordinate (CIELAB l*)
+linoleic acid to linolenic acid ratio
+lipid accretion rate
+lip thickness
+lip width
+litter birth interval
+litter size {DIGIT stprty}
+litter size {DIGIT ndprty}
+litter size {DIGIT rdprty}
+litter size at birth
+litter size at day DIGIT after birth
+litter size at weaning
+litter size {birth}
+litter size {weaning}
+litters per sow per year
+litter weight at birth
+litter weight at weaning
+live litter size
+liver abnormalities
+liver abscess
+liver and gallbladder weight
+liver bacterial burden after challenge with salmonella e
+liver fat percentage
+liver percentage
+liver weight
+live weight gain per unit of feed dry matter consumed
+locomotion during arena test
+locomotion during isolation box test
+locomotor activity
+log transformed estimates of trichostrongylus 
+loin and belly cut
+loin and ham percentage in carcass
+loin and neck meat weight
+loin and neck weight (EBV)
+loin and neck weight (RR)
+loin eye area intercept
+loin eye area linear
+loin fat depth
+loin fat percentage
+loin fat thickness
+loin fat weight
+loin height
+loin meat weight
+loin muscle depth
+loin muscle width
+loin percentage
+loin pH
+loin strength
+longissimus and rib weight
+longissimus muscle area growth
+longissimus muscle area linear
+longissimus muscle area/muscle fiber area
+longissimus muscle depth
+longissimus muscle lean area
+longissimus muscle length
+longissimus muscle weight
+longissimus muscle width
+longissmus muscle area intercept
+long length of egg
+low-density lipoprotein concentration
+lumbar back fat
+lumbar vertebra length
+lumbar vertebra number
+lumbar weight
+lumbar width
+lung percentage
+lung weight
+luteinizing hormone level
+lymphocyte percentage
+lymphocyte proliferation
+lysozyme level
+mad-cow disease
+maedi-visna virus susceptibility
+maintenance efficiency
+male age at puberty
+male age at sexual maturation
+male fertility
+mammary system score
+MAP infection tolerance
+marbling score (EBV)
+marek's disease susceptibility
+marfan syndrome-like disease
+mass of the testes
+maternal age at time of DIGIT delivery of offspring
+maternal behavior
+maternal calf survival
+maternal calving difficulty
+maternal care
+maternal infanticide
+mature weight of a sire's daughters
+maturity rate
+maximum number of teats on either the left or right side
+maximum rate of growth achieved
+maximum rate of milk flow during the milking period
+mean adult body weight
+mean blood cell volume
+mean corpuscular hemoglobin concentration
+mean corpuscular hemoglobin content
+mean corpuscular hemoglobin level
+mean corpuscular volume
+mean fiber diameter
+mean platelet volume
+measured length of feathers on the back
+measured length of tail feathers
+measured length of wing feathers
+measurement of pH in the fourth stomach compartment
+measurement of the degree of fatty acid unsaturation
+measurement of thickness of layer of skin and subcutaneous fat
+measurement of yolk height in relation to yolk diameter
+measurements of parts of the hindquarter in relation to each other
+measure of average platelet size
+measure of meat color intensity
+measure of shell darkness (DIGIT minus reflectance value)
+measure of the amount of antibody to classical swine fever virus
+measure of the amount of porcine reproductive and respiratory syndrome virus present in the blood
+measure of the number of abnormal sperm in a semen sample
+measure of the range of variation of red blood cell volume
+meat arachidonic acid content
+meat area measured on m. long. dorsi at DIGIT th/digit th rib
+meat brightness
+meat cis-vaccenic acid content
+meat color a
+meat color-a
+meat color b
+meat color b*
+meat color-b
+meat color chroma
+meat color density
+meat color hue
+meat color l
+meat color OPTO
+meat color score
+meat conjugated linoleic acid content
+meat DHA content
+meat docosahexaenoic acid content
+meat docosapentaenoic acid content
+meat DPA content
+meat eicosapentaenoic acid content
+meat EPA content
+meat fat content
+meat firmness
+meat flavor score
+meat gadoleic acid content
+meat linoleic acid content
+meat linolenic acid content
+meat mineral content
+meat monounsaturated fatty acid content
+meat myristic acid content
+meat oleic acid content
+meat omega-digit to omega-digit fatty acid ratio
+meat palmitic acid content
+meat palmitoleic acid content
+meat polyunsaturated fatty acid content
+meat polyunsaturated fatty acid to saturated fatty acid ratio
+meat saturated fatty acid content
+meat stearic acid content
+meat tenderness
+meat texture
+meat to fat ratio
+meat weight 
+medial suspensory ligament
+melanoma occurrence
+melanoma susceptibility
+metabolic body weight
+metacarpal length
+metastasis of tumors
+metatarsus claw weight
+methane production
+metritis
+MHCII-positive leukocyte number
+microphthalmia
+microtia
+milk acetone content {DIGIT stprty}
+milk acetone content {DIGIT ndprty}
+milk acetone content {DIGIT rdprty}
+milk acidity 
+milk acidity percentage
+milk alpha-casein content
+milk alpha-casein percentage
+milk alpha-casein to beta-casein ratio
+milk alpha-lactalbumin content
+milk alpha-lactalbumin percentage
+milk alphadigit casein content
+milk arachidic acid content
+milk arachidic acid percentage
+milk arachidonic acid content
+milk bacterial count
+milk behenic acid content
+milk beta-carotene content
+milk beta-carotene yield
+milk beta-casein content
+milk beta-casein percentage
+milk beta-hydroxybutyrate content {DIGIT stprty}
+milk beta-hydroxybutyrate content {DIGIT ndprty}
+milk beta-hydroxybutyrate content {DIGIT rdprty}
+milk beta-hydroxybutyric acid content
+milk beta-lactoglobulin percentage
+milk beta-lactoglobulin protein content
+milk branched-chain fatty acid content
+milk butanoic acid content
+milk butyric acid content
+milk DIGIT cisdigit content
+milk calcium content
+milk capric acid content
+milk capric acid percentage
+milk caproic acid content
+milk caproic acid percentage
+milk caprylic acid content
+milk caprylic acid percentage
+milk casein content
+milk casein index
+milk casein micelle size
+milk casein percentage
+milk casein yield
+milk chloride percentage
+milk cholesterol content
+milk cisdigit octadecenoic acid content
+milk cisdigit fatty acid content
+milk cisdigit eicosenoic acid content
+milk cisdigit tetradecenoic acid co
+milk cis-fatty acid content
+milk cis-vaccenic acid content
+milk citrate content
+milk color
+milk conjugated linoleic acid content
+milk conjugated linoleic acid percentage
+milk copper content
+milk decanoic acid content
+milk decenoic acid content
+milk deltadigit desaturase content
+milk docosanoic acid content
+milk docosanoic acid percentage
+milk dodecanoic acid content
+milk dry matter content
+milk dry matter percent
+milk dry matter percentage
+milk dry matter yield
+milk eicosanoic acid content
+milk eicosapentaenoic acid content
+milk enanthic acid content
+milk energy content
+milk energy yield
+milk fat color
+milk fat content (EBV)
+milk fat percentage {DIGIT stprty}
+milk fat percentage {DIGIT ndprty}
+milk fat percentage {DIGIT rdprty}
+milk fat percentage (daughter deviation)
+milk fat percentage (DYD)
+milk fat percentage (EBV)
+milk fat percentage (PTA)
+milk fat percentage (yield deviation)
+milk fat persistency
+milk fat thickness
+milk fat-to-protein ratio {DIGIT stprty}
+milk fat-to-protein ratio {DIGIT ndprty}
+milk fat-to-protein ratio {DIGIT rdprty}
+milk fatty acid DIGIT content
+milk fatty acid unsaturated index
+milk fat yield {DIGIT stprty}
+milk fat yield {DIGIT ndprty}
+milk fat yield {DIGIT rdprty}
+milk fat yield (daughter deviation)
+milk fat yield (DYD)
+milk fat yield (EBV)
+milk fat yield (PTA)
+milk fat yield (yield deviation)
+milk fever
+milk flow rate
+milk freezing point
+milk glycerophosphocholine content
+milk glycerophosphocholine to phosphocholine ratio
+milk glycosylated kappa-casein percentage
+milk heptadecenoic acid content
+milk heptanoic acid content
+milk hexadecanoic acid content
+milk hexanoic acid content
+milking speed (EBV)
+milking temperament
+milking time
+milk iodine content
+milk iron content
+milk kappa-casein content
+milk kappa-casein percentage
+milk lactoferrin content
+milk lactoperoxidase content
+milk lactose percentage
+milk lactose-to-fat ratio
+milk lactose-to-protein ratio
+milk lactose-to-solids ratio
+milk lactose yield
+milk lauric acid content
+milk lauric acid percentage
+milk lauroleic acid content
+milk lauroleic acid percentage
+milk lignoceric acid content
+milk linoleic acid content
+milk linoleic acid percentage
+milk linolenic acid content
+milk linolenic acid percentage
+milk long-chain fatty acid content
+milk magnesium content
+milk manganese content
+milk margaric acid content
+milk medium-chain fatty acid content
+milk mid-infrared spectra
+milk monounsaturated fatty acid content
+milk myristelaidic acid content
+milk myristic acid content
+milk myristic acid percentage
+milk myristoleic acid content
+milk myristoleic acid percentage
+milk octadecenoic acid content
+milk octanoic acid content
+milk odd-chain fatty acid percentage
+milk oleic acid content
+milk oleic acid percentage
+milk omega-digit to omega-digit fatty acid ratio
+milk osteopontin content
+milk palmitelaidic acid content
+milk palmitic acid content
+milk palmitic acid percentage
+milk palmitoleic acid content
+milk palmitoleic acid percentage
+milk palmitoleic to palmitic acid ratio
+milk pentadecanoic acid content
+milk pentadecylic acid content
+milk pentadecylic acid percentage
+milk pentanoic acid content
+milk persistency
+milk pH
+milk phosphocholine level
+milk phosphorus content
+milk phosphorylated alphadigit casein percentage
+milk phosphorylcholine level
+milk polyunsaturated fatty acid content
+milk polyunsaturated to saturated fatty acid ratio
+milk potassium content
+milk profitability index
+milk protein content (EBV)
+milk protein percentage {DIGIT stprty}
+milk protein percentage {DIGIT ndprty}
+milk protein percentage {DIGIT rdprty}
+milk protein percentage (daughter deviation)
+milk protein percentage (DYD)
+milk protein percentage (EBV)
+milk protein percentage (PTA)
+milk protein percentage (yield deviation)
+milk protein persistency
+milk protein-to-fat ratio
+milk protein yield {DIGIT stprty}
+milk protein yield {DIGIT ndprty}
+milk protein yield {DIGIT rdprty}
+milk protein yield (daughter deviation)
+milk protein yield (DYD)
+milk protein yield (EBV)
+milk protein yield (PTA)
+milk rennet clotting time
+milk rennet coagulation time
+milk riboflavin content
+milk rumenic acid content
+milk saturated fatty acid content
+milk saturated to unsaturated fatty acid ratio
+milk selenium content
+milk short-chain fatty acid content
+milk sodium content
+milk stearic acid content
+milk stearic acid percentage
+milk stearoyl-coa desaturase content
+milk tetracosanoic acid content
+milk tetracosanoic acid percentage
+milk tetradecanoic acid content
+milk trans-digit/digit octadecenoic acid content
+milk transdigit hexadecenoic acid content
+milk transdigit tetradecenoic acid content
+milk trans-fatty acid content
+milk trans-fatty acid to cis-fatty acid ratio
+milk trans-vaccenic acid content
+milk trans-vaccenic acid percentage
+milk tricosanoic acid content
+milk tridecanoic acid content
+milk tridecylic acid content
+milk tridecylic acid percentage
+milk undecanoic acid percentage
+milk undecylic acid content
+milk unglycosylated kappa-casein percentage
+milk unsaturated fatty acid content
+milk unsaturated to saturated fatty acid ratio
+milk urea nitrogen content
+milk urea nitrogen yield
+milk vaccenic acid content
+milk valeric acid content
+milk vitamin DIGIT content
+milk volume
+milk whey protein content
+milk whey protein percentage
+milk whey protein yield
+milk yield {DIGIT stprty}
+milk yield {DIGIT ndprty}
+milk yield {DIGIT d/ecm}
+milk yield {DIGIT rdprty}
+milk yield corrected for fat and protein percentage
+milk yield (daughter deviation)
+milk yield (DYD)
+milk yield (EBV)
+milk yield (ECM)
+milk yield persistency
+milk yield (PTA)
+milk yield (yield deviation)
+milk zinc content
+minimum carcass width
+minimum packed red blood cell volume
+mitogen-induced proliferation
+mÂllerian-inhibiting hormone level
+mobility score
+moisture lost from meat during thawing
+monocyte count
+monocyte number
+monocyte percentage
+monounsaturated fatty acid to polyunsaturated fatty acid ratio
+monounsaturated fatty acid to saturated fatty acid ratio
+monounsaturated to saturated fatty acid ratio
+morphology/structure of the comb
+mouth width
+movement latency during open field test
+m. paratuberculosis infection status
+m. paratuberculosis susceptibility
+multiple birth
+multiple congenital ocular anomalies
+muscle anserine content
+muscle arsenic content
+muscle beta-alanine content
+muscle calcium content
+muscle carnosine content
+muscle cathepsin b activity
+muscle chromium content
+muscle cobalt content
+muscle collagen content
+muscle compression
+muscle conductivity
+muscle copper content
+muscle creatine content
+muscle creatinine content
+muscle density
+muscle depth at DIGIT rd lumbar corrected for live weight
+muscle depth at third lumbar
+muscle + diaphragm weight
+muscle dry matter content
+muscle fat content
+muscle fiber area
+muscle fiber density
+muscle fiber diameter
+muscle glucose DIGIT phosphatase activity
+muscle glycogen content
+muscle iron content
+muscle lactate dehydrogenase activity
+muscle magnesium content
+muscle manganese content
+muscle moisture content
+muscle moisture percentage
+muscle myoglobin content
+muscle nitrogen content
+muscle pH measured one hour post-mortem
+muscle phosphorus content
+muscle potassium content
+muscle protein content
+muscle protein/dna ratio
+muscle protein percent
+muscle protein percentage
+muscle selenium content
+muscle sodium content
+muscle sulfur content
+muscle taurine content
+muscle-to-bone ratio
+muscle-to-fat ratio
+muscle water content
+muscle weight in carcass
+muscle yield
+muscle zinc content
+muscular development
+muscularity {weaning}
+muscularity {yearling}
+musculus biceps femoris and dissected ham ratio
+musculus biceps femoris and ham meat and bone ratio
+musculus biceps femoris and ham ratio
+musculus gluteus weight
+musculus semimembranosus et adductor (SMA) weight
+musculus semitendinosus (ST) weight
+mycoplasmal pneumonia susceptibility
+myofibril fragmentation index
+myofibrillar fragmentation index
+myosin isoform type i content
+myosin isoform type IIa content
+myosin isoform type IIb content
+myristic and palmitic acid ratio
+myristoleic acid to myristic acid ratio
+NDIGIT positive leukocyte number
+NADPH-generating enzyme activity
+NADP-malate dehydrogenase activity
+natural igg ab levels against KDIGIT e.coli
+natural igg ab levels against DIGIT e.coli
+natural killer cell-like activity
+natural wool length
+navicular bone morphology
+navicular disease
+nematodirus FEC average
+net energy of lactation intake
+net merit
+neuroaxonal dystrophy
+neuroendocrine responses
+neutrophil count
+neutrophil percentage
+nitrogen content of meat
+nitrogen excretion amount
+nitrogen excretion ratio
+NKpDIGIT positive leukocyte percentage
+non-coagulating milk
+non-fat milk solids percentage
+nonfunctional nipples
+non-infectious claw lesions
+non-return rate {cows}
+non-return rate (direct)
+non-return rate (DYD)
+non-return rate (EBV)
+non-return rate {heifers}
+non-return rate (maternal)
+nose score
+number of attempts needed to induce tonic immobility
+number of bacteria found in feces (UNIT post-inoculation variable or unspecified)
+number of basophils in white blood cell count
+number of capillaries per muscle fiber
+number of capillaries per type i fiber
+number of capillaries per type IIa fiber
+number of career starts for a racehorse
+number of corpora lutea present in the ovary at a given time
+number of UNIT between the beginning of the breeding season and date of calving
+number of UNIT between weaning of a litter and the following conception
+number of UNIT between weaning of a litter and the sow's return to estrus
+number of UNIT spent on the feedlot
+number of degenerate embryos obtained following superovulation and insemination
+number of eosinophils in white blood cell count
+number of erythrocytes in the blood
+number of feathers per unit area of skin surface
+number of fetuses unable to survive
+number of follicles in the ovaries
+number of fully formed pigs
+number of functional sperm
+number of gallops
+number of helminth eggs in feces
+number of immature neutrophils
+number of inseminations per conception
+number of litters {PerYr}
+number of litters produced by a sow
+number of lymphocytes in a sample of blood
+number of lymphocytes in the blood
+number of monocytes in white blood cell count
+number of motile sperm per ejaculate
+number of mummified pigs {DIGIT stprty}
+number of mummified pigs {DIGIT ndprty}
+number of mummified pigs {DIGIT rdprty}
+number of nematode eggs in feces
+number of neutrophils in white blood cell count
+number of neutrophils present in a blood sample
+number of non-productive UNIT
+number of non-viable fetuses
+number of offspring born alive over the reproductive lifetime
+number of oocysts (thick-walled stage in life cycle of coccidian parasites) in feces
+number of oocytes present following superovulation and insemination
+number of ovarian follicles undergoing degeneration
+number of parasites present in a particular sample
+number of parasitic flatworm eggs in feces
+number of parasitic helminth eggs in feces
+number of parasitic helminth larvae in feces
+number of peripheral blood mononuclear cells
+number of pigs that survive to weaning
+number of platelets in the blood
+number of progressively motile sperm
+number of red blood cells in a blood sample
+number of ribs
+number of sows that conceive
+number of sperm displaying forward motility
+number of sperm in a sample
+number of sperm per ejaculate
+number of sperm per unit volume
+number of sperm with no defects 
+number of starts
+number of stillborn {DIGIT stprty}
+number of stillborn {DIGIT ndprty}
+number of stillborn {DIGIT rdprty}
+number of strongyle roundworm eggs in feces
+number of struggles during backtest
+number of teats on the left side of the animal
+number of teats on the right side of the animal
+number of teats posterior to the navel
+number of teats that produce milk and can be suckled by a piglet
+number of test areana sections entered during stress.
+number of times an animal visits the feeder per day
+number of times a piglet struggles when placed in a supine position for a given period of time
+number of times a piglet vocalizes when placed in a supine position for a given period of time
+number of transferable embryos obtained following superovulation and insemination
+number of unfertilized ova
+number of viable bacteria present in milk
+number of viable fetuses expected to survive to parturition
+number of visits to feeder per day
+number of vocalizations during backtest
+number of white blood cells in a sample of blood
+number of white fibers
+number of worms detected in the abomasum at necropsy
+number weaned {DIGIT stprty}
+number weaned {DIGIT ndprty}
+number weaned {DIGIT rdprty}
+number weaned {DIGIT thprty}
+number weaned {PerLtr}
+number weaned {PerYr}
+obesity index
+objective color variable measured by colorimeterdigit lightness
+objective color variable measured by colorimeterdigit redness
+objective color variable measured by colorimeterdigit yelowness
+objective lightness meat color coordinate
+objective red/green meat color coordinate
+objective yellow/blue meat color coordinate
+occurrence of bone fracture
+occurrence of broken bones
+off-flavor score
+oiliness
+oleic acid to palmitoleic acid ratio
+oleic acid to stearic acid ratio
+oleic/stearic acid ratio
+omega-digit unsaturated fatty acid content
+omega-digit polyunsaturated fatty acid content
+oocyst shedding
+opacity of the lens of the eye
+osteoarthritis
+osteochondrosis score
+outside ham weight
+outward appearance of coat
+ovarian follicle weight
+ovary percentage
+ovary weight
+overall body size
+overall bone mineral density
+overall health
+overall leg action
+overall quality score assigned by a sensory panel
+overall red intensity
+overo lethal white syndrome
+oviduct length
+oviduct weight
+ovine lentivirus susceptibility
+ovine pulmonary adenocarcinoma susceptibility
+ovlv proviral concentration
+ovulation rate
+oxygen saturation of the blood
+packed cell volume adjusted to CW
+paired testes volume
+paired testes weight
+palmitic acid to myristic acid ratio
+palmitic aldehyde content
+palmitoleic acid to oleic acid ratio
+palmitoleic acid to palmitic acid ratio
+palmitoleic/palmitic acid ratio
+palpebral fissure width
+pancreas weight
+parasite burden
+parasite detection rate
+parasite resistance
+parasites mean of natural logarithm
+parasites natural logarithm of mean number
+parasitic lesions
+parity at culling from the herd
+partial efficiency of growth
+partial pressure of carbon dioxide in the blood
+partial pressure of oxygen in the blood
+PBMC percentage
+PCVF minus PCVM
+PCVI minus PCVF
+PCVI minus PCVM
+PCV variance
+peak milk yield
+pectoralis major percent
+pectoralis major weight
+pectoralis minor percent
+pectoralis minor weight
+pelvic area
+pelvic width
+pen score
+pepsinogen level
+perceived intensity of umami (savory) flavor in meat
+UNIT acrosome abnormalities
+percentage abnormal sperm
+percentage angular fibers
+percentage decrease in body weight up to day DIGIT after challenge
+percentage giant fibers
+percentage live sperm after osmotic stress
+percentage live sperm after thawing
+percentage neutrophils in blood
+percentage normal sperm
+percentage of backfat and leaf fat in carcass
+percentage of blood cell mass occupied by eosinophils
+percentage of chickens exhibiting egg incubation behavior
+percentage of chloride ion in milk
+percentage of fat in the abdominal cavity to the carcass weight
+percentage of large platelets with a volume greater than DIGIT fL 
+percentage of lymphocytes in the blood
+percentage of peripheral blood mononuclear cells that are NKpDIGIT+
+percentage of protein in the muscle by weight.
+percentage of sperm exhibiting presence of a cytoplasmic droplet
+percentage of the area in a carcass cross-section occupied by adipose tissue
+percentage of the volume of a blood sample occupied by red blood cells
+percentage of total area in a muscle cross-section occupied by type i fibers
+percentage of total area in a muscle cross-section occupied by type IIa fibers
+percentage of total area in a muscle cross-section occupied by type IIb fibers
+percentage of total fibers in a muscle cross-section identified as type i
+percentage of total fibers in a muscle cross-section identified as type IIa
+percentage of total fibers in a muscle cross-section identified as type IIb
+percentage of viable sperm in a sample following exposure to hypo-osmotic solution
+percentage of viable sperm remaining after thawing of a frozen sample
+percentage of white fibers
+percentage portion of loin and ham weight over carcass weight
+percentage type i fibers
+percentage type IIa fibers
+percentage type IIb fibers
+UNIT sperm head abnormalities
+UNIT sperm neck abnormalities
+performance rank
+pericardial fat weight
+perinephric fat weight
+period of time during open field test when speed of movement is negligible
+peripheral blood mononuclear cell percentage
+periweaning failure to thrive syndrome
+peroxidability index
+PHA-induced proliferation
+pH for biceps femoris
+pH for longissmus dorsi
+pH for semimembranosus
+pH for semispinalis capitis
+pH for semispinalis dorsi
+pH measured in the breast
+pH of digestive tract contents
+pH of longissimus dorsi measured DIGIT hours post-mortem
+pH of the blood
+phosphorus excretion amount
+phosphorus excretion ratio
+physis score
+phytohemagglutinin-induced proliferation of peripheral blood mononuclear cells
+piglet mortality between birth and weaning
+pigmentation of the comb
+pigmentation pattern of the hair-covered parts of the face/head
+pigmentation pattern of the hoof
+pigmentation pattern of the sole of the hoof
+pigmentation pattern of the teats
+pigs weaned per litter
+pigs weaned per sow per year
+pin bone width
+pin nipples
+pin setting
+pin width
+PIRM syndrome
+plasma albumin concentration
+plasma chloride concentration
+plasma cholesterol concentration
+plasma coloration
+plasma concentration of insulin-like growth factor
+plasma cortisol level after confinement
+plasma cortisol level after salinity exposure
+plasma droplet rate
+plasma FSH concentration
+plasma IGF concentration
+plasma insulin concentration
+plasma level of antibody to infectious bronchitis virus
+plasma optical density following inoculation with parasite eimeria species
+plasma protein level
+plasma sodium concentration
+plasma triglyceride concentration
+platelet count
+plateletcrit
+platelet distribution width
+platelet-large cell ratio
+platelet number
+pleurisy
+plumage color
+PM rectal temperature
+polycerate
+polyceraty
+polydactyly
+polysaccharide storage myopathy
+polyunsaturated fatty acid to monounsaturated fatty acid ratio
+positioning of teats on the udder
+post-challenge/post-exposure campylobacter bacterial load in the cecum
+posterior teat number
+post-infection growth rate
+postmortem muscle pH
+postpartum dysgalactia syndrome susceptibility
+post-partum interval to commencement of luteal activity
+postparturient hypocalcemia
+post-stress ACTH level
+post stress adrenocorticotropic hormone (ACTH) levels
+post-stress cortisol level
+post stress cortisol levels measured from blood.
+post-stress glucose level
+post-stress mitogen induced IL-DIGIT activity
+post-test corticosterone level
+post-thaw sperm progressive motility
+post-weaning average daily gain
+postweaning daily gain-pasture
+post-weaning gain
+potassium ions in serum
+potassium level in red blood cell fraction
+pre-breeding body weight
+precocity at weaning
+precocity at yearling
+predicted transmitting ability for calving interval
+predicted transmitting ability for interval to DIGIT estrus/digit insemination post-delivery
+predicted transmitting ability for length of productive life
+predicted transmitting ability for milk fat percentage
+predicted transmitting ability for milk fat yield
+predicted transmitting ability for milk protein yield
+predicted transmitting ability for somatic cell score
+pregnancy loss during embryonic development
+pregnancy rate at DIGIT service
+pre-infection growth rate
+prenatal survival
+pre-ovulatory follicle number
+pre/post-vaccination levels of igg to KDIGIT antigen
+presence and/or extent of white markings on head
+presence of a feathered crest on the head
+presence of horns
+presence of lesions following parasitic inoculation
+presence of lesions on the dorso-caudal part of the lungs
+presence of ovarian cysts
+presence of pigmented skin surrounding the eyes of a white-faced animal
+presence of supernumerary toes
+presence of visible liver abscess(es) at slaughter
+presence of white spots/markings on the body
+presence of white spots on the back
+presence of white spots on the belly
+presence or absence of salmonella in feces
+pre-weaning average daily gain
+pre-weaning daily gain
+primary fiber diameter coefficient of variance
+probability of a cow remaining in the herd until a certain age
+productive life (EBV)
+productive life (PTA)
+product of vulva width and vulva height
+progesterone cycling months
+prolactin level
+proliferation of t cells following exposure to concanavalin a
+proportion of black color
+proportion of fat areas in image
+proportion of hind leg yield
+proportion of loin yield
+proportion of milk fatty acids comprised of those fatty acids containing no carbon-carbon double bonds
+proportion of milk fatty acids comprised of those fatty acids containing one carbon-carbon double bond
+proportion of sperm cells moving in a straight line
+proportion of sperm displaying head abnormalities
+proportion of sperm displaying tail abnormalities
+proportion of sperm with an intact acrosome 
+proportion of total lymphocytes or leukocytes consisting of CDDIGIT+/CDDIGIT+ t lymphocytes
+proportion or number of sperm with undamaged plasma membrane
+protein accretion rate
+protein yield persistency
+proventriculus and gizzard weight
+proventriculus weight
+PRRSV antibody titer
+PRRSV igg level
+PRRS viral load
+PRRSV susceptibility
+pseudorabies susceptibility
+pseudorabies virus antibody titer
+PTA type
+ptilopody
+pullorum disease susceptibility
+pulmonary hypertension syndrome incidence
+purge loss
+putative memory cytotoxic t cell count
+putative memory t-helper cell count
+PWM-induced cell proliferation
+quadriceps weight
+qualifying egg number
+qualitative or quantitative assessment of udder volume
+quality grade
+quality of colostrum produced following parturition
+quality of udder
+quantity of DIGIT mm diameter follicles in the ovary
+quantity of biliverdin pigment in the eggshell
+quantity of small yellow follicles in the ovary
+quantity of yellow follicles in the ovary
+rabies antibody titer
+race time EBV
+racing ability
+racing distance
+racing performance
+racing speed
+random residual for average daily gain
+random residual for backfat thickness
+random residual for combined weight of loin and neck
+random residual for feed conversion ratio (feeddigit gain ratio)
+random residual for ham weight
+rate at which curds solidify following addition of rennet or chymosin
+rate at which lymphocytes undergo expansion by cell division
+rate of approach to mature body weight
+ratio in meat of unsaturated omega-digit to omega-digit fatty acids
+ratio of albumin concentration to globulin concentration in the blood
+ratio of amount of polyunsaturated fatty acids to saturated fatty acids in milk
+ratio of amount of saturated fatty acids to unsaturated fatty acids in milk
+ratio of amount of unsaturated fatty acids to saturated fatty acids in milk
+ratio of back bone and meat weight to ham meat and bone weight
+ratio of blood heterophil count to lymphocyte count
+ratio of calcium to phosphorus in serum
+ratio of carcass width to carcass length
+ratio of CDDIGIT+ leukocytes to CDDIGIT+ leukocytes
+ratio of CDDIGIT+ t lymphocyte number to CDDIGIT+ lymphocyte number
+ratio of fat to meat
+ratio of fatty acids DIGIT to DIGIT in muscle and/or fat
+ratio of glycerophosphocholine concentration to phosphocholine concentration in milk
+ratio of glycolytic muscles weight to ham meat and bone weight
+ratio of ham fat weight to half carcass weight
+ratio of high-density lipoprotein to low-density lipoprotein in serum
+ratio of insulin to glucagon in plasma
+ratio of lifetime nonproductive UNIT to herd life
+ratio of loin muscle area to average muscle fiber cross-sectional area
+ratio of meat to bone in the carcass or portion of carcass
+ratio of meat to bone in the drumstick (g/g)
+ratio of meat to bone in the thigh (g/g)
+ratio of milk lactose content to milk fat content
+ratio of milk lactose content to milk protein content
+ratio of milk lactose content to milk solids content
+ratio of monounsaturated fatty acids to saturated fatty acids
+ratio of monounsaturated (single c-c double bond) to saturated (no c-c double bonds) fatty acids
+ratio of n excreted over n intake during a defined test period
+ratio of nitrogen to phosphorus in waste matter
+ratio of polyunsaturated fatty acids to saturated fatty acids in meat
+ratio of protein to DNA in muscle tissue
+ratio of protein to fat in milk
+ratio of semitendinosus weight to dissected muscles in ham weigh
+ratio of semitendinosus weight to dissected muscles in ham weight
+ratio of the amount of ribeye area occupied by fat to the total muscle area
+ratio of the concentrations of interferon-gamma to interleukindigit in serum
+ratio of the weight of the shank to its length
+ratio of total monounsaturated fatty acids to total polyunsaturated fatty acids in muscle and/or fat
+ratio of total polyunsaturated to total monounsaturated fatty acids in muscle and/or fat
+ratio of total saturated fatty acids to total polyunsaturated fatty acids
+ratio of total unsaturated to total saturated fatty acids in muscle and/or fat
+ratio of triiodothyronine to thyroxine in plasma
+ratio of unsaturated omega-digit to omega-digit fatty acids in meat
+reactivity to humans
+rear attachment height
+rear backfat (RBT)
+rear foot size
+rear leg conformation
+rear leg pastern
+rear leg placement - rear view
+rear leg placement - side view
+rear leg set (EBV)
+rear leg set (YD)
+rear legs turned in/out
+rear leg weight
+rear udder attachment
+rear udder height
+rear udder width at point of attachment to the body wall
+rear uneven toes
+receiving feather peaking
+receiving feather pecking
+recently activated cytotoxic t cell count
+rectal body temperature
+recurrent airway obstruction
+recurrent exertional rhabdomyolysis
+recurrent laryngeal neuropathy
+recurrent uveitis
+red blood cell count
+red blood cell distribution width
+red blood cell na+/k+ ATPase activity
+red blood cell number
+red blood cell potassium level
+red cell distribution width
+red spot intensity
+red to green component of objective meat color assessment
+red to green meat color coordinate (CIELAB a*)
+reflectance value
+relative amount of palmitoleic (DIGIT) to palmitic (DIGIT) fatty acids in milk
+relative area of type i fibers
+relative area of type IIa fibers
+relative area of type IIb fibers
+relative growth rate
+relative measure of the amount of oxygen carried in the blood
+relative measure of unsaturated omega-digit (C-C double bond at DIGIT) fatty acids to omega-digit (C-C double bond at DIGIT) fatty acids in milk
+removal parity
+reproductive efficiency
+reproductive hormone level
+reproductive seasonality
+reproductive tract weight
+residual body weight gain
+residual fatty acids
+residual feed intake {cows}
+residual feed intake {heifers}
+residual gain {cows}
+residual gain {heifers}
+residual glycogen
+resistance/susceptibility to infection by the gastrointestinal nematode haemonchus contortus
+resistance to bacterial infection
+resistance to e. coli KDIGIT infection
+resistance to gastrointestinal worms
+resistance to metastrongyles
+resistance to parasitic infection
+resistance to the bacterial disease caused by aeromonas hydrophila
+resistance to the bacterial disease caused by flavobacterium columnare
+resistance to the enteric septicaemia of catfish caused by edwardsiella ictaluri
+resistance to trypanosomosis
+resistance to viral infection
+respiratory rate
+response to biting flies
+response to novel food
+resting time during open field test
+results of exposure to biting flies
+retail cuts percentage
+retail product yield
+retained placenta (DYD)
+rhinitis
+rhodococcus equi infection
+ribeye area; rib eye area; loin eye area;
+rib fat
+rib shape
+rib thickness
+right teat number
+right ventricular weight as percentage of body weight
+rigor mortis
+roan coat color
+rump angle
+rump circumference
+rump conformation
+rump height
+rump length
+rump width (butterfly shape) viewed from rear
+rump width (YD)
+r-value / diameter of white fibers
+salinity tolerance
+salmonella abortusovis resistance
+salmonella abortusovis susceptibility
+salmonella colonization
+salmonella count in feces
+salmonella count in liver and spleen
+salmonella count in spleen
+salmonella presence in ovary
+salmonella shedding status
+sarcocystis miescheriana igg levels
+sarcocystis miescheriana igm levels
+sarcomere length
+saturated fatty acid to polyunsaturated fatty acid ratio
+scapula length
+scrapie susceptibility
+scrotal circumference
+scrotal hernia
+scrotal/inguinal hernia
+scurs
+seam fat weight
+secondary fiber diameter
+secondary fibre diameter coefficient of variance
+segmented neutrophil number
+seinability
+semen pH
+semen quality
+semen volume
+semi-eviscerated weight
+semi-evisceration weight
+semimembranosus angle
+semimembranosus muscle weight
+semimembranosus width (maximum)
+seminiferous tubule diameter
+semispinalis lean area
+semitendinosus muscle weight
+sensory panel assessment of the intensity of abnormal odor in a sample of beef
+sensory panel assessment of the intensity of beef odor
+sensory panel determination of intensity of egg odor
+sensory panel determination of the intensity of egg aftertaste
+serotonin level
+serum albumin concentration
+serum amyloid a level
+serum antibody response to a test antigen
+serum antibody titer following rabies vaccination
+serum calcium level
+serum chloride level
+serum level of antibody to avian influenza virus
+serum level of antibody to newcastle disease virus
+serum levels of immunoglobulin e
+serum levels of immunoglobulin g and/or its subtypes
+serum magnesium level
+serum phosphorus level
+severe combined immunodeficiency disease
+severe lung lesions
+sexual precocity
+shank circumference
+shank diameter normalized to body weight ((sd/bw)*digit)
+shank diameter percentage
+shank growth
+shank length percentage
+shank weight percentage
+shank weight to length ratio
+shape or structure of the navicular bone(s)
+shear firmness
+shear force at DIGIT peak
+sheath/navel score
+shin circumference
+short length of egg
+shoulder bone percentage
+shoulder bone weight
+shoulder fat depth
+shoulder fat percentage
+shoulder fat weight
+shoulder meat weight
+shoulder muscle percentage
+shoulder muscle weight
+shoulder subcutaneous fat thickness
+shoulder weight after trimming off fat.
+shoulder width
+shoulder yield
+shrink percent
+side fat thickness
+silverside weight
+sire conception rate
+sirloin fat depth
+sirloin weight
+size of calves born to the daughters of a sire
+size of the outer ear
+skeletal thickness
+skin color
+skin fat thickness
+skin fat weight
+skin fold thickness
+skinfold thickness {LastRib}
+skinfold thickness {neck}
+skin injury due to aggression
+skin percentage
+skin pigmentation
+skin thickness on the back
+skin weight
+slaughter weight
+small intestinal escherichia coli FDIGIT receptor
+small intestine length
+small intestine trichostrongylus sp adults and larvae challenge
+small intestine weight
+small yellow follicle number
+smell intensity - fat
+smoothness of movement
+social separation--standing alert
+social separation--vocalization
+social separation--walking/running
+social tendency
+sodium concentration in whole blood (WBSC)
+sodium ions in serum
+sodium level
+soft tissue depth at GR site
+sole hemorrhage
+sole pigmentation
+sole ulcer and/or white line disease
+somatic cell count
+somatic cell score {DIGIT stprty}
+somatic cell score {DIGIT ndprty}
+somatic cell score {DIGIT rdprty}
+somatic cell score (DYD)
+somatic cell score (EBV)
+somatic cell score (PTA)
+sow longevity
+spareribs weight
+spawning time
+spawn weight
+specific igg response to e. coli DIGIT antigen
+speed of movement during open field test
+sperm abnormality rate
+sperm acrosome integrity rate
+sperm average path velocity
+sperm concentration
+sperm DNA fragmentation
+sperm plasma membrane integrity
+sperm straight-line velocity
+sperm tail abnormalities
+spinal curvature
+splay leg
+spleen bacterial burden after challenge with salmonella e
+spleen bacterial burden after challenge with salmonella t
+spleen bacterial burden after challenging with SE (Salmonella enteritidis)
+spleen bacterial burden after challenging with ST (Salmonella typhimurium)
+spleen index
+spleen percentage
+spleen size normalized to body weight
+spleen weight
+spontaneous cell proliferation
+spotted coat
+standard deviation of wool fiber diameter
+staple elongation
+staple strength
+stature score
+stature (YD)
+stayability
+stearic acid to palmitic acid ratio
+stearic aldehyde content
+sternum height
+sternum length
+stifle osteochondrosis dissecans
+stifle width
+stillbirth (direct)
+stillbirth (maternal)
+straightness or squareness of hind legs relative to the body
+strength of vertebrae between back and rump
+stress-induced alteration in number of neutrophils
+stress-induced leukocyte proliferation
+strongyle faecal egg count from third challenge
+strongyle faecal egg count - natural infection on pasture
+strongyle fecal egg count
+strongyle FEC average
+structural soundness of legs
+subacid smell
+subclinical ketosis
+subcutaneous fat area
+subcutaneous fat color
+subcutaneous fat increase
+subcutaneous fat percentage
+subcutaneous fat thickness at the neck
+subcutaneous fat thickness (EBV)
+subcutaneous fat thickness measured at the fifth rib
+subcutaneous fat weight
+subcutaneous neck fat weight
+subcutaneous rump fat thickness
+subcutanous fat area
+subjective abnormal flavor in fat
+subjective abnormal flavor in lean
+subjective abnormal odor
+subjective assessment of meat color
+subjective assessment of meat flavor
+subjective assessment of overall conformation
+subjective assessment of the size of the front feet (small-large)
+subjective assessment of the size of the hind feet (small-large)
+subjective boar flavor in fat
+subjective boar flavor in lean
+subjective determinant of liver color
+subjective overall acceptibility score
+subjective pork flavor in fat
+subjective pork flavor in lean
+subjective pork odor
+sum of all fatty acids
+sum of eggs laid by a bird
+sum of subcutaenous body fat and internal fat 
+sum of thoracic and lumbar vertebra numbers.
+supernumerary nipples
+supernumerary teats
+survivability to heat stress
+survival after salinity exposure
+survival following challenge with flavobacterium columnare
+survival following exposure to aeromonas salmonicida bacteria
+survival to eyed egg
+survival to hatch
+survival to weaning
+susceptibility to bone fracture
+susceptibility to bovine spongiform encephalopathy following inoculation
+susceptibility to escherichia coli FDIGIT ab/ac
+susceptibility to infection with actinobacillus pleuropneumoniae
+susceptibility to salmonella abortusovis infection following inoculation
+suspensory ligament injury
+swayback
+sweating rate
+swelling of joints
+systemic sclerosis incidence
+tail fat deposition
+tail feather color
+tailing weight
+tail length
+tail weight
+taste intensity
+taste panel scores for meat juiciness
+teat angle
+teat diameter
+teat length
+teat number symmetry
+teat pigmentation
+teat placement {DIGIT stprty}
+teat placement - front
+teat placement {LaterPrty}
+teat placement - rear
+teat score
+teat size {DIGIT stprty}
+teat size {LaterPrty}
+teat structure
+teat thickness
+teat thinness
+temperature at which milk freezes
+tenderness acceptibility
+tenderness score
+tender weight
+tendon injury
+tensile strength
+test daily gain
+test day fat percentage
+test day milk yield
+test day protein percentage
+testes percentage
+testicular hypoplasia
+testicular length
+testicular parenchyma color
+testicular percentage
+testicular weight
+testicular width
+testosterone level
+thawing loss
+thickness of fat on the sirloin
+thickness of muscle layer in a rib of beef
+thickness of the basal layer of the eggshell
+thickness of the compression pad between the distal phalanx and the sole of the hoof
+thickness of the layer of fat beneath the skin
+thickness of the layer of fat directly beneath the skin
+thickness of the layer of subcutaneous fat over the rump
+thickness or diameter of the teats at their base
+thigh bone weight
+thigh cross-sectional area
+thigh meat-to-bone ratio
+thigh muscle percent
+thigh muscle pH
+thigh muscle weight 
+thigh width (maximum)
+thoracic vertebra length
+thoracic vertebra number
+thoracolumbar vertebra number
+thorax-waist fat thickness
+thurl width
+thymus weight
+thyroxine level
+tibia area
+tibia ash/body weight
+tibia ash/tibia dry matter
+tibia bone mineral content
+tibia bone mineral density
+tibia breaking force adjusted to BW
+tibia breaking strength
+tibia cortex width
+tibia dry matter/body weight
+tibia dry matter content
+tibial dyschondroplasia
+tibia length
+tibia marrow diameter
+tibia modulus of elasticity
+tibia plateau angle
+tibia strain
+tibia stress
+tibia volume
+tibia volume/body weight
+tibia weight
+tibia width
+tibiotarsal breaking strength
+tick resistance
+time between calving and next conception
+time elapsed before a piglet begins to struggle when placed in a supine position
+time elapsed before a piglet begins to vocalize when placed in a supine position
+time elapsed between birth of pigs within a litter
+time elapsed between rennet coagulation time and attainment of desired curd firmness (inverse of curd firming rate)
+time in feeder per visit
+time interval between addition of rennet and the beginning of the coagulation process
+time interval between rennet addition and gel formation
+time required for a cow to be completely milked
+time span between a ewe's DIGIT and DIGIT lambings
+time spent drinking during a period of observation
+time spent feeding during a period of observation
+time spent lying down with other activity
+time spent lying down without activity during a period of observation
+time spent on social interaction with other animals during a period of observation
+time spent rooting during a period of observation
+time spent socializing
+time spent walking around during a period of observation
+time taken for an animal to cover the reference distance after leaving an established start point
+time to achieve maximum antibody response to BA (Brucella abortus)
+time to achieve maximum antibody response to e coli
+time to achieve maximum antibody response to e.coli vaccine
+time to achieve maximum antibody response to KLH (Keyhole lympet hemocyanin).
+time to achieve maximum antibody response to LPS (Lipopolysaccharide)
+time to achieve maximum antibody response to LTA (Lipoteichoic acid)
+time to achieve maximum antibody response to MB (Mycobacterium butyricum)
+time to achieve maximum antibody response to NDV (Newcastle disease virus) vaccin
+time to achieve maximum antibody response to SE (Salmonella enteritidis) vaccin.
+time to achieve maximum antibody response to SRBC (Sheep red blood celles)
+time to attain maximum curd firmness
+time to curd firmness
+time to death
+time to hatch
+tobiano
+tolerance time (min) at DIGIT degree c until loss of equilibrium
+tolerance to high temperature
+tolerance to low dissolved oxygen level
+tolerance to low temperature
+tongue length
+tongue weight
+tonic immobility induction
+topcoat length
+top line conformation
+topside weight
+total amount in meat of all fatty acids containing no c-c double bonds
+total amount in milk of all isomers of fatty acid DIGIT
+total amount of all fatty acids in muscle and/or fat tissue
+total amount of alpha-lactalbumin and beta-lactoglobulin in milk produced over a given period of time
+total amount of area occupied by adipose tissue on cross-sectional scan
+total amount of area occupied by muscle on a cross-sectional scan
+total amount of beta-carotene in milk
+total amount of bilirubin in serum
+total amount of DIGIT fatty acids divided by total amount of stearic acid (DIGIT)
+total amount of DIGIT fatty acids divided by total amount of DIGIT fatty acids
+total amount of carbon dioxide in the blood
+total amount of casein in milk produced over a given period of time
+total amount of collagen in muscle
+total amount of feed consumed over a specified period of time
+total amount of igy in serum (chicken functional equivalent to igg)
+total amount of lactose contained in milk produced over a given period of time
+total amount of milk fat produced over a given period of time
+total amount of milk produced over a given period of time
+total amount of milk urea nitrogen produced (milk urea nitrogen content times milk yield)
+total amount won during a racing career
+total bilirubin level
+total body fat tissue by weight.
+total body fat tissue intercept
+total body fat tissue linear
+total bone weight in the carcass
+total cholesterol level in serum
+total concentration of proteins in plasma
+total UNIT of anoestrus
+total distance traveled in periods of movement during open field test
+total egg mass weight
+total energy output
+total estimated weight of adipose in the live animal
+total estimated weight of bone in the live animal
+total estimated weight of muscle in the live animal
+total fat area
+total fatty acid content
+total feed intake
+total lambs born
+total lean tissue linear
+total length of the small intestine
+total lipid content of muscle
+total milk generated during lactation
+total milk solids produced
+total mortality
+total muscle fiber number
+total number born alive {DIGIT stprty}
+total number born alive {DIGIT ndprty}
+total number born alive {DIGIT rdprty}
+total number born (TNB)
+total number of offspring born over the reproductive lifetime
+total number of offspring in a single litter
+total number of ova obtained following superovulation and insemination
+total number of sperm
+total osteochondrosis dissecans
+total quantity of pigment in the eggshell (biliverdin + protoporphyrin)
+total shear work
+total thigh weight 
+total ventricular weight as percentage of body weight under ascites conditions
+total weight of bone in the shoulder
+total weight of embryos at one month gestation
+total weight of fat in the shoulder cut
+total weight of milk solids
+total weight of muscle in the shoulder cut
+total weight of the breast
+total white adipose tissue
+total white fat weight
+total wins showed in money
+trans-digit/digit fatty acid content
+transport loss
+trapezius muscle lean area
+treatments required for fertility-related issues
+triacylglycerol level
+trichostrongylus adult and larva count
+trichostrongylus colubriformis FEC
+trichostrongylus colubriformis serum igg challenge DIGIT
+triglyceride level
+triiodothyronine level
+triiodothyronine to thyroxine ratio
+trimmed whole-sale product adjusted to a constant carcass weight
+trimmed whole-sale product adjusted to a constant live weight
+trimmed wholesale product / carcass weight
+trimmed wholesale product / live weight
+troponin t concentration
+trot score
+tumor necrosis factor alpha level
+tumor necrosis factor level
+twinning rate (EBV)
+tying up syndrome
+type or quantity of locomotion behaviors observed
+type or quantity of vocalizations observed
+tyrosinase activity
+udder attachment {DIGIT stprty}
+udder attachment {LaterPrty}
+udder balance
+udder capacity
+udder clearness
+udder cleft
+udder composite index
+udder depth {DIGIT stprty}
+udder depth (EBV)
+udder depth {LaterPrty}
+udder health index
+udder quality
+udder score
+udder shape
+udder structure
+udder support
+udder swelling score
+udder texture
+ulna length
+ultimate pH
+ultrasound fat depth
+umami flavor intensity
+umbilical hernia
+unassisted births
+undercoat length
+upper thermo tolerance
+USDA yield grade
+useful yield content
+uterine capacity
+uterine horn length
+uterine horn weight
+vaccenic acid to palmitoleic acid ratio
+vaccenic acid to stearic acid ratio
+vertebra distance
+vertical dimension of the vulva
+vertical distance between the floor of the udder and the point of the hock
+vertical distance from the topline to the bottom of the chest
+vertical distance from the withers to the bottom of the chest behind the front legs
+VHS virus survival time
+VIAScan fat score
+vibriosis susceptibility
+viral clearance
+visceral adipose tissue weight
+visceral fat weight
+visceral peritoneum pigmentation
+visual assessment of color of testicular parenchyma (light to dark scale)
+VLDL cholesterol level
+vocalization behavior
+vocalization during arena test
+vocalization during corridor test
+vocalization during isolation box test
+volume of semen in a single ejaculate
+vulva area
+waist circumference
+walk collected score
+walk score
+water holding capacity
+wattles length
+wattles weight
+weaning age
+weaning gain
+weaning to conception interval
+weaning to estrus interval
+weaning weight attributable to milk and mothering ability
+weaning weight-maternal milk
+weight after cooking 
+weight of abdominal fat 
+weight of adipose tissue surrounding the kidneys
+weight of bone 
+weight of bone in the carcass or portion of carcass
+weight of bone in the drumstick
+weight of bone in the hind limb
+weight of bone in the thigh
+weight of curd solids 
+weight of either the left or right ear
+weight of external fat on neck
+weight of fat 
+weight of fat between muscles 
+weight of fat extracted from the liver
+weight of fat in loin/longissimus
+weight of fat in the abdomen
+weight of fat in the body cavity
+weight of fat located between muscles
+weight of fresh curd 
+weight of gluteus medius
+weight of half of the carcass
+weight of ham meat relative to carcass weight
+weight of intramuscular fat
+weight of lean meat in ham
+weight of lean muscle tissue in the carcass
+weight of loin and neck meat from dissection of the carcass.
+weight of loin and shoulder cuts (external fat removed)
+weight of material remaining when all water is removed from the tibia
+weight of meat in the carcass or portion of carcass
+weight of milk solids excluding fat
+weight of muscle following oven drying
+weight of one or both kidneys
+weight of one or both lungs
+weight of ovary
+weight of semimembranosus
+weight of semitendinosus and biceps femoris
+weight of subcutaneous adipose tissue associated with the skin of the neck
+weight of the adipose tissue surrounding the kidneys
+weight of the albumen
+weight of the biceps brachii muscle
+weight of the biceps femoris muscle
+weight of the carcass
+weight of the complete digestive tract
+weight of the curd after drying and cooling
+weight of the dressed carcass
+weight of the drumstick
+weight of the endocrine gland(s) located anterior to the kidneys
+weight of the entire female reproductive tract
+weight of the fat found directly beneath the skin
+weight of the fat on the ventral side of the thoracic vertebrae
+weight of the fat tissue surrounding the heart
+weight of the femur
+weight of the final section of the small intestine
+weight of the DIGIT section of the small intestine
+weight of the front half of the carcass
+weight of the front leg(s)
+weight of the gizzard
+weight of the gluteus medius muscle
+weight of the heart
+weight of the hind leg
+weight of the hindquarter cut
+weight of the hindquarters
+weight of the intestine
+weight of the kidney
+weight of the large intestine
+weight of the longissimus
+weight of the lung
+weight of the muscle of the forelimb
+weight of the ovary
+weight of the oviduct
+weight of the pelvic and kidney fat
+weight of the ribs
+weight of the round
+weight of the DIGIT part of the small intestine
+weight of the semimembranosus muscle
+weight of the semitendinosus muscle
+weight of the shoulder cut
+weight of the sirloin
+weight of the skin removed from the carcass
+weight of the small intestine
+weight of the spleen
+weight of the tender (pectoralis minor)
+weight of the testes
+weight of the tibia
+weight of the tongue
+weight of the topside (semimembranosus)
+weight of the total bone in the shoulder cut
+weight of the total fat in the shoulder cut
+weight of the wings
+weight of the yolk
+weight of thymus
+weight of total egg mass spawned
+weight of total fat in ham
+weight of vastus intermedius
+weight of waste matter
+weight of water in curd 
+weight or lean weight of the leg cut
+weight or lean weight of the loin
+weight or lean weight of the shoulder
+whirling disease resistance
+white blood cell counts
+white blood cell number
+white line fissure
+white line lesion
+white meat weight
+white spot disease susceptibility
+white spotting on back
+white spotting on belly
+white striping
+whole shoulder weight.
+width at the widest part of the chest
+width between the shoulders
+width of fat measured between the leg and breast muscles
+width of feather tract on the breast
+width of the animal at the midsection
+width of the animal viewed from above
+width of the head at its widest point
+width of the leg at its widest point (between medial and lateral surfaces)
+width of the longissimus dorsi muscle
+width of the opening between the eyelids
+width of the pelvis
+width of the sememimembranosus at its widest point
+wing percentage
+wing weight
+win-race distance
+withers height {yearling}
+within-litter birth weight standard deviation
+wooden breast
+wool brightness
+wool color y value
+wool color y-z value
+wool crimp
+wool yellowness
+worm count
+worm length
+yolk color
+yolk index
+yolk lightness
+yolk percentage
+yolk weight
+yolk yellowness
+young stock survival
