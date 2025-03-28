@@ -41,10 +41,26 @@ Parameters are tuned from validation set, and all hyper-parameters show in Appen
 ### Citation
 
 ```
-@misc{2402.14948,
-    Author = {Yuepei Li and Kang Zhou and Qiao Qiao and Qing Wang and Qi Li},
-    Title = {Re-Examine Distantly Supervised NER: A New Benchmark and a Simple Approach},
-    Year = {2024},
-    Eprint = {arXiv:2402.14948},
+@inproceedings{li-etal-2025-examine,
+    title = "Re-Examine Distantly Supervised {NER}: A New Benchmark and a Simple Approach",
+    author = "Li, Yuepei  and
+      Zhou, Kang  and
+      Qiao, Qiao  and
+      Wang, Qing  and
+      Li, Qi",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.727/",
+    pages = "10940--10959",
+    abstract = ""
 }
 ```

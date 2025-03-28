@@ -15,7 +15,7 @@ goats O 0
 
 Qianbei O 0
 Ma O 0
-goats O 1
+goats O 0
 are O 0
 one O 0
 of O 0
@@ -24,7 +24,7 @@ three O 0
 most O 0
 valued O 0
 local O 0
-goat O 1
+goat O 0
 breeds O 0
 in O 0
 Guizhou O 0
@@ -38,7 +38,7 @@ has O 0
 lower O 0
 litter B-Trait 1
 size I-Trait 1
-performance O 0
+performance O 1
 . O 0
 
 The O 0
@@ -62,7 +62,7 @@ PLIN2 O 0
 gene O 0
 and O 0
 lambing B-Trait 1
-performance I-Trait 0
+performance I-Trait 1
 . O 0
 
 The O 0
@@ -101,7 +101,7 @@ PLIN2 O 0
 gene O 0
 in O 0
 the O 0
-gonad O 1
+gonad O 0
 axis O 0
 of O 0
 Qianbei O 0
@@ -116,8 +116,8 @@ of O 0
 PLIN2 O 0
 related O 0
 to O 0
-lambing B-Trait 1
-traits I-Trait 1
+lambing B-Trait 0
+traits I-Trait 0
 and O 0
 to O 0
 screen O 0
@@ -161,10 +161,10 @@ mice O 0
 , O 0
 there O 0
 were O 0
-significant O 0
+significant O 1
 or O 0
 extremely O 0
-significant O 0
+significant O 1
 differences O 0
 in O 0
 the O 0
@@ -176,7 +176,7 @@ PLIN2 O 0
 gene O 0
 in O 0
 the O 0
-gonadal O 1
+gonadal O 0
 axis O 0
 of O 0
 the O 0
@@ -261,7 +261,7 @@ A O 0
 → O 0
 T O 0
 had O 0
-significant O 0
+significant O 1
 indigenous O 0
 effects O 0
 on O 0
@@ -280,10 +280,10 @@ p O 0
 . O 0
 
 The O 0
-number B-Trait 0
-of I-Trait 0
-third I-Trait 0
-births I-Trait 0
+number B-Trait 1
+of I-Trait 1
+third I-Trait 1
+births I-Trait 1
 for O 0
 diploid O 0
 H2H5 O 0
@@ -298,12 +298,12 @@ H1H2 O 0
 , O 0
 and O 0
 the O 0
-number B-Trait 0
-of I-Trait 0
-first I-Trait 0
-to I-Trait 0
-third I-Trait 0
-births I-Trait 0
+number B-Trait 1
+of I-Trait 1
+first I-Trait 1
+to I-Trait 1
+third I-Trait 1
+births I-Trait 1
 for O 0
 diploid O 0
 H2H5 O 0
@@ -328,7 +328,7 @@ candidate O 0
 gene O 0
 related O 0
 to O 0
-lambing B-Trait 1
+lambing B-Trait 0
 traits I-Trait 0
 of O 0
 Qianbei O 0
@@ -357,8 +357,8 @@ Litter B-Trait 1
 Size I-Trait 1
 in O 0
 Yunshang O 0
-Black O 1
-Goats O 1
+Black O 0
+Goats O 0
 . O 0
 
 Screening O 0
@@ -375,7 +375,7 @@ size I-Trait 1
 is O 0
 important O 0
 for O 0
-goat O 1
+goat O 0
 breeding O 0
 . O 0
 
@@ -405,8 +405,8 @@ litter B-Trait 1
 size I-Trait 1
 in O 0
 Yunshang O 0
-black O 1
-goats O 1
+black O 0
+goats O 0
 . O 0
 
 KASP O 0
@@ -483,8 +483,8 @@ third O 0
 parity O 0
 of O 0
 Yunshang O 0
-black O 1
-goats O 1
+black O 0
+goats O 0
 ( O 0
 p O 0
 & O 0
@@ -584,13 +584,13 @@ lt O 0
 . O 0
 
 Dual O 0
-luciferase O 0
+luciferase O 1
 reporter O 0
 analysis O 0
 showed O 0
 that O 0
 the O 0
-luciferase O 0
+luciferase O 1
 activity O 0
 of O 0
 PPP2R5C-C O 0
@@ -613,7 +613,7 @@ lt O 0
 . O 0
 
 The O 0
-luciferase O 0
+luciferase O 1
 activity O 0
 of O 0
 SLC39A5-T O 0
@@ -716,13 +716,13 @@ Associated O 0
 with O 0
 Body B-Trait 1
 Weight I-Trait 1
-and O 1
+and O 0
 Body O 1
 Conformation O 1
-Traits O 1
+Traits O 0
 in O 0
 Karachai O 0
-Goats O 1
+Goats O 0
 . O 0
 
 The O 0
@@ -743,22 +743,22 @@ to O 0
 body B-Trait 1
 weight I-Trait 1
 and O 0
-seven O 1
+seven O 0
 body B-Trait 1
 conformation I-Trait 1
-traits O 1
+traits O 0
 at O 0
 the O 0
-age O 1
+age O 0
 of O 0
 8 O 0
-months O 1
+months O 0
 in O 0
 the O 0
 Russian O 0
 aboriginal O 0
 Karachai O 0
-goats O 1
+goats O 0
 ( O 0
 n O 0
 = O 0
@@ -943,7 +943,7 @@ to O 0
 be O 0
 associated O 0
 with O 0
-growth-related B-Trait 1
+growth-related B-Trait 0
 traits I-Trait 0
 in O 0
 different O 0
@@ -953,7 +953,7 @@ species O 0
 
 The O 0
 most O 0
-significant O 0
+significant O 1
 genes O 0
 for O 0
 body B-Trait 1
@@ -974,7 +974,7 @@ RAB15 O 0
 which O 0
 regulate O 0
 growth O 1
-processes O 1
+processes O 0
 , O 0
 body O 1
 sizes O 1
@@ -999,11 +999,11 @@ a O 0
 well-known O 0
 candidate O 0
 for O 0
-prenatal O 1
+prenatal O 0
 and O 0
-early O 1
-postnatal O 1
-development O 1
+early O 0
+postnatal O 0
+development O 0
 , O 0
 and O 0
 the O 0
@@ -1050,12 +1050,12 @@ metabolic O 0
 processes O 0
 , O 0
 including O 0
-fatty O 1
-acid O 1
-metabolism O 1
+fatty O 0
+acid O 0
+metabolism O 0
 and O 0
-lipopolysaccharide O 1
-catabolism O 1
+lipopolysaccharide O 0
+catabolism O 0
 . O 0
 
 In O 0
@@ -1102,8 +1102,8 @@ as O 0
 molecular O 0
 markers O 0
 for O 0
-growth B-Trait 1
-trait I-Trait 1
+growth B-Trait 0
+trait I-Trait 0
 selection O 0
 for O 0
 genetic O 0
@@ -1120,13 +1120,13 @@ antibody B-Trait 0
 response I-Trait 0
 to I-Trait 0
 Mycobacterium I-Trait 0
-avium I-Trait 1
+avium I-Trait 0
 ssp I-Trait 0
 . O 0
 
 paratubeculosis O 1
 in O 0
-goats O 1
+goats O 0
 . O 0
 
 Mycobacterium O 0
@@ -1152,7 +1152,7 @@ paratuberculosis O 0
 , O 0
 a O 0
 chronic O 0
-enteritis O 1
+enteritis O 0
 of O 0
 ruminants O 0
 , O 0
@@ -1308,11 +1308,11 @@ its O 0
 effects O 0
 on O 0
 growth O 1
-traits O 1
+traits O 0
 . O 0
 
-Growth O 0
-hormone O 1
+growth O 1
+hormone O 0
 receptor O 0
 ( O 0
 GHR O 0
@@ -1327,7 +1327,7 @@ important O 0
 candidate O 0
 gene O 0
 in O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 . O 0
 
@@ -1356,14 +1356,14 @@ were O 0
 related O 0
 to O 0
 the O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 of O 0
 the O 0
 Shaanbei O 0
-white O 1
-cashmere O 1
-goats O 1
+white O 0
+cashmere O 0
+goats O 0
 ( O 0
 SBWC O 0
 ) O 0
@@ -1394,7 +1394,7 @@ the O 0
 GHR O 0
 gene O 0
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 . O 0
 
@@ -1472,7 +1472,7 @@ two O 0
 indel O 0
 loci O 0
 in O 0
-SBWC O 0
+SBWC O 1
 were O 0
 significantly O 0
 different O 0
@@ -1483,14 +1483,14 @@ three O 0
 other O 0
 Chinese O 0
 indigenous O 0
-goat O 1
+goat O 0
 breeds O 0
 ( O 0
-HNBG O 0
+HNBG O 1
 , O 0
-GZDG O 0
+GZDG O 1
 and O 0
-IMWC O 0
+IMWC O 1
 ) O 0
 ( O 0
 p O 0
@@ -1516,7 +1516,7 @@ both O 0
 significantly O 0
 affected O 0
 the O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 of O 0
 goats O 0
@@ -1544,7 +1544,7 @@ selection O 0
 and O 0
 breeding O 0
 of O 0
-goats O 1
+goats O 0
 . O 0
 The O 0
 12-bp O 0
@@ -1559,7 +1559,7 @@ gene O 0
 is O 0
 associated O 0
 with O 0
-goat O 1
+goat O 0
 growth O 1
 traits O 0
 . O 0
@@ -1576,7 +1576,7 @@ a O 0
 member O 0
 of O 0
 the O 0
-TGFβ O 1
+TGFβ O 0
 signaling O 0
 pathway O 0
 and O 0
@@ -1589,14 +1589,14 @@ in O 0
 the O 0
 processes O 0
 of O 0
-development B-Trait 1
+development B-Trait 0
 , O 0
-cell B-Trait 1
-proliferation I-Trait 1
+cell B-Trait 0
+proliferation I-Trait 0
 , O 0
 and O 0
-bone B-Trait 1
-formation I-Trait 1
+bone B-Trait 0
+formation I-Trait 0
 . O 0
 
 A O 0
@@ -1635,10 +1635,10 @@ between O 0
 this O 0
 polymorphism O 0
 and O 0
-goat O 1
-body B-Trait 1
-measurement I-Trait 1
-traits I-Trait 1
+goat O 0
+body B-Trait 0
+measurement I-Trait 0
+traits I-Trait 0
 . O 0
 
 The O 0
@@ -1663,7 +1663,7 @@ SMAD2 O 0
 gene O 0
 with O 0
 the O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 of O 0
 goats O 0
@@ -1736,10 +1736,10 @@ SMAD2 O 0
 gene O 0
 could O 0
 improve O 0
-goat O 1
+goat O 0
 body B-Trait 1
-measurement I-Trait 1
-traits I-Trait 1
+measurement I-Trait 0
+traits I-Trait 0
 , O 0
 paving O 0
 the O 0
@@ -1751,7 +1751,7 @@ in O 0
 the O 0
 field O 0
 of O 0
-goat O 1
+goat O 0
 genetics O 0
 and O 0
 breeding O 0
@@ -1766,26 +1766,26 @@ for O 0
 body O 1
 weight O 1
 , O 0
-wool O 1
+wool O 0
 , O 0
 and O 0
-reproductive O 1
-traits O 1
+reproductive O 0
+traits O 0
 in O 0
 North O 0
 American O 0
 Rambouillet O 0
-sheep O 1
+sheep O 0
 . O 0
 
 Rambouillet O 0
-sheep O 1
+sheep O 0
 are O 0
 commonly O 0
 raised O 0
 in O 0
 extensive O 0
-grazing O 1
+grazing O 0
 systems O 0
 in O 0
 the O 0
@@ -1793,10 +1793,10 @@ US O 0
 , O 0
 mainly O 0
 for O 0
-wool O 1
+wool O 0
 and O 0
-meat O 1
-production O 1
+meat O 0
+production O 0
 . O 0
 
 Genomic O 0
@@ -1827,8 +1827,8 @@ performing O 0
 genomic O 0
 prediction O 0
 of O 0
-breeding O 1
-values O 1
+breeding O 0
+values O 0
 for O 0
 various O 0
 traits O 0
@@ -1874,7 +1874,7 @@ for O 0
 postweaning B-Trait 1
 weight I-Trait 1
 ( O 0
-PWT B-Trait 0
+PWT B-Trait 1
 ) O 0
 , O 0
 5,832 O 0
@@ -1891,7 +1891,7 @@ yearling B-Trait 1
 fibre I-Trait 1
 diameter I-Trait 1
 ( O 0
-YFD B-Trait 0
+YFD B-Trait 1
 ) O 0
 , O 0
 11,872 O 0
@@ -1901,7 +1901,7 @@ greasy I-Trait 1
 fleece I-Trait 1
 weight I-Trait 1
 ( O 0
-YGFW B-Trait 0
+YGFW B-Trait 1
 ) O 0
 , O 0
 and O 0
@@ -1912,7 +1912,7 @@ of I-Trait 1
 lambs I-Trait 1
 born I-Trait 1
 ( O 0
-NLB B-Trait 0
+NLB B-Trait 1
 ) O 0
 were O 0
 used O 0
@@ -2033,8 +2033,8 @@ to O 0
 predict O 0
 the O 0
 genomic-enhanced O 0
-estimated O 1
-breeding O 1
+estimated O 0
+breeding O 0
 values O 0
 ( O 0
 GEBV O 0
@@ -2050,21 +2050,21 @@ or O 0
 . O 0
 
 The O 0
-GEBV O 0
+GEBV O 1
 were O 0
 compared O 0
 to O 0
 the O 0
 estimated O 0
 breeding O 1
-values O 1
+values O 0
 ( O 0
 EBV O 1
 ) O 0
 obtained O 0
 from O 0
 traditional O 0
-pedigree-based O 1
+pedigree-based O 0
 evaluations O 0
 ( O 0
 A-BLUP O 0
@@ -2081,7 +2081,7 @@ from O 0
 ( O 0
 A-BLUP O 0
 for O 0
-PWT B-Trait 0
+PWT B-Trait 1
 ) O 0
 to O 0
 0.795 O 0
@@ -2102,7 +2102,7 @@ equal O 0
 to O 0
 0.95 O 0
 for O 0
-YFD B-Trait 0
+YFD B-Trait 1
 ) O 0
 . O 0
 
@@ -2115,7 +2115,7 @@ from O 0
 ( O 0
 A-BLUP O 0
 for O 0
-PWT B-Trait 0
+PWT B-Trait 1
 ) O 0
 to O 0
 0.330 O 0
@@ -2160,7 +2160,7 @@ YGFW B-Trait 0
 . O 0
 
 The O 0
-GEBV O 0
+GEBV O 1
 dispersion O 0
 ranged O 0
 from O 0
@@ -2168,14 +2168,14 @@ from O 0
 ( O 0
 A-BLUP O 0
 for O 0
-PWT B-Trait 0
+PWT B-Trait 1
 ) O 0
 to O 0
 1.035 O 0
 ( O 0
 A-BLUP O 0
 for O 0
-YGFW B-Trait 0
+YGFW B-Trait 1
 ) O 0
 . O 0
 
@@ -2235,11 +2235,11 @@ for O 0
 body B-Trait 1
 weight I-Trait 1
 , O 0
-wool B-Trait 1
+wool B-Trait 0
 , O 0
 and O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 in O 0
 Rambouillet O 0
 sheep O 0
@@ -2296,7 +2296,7 @@ is O 0
 significantly O 0
 associated O 0
 with O 0
-goat O 1
+goat O 0
 litter B-Trait 1
 size I-Trait 1
 . O 0
@@ -2322,21 +2322,21 @@ functions O 0
 include O 0
 regulating O 0
 the O 0
-proliferation B-Trait 1
+proliferation B-Trait 0
 , O 0
-differentiation B-Trait 1
+differentiation B-Trait 0
 and O 0
-apoptosis B-Trait 1
+apoptosis B-Trait 0
 of O 0
-ovarian B-Trait 1
-granulosa I-Trait 1
-cells I-Trait 1
+ovarian B-Trait 0
+granulosa I-Trait 0
+cells I-Trait 0
 , O 0
 promoting O 0
-spermatogenesis B-Trait 1
+spermatogenesis B-Trait 0
 and O 0
-sex B-Trait 1
-differentiation I-Trait 1
+sex B-Trait 0
+differentiation I-Trait 0
 , O 0
 implying O 0
 that O 0
@@ -2347,7 +2347,7 @@ possibly O 0
 roles O 0
 in O 0
 animal O 0
-reproduction O 1
+reproduction O 0
 . O 0
 
 This O 0
@@ -2370,8 +2370,8 @@ in O 0
 healthy O 0
 unrelated O 0
 Shaanbei O 0
-white O 1
-cashmere O 1
+white O 0
+cashmere O 0
 ( O 0
 SBWC O 0
 ) O 0
@@ -2431,19 +2431,19 @@ detected O 0
 , O 0
 e.g. O 0
 , O 0
-insertion-deletion O 1
+insertion-deletion O 0
 ( O 0
 ID O 0
 ) O 0
 and O 0
-deletion-deletion O 1
+deletion-deletion O 0
 ( O 0
 DD O 0
 ) O 0
 , O 0
 and O 0
 the O 0
-average B-Trait 0
+average B-Trait 1
 litter I-Trait 1
 size I-Trait 1
 of O 0
@@ -2469,9 +2469,9 @@ correlation O 0
 between O 0
 P5-Ins-9bp O 0
 and O 0
-lambing B-Trait 1
-of O 1
-goats O 1
+lambing B-Trait 0
+of O 0
+goats O 0
 . O 0
 
 Chi-square O 0
@@ -2557,8 +2557,8 @@ MAS O 0
 breeding O 0
 to O 0
 improve O 0
-goat O 1
-industry O 1
+goat O 0
+industry O 0
 . O 0
 Host O 0
 genetic O 0
@@ -2570,8 +2570,8 @@ and O 0
 its O 0
 impact O 0
 on O 0
-dairy O 1
-traits O 1
+dairy O 0
+traits O 0
 in O 0
 sheep O 0
 . O 0
@@ -2590,17 +2590,17 @@ on O 0
 the O 0
 volatile O 0
 and O 0
-long-chain O 1
-fatty O 1
-acids O 1
+long-chain O 0
+fatty O 0
+acids O 0
 , O 0
 microbial O 0
 proteins O 0
 , O 0
-vitamins O 1
+vitamins O 0
 produced O 0
 through O 0
-feedstuff O 1
+feedstuff O 0
 digestion O 0
 by O 0
 the O 0
@@ -2634,10 +2634,10 @@ a O 0
 high O 0
 control O 0
 on O 0
-dairy B-Trait 1
+dairy B-Trait 0
 traits I-Trait 0
 with O 0
-heritabilities O 1
+heritabilities O 0
 higher O 0
 than O 0
 0.30 O 0
@@ -2665,8 +2665,8 @@ rumen B-Trait 1
 microbiota I-Trait 1
 abundance I-Trait 1
 and O 0
-dairy B-Trait 1
-traits I-Trait 1
+dairy B-Trait 0
+traits I-Trait 0
 in O 0
 ruminants O 0
 , O 0
@@ -2702,8 +2702,8 @@ bacterial I-Trait 1
 abundance I-Trait 1
 and O 0
 several O 0
-dairy B-Trait 1
-traits I-Trait 1
+dairy B-Trait 0
+traits I-Trait 0
 , O 0
 and O 0
 to O 0
@@ -2718,8 +2718,8 @@ rumen B-Trait 1
 bacterial I-Trait 1
 abundance I-Trait 1
 and O 0
-milk B-Trait 1
-traits I-Trait 1
+milk B-Trait 0
+traits I-Trait 0
 . O 0
 
 RESULTS O 0
@@ -2784,11 +2784,11 @@ strong O 0
 genetic O 0
 correlations O 0
 with O 0
-milk B-Trait 1
-fatty I-Trait 1
-acids I-Trait 1
-and O 1
-proteins B-Trait 1
+milk B-Trait 0
+fatty I-Trait 0
+acids I-Trait 0
+and O 0
+proteins B-Trait 0
 ( O 0
 absolute O 0
 values O 0
@@ -2808,7 +2808,7 @@ a O 0
 QTL O 0
 for O 0
 alpha-lactalbumin B-Trait 1
-concentration I-Trait 0
+concentration I-Trait 1
 in I-Trait 0
 milk I-Trait 0
 on O 0
@@ -2836,7 +2836,7 @@ belonging O 0
 to O 0
 the O 0
 genera O 0
-Prevotella O 1
+Prevotella O 0
 ( O 0
 OAR3 O 0
 and O 0
@@ -2884,8 +2884,8 @@ rumen B-Trait 1
 bacterial I-Trait 1
 abundance I-Trait 1
 and O 0
-dairy B-Trait 1
-traits I-Trait 1
+dairy B-Trait 0
+traits I-Trait 0
 , O 0
 but O 0
 the O 0
@@ -2918,7 +2918,7 @@ sheep O 0
 , O 0
 rumen B-Trait 1
 microbiota I-Trait 1
-abundance I-Trait 0
+abundance I-Trait 1
 is O 0
 partially O 0
 controlled O 0
@@ -2955,7 +2955,7 @@ show O 0
 specific O 0
 associations O 0
 with O 0
-OAR3 O 0
+OAR3 O 1
 , O 0
 5 O 0
 , O 0
@@ -2971,21 +2971,21 @@ wattles B-Trait 1
 trait O 0
 in O 0
 the O 0
-dairy O 1
-goat O 1
+dairy O 0
+goat O 0
 breed O 0
 . O 0
 
 Dairy O 0
-goats O 1
+goats O 0
 are O 0
-significant O 0
+significant O 1
 livestock O 0
 that O 0
 provide O 0
 high-quality O 0
-milk O 1
-sources O 1
+milk O 0
+sources O 0
 in O 0
 the O 0
 world O 0
@@ -3001,11 +3001,11 @@ phenotypic O 0
 character O 0
 on O 0
 the O 0
-neck O 1
+neck O 0
 of O 0
 a O 0
-dairy O 1
-goat O 1
+dairy O 0
+goat O 0
 , O 0
 which O 0
 is O 0
@@ -3022,8 +3022,8 @@ collected O 0
 samples O 0
 of O 0
 189 O 0
-dairy O 1
-goats O 1
+dairy O 0
+goats O 0
 , O 0
 including O 0
 94 O 0
@@ -3040,8 +3040,8 @@ different O 0
 farms O 0
 and O 0
 multiple O 0
-dairy O 1
-goat O 1
+dairy O 0
+goat O 0
 breeds O 0
 . O 0
 
@@ -3068,7 +3068,7 @@ studies O 0
 GWAS O 0
 ) O 0
 in O 0
-wattles B-Trait 0
+wattles B-Trait 1
 have O 0
 identified O 0
 associations O 0
@@ -3155,7 +3155,7 @@ of O 0
 wattles B-Trait 1
 had O 0
 no O 0
-significant O 0
+significant O 1
 effect O 0
 on O 0
 milk B-Trait 1
@@ -3180,7 +3180,7 @@ trait O 0
 A O 0
 novel O 0
 deleterious O 0
-oxytocin O 1
+oxytocin O 0
 variant O 0
 is O 0
 associated O 0
@@ -3203,14 +3203,14 @@ the O 0
 possible O 0
 association O 0
 of O 0
-oxytocin O 1
+oxytocin O 0
 ( O 0
 OXT O 0
 ) O 0
 gene O 0
 with O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 in O 0
 two O 0
 groups O 0
@@ -3221,8 +3221,8 @@ that O 0
 differ O 0
 in O 0
 their O 0
-reproductive B-Trait 1
-potentials I-Trait 1
+reproductive B-Trait 0
+potentials I-Trait 0
 . O 0
 
 Sheep O 0
@@ -3261,7 +3261,7 @@ a O 0
 missense O 0
 effect O 0
 on O 0
-oxytocin O 1
+oxytocin O 0
 ( O 0
 c.188C O 0
 > O 0
@@ -3272,7 +3272,7 @@ p.Arg55Leu O 0
 . O 0
 
 A O 0
-significant O 0
+significant O 1
 ( O 0
 p O 0
 < O 0
@@ -3292,7 +3292,7 @@ ewes O 0
 with O 0
 AA O 0
 and O 0
-CA O 1
+CA O 0
 genotypes O 0
 exhibited O 0
 , O 0
@@ -3341,7 +3341,7 @@ function O 0
 and O 0
 stability O 0
 of O 0
-oxytocin O 1
+oxytocin O 0
 . O 0
 
 Molecular O 0
@@ -3357,7 +3357,7 @@ in O 0
 the O 0
 binding O 0
 of O 0
-oxytocin O 1
+oxytocin O 0
 with O 0
 its O 0
 receptor O 0
@@ -3386,7 +3386,7 @@ genotypes O 0
 showed O 0
 a O 0
 lower O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 performance I-Trait 0
 due O 0
 to O 0
@@ -3400,7 +3400,7 @@ caused O 0
 damaging O 0
 impacts O 0
 on O 0
-oxytocin O 1
+oxytocin O 0
 and O 0
 is O 0
 binding O 0
@@ -3421,8 +3421,8 @@ useful O 0
 for O 0
 improving O 0
 Awassi O 0
-reproductive B-Trait 1
-potential I-Trait 1
+reproductive B-Trait 0
+potential I-Trait 0
 . O 0
 Identification O 0
 of O 0
@@ -3442,7 +3442,7 @@ their O 0
 association O 0
 with O 0
 growth O 1
-traits O 1
+traits O 0
 in O 0
 Hu O 0
 sheep O 0
@@ -3455,7 +3455,7 @@ economically O 0
 important O 0
 traits O 0
 in O 0
-sheep O 1
+sheep O 0
 breeding O 0
 . O 0
 
@@ -3478,8 +3478,8 @@ and O 0
 their O 0
 association O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 Hu O 0
 sheep O 0
@@ -3516,9 +3516,9 @@ FCR B-Trait 1
 ) O 0
 of O 0
 1418 O 0
-male O 1
-Hu O 1
-sheep O 1
+male O 0
+Hu O 0
+sheep O 0
 raised O 0
 in O 0
 the O 0
@@ -3606,9 +3606,9 @@ were O 0
 significantly O 0
 associated O 0
 with O 0
-ADG B-Trait 0
+ADG B-Trait 1
 and O 0
-FCR B-Trait 0
+FCR B-Trait 1
 ( O 0
 P O 0
 < O 0
@@ -3618,7 +3618,7 @@ P O 0
 
 There O 0
 were O 0
-significant O 0
+significant O 1
 associations O 0
 between O 0
 GC O 0
@@ -3629,7 +3629,7 @@ C O 0
 and O 0
 BW B-Trait 0
 , O 0
-BH B-Trait 0
+BH B-Trait 1
 and O 0
 BL B-Trait 0
 ( O 0
@@ -3707,8 +3707,8 @@ molecular O 0
 markers O 0
 for O 0
 Hu O 0
-sheep O 1
-breeding O 1
+sheep O 0
+breeding O 0
 . O 0
 Haplotype O 0
 structure O 0
@@ -3731,7 +3731,7 @@ and O 0
 their O 0
 association O 0
 with O 0
-morphometric B-Trait 1
+morphometric B-Trait 0
 traits I-Trait 0
 . O 0
 
@@ -3762,17 +3762,17 @@ myostatin O 0
 MSTN O 0
 ) O 0
 , O 0
-insulin-like O 1
+insulin-like O 0
 growth O 1
-factor O 1
-1 O 1
+factor O 0
+1 O 0
 ( O 0
-IGF1 O 1
+IGF1 O 0
 ) O 0
 , O 0
 and O 0
-bone O 1
-morphogenetic O 1
+bone O 0
+morphogenetic O 0
 protein O 0
 2 O 0
 ( O 0
@@ -3821,7 +3821,7 @@ haplotype O 0
 structures O 0
 . O 0
 
-Significant O 0
+significant O 1
 association O 0
 of O 0
 SNPs O 0
@@ -3863,7 +3863,7 @@ depth I-Trait 1
 For O 0
 BMP2 O 0
 , O 0
-significant O 0
+significant O 1
 association O 0
 was O 0
 revealed O 0
@@ -3872,7 +3872,7 @@ chest B-Trait 1
 depth I-Trait 1
 . O 0
 
-Significant O 0
+significant O 1
 association O 0
 was O 0
 also O 0
@@ -3911,20 +3911,20 @@ regulate O 0
 CYP19A1 O 0
 expression O 0
 and O 0
-17-β O 1
-estradiol O 1
-synthesis O 1
+17-β O 0
+estradiol O 0
+synthesis O 0
 in O 0
-ovine O 1
-granulosa O 1
+ovine O 0
+granulosa O 0
 cells O 0
 . O 0
 
 Although O 0
 17-β O 0
-estradiol O 1
+estradiol O 0
 ( O 0
-E2 O 1
+E2 O 0
 ) O 0
 synthesis O 0
 is O 0
@@ -3943,8 +3943,8 @@ molecular O 0
 mechanism O 0
 of O 0
 miRNA-regulated O 0
-ovine O 1
-E2 O 1
+ovine O 0
+E2 O 0
 synthesis O 0
 . O 0
 
@@ -3953,8 +3953,8 @@ Here O 0
 our O 0
 experiments O 0
 with O 0
-granulosa O 1
-cells O 1
+granulosa O 0
+cells O 0
 ( O 0
 GCs O 0
 ) O 0
@@ -3965,8 +3965,8 @@ revealed O 0
 miR-27a-3p O 0
 involvement O 0
 in O 0
-E2 O 1
-synthesis O 1
+E2 O 0
+synthesis O 0
 and O 0
 its O 0
 association O 0
@@ -4098,16 +4098,16 @@ a O 0
 novel O 0
 regulator O 0
 of O 0
-E2 O 1
+E2 O 0
 synthesis O 0
 and O 0
 may O 0
 predict O 0
 litter B-Trait 1
 size I-Trait 1
-of O 1
-Hu O 1
-sheep O 1
+of O 0
+Hu O 0
+sheep O 0
 , O 0
 providing O 0
 insight O 0
@@ -4116,7 +4116,7 @@ mechanisms O 0
 underlying O 0
 granulosa O 1
 cell O 1
-function O 1
+function O 0
 and O 0
 female O 1
 fertility O 1
@@ -4135,7 +4135,7 @@ candidate O 0
 genes O 0
 related O 0
 to O 0
-lamb B-Trait 1
+lamb B-Trait 0
 odor I-Trait 1
 and O 0
 flavor B-Trait 1
@@ -4159,7 +4159,7 @@ candidate O 0
 genes O 0
 related O 0
 to O 0
-lamb B-Trait 1
+lamb B-Trait 0
 odor I-Trait 1
 and O 0
 flavor B-Trait 1
@@ -4214,14 +4214,14 @@ SEPW1 O 0
 between O 0
 genotype O 0
 and O 0
-lamb B-Trait 1
+lamb B-Trait 0
 odor I-Trait 1
-and O 1
+and O 0
 flavor B-Trait 1
 ( O 0
-BCFAs O 1
+BCFAs O 0
 and O 0
-skatole B-Trait 1
+skatole B-Trait 0
 ) O 0
 was O 0
 analyzed O 0
@@ -4247,7 +4247,7 @@ p O 0
 0.05 O 0
 ) O 0
 with O 0
-lamb B-Trait 1
+lamb B-Trait 0
 odor I-Trait 1
 and O 0
 flavor B-Trait 1
@@ -4260,19 +4260,19 @@ a O 0
 lower O 0
 level O 0
 of O 0
-MNA O 0
+MNA O 1
 than O 0
 AG O 0
 and O 0
 GG O 0
 , O 0
 while O 0
-MOA O 0
+MOA O 1
 ( O 0
 4-methyloctanoic O 0
 ) O 0
 , O 0
-EOA O 0
+EOA O 1
 ( O 0
 4-ethyloctanoic O 0
 ) O 0
@@ -4291,9 +4291,9 @@ not O 0
 significantly O 0
 associated O 0
 with O 0
-lamb B-Trait 1
+lamb B-Trait 0
 odor I-Trait 1
-and O 1
+and O 0
 flavor B-Trait 1
 ( O 0
 p O 0
@@ -4369,10 +4369,10 @@ SEPW1 O 0
 gene O 0
 relation O 0
 to O 0
-odor B-Trait 1
-and O 1
-flavor B-Trait 1
-traits I-Trait 1
+odor B-Trait 0
+and O 0
+flavor B-Trait 0
+traits I-Trait 0
 and O 0
 will O 0
 shed O 0
@@ -4393,7 +4393,7 @@ for O 0
 reducing O 0
 MNA O 1
 in O 0
-lamb O 1
+lamb O 0
 . O 0
 Genome-wide O 0
 unraveling O 0
@@ -4403,7 +4403,7 @@ epistatic O 0
 effects O 0
 associated O 0
 with O 0
-sheep O 1
+sheep O 0
 body O 1
 weight O 1
 . O 0
@@ -4476,7 +4476,7 @@ and O 0
 SNP-SNP O 0
 interactions O 0
 of O 0
-sheep O 1
+sheep O 0
 birth B-Trait 1
 weight I-Trait 1
 and O 0
@@ -4487,7 +4487,7 @@ respectively O 0
 . O 0
 
 No O 0
-significant O 0
+significant O 1
 epistatic O 0
 interaction O 0
 of O 0
@@ -4502,7 +4502,7 @@ The O 0
 genetic O 0
 interaction O 0
 of O 0
-sheep O 1
+sheep O 0
 body B-Trait 1
 weight I-Trait 1
 is O 0
@@ -4512,7 +4512,7 @@ time-dependent O 0
 . O 0
 
 Most O 0
-significant O 0
+significant O 1
 interactions O 0
 of O 0
 weaning B-Trait 1
@@ -4527,12 +4527,12 @@ higher O 0
 
 In O 0
 the O 0
-weaning B-Trait 0
+weaning B-Trait 1
 weight I-Trait 1
 trait O 0
 , O 0
 66 O 0
-significant O 0
+significant O 1
 SNP O 0
 pairs O 0
 consisted O 0
@@ -4601,7 +4601,7 @@ factors O 0
 , O 0
 constructed O 0
 using O 0
-significant O 0
+significant O 1
 SNP O 0
 pairs O 0
 , O 0
@@ -4641,7 +4641,7 @@ genetic O 0
 mechanism O 0
 of O 0
 weight O 1
-developing O 1
+developing O 0
 . O 0
 Microsatellite O 0
 Analysis O 0
@@ -4653,8 +4653,8 @@ for O 0
 Gestation O 1
 Length O 1
 and O 0
-Sub-Population O 1
-Diversity O 1
+Sub-Population O 0
+Diversity O 0
 in O 0
 Kari O 0
 Sheep O 0
@@ -4721,8 +4721,8 @@ for O 0
 gestation B-Trait 1
 length I-Trait 1
 and O 0
-genetic O 1
-diversity O 1
+genetic O 0
+diversity O 0
 using O 0
 microsatellite O 0
 markers O 0
@@ -4744,7 +4744,7 @@ on O 0
 gestation B-Trait 1
 length I-Trait 1
 ( O 0
-GL B-Trait 0
+GL B-Trait 1
 ) O 0
 , O 0
 i.e. O 0
@@ -4784,7 +4784,7 @@ used O 0
 to O 0
 amplify O 0
 31 O 0
-ovine-specific O 1
+ovine-specific O 0
 microsatellite O 0
 loci O 0
 through O 0
@@ -4857,7 +4857,7 @@ ILSTS5 O 0
 with O 0
 variation O 0
 in O 0
-GL B-Trait 0
+GL B-Trait 1
 . O 0
 
 A O 0
@@ -4958,7 +4958,7 @@ the O 0
 genetic O 0
 basis O 0
 for O 0
-shorter O 1
+shorter O 0
 gestation B-Trait 1
 length I-Trait 1
 , O 0
@@ -4979,7 +4979,7 @@ on O 0
 Ewes O 0
 during O 0
 Multiyear O 0
-Lentivirus O 1
+Lentivirus O 0
 Exposure O 0
 . O 0
 
@@ -5001,18 +5001,18 @@ associated O 0
 with O 0
 susceptibility B-Trait 0
 to I-Trait 0
-ovine I-Trait 1
-lentivirus I-Trait 1
+ovine I-Trait 0
+lentivirus I-Trait 0
 , O 0
 the O 0
 causative O 0
 agent O 0
 of O 0
-Ovine O 1
-Progressive O 1
-Pneumonia O 1
+Ovine O 0
+Progressive O 0
+Pneumonia O 0
 ( O 0
-OPP O 1
+OPP O 0
 ) O 0
 and O 0
 Visna/Maedi O 0
@@ -5031,17 +5031,17 @@ TMEM154 O 0
 haplotypes O 0
 on O 0
 the O 0
-incidence B-Trait 1
-of I-Trait 1
-infection I-Trait 1
+incidence B-Trait 0
+of I-Trait 0
+infection I-Trait 0
 and O 0
 ewe B-Trait 1
 productivity I-Trait 1
 during O 0
 natural O 0
 multiyear O 0
-virus O 1
-exposure O 1
+virus O 0
+exposure O 0
 . O 0
 
 Prospective O 0
@@ -5202,8 +5202,8 @@ and O 0
 
 The O 0
 ewe O 1
-infection B-Trait 0
-prevalence I-Trait 0
+infection B-Trait 1
+prevalence I-Trait 1
 with O 0
 `` O 0
 1,1 O 0
@@ -5275,7 +5275,7 @@ When O 0
 considering O 0
 ewe O 0
 reproductive B-Trait 1
-performance I-Trait 1
+performance I-Trait 0
 , O 0
 a O 0
 difference O 0
@@ -5390,7 +5390,7 @@ difference O 0
 to O 0
 the O 0
 ancestral O 0
-polypeptide O 1
+polypeptide O 0
 . O 0
 Genome-wide O 0
 association O 0
@@ -5411,17 +5411,17 @@ INTRODUCTION O 0
 : O 0
 The O 0
 Markhoz O 0
-goat O 1
+goat O 0
 is O 0
 the O 0
 only O 0
 breed O 0
 that O 0
 can O 0
-produce O 1
+produce O 0
 high-quality O 0
-fiber O 1
-called O 1
+fiber O 0
+called O 0
 mohair O 1
 in O 0
 Iran O 0
@@ -5429,7 +5429,7 @@ Iran O 0
 however O 0
 , O 0
 the O 0
-size O 0
+size O 1
 of O 0
 its O 0
 population O 0
@@ -5451,25 +5451,25 @@ reluctance O 0
 of O 0
 farmers O 0
 to O 0
-rear O 1
+rear O 0
 Markhoz O 0
-goats O 1
+goats O 0
 caused O 0
 by O 0
 a O 0
 reduction O 0
 in O 0
-goat O 1
-production O 1
-income O 1
+goat O 0
+production O 0
+income O 0
 . O 0
 
-Litter B-Trait 1
+Litter B-Trait 0
 size I-Trait 1
 at I-Trait 1
 birth I-Trait 1
 ( O 0
-LSB B-Trait 0
+LSB B-Trait 1
 ) O 0
 and O 0
 weaning B-Trait 1
@@ -5480,12 +5480,12 @@ are O 0
 two O 0
 economically O 0
 important O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 traits I-Trait 0
 for O 0
 local O 0
-goat O 1
-breeders O 1
+goat O 0
+breeders O 0
 and O 0
 have O 0
 the O 0
@@ -5495,7 +5495,7 @@ increasing O 0
 the O 0
 population O 1
 growth O 1
-rate O 1
+rate O 0
 . O 0
 
 The O 0
@@ -5512,9 +5512,9 @@ that O 0
 are O 0
 associated O 0
 with O 0
-LSB B-Trait 0
+LSB B-Trait 1
 and O 0
-LSW B-Trait 0
+LSW B-Trait 1
 in O 0
 Markhoz O 0
 goats O 0
@@ -5542,8 +5542,8 @@ record O 0
 ( O 0
 s O 0
 ) O 0
-of O 1
-kidding O 1
+of O 0
+kidding O 0
 were O 0
 selected O 0
 for O 0
@@ -5559,10 +5559,10 @@ chip O 0
 
 The O 0
 individual O 0
-breeding O 1
+breeding O 0
 values O 0
 ( O 0
-BV B-Trait 0
+BV B-Trait 1
 ) O 0
 of O 0
 available O 0
@@ -5620,7 +5620,7 @@ p O 0
 0.05 O 0
 ) O 0
 with O 0
-LSB B-Trait 0
+LSB B-Trait 1
 after O 0
 multiple O 0
 testing O 0
@@ -5651,7 +5651,7 @@ of O 0
 detected O 0
 genotypes O 0
 on O 0
-LSB B-Trait 0
+LSB B-Trait 1
 . O 0
 
 Ultimately O 0
@@ -5699,8 +5699,8 @@ and O 0
 AKAP13 O 0
 genes O 0
 in O 0
-reproductive O 1
-processes O 1
+reproductive O 0
+processes O 0
 ; O 0
 however O 0
 , O 0
@@ -5711,7 +5711,7 @@ other O 0
 candidate O 0
 genes O 0
 in O 0
-reproduction O 1
+reproduction O 0
 is O 0
 not O 0
 clear O 0
@@ -5742,8 +5742,8 @@ the O 0
 racing B-Trait 1
 phenotype I-Trait 0
 in O 0
-galloping O 1
-racehorse O 1
+galloping O 0
+racehorse O 0
 breeds O 0
 . O 0
 
@@ -5761,12 +5761,12 @@ has O 0
 led O 0
 to O 0
 extreme O 0
-athletic O 1
-phenotypes O 1
+athletic O 0
+phenotypes O 0
 among O 0
 geographically O 0
 diverse O 0
-horse O 1
+horse O 0
 breeds O 0
 . O 0
 
@@ -5777,10 +5777,10 @@ identify O 0
 genes O 0
 contributing O 0
 to O 0
-exercise B-Trait 1
-adaptation I-Trait 1
+exercise B-Trait 0
+adaptation I-Trait 0
 in O 0
-racehorses O 1
+racehorses O 0
 by O 0
 applying O 0
 genomics O 0
@@ -5791,7 +5791,7 @@ performance I-Trait 1
 , O 0
 an O 0
 end-point O 0
-athletic O 1
+athletic O 0
 phenotype O 0
 . O 0
 
@@ -5807,11 +5807,11 @@ population O 0
 genomics O 0
 results O 0
 with O 0
-skeletal O 1
-muscle O 1
-exercise O 1
+skeletal O 0
+muscle O 0
+exercise O 0
 and O 0
-training O 1
+training O 0
 transcriptomic O 0
 data O 0
 , O 0
@@ -5832,8 +5832,8 @@ genes O 0
 of O 0
 interest O 0
 in O 0
-galloping O 1
-racehorse O 1
+galloping O 0
+racehorse O 0
 breeds O 0
 ( O 0
 Arabian O 0
@@ -5868,9 +5868,9 @@ with O 0
 central O 0
 roles O 0
 in O 0
-muscle O 1
+muscle O 0
 , O 0
-metabolism O 1
+metabolism O 0
 , O 0
 and O 0
 neurobiology O 0
@@ -5885,8 +5885,8 @@ phenotype I-Trait 0
 . O 0
 
 Although O 0
-racing B-Trait 0
-potential I-Trait 0
+racing B-Trait 1
+potential I-Trait 1
 is O 0
 a O 0
 multifactorial O 0
@@ -5898,14 +5898,14 @@ architecture O 0
 shaping O 0
 the O 0
 common O 0
-athletic O 1
+athletic O 0
 phenotype O 0
 in O 0
 horse O 0
 populations O 0
 bred O 0
 for O 0
-racing O 1
+racing O 0
 provides O 0
 evidence O 0
 for O 0
@@ -5916,7 +5916,7 @@ protein-coding O 0
 variants O 0
 in O 0
 fundamental O 0
-exercise-relevant O 1
+exercise-relevant O 0
 genes O 0
 . O 0
 
@@ -5943,12 +5943,12 @@ racing O 0
 Association O 0
 between O 0
 the O 0
-cashmere B-Trait 1
-production I-Trait 1
-performance I-Trait 1
+cashmere B-Trait 0
+production I-Trait 0
+performance I-Trait 0
 , O 0
-milk O 1
-production O 1
+milk O 0
+production O 0
 performance O 1
 , O 0
 and O 0
@@ -5964,8 +5964,8 @@ LOC102181374 O 0
 genes O 0
 in O 0
 Liaoning O 0
-cashmere O 1
-goats O 1
+cashmere O 0
+goats O 0
 . O 0
 
 The O 0
@@ -5991,19 +5991,19 @@ chain O 0
 and O 0
 LOC102181374 O 0
 ( O 0
-alcohol O 1
-dehydrogenase O 1
+alcohol O 0
+dehydrogenase O 0
 1 O 0
 ) O 0
 genes O 0
 and O 0
 the O 0
-production B-Trait 1
+production B-Trait 0
 performance I-Trait 0
 of O 0
-Liaoning O 1
-cashmere O 1
-goats O 1
+Liaoning O 0
+cashmere O 0
+goats O 0
 by O 0
 single O 0
 nucleotide O 0
@@ -6116,12 +6116,12 @@ advantages O 0
 in O 0
 improving O 0
 the O 0
-production B-Trait 1
+production B-Trait 0
 performance I-Trait 0
 of O 0
 Liaoning O 0
-cashmere O 1
-goats O 1
+cashmere O 0
+goats O 0
 . O 0
 
 The O 0
@@ -6198,12 +6198,12 @@ the O 0
 molecular O 0
 breeding O 0
 of O 0
-production B-Trait 1
+production B-Trait 0
 traits I-Trait 0
 in O 0
 Liaoning O 0
-cashmere O 1
-goats O 1
+cashmere O 0
+goats O 0
 . O 0
 Effects O 0
 of O 0
@@ -6219,7 +6219,7 @@ in O 0
 Mongolia O 0
 and O 0
 Ujimqin O 0
-sheep O 1
+sheep O 0
 breeds O 0
 . O 0
 
@@ -6239,7 +6239,7 @@ important O 0
 factors O 0
 influencing O 0
 the O 0
-sheep O 1
+sheep O 0
 industry O 0
 . O 0
 
@@ -6257,7 +6257,7 @@ major O 0
 gene O 0
 affecting O 0
 the O 0
-reproductive O 1
+reproductive O 0
 traits O 0
 in O 0
 sheep O 0
@@ -6303,7 +6303,7 @@ litter B-Trait 1
 size I-Trait 1
 in O 0
 other O 0
-sheep O 1
+sheep O 0
 breeds O 0
 are O 0
 still O 0
@@ -6369,9 +6369,9 @@ with O 0
 the O 0
 litter B-Trait 1
 sizes I-Trait 1
-of O 1
-Mongolia O 1
-ewes O 1
+of O 0
+Mongolia O 0
+ewes O 0
 ( O 0
 P O 0
 < O 0
@@ -6410,7 +6410,7 @@ litter B-Trait 1
 sizes I-Trait 1
 of O 0
 Ujimqin O 0
-ewes O 1
+ewes O 0
 ( O 0
 P O 0
 < O 0
@@ -6478,7 +6478,7 @@ genomic O 0
 variations O 0
 within O 0
 the O 0
-male-specific O 1
+male-specific O 0
 region O 0
 of O 0
 the O 0
@@ -6497,7 +6497,7 @@ effective O 0
 ways O 0
 to O 0
 investigate O 0
-paternal O 1
+paternal O 0
 evolutionary O 0
 history O 0
 and O 0
@@ -6694,7 +6694,7 @@ C O 0
 T O 0
 had O 0
 a O 0
-significant O 0
+significant O 1
 effect O 0
 on O 0
 yearling B-Trait 1
@@ -6716,7 +6716,7 @@ significantly O 0
 associated O 0
 with O 0
 testicular B-Trait 1
-and O 1
+and O 0
 epididymis B-Trait 1
 weight I-Trait 1
 in O 0
@@ -7046,8 +7046,8 @@ the O 0
 development O 0
 of O 0
 the O 0
-sheep O 1
-industry O 1
+sheep O 0
+industry O 0
 . O 0
 
 A O 0
@@ -7062,7 +7062,7 @@ key O 0
 protein O 0
 in O 0
 the O 0
-HIF O 1
+HIF O 0
 signaling O 0
 pathway O 0
 , O 0
@@ -7070,12 +7070,12 @@ ARNT O 0
 , O 0
 may O 0
 influence O 0
-embryonic O 1
-skeletal O 1
-muscle O 1
+embryonic O 0
+skeletal O 0
+muscle O 0
 growth O 1
 and O 0
-development O 1
+development O 0
 in O 0
 sheep O 0
 . O 0
@@ -7097,10 +7097,10 @@ polymorphisms O 0
 of O 0
 ARNT O 0
 and O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 of O 0
-sheep O 1
+sheep O 0
 , O 0
 and O 0
 the O 0
@@ -7130,11 +7130,11 @@ developmental O 0
 stages O 0
 of O 0
 the O 0
-muscle O 1
-tissues O 1
+muscle O 0
+tissues O 0
 and O 0
 primary O 0
-myoblasts O 1
+myoblasts O 0
 in O 0
 the O 0
 Hu O 0
@@ -7226,12 +7226,12 @@ significantly O 0
 in O 0
 the O 0
 Chinese O 0
-merino O 1
+merino O 0
 embryo O 0
 after O 0
-85 O 1
-gestation O 1
-days O 1
+85 O 0
+gestation O 0
+days O 0
 ( O 0
 D85 O 0
 ) O 0
@@ -7250,17 +7250,17 @@ after O 0
 the O 0
 sheep O 0
 were O 0
-born O 1
+born O 0
 , O 0
 the O 0
 expression O 0
 of O 0
 ARNT O 0
 was O 0
-significant O 0
+significant O 1
 at O 0
 the O 0
-weaning O 1
+weaning O 0
 stage O 0
 of O 0
 the O 0
@@ -7304,7 +7304,7 @@ BeadChip O 0
 We O 0
 found O 0
 a O 0
-significant O 0
+significant O 1
 association O 0
 between O 0
 rs413597480 O 0
@@ -7326,7 +7326,7 @@ thickness I-Trait 1
 in O 0
 the O 0
 5-month-old O 0
-sheep O 1
+sheep O 0
 ( O 0
 p O 0
 & O 0
@@ -7373,7 +7373,7 @@ were O 0
 also O 0
 associated O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 in O 0
 the O 0
@@ -7518,10 +7518,10 @@ molecular O 0
 marker O 0
 for O 0
 growth O 1
-and O 1
-development O 1
+and O 0
+development O 0
 in O 0
-sheep O 1
+sheep O 0
 may O 0
 be O 0
 the O 0
@@ -7599,9 +7599,9 @@ Traits O 0
 . O 0
 
 The O 0
-cilia- O 1
+cilia- O 0
 and O 0
-flagella-associated O 1
+flagella-associated O 0
 protein O 0
 43 O 0
 ( O 0
@@ -7613,9 +7613,9 @@ a O 0
 member O 0
 of O 0
 the O 0
-cilia- O 1
+cilia- O 0
 and O 0
-flagellum-associated O 1
+flagellum-associated O 0
 protein O 0
 family O 0
 . O 0
@@ -7623,11 +7623,11 @@ family O 0
 Cilia O 0
 on O 0
 the O 0
-cell O 1
+cell O 0
 surface O 0
 influence O 0
-intercellular O 1
-signaling O 1
+intercellular O 0
+signaling O 0
 and O 0
 are O 0
 involved O 0
@@ -7636,10 +7636,10 @@ biological O 0
 processes O 0
 such O 0
 as O 0
-osteogenesis O 1
+osteogenesis O 0
 and O 0
-energy O 1
-metabolism O 1
+energy O 0
+metabolism O 0
 in O 0
 animals O 0
 . O 0
@@ -7663,8 +7663,8 @@ litter B-Trait 1
 size I-Trait 1
 in O 0
 Shaanbei O 0
-white O 1
-cashmere O 1
+white O 0
+cashmere O 0
 ( O 0
 SBWC O 0
 ) O 0
@@ -7675,8 +7675,8 @@ that O 0
 litter B-Trait 1
 size I-Trait 1
 and O 0
-body B-Trait 1
-traits I-Trait 1
+body B-Trait 0
+traits I-Trait 0
 are O 0
 correlated O 0
 in O 0
@@ -7692,7 +7692,7 @@ that O 0
 there O 0
 is O 0
 a O 0
-significant O 0
+significant O 1
 relationship O 0
 between O 0
 InDel O 0
@@ -7702,8 +7702,8 @@ the O 0
 CFAP43 O 0
 gene O 0
 and O 0
-body B-Trait 1
-traits I-Trait 1
+body B-Trait 0
+traits I-Trait 0
 in O 0
 SBWC O 0
 goats O 0
@@ -7733,7 +7733,7 @@ loci O 0
 within O 0
 CFAP43 O 0
 and O 0
-body B-Trait 1
+body B-Trait 0
 traits I-Trait 0
 in O 0
 SBWC O 0
@@ -7764,13 +7764,13 @@ chest B-Trait 1
 depth I-Trait 1
 , O 0
 four O 0
-body B-Trait 1
-traits I-Trait 1
+body B-Trait 0
+traits I-Trait 0
 , O 0
 and O 0
 three O 0
-body B-Trait 1
-traits I-Trait 1
+body B-Trait 0
+traits I-Trait 0
 , O 0
 respectively O 0
 . O 0
@@ -7800,10 +7800,10 @@ selection O 0
 and O 0
 breeding O 0
 of O 0
-goats O 1
+goats O 0
 for O 0
-body B-Trait 1
-traits I-Trait 1
+body B-Trait 0
+traits I-Trait 0
 . O 0
 Effects O 0
 of O 0
@@ -7819,12 +7819,12 @@ SNX29 O 0
 ) O 0
 Gene O 0
 on O 0
-Growth B-Trait 1
-Traits I-Trait 1
+Growth B-Trait 0
+Traits I-Trait 0
 of O 0
 Xiangdong O 0
-Black O 1
-Goat O 1
+Black O 0
+Goat O 0
 . O 0
 
 Previous O 0
@@ -7863,24 +7863,24 @@ candidate O 0
 gene O 0
 related O 0
 to O 0
-meat B-Trait 1
-production I-Trait 1
+meat B-Trait 0
+production I-Trait 0
 and O 0
-quality B-Trait 1
+quality B-Trait 0
 , O 0
 are O 0
 associated O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 of O 0
 African O 0
-goats O 1
+goats O 0
 and O 0
 Shaanbei O 0
-white O 1
-cashmere O 1
-goats O 1
+white O 0
+cashmere O 0
+goats O 0
 . O 0
 
 However O 0
@@ -7893,7 +7893,7 @@ SNX29 O 0
 genetic O 0
 variation O 0
 on O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 of O 0
 Xiangdong O 0
@@ -7901,12 +7901,12 @@ black O 0
 ( O 0
 XDB O 0
 ) O 0
-goat O 1
+goat O 0
 ( O 0
 a O 0
 representative O 0
-meat O 1
-goat O 1
+meat O 0
+goat O 0
 breed O 0
 in O 0
 China O 0
@@ -7943,8 +7943,8 @@ indel O 0
 within O 0
 SNX29 O 0
 on O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 and O 0
 gene O 0
 expression O 0
@@ -7966,8 +7966,8 @@ was O 0
 highly O 0
 expressed O 0
 in O 0
-adipose O 1
-tissues O 1
+adipose O 0
+tissues O 0
 , O 0
 indicating O 0
 that O 0
@@ -7981,8 +7981,8 @@ key O 0
 role O 0
 in O 0
 subcutaneous B-Trait 0
-adipose I-Trait 1
-deposition I-Trait 1
+adipose I-Trait 0
+deposition I-Trait 0
 of O 0
 XDB O 0
 goat O 0
@@ -8024,7 +8024,7 @@ of O 0
 SNX29 O 0
 CNV O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 in O 0
 XDB O 0
@@ -8075,7 +8075,7 @@ gene O 0
 individuals O 0
 with O 0
 SNX29 O 0
-copy O 1
+copy O 0
 number O 1
 normal O 0
 type O 0
@@ -8092,11 +8092,11 @@ with O 0
 copy O 1
 number O 1
 gain O 1
-type O 0
+type O 1
 in O 0
-longissimus O 1
-dorsi O 1
-muscle O 1
+longissimus O 0
+dorsi O 0
+muscle O 0
 ( O 0
 p O 0
 = O 0
@@ -8116,8 +8116,8 @@ a O 0
 higher O 0
 trend O 0
 in O 0
-abdominal O 1
-adipose O 1
+abdominal O 0
+adipose O 0
 ( O 0
 p O 0
 = O 0
@@ -8140,7 +8140,7 @@ an O 0
 important O 0
 role O 0
 in O 0
-growth O 0
+growth O 1
 and O 0
 development O 0
 of O 0
@@ -8172,13 +8172,13 @@ F2 O 0
 Population O 0
 and O 0
 Regulates O 0
-Myogenic O 1
-Cell O 1
-Proliferation O 1
+Myogenic O 0
+Cell O 0
+Proliferation O 0
 and O 0
-Differentiation O 1
+Differentiation O 0
 in O 0
-Chickens O 1
+Chickens O 0
 . O 0
 
 Molecular O 0
@@ -8188,12 +8188,12 @@ accelerate O 0
 the O 0
 process O 0
 of O 0
-animal O 1
-breeding O 1
+animal O 0
+breeding O 0
 and O 0
 improve O 0
 the O 0
-breeding O 1
+breeding O 0
 efficiency O 0
 . O 0
 
@@ -8208,16 +8208,16 @@ have O 0
 been O 0
 identified O 0
 in O 0
-livestock O 1
+livestock O 0
 and O 0
-poultry O 1
+poultry O 0
 , O 0
 but O 0
 how O 0
 Indels O 0
 affect O 0
-economic O 1
-traits O 1
+economic O 0
+traits O 0
 is O 0
 not O 0
 well O 0
@@ -8271,8 +8271,8 @@ the O 0
 daily B-Trait 1
 weight I-Trait 1
 gain I-Trait 1
-of O 1
-chickens O 1
+of O 0
+chickens O 0
 and O 0
 the O 0
 potential O 0
@@ -8330,10 +8330,10 @@ a O 0
 decreasing O 0
 trend O 0
 in O 0
-embryonic O 1
-breast O 1
-muscle O 1
-tissues O 1
+embryonic O 0
+breast O 0
+muscle O 0
+tissues O 0
 . O 0
 
 Furthermore O 0
@@ -8344,9 +8344,9 @@ was O 0
 significantly O 0
 higher O 0
 in O 0
-breast O 1
-muscle O 1
-tissues O 1
+breast O 0
+muscle O 0
+tissues O 0
 of O 0
 the O 0
 AC O 0
@@ -8374,7 +8374,7 @@ pGL3-C O 0
 vector O 0
 produced O 0
 more O 0
-luciferase O 0
+luciferase O 1
 activity O 0
 than O 0
 pGL3-A O 0
@@ -8389,16 +8389,16 @@ overexpression O 0
 of O 0
 QPCTL O 0
 promoted O 0
-chicken B-Trait 1
-primary I-Trait 1
-myoblast I-Trait 1
+chicken B-Trait 0
+primary I-Trait 0
+myoblast I-Trait 0
 ( O 0
-CPM B-Trait 1
+CPM B-Trait 0
 ) O 0
-proliferation B-Trait 1
+proliferation B-Trait 0
 and O 0
 inhibited O 0
-differentiation B-Trait 1
+differentiation B-Trait 0
 . O 0
 
 The O 0
@@ -8420,11 +8420,11 @@ gene O 0
 may O 0
 regulate O 0
 the O 0
-proliferation B-Trait 1
+proliferation B-Trait 0
 and O 0
-differentiation B-Trait 1
-of I-Trait 1
-CPMs I-Trait 1
+differentiation B-Trait 0
+of I-Trait 0
+CPMs I-Trait 0
 by O 0
 affecting O 0
 the O 0
@@ -8436,9 +8436,9 @@ which O 0
 ultimately O 0
 affects O 0
 the O 0
-growth B-Trait 1
-rate I-Trait 1
-of O 1
+growth B-Trait 0
+rate I-Trait 0
+of O 0
 chickens O 0
 . O 0
 
@@ -8467,10 +8467,10 @@ to O 0
 regulate O 0
 and O 0
 improve O 0
-chicken O 1
+chicken O 0
 growth O 1
 and O 0
-development O 1
+development O 0
 . O 0
 Genomic O 0
 Analysis O 0
@@ -8508,7 +8508,7 @@ as O 0
 gastrointestinal B-Trait 1
 parasite I-Trait 1
 ( O 0
-GIP B-Trait 0
+GIP B-Trait 1
 ) O 0
 resistance B-Trait 1
 . O 0
@@ -8524,7 +8524,7 @@ understand O 0
 the O 0
 genetics O 0
 of O 0
-gastrointestinal O 1
+gastrointestinal O 0
 parasite O 0
 ( O 0
 nematodes O 0
@@ -8537,7 +8537,7 @@ spp O 0
 . O 0
 
 ) O 0
-resistance B-Trait 0
+resistance B-Trait 1
 in O 0
 Akkaraman O 0
 sheep O 0
@@ -8573,7 +8573,7 @@ Akkaraman O 0
 sheep O 0
 to B-Trait 0
 the I-Trait 0
-tapeworm I-Trait 1
+tapeworm I-Trait 0
 parasite I-Trait 0
 . O 0
 
@@ -8625,7 +8625,7 @@ total O 0
 of O 0
 two O 0
 genome-wide O 0
-significant O 0
+significant O 1
 SNP O 0
 associated O 0
 with O 0
@@ -8636,7 +8636,7 @@ genes O 0
 and O 0
 10 O 0
 chromosome-wide O 0
-significant O 0
+significant O 1
 SNPs O 0
 related O 0
 with O 0
@@ -8692,32 +8692,32 @@ essential O 0
 and O 0
 important O 0
 for O 0
-immune O 1
-system O 1
+immune O 0
+system O 0
 functions O 0
 and O 0
-cellular O 1
+cellular O 0
 growth O 1
 ; O 0
 specifically O 0
 , O 0
-inflammatory O 1
-responses O 1
+inflammatory O 0
+responses O 0
 , O 0
-cellular O 1
-transport O 1
+cellular O 0
+transport O 0
 , O 0
-cell O 1
-apoptosis O 1
+cell O 0
+apoptosis O 0
 , O 0
-cell O 1
-differentiation O 1
+cell O 0
+differentiation O 0
 , O 0
-histone O 1
-de-acetylation O 1
+histone O 0
+de-acetylation O 0
 , O 0
 and O 0
-endocytosis O 1
+endocytosis O 0
 . O 0
 
 These O 0
@@ -8745,12 +8745,12 @@ resistance I-Trait 1
 which O 0
 underlies O 0
 many O 0
-productive B-Trait 1
+productive B-Trait 0
 , O 0
-health B-Trait 1
+health B-Trait 0
 , O 0
 and O 0
-wellness-related B-Trait 1
+wellness-related B-Trait 0
 traits I-Trait 0
 . O 0
 Expression O 0
@@ -8840,7 +8840,7 @@ expression O 0
 characteristics O 0
 of O 0
 Tibetan O 0
-sheep O 1
+sheep O 0
 genes O 0
 , O 0
 and O 0
@@ -8935,13 +8935,13 @@ highly O 0
 expressed O 0
 in O 0
 the O 0
-uterus O 1
+uterus O 0
 , O 0
-spleen O 1
+spleen O 0
 , O 0
-ovary O 1
+ovary O 0
 and O 0
-lung O 1
+lung O 0
 tissues O 0
 . O 0
 
@@ -9024,7 +9024,7 @@ that O 0
 affected O 0
 litter B-Trait 1
 size I-Trait 1
-traits O 1
+traits O 0
 in O 0
 Tibetan O 0
 sheep O 0
@@ -9043,11 +9043,11 @@ auxiliary O 0
 selection O 0
 for O 0
 improving O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 during O 0
-sheep O 1
-breeding O 1
+sheep O 0
+breeding O 0
 . O 0
 Validation O 0
 of O 0
@@ -9055,14 +9055,14 @@ SNP O 0
 markers O 0
 for O 0
 thermotolerance B-Trait 1
-adaptation I-Trait 1
+adaptation I-Trait 0
 in O 0
 Ovis O 0
 aries O 0
 adapted O 0
 to O 0
 different O 0
-climatic O 1
+climatic O 0
 regions O 0
 using O 0
 KASP-PCR O 0
@@ -9080,8 +9080,8 @@ to O 0
 genes O 0
 related O 0
 to O 0
-heat O 1
-stress O 1
+heat O 0
+stress O 0
 was O 0
 carried O 0
 out O 0
@@ -9212,7 +9212,7 @@ not O 0
 observed O 0
 in O 0
 the O 0
-heat O 1
+heat O 0
 tolerant O 0
 breeds O 0
 , O 0
@@ -9220,7 +9220,7 @@ being O 0
 found O 0
 exclusively O 0
 in O 0
-cold-tolerant B-Trait 1
+cold-tolerant B-Trait 0
 breeds O 0
 . O 0
 
@@ -9282,7 +9282,7 @@ candidate O 0
 markers O 0
 for O 0
 thermotolerance B-Trait 1
-adaptation I-Trait 1
+adaptation I-Trait 0
 in O 0
 sheep O 0
 . O 0
@@ -9419,12 +9419,12 @@ influenced O 0
 litter B-Trait 1
 size I-Trait 1
 , O 0
-body B-Trait 1
-measurement I-Trait 1
+body B-Trait 0
+measurement I-Trait 0
 , O 0
 and O 0
-milk B-Trait 1
-production I-Trait 1
+milk B-Trait 0
+production I-Trait 0
 traits I-Trait 0
 in O 0
 Damani O 0
@@ -9457,8 +9457,8 @@ P O 0
 0.05 O 0
 ) O 0
 enhanced O 0
-milk B-Trait 1
-production I-Trait 1
+milk B-Trait 0
+production I-Trait 0
 , O 0
 while O 0
 the O 0
@@ -9466,16 +9466,16 @@ genotypes O 0
 CC O 0
 of O 0
 SNP3 O 0
-significant O 0
+significant O 1
 ( O 0
 P O 0
 < O 0
 0.05 O 0
 ) O 0
 increased O 0
-body B-Trait 1
-measurement I-Trait 1
-traits I-Trait 1
+body B-Trait 0
+measurement I-Trait 0
+traits I-Trait 0
 in O 0
 Damani O 0
 goats O 0
@@ -9564,11 +9564,11 @@ for O 0
 litter B-Trait 1
 size I-Trait 1
 , O 0
-milk B-Trait 1
-production I-Trait 1
+milk B-Trait 0
+production I-Trait 0
 and O 0
-body B-Trait 1
-measurement I-Trait 1
+body B-Trait 0
+measurement I-Trait 0
 traits I-Trait 0
 in O 0
 Damani O 0
@@ -9591,9 +9591,9 @@ the O 0
 role O 0
 of O 0
 the O 0
-insulin-like O 1
+insulin-like O 0
 growth O 1
-factor O 1
+factor O 0
 system O 0
 in O 0
 a O 0
@@ -9608,11 +9608,11 @@ gallus O 0
 . O 0
 
 The O 0
-insulin-like O 1
+insulin-like O 0
 growth O 1
-factor O 1
+factor O 0
 ( O 0
-IGF O 1
+IGF O 0
 ) O 0
 system O 0
 plays O 0
@@ -9620,10 +9620,10 @@ an O 0
 indispensable O 0
 role O 0
 in O 0
-embryonic O 1
+embryonic O 0
 and O 0
-postnatal O 1
-development O 1
+postnatal O 0
+development O 0
 in O 0
 mammals O 0
 . O 0
@@ -9636,12 +9636,12 @@ of O 0
 the O 0
 system O 0
 on O 0
-growth B-Trait 1
+growth B-Trait 0
 , O 0
-carcass B-Trait 1
+carcass B-Trait 0
 , O 0
 and O 0
-egg-laying B-Trait 1
+egg-laying B-Trait 0
 traits I-Trait 0
 , O 0
 and O 0
@@ -9692,7 +9692,7 @@ genetic O 0
 variations O 0
 in O 0
 the O 0
-IGF O 1
+IGF O 0
 system O 0
 genes O 0
 on O 0
@@ -9732,11 +9732,11 @@ of O 0
 the O 0
 genes O 0
 in O 0
-egg B-Trait 1
-production I-Trait 1
-performance I-Trait 1
+egg B-Trait 0
+production I-Trait 0
+performance I-Trait 0
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 were O 0
 explored O 0
 by O 0
@@ -9749,16 +9749,16 @@ Moreover O 0
 the O 0
 effects O 0
 of O 0
-IGF-binding O 1
+IGF-binding O 0
 proteins O 0
 3 O 0
 ( O 0
 IGFBP3 O 0
 ) O 0
 on O 0
-skeletal B-Trait 1
-muscle I-Trait 1
-development I-Trait 1
+skeletal B-Trait 0
+muscle I-Trait 0
+development I-Trait 0
 in O 0
 chicken O 0
 were O 0
@@ -9891,9 +9891,9 @@ of O 0
 both O 0
 the O 0
 specialized O 0
-meat-type O 1
+meat-type O 0
 and O 0
-egg-type O 1
+egg-type O 0
 lines O 0
 , O 0
 whereas O 0
@@ -9908,7 +9908,7 @@ the O 0
 formation O 0
 of O 0
 the O 0
-egg-type O 1
+egg-type O 0
 lines O 0
 . O 0
 
@@ -9955,16 +9955,16 @@ weight I-Trait 1
 The O 0
 IGFBP3 O 0
 inhibited O 0
-proliferation B-Trait 1
+proliferation B-Trait 0
 but O 0
 promoted O 0
-differentiation B-Trait 1
+differentiation B-Trait 0
 of I-Trait 0
-chicken I-Trait 1
-primary I-Trait 1
-myoblasts I-Trait 1
+chicken I-Trait 0
+primary I-Trait 0
+myoblasts I-Trait 0
 ( O 0
-CPMs B-Trait 1
+CPMs B-Trait 0
 ) O 0
 . O 0
 
@@ -9994,11 +9994,11 @@ with O 0
 egg-laying B-Trait 1
 performance I-Trait 1
 , O 0
-growth B-Trait 1
+growth B-Trait 0
 , O 0
 and O 0
-carcass B-Trait 1
-traits I-Trait 1
+carcass B-Trait 0
+traits I-Trait 0
 could O 0
 be O 0
 used O 0
@@ -10006,10 +10006,10 @@ as O 0
 genetic O 0
 markers O 0
 for O 0
-breeding O 1
+breeding O 0
 selection O 0
 of O 0
-chickens O 1
+chickens O 0
 in O 0
 the O 0
 future O 0
@@ -10037,7 +10037,7 @@ BACKGROUNDS O 0
 : O 0
 Transforming O 0
 growth O 1
-factor-β O 1
+factor-β O 0
 ( O 0
 TGF-β O 0
 ) O 0
@@ -10067,10 +10067,10 @@ are O 0
 potent O 0
 regulators O 0
 of O 0
-cell B-Trait 1
-proliferation I-Trait 1
+cell B-Trait 0
+proliferation I-Trait 0
 and O 0
-differentiation B-Trait 1
+differentiation B-Trait 0
 in O 0
 many O 0
 organ O 0
@@ -10085,8 +10085,8 @@ in O 0
 multiple O 0
 aspects O 0
 of O 0
-follicle B-Trait 1
-development I-Trait 1
+follicle B-Trait 0
+development I-Trait 0
 . O 0
 
 OBJECTIVES O 0
@@ -10236,13 +10236,13 @@ was O 0
 significantly O 0
 higher O 0
 in O 0
-uterus O 1
+uterus O 0
 than O 0
 that O 0
 in O 0
-lung O 1
+lung O 0
 and O 0
-ovary O 1
+ovary O 0
 ( O 0
 p O 0
 < O 0
@@ -10435,7 +10435,7 @@ important O 0
 role O 0
 in O 0
 sheep O 0
-reproduction O 1
+reproduction O 0
 . O 0
 Identification O 0
 of O 0
@@ -10446,7 +10446,7 @@ for O 0
 thermogelled O 1
 egg O 1
 yolk O 1
-traits O 1
+traits O 0
 based O 0
 on O 0
 a O 0
@@ -10455,7 +10455,7 @@ association O 0
 study O 0
 . O 0
 
-Egg B-Trait 1
+Egg B-Trait 0
 yolk I-Trait 1
 texture I-Trait 1
 is O 0
@@ -10522,7 +10522,7 @@ study O 0
 was O 0
 to O 0
 find O 0
-significant O 0
+significant O 1
 single O 0
 nucleotide O 0
 polymorphism O 0
@@ -10568,7 +10568,7 @@ gumminess B-Trait 1
 chewiness B-Trait 1
 , O 0
 and O 0
-resilience B-Trait 1
+resilience B-Trait 0
 , O 0
 had O 0
 low O 0
@@ -10606,11 +10606,11 @@ may O 0
 control O 0
 the O 0
 hardness B-Trait 1
-of I-Trait 1
+of I-Trait 0
 the O 0
-thermogelled B-Trait 1
-egg I-Trait 1
-yolks I-Trait 1
+thermogelled B-Trait 0
+egg I-Trait 0
+yolks I-Trait 0
 . O 0
 
 In O 0
@@ -10620,7 +10620,7 @@ addition O 0
 SNPs O 0
 associated O 0
 with O 0
-cohesiveness B-Trait 0
+cohesiveness B-Trait 1
 were O 0
 identified O 0
 . O 0
@@ -10631,8 +10631,8 @@ on O 0
 GGA2 O 0
 participates O 0
 in O 0
-cholesterol O 1
-transport O 1
+cholesterol O 0
+transport O 0
 . O 0
 
 The O 0
@@ -10651,8 +10651,8 @@ the O 0
 concentrations B-Trait 0
 of I-Trait 0
 very I-Trait 0
-low-density I-Trait 1
-lipoprotein I-Trait 1
+low-density I-Trait 0
+lipoprotein I-Trait 0
 in I-Trait 0
 blood I-Trait 0
 . O 0
@@ -10661,7 +10661,7 @@ Eight O 0
 SNPs O 0
 associated O 0
 with O 0
-resilience B-Trait 0
+resilience B-Trait 1
 were O 0
 identified O 0
 , O 0
@@ -10695,25 +10695,25 @@ involved O 0
 in O 0
 proteasome-mediated O 0
 ubiquitin-dependent O 0
-protein O 1
-catabolic O 1
+protein O 0
+catabolic O 0
 process O 0
 , O 0
 negative O 0
 regulation O 0
-of O 1
-transport O 1
+of O 0
+transport O 0
 , O 0
-lipid O 1
-droplet O 1
-organization O 1
+lipid O 0
+droplet O 0
+organization O 0
 , O 0
 and O 0
 vehicle O 0
 docking O 0
 involved O 0
 in O 0
-exocytosis O 1
+exocytosis O 0
 , O 0
 were O 0
 found O 0
@@ -10722,7 +10722,7 @@ these O 0
 regions O 0
 . O 0
 
-Thermogel B-Trait 0
+Thermogel B-Trait 1
 egg I-Trait 1
 yolk I-Trait 1
 texture I-Trait 1
@@ -10753,9 +10753,9 @@ for O 0
 the O 0
 texture B-Trait 1
 of O 0
-thermogelled B-Trait 1
-egg I-Trait 1
-yolks I-Trait 1
+thermogelled B-Trait 0
+egg I-Trait 0
+yolks I-Trait 0
 . O 0
 
 We O 0
@@ -10899,7 +10899,7 @@ ARAP2 O 0
 was O 0
 prioritized O 0
 for O 0
-viability B-Trait 1
+viability B-Trait 0
 and O 0
 three O 0
 for O 0
@@ -10942,7 +10942,7 @@ mechanisms O 0
 ALAS1 O 0
 associated O 0
 with O 0
-goat O 1
+goat O 0
 kidding B-Trait 1
 number I-Trait 1
 trait O 0
@@ -10956,8 +10956,8 @@ ASCL2 O 0
 to O 0
 affect O 0
 granulosa B-Trait 1
-cell I-Trait 1
-proliferation I-Trait 1
+cell I-Trait 0
+proliferation I-Trait 0
 . O 0
 
 ALAS1 O 0
@@ -10974,24 +10974,24 @@ which O 0
 is O 0
 the O 0
 first O 0
-rate-limiting O 1
+rate-limiting O 0
 enzyme O 0
 for O 0
-heme O 1
-synthesis O 1
+heme O 0
+synthesis O 0
 and O 0
 is O 0
 important O 0
 for O 0
 maintaining O 0
-intracellular O 1
+intracellular O 0
 heme O 1
 levels O 1
 . O 0
 
 In O 0
 the O 0
-ovary O 1
+ovary O 0
 , O 0
 ALAS1 O 0
 is O 0
@@ -11000,18 +11000,18 @@ with O 0
 the O 0
 regulation O 0
 of O 0
-ovulation-related O 1
+ovulation-related O 0
 mitochondrial O 0
 P450 O 0
 cytochromes O 0
 , O 0
-steroid B-Trait 1
-metabolism I-Trait 1
+steroid B-Trait 0
+metabolism I-Trait 0
 , O 0
 and O 0
-steroid B-Trait 1
-hormone I-Trait 1
-production I-Trait 1
+steroid B-Trait 0
+hormone I-Trait 0
+production I-Trait 0
 . O 0
 
 However O 0
@@ -11026,8 +11026,8 @@ relationship O 0
 between O 0
 ALAS1 O 0
 and O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 in O 0
 goats O 0
 . O 0
@@ -11067,16 +11067,16 @@ kidding B-Trait 1
 number I-Trait 1
 of O 0
 Yunshang O 0
-black O 1
-goats O 1
+black O 0
+goats O 0
 . O 0
 
 Specifically O 0
 , O 0
 the O 0
-mean O 0
-kidding B-Trait 0
-number I-Trait 0
+mean O 1
+kidding B-Trait 1
+number I-Trait 1
 in O 0
 the O 0
 first O 0
@@ -11084,8 +11084,8 @@ three O 0
 litters O 0
 and O 0
 the O 0
-kidding B-Trait 0
-numbers I-Trait 0
+kidding B-Trait 1
+numbers I-Trait 1
 of O 0
 all O 0
 three O 0
@@ -11131,7 +11131,7 @@ of O 0
 ALAS1 O 0
 in O 0
 goat O 0
-ovarian O 1
+ovarian O 0
 tissues O 0
 with O 0
 different O 0
@@ -11211,7 +11211,7 @@ ASCL2 O 0
 . O 0
 
 The O 0
-luciferase O 0
+luciferase O 1
 activity O 0
 assay O 0
 indicated O 0
@@ -11239,7 +11239,7 @@ of O 0
 ALAS1 O 0
 in O 0
 goat O 0
-granulosa O 1
+granulosa O 0
 cells O 0
 ( O 0
 p O 0
@@ -11282,11 +11282,11 @@ factor O 0
 ASCL2 O 0
 increased O 0
 the O 0
-proliferation B-Trait 1
+proliferation B-Trait 0
 of I-Trait 0
-goat O 1
-granulosa B-Trait 1
-cells I-Trait 1
+goat O 0
+granulosa B-Trait 0
+cells I-Trait 0
 by O 0
 mediating O 0
 the O 0
@@ -11326,7 +11326,7 @@ goats O 0
 . O 0
 Polymorphism O 0
 of O 0
-prolactin O 1
+prolactin O 0
 ( O 0
 PRL O 0
 ) O 0
@@ -11345,27 +11345,27 @@ chickens O 0
 . O 0
 
 The O 0
-prolactin O 1
+prolactin O 0
 ( O 0
 PRL O 0
 ) O 0
 gene O 0
 regulates O 0
 the O 0
-egg B-Trait 1
-production I-Trait 1
+egg B-Trait 0
+production I-Trait 0
 and O 0
-incubation B-Trait 1
+incubation B-Trait 0
 in O 0
-laying O 1
-chickens O 1
+laying O 0
+chickens O 0
 . O 0
 
 Local O 0
 chickens O 0
 ' O 0
-reproductive O 1
-systems O 1
+reproductive O 0
+systems O 0
 will O 0
 disrupt O 0
 as O 0
@@ -11373,16 +11373,16 @@ a O 0
 result O 0
 of O 0
 the O 0
-incubation O 1
-period O 1
+incubation O 0
+period O 0
 activity O 0
 , O 0
 and O 0
 they O 0
 will O 0
-lay O 1
-fewer O 1
-eggs O 1
+lay O 0
+fewer O 0
+eggs O 0
 . O 0
 
 This O 0
@@ -11391,7 +11391,7 @@ aimed O 0
 to O 0
 determine O 0
 the O 0
-prolactin O 1
+prolactin O 0
 gene O 0
 polymorphism O 0
 in O 0
@@ -11411,7 +11411,7 @@ of O 0
 the O 0
 exon O 0
 5 O 0
-prolactin O 1
+prolactin O 0
 gene O 0
 was O 0
 examined O 0
@@ -11465,7 +11465,7 @@ PCR O 0
 product O 0
 with O 0
 a O 0
-size O 0
+size O 1
 of O 0
 557 O 0
 bp O 0
@@ -11538,7 +11538,7 @@ significantly O 0
 impacted O 0
 the O 0
 egg B-Trait 1
-production I-Trait 1
+production I-Trait 0
 of O 0
 IPB-D1 O 0
 chickens O 0
@@ -11568,7 +11568,7 @@ the O 0
 features O 0
 of O 0
 egg B-Trait 1
-production I-Trait 1
+production I-Trait 0
 in O 0
 IPB-D1 O 0
 chickens O 0
@@ -11595,8 +11595,8 @@ pig O 0
 is O 0
 an O 0
 indigenous O 0
-black O 1
-pig O 1
+black O 0
+pig O 0
 breed O 0
 being O 0
 cultivated O 0
@@ -11640,11 +11640,11 @@ color I-Trait 1
 records O 0
 ( O 0
 26 O 0
-white-nosed O 1
-pigs O 1
+white-nosed O 0
+pigs O 0
 vs. O 0
 50 O 0
-black-nosed O 1
+black-nosed O 0
 pigs O 0
 ) O 0
 by O 0
@@ -11665,7 +11665,7 @@ which O 0
 included O 0
 2 O 0
 genome-wide O 0
-significant O 0
+significant O 1
 SNPs O 0
 and O 0
 18 O 0
@@ -11720,7 +11720,7 @@ genome-wide O 0
 association O 0
 study O 0
 and O 0
-FST O 0
+FST O 1
 in O 0
 black- O 0
 and O 0
@@ -11767,7 +11767,7 @@ skin B-Trait 1
 color I-Trait 1
 and O 0
 related O 0
-traits O 1
+traits O 0
 selection O 0
 in O 0
 Yunong O 0
@@ -11802,8 +11802,8 @@ litter O 1
 size O 1
 in O 0
 large O 0
-white O 1
-pigs O 1
+white O 0
+pigs O 0
 . O 0
 
 NLR O 0
@@ -11818,7 +11818,7 @@ NLRP9 O 0
 is O 0
 a O 0
 mammalian O 0
-reproduction-related O 1
+reproduction-related O 0
 gene O 0
 . O 0
 
@@ -11856,7 +11856,7 @@ born I-Trait 1
 per I-Trait 1
 litter I-Trait 1
 ( O 0
-TNB B-Trait 0
+TNB B-Trait 1
 ) O 0
 and O 0
 the O 0
@@ -11865,16 +11865,16 @@ of I-Trait 1
 piglets I-Trait 1
 born I-Trait 1
 alive I-Trait 1
-per I-Trait 1
+per I-Trait 0
 litter I-Trait 1
 ( O 0
-NBA B-Trait 0
+NBA B-Trait 1
 ) O 0
 in O 0
 Canada O 0
-Large O 1
-White O 1
-pigs O 1
+Large O 0
+White O 0
+pigs O 0
 ( O 0
 CLW O 0
 ) O 0
@@ -11952,7 +11952,7 @@ genotype O 0
 had O 0
 the O 0
 largest O 0
-TNB B-Trait 0
+TNB B-Trait 1
 and O 0
 NBA B-Trait 0
 , O 0
@@ -11975,7 +11975,7 @@ This O 0
 difference O 0
 was O 0
 statistically O 0
-significant O 0
+significant O 1
 ( O 0
 p O 0
 < O 0
@@ -11999,14 +11999,14 @@ and O 0
 there O 0
 was O 0
 a O 0
-significant O 0
+significant O 1
 relationship O 0
 between O 0
 NLRP9 O 0
 polymorphism O 0
 and O 0
 the O 0
-average B-Trait 0
+average B-Trait 1
 daily I-Trait 1
 gain I-Trait 1
 ( O 0
@@ -12050,10 +12050,10 @@ improve O 0
 litter B-Trait 1
 size I-Trait 1
 in O 0
-pig O 1
-breeding O 1
+pig O 0
+breeding O 0
 and O 0
-production O 1
+production O 0
 . O 0
 Effects O 0
 of O 0
@@ -12069,40 +12069,40 @@ on O 0
 the O 0
 Fatty B-Trait 1
 Acid I-Trait 1
-Composition I-Trait 0
+Composition I-Trait 1
 of O 0
 the O 0
-Longissimus O 1
-Thoracis O 1
+Longissimus O 0
+Thoracis O 0
 Muscle O 0
 of O 0
 Grazing O 0
-Sonid O 1
+Sonid O 0
 Sheep O 0
 . O 0
 
 Fatty B-Trait 1
 acid I-Trait 1
 ( I-Trait 0
-FA I-Trait 0
+FA I-Trait 1
 ) I-Trait 0
-composition I-Trait 0
+composition I-Trait 1
 has O 0
 an O 0
 important O 0
 impact O 0
 on O 0
 the O 0
-nutrition O 1
+nutrition O 0
 and O 0
-flavor B-Trait 1
-of I-Trait 1
-meat I-Trait 1
+flavor B-Trait 0
+of I-Trait 0
+meat I-Trait 0
 , O 0
 and O 0
 on O 0
-consumer O 1
-health O 1
+consumer O 0
+health O 0
 , O 0
 and O 0
 is O 0
@@ -12111,7 +12111,7 @@ more O 0
 attention O 0
 in O 0
 the O 0
-sheep O 1
+sheep O 0
 industry O 0
 . O 0
 
@@ -12136,12 +12136,12 @@ FA B-Trait 1
 composition I-Trait 1
 in O 0
 the O 0
-longissimus O 1
-thoracis O 1
+longissimus O 0
+thoracis O 0
 ( O 0
 LL O 0
 ) O 0
-muscle O 1
+muscle O 0
 , O 0
 to O 0
 identify O 0
@@ -12162,7 +12162,7 @@ composition I-Trait 1
 in O 0
 grazing O 0
 Sonid O 0
-lambs O 1
+lambs O 0
 . O 0
 
 The O 0
@@ -12179,8 +12179,8 @@ are O 0
 correlated O 0
 with O 0
 better O 0
-FA B-Trait 0
-compositions I-Trait 0
+FA B-Trait 1
+compositions I-Trait 1
 and O 0
 classes O 0
 in O 0
@@ -12259,7 +12259,7 @@ predicted O 0
 to O 0
 influence O 0
 the O 0
-Calpain_inhib O 1
+Calpain_inhib O 0
 domains O 0
 of O 0
 CAST O 0
@@ -12288,16 +12288,16 @@ and O 0
 meat B-Trait 1
 quality I-Trait 1
 of O 0
-grazing O 1
-Sonid O 1
-lamb O 1
-muscle O 1
+grazing O 0
+Sonid O 0
+lamb O 0
+muscle O 0
 and O 0
 provide O 0
 new O 0
 insights O 0
 into O 0
-sheep O 1
+sheep O 0
 meat B-Trait 1
 quality I-Trait 1
 traits I-Trait 0
@@ -12331,8 +12331,8 @@ strategies O 0
 to O 0
 genetically O 0
 improve O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 , O 0
 despite O 0
 their O 0
@@ -12365,7 +12365,7 @@ with O 0
 fecundity B-Trait 1
 through O 0
 the O 0
-fixation O 1
+fixation O 0
 index O 0
 ( O 0
 FST O 0
@@ -12385,9 +12385,9 @@ Katahdin O 0
 ewes O 0
 . O 0
 
-Productive O 1
+Productive O 0
 and O 0
-reproductive O 1
+reproductive O 0
 records O 0
 from O 0
 three O 0
@@ -12420,7 +12420,7 @@ genetic O 0
 comparison O 0
 : O 0
 with O 0
-high O 1
+high O 0
 fecundity B-Trait 1
 ( O 0
 1.3 O 0
@@ -12429,7 +12429,7 @@ fecundity B-Trait 1
 ) O 0
 and O 0
 with O 0
-low O 1
+low O 0
 fecundity B-Trait 1
 ( O 0
 1.1 O 0
@@ -12503,8 +12503,8 @@ ARHGAP22 O 0
 ( O 0
 cow O 0
 and O 0
-buffalo O 1
-cow O 1
+buffalo O 0
+cow O 0
 ) O 0
 , O 0
 GHITM O 0
@@ -12545,7 +12545,7 @@ a O 0
 high O 0
 expression O 0
 in O 0
-reproduction O 1
+reproduction O 0
 . O 0
 
 Therefore O 0
@@ -12564,8 +12564,8 @@ of O 0
 changes O 0
 in O 0
 the O 0
-reproductive O 1
-behavior O 1
+reproductive O 0
+behavior O 0
 influenced O 0
 by O 0
 these O 0
@@ -12602,17 +12602,17 @@ MD O 0
 ) O 0
 has O 0
 a O 0
-significant O 0
+significant O 1
 impact O 0
 on O 0
 both O 0
 the O 0
 global O 0
-poultry O 1
-economy O 1
+poultry O 0
+economy O 0
 and O 0
-animal O 1
-welfare O 1
+animal O 0
+welfare O 0
 . O 0
 
 The O 0
@@ -12620,11 +12620,11 @@ disease O 0
 pathology O 0
 can O 0
 include O 0
-neurological O 1
-damage O 1
+neurological O 0
+damage O 0
 and O 0
-tumour O 1
-formation O 1
+tumour O 0
+formation O 0
 . O 0
 
 Sexual O 0
@@ -12694,7 +12694,7 @@ mapped O 0
 MD O 0
 QTLRs O 0
 on O 0
-GGZ O 0
+GGZ O 1
 in O 0
 the O 0
 previously O 0
@@ -12712,16 +12712,16 @@ in O 0
 eight O 0
 elite O 0
 commercial O 0
-egg B-Trait 1
-production I-Trait 1
+egg B-Trait 0
+production I-Trait 0
 lines O 0
 with O 0
 daughter-tested O 0
 sires O 0
 and O 0
 selective O 0
-DNA O 1
-pooling O 1
+DNA O 0
+pooling O 0
 ( O 0
 SDP O 0
 ) O 0
@@ -12787,8 +12787,8 @@ exemplify O 0
 the O 0
 complexity O 0
 of O 0
-MD B-Trait 0
-resistance I-Trait 0
+MD B-Trait 1
+resistance I-Trait 1
 in O 0
 chickens O 0
 and O 0
@@ -12837,7 +12837,7 @@ must O 0
 look O 0
 beyond O 0
 the O 0
-non-significant O 0
+non-significant O 1
 markers O 0
 , O 0
 for O 0
@@ -12851,7 +12851,7 @@ high O 0
 LD O 0
 with O 0
 the O 0
-significant O 0
+significant O 1
 block O 0
 . O 0
 
@@ -12866,7 +12866,7 @@ least O 0
 part O 0
 of O 0
 the O 0
-gender O 1
+gender O 0
 differences O 0
 in O 0
 MD B-Trait 1
@@ -12890,7 +12890,7 @@ and O 0
 MSMB O 0
 Polymorphisms O 0
 and O 0
-Growth O 1
+growth O 1
 Traits O 0
 of O 0
 Xiangsu O 0
@@ -12904,8 +12904,8 @@ study O 0
 , O 0
 Xiangsu O 0
 hybrid O 0
-pig O 1
-growth B-Trait 1
+pig O 0
+growth B-Trait 0
 traits I-Trait 0
 were O 0
 evaluated O 0
@@ -13141,8 +13141,8 @@ marker-assisted O 0
 selection O 0
 to O 0
 improve O 0
-growth B-Trait 1
-related I-Trait 1
+growth B-Trait 0
+related I-Trait 0
 traits I-Trait 0
 in O 0
 Xiangsu O 0
@@ -13170,8 +13170,8 @@ Associated O 0
 with O 0
 Resistance O 0
 to O 0
-Piscirickettsia O 1
-salmonis O 1
+Piscirickettsia O 0
+salmonis O 0
 in O 0
 Rainbow O 0
 Trout O 0
@@ -13243,9 +13243,9 @@ salmonis O 0
 , O 0
 which O 0
 affects O 0
-farmed O 1
-rainbow O 1
-trout O 1
+farmed O 0
+rainbow O 0
+trout O 0
 , O 0
 Oncorhynchus O 0
 mykiss O 0
@@ -13341,7 +13341,7 @@ control O 0
 GWAS O 0
 revealed O 0
 genome-wide O 0
-significant O 0
+significant O 1
 quantitative O 0
 trait O 0
 loci O 0
@@ -13367,7 +13367,7 @@ in O 0
 Omy26 O 0
 for O 0
 binary B-Trait 1
-survival I-Trait 1
+survival I-Trait 0
 . O 0
 
 Twenty-four O 0
@@ -13379,8 +13379,8 @@ genes O 0
 associated O 0
 with O 0
 P. B-Trait 0
-salmonis I-Trait 0
-resistance I-Trait 0
+salmonis I-Trait 1
+resistance I-Trait 1
 were O 0
 identified O 0
 , O 0
@@ -13389,22 +13389,22 @@ were O 0
 mainly O 0
 related O 0
 to O 0
-phagocytosis O 1
+phagocytosis O 0
 , O 0
 innate O 0
-immune O 1
-response O 1
+immune O 0
+response O 0
 , O 0
-inflammation O 1
+inflammation O 0
 , O 0
-oxidative O 1
-response O 1
+oxidative O 0
+response O 0
 , O 0
-lipid O 1
-metabolism O 1
+lipid O 0
+metabolism O 0
 and O 0
-apoptotic O 1
-process O 1
+apoptotic O 0
+process O 0
 . O 0
 
 Our O 0
@@ -13422,27 +13422,27 @@ associated O 0
 with O 0
 resistance B-Trait 0
 to I-Trait 0
-intracellular I-Trait 1
-bacterial I-Trait 1
-infection I-Trait 1
+intracellular I-Trait 0
+bacterial I-Trait 0
+infection I-Trait 0
 in O 0
-rainbow O 1
-trout O 1
+rainbow O 0
+trout O 0
 . O 0
 Genomic O 0
 Regions O 0
 Associated O 0
 with O 0
-Wool O 1
+Wool O 0
 , O 0
-Growth O 1
+growth O 1
 and O 0
-Reproduction O 1
-Traits O 1
+Reproduction O 0
+Traits O 0
 in O 0
 Uruguayan O 0
 Merino O 0
-Sheep O 1
+Sheep O 0
 . O 0
 
 The O 0
@@ -13463,7 +13463,7 @@ the O 0
 fiber B-Trait 1
 diameter I-Trait 1
 ( O 0
-FD B-Trait 0
+FD B-Trait 1
 ) O 0
 , O 0
 clean B-Trait 1
@@ -13499,8 +13499,8 @@ LP B-Trait 0
 ) O 0
 of O 0
 Uruguayan O 0
-Merino O 1
-sheep O 1
+Merino O 0
+sheep O 0
 . O 0
 
 Phenotypic O 0
@@ -13570,9 +13570,9 @@ and O 0
 9.06 O 0
 % O 0
 for O 0
-FD B-Trait 0
+FD B-Trait 1
 and O 0
-CFW B-Trait 0
+CFW B-Trait 1
 , O 0
 respectively O 0
 . O 0
@@ -13584,7 +13584,7 @@ windows O 0
 significantly O 0
 associated O 0
 with O 0
-LWM B-Trait 0
+LWM B-Trait 1
 , O 0
 which O 0
 collectively O 0
@@ -13599,7 +13599,7 @@ variance O 0
 . O 0
 
 For O 0
-BCS B-Trait 0
+BCS B-Trait 1
 , O 0
 22 O 0
 relevant O 0
@@ -13619,7 +13619,7 @@ variance O 0
 whereas O 0
 for O 0
 the O 0
-reproduction B-Trait 1
+reproduction B-Trait 0
 traits I-Trait 0
 , O 0
 53 O 0
@@ -13645,7 +13645,7 @@ of O 0
 % O 0
 of O 0
 the O 0
-PVE O 0
+PVE O 1
 . O 0
 
 Within O 0
@@ -13706,7 +13706,7 @@ SIRPA O 0
 CPXM1 O 0
 ) O 0
 or O 0
-reproduction B-Trait 1
+reproduction B-Trait 0
 traits I-Trait 0
 ( O 0
 e.g. O 0
@@ -13734,9 +13734,9 @@ gene O 0
 ST3GAL4 O 0
 related O 0
 to O 0
-serum B-Trait 1
-alkaline I-Trait 1
-phosphatase I-Trait 1
+serum B-Trait 0
+alkaline I-Trait 0
+phosphatase I-Trait 0
 in O 0
 chicken O 0
 . O 0
@@ -13750,15 +13750,15 @@ is O 0
 a O 0
 marker O 0
 of O 0
-osteoblast B-Trait 1
+osteoblast B-Trait 0
 maturation I-Trait 1
 and O 0
 an O 0
 important O 0
 indicator O 0
 of O 0
-bone B-Trait 1
-metabolism I-Trait 1
+bone B-Trait 0
+metabolism I-Trait 0
 . O 0
 
 The O 0
@@ -13768,10 +13768,10 @@ ALP O 0
 can O 0
 reflect O 0
 the O 0
-bone B-Trait 1
-metabolism I-Trait 1
+bone B-Trait 0
+metabolism I-Trait 0
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 of O 0
 animals O 0
@@ -13870,15 +13870,15 @@ of O 0
 different O 0
 genotypes O 0
 in O 0
-Hubbard O 1
-leg O 1
-disease O 1
+Hubbard O 0
+leg O 0
+disease O 0
 population O 0
 and O 0
 an O 0
-F2 O 1
-chicken O 1
-resource O 1
+F2 O 0
+chicken O 0
+resource O 0
 population O 0
 produced O 0
 by O 0
@@ -13894,7 +13894,7 @@ genetic O 0
 analysis O 0
 in O 0
 18 O 0
-chicken O 1
+chicken O 0
 breeds O 0
 . O 0
 
@@ -13910,8 +13910,8 @@ was O 0
 highly O 0
 correlated O 0
 with O 0
-ALP B-Trait 0
-level I-Trait 0
+ALP B-Trait 1
+level I-Trait 1
 . O 0
 
 The O 0
@@ -13956,7 +13956,7 @@ BW O 1
 chest B-Trait 1
 width I-Trait 1
 ( O 0
-CW O 1
+CW O 0
 ) O 0
 , O 0
 body B-Trait 1
@@ -13969,12 +13969,12 @@ BSL O 1
 pelvis B-Trait 1
 width I-Trait 1
 ( O 0
-PW O 1
+PW O 0
 ) O 0
 at O 0
 4-week O 0
 , O 0
-the O 0
+the O 1
 semi-evisceration B-Trait 1
 weight I-Trait 1
 ( O 0
@@ -13990,7 +13990,7 @@ and O 0
 Leg B-Trait 1
 weight I-Trait 1
 ( O 0
-LW O 1
+LW O 0
 ) O 0
 than O 0
 GG O 0
@@ -14030,9 +14030,9 @@ mainly O 0
 distributed O 0
 in O 0
 commercial O 0
-broilers O 1
+broilers O 0
 and O 0
-F2 O 1
+F2 O 0
 resource O 1
 population O 0
 . O 0
@@ -14052,7 +14052,7 @@ and O 0
 showed O 0
 better O 0
 growth O 1
-performance O 0
+performance O 1
 . O 0
 
 Besides O 0
@@ -14064,16 +14064,16 @@ used O 0
 Cobb O 0
 broiler O 0
 showed O 0
-significant O 0
+significant O 1
 differences O 0
 between O 0
 different O 0
 genotypes O 0
 in O 0
 the O 0
-spleen O 1
+spleen O 0
 and O 0
-duodenum O 1
+duodenum O 0
 . O 0
 
 Taken O 0
@@ -14092,7 +14092,7 @@ within O 0
 ST3GAL4 O 0
 related O 0
 to O 0
-ALP O 1
+ALP O 0
 in O 0
 chickens O 0
 , O 0
@@ -14123,7 +14123,7 @@ serum B-Trait 1
 ALP I-Trait 1
 level I-Trait 1
 of O 0
-chicken O 1
+chicken O 0
 early O 0
 and O 0
 as O 0
@@ -14155,8 +14155,8 @@ sheep O 0
 . O 0
 
 In O 0
-animal O 1
-husbandry O 1
+animal O 0
+husbandry O 0
 , O 0
 feed B-Trait 1
 efficiency I-Trait 1
@@ -14189,7 +14189,7 @@ feed B-Trait 1
 conversion I-Trait 1
 ratio I-Trait 1
 ( O 0
-FCR B-Trait 0
+FCR B-Trait 1
 ) O 0
 -related O 0
 traits O 0
@@ -14288,13 +14288,13 @@ with O 0
 body B-Trait 1
 weight I-Trait 1
 at O 0
-80 O 1
+80 O 0
 , O 0
 100 O 0
 , O 0
 and O 0
 120 O 0
-days O 1
+days O 0
 as O 0
 well O 0
 as O 0
@@ -14326,13 +14326,13 @@ daily I-Trait 1
 weight I-Trait 1
 gain I-Trait 1
 from O 0
-80-140 O 1
-days O 1
+80-140 O 0
+days O 0
 ( O 0
-ADG80-140 B-Trait 0
+ADG80-140 B-Trait 1
 ) O 0
 and O 0
-FCR B-Trait 0
+FCR B-Trait 1
 ( O 0
 P O 0
 < O 0
@@ -14360,15 +14360,15 @@ related O 0
 to O 0
 feed B-Trait 1
 efficiency I-Trait 1
-traits O 1
+traits O 0
 . O 0
 
 Furthermore O 0
 , O 0
 the O 0
-feed B-Trait 0
-conversion I-Trait 0
-ratio I-Trait 0
+feed B-Trait 1
+conversion I-Trait 1
+ratio I-Trait 1
 of O 0
 the O 0
 combined O 0
@@ -14397,7 +14397,7 @@ significantly O 0
 better O 0
 than O 0
 the O 0
-FCR B-Trait 0
+FCR B-Trait 1
 of O 0
 CC O 0
 SHISA3-TT O 0
@@ -14424,7 +14424,7 @@ spleen O 0
 , O 0
 kidney O 0
 , O 0
-muscle O 1
+muscle O 0
 and O 0
 lymph O 0
 ( O 0
@@ -14441,7 +14441,7 @@ lung O 0
 had O 0
 a O 0
 highly O 0
-significant O 0
+significant O 1
 higher O 0
 expression O 0
 level O 0
@@ -14449,9 +14449,9 @@ than O 0
 the O 0
 heart O 0
 , O 0
-liver O 1
+liver O 0
 , O 0
-spleen O 1
+spleen O 0
 , O 0
 and O 0
 muscle O 0
@@ -14503,7 +14503,7 @@ yield O 1
 in O 0
 Indian O 0
 crossbred O 0
-cows O 1
+cows O 0
 . O 0
 
 Introduction O 0
@@ -14520,7 +14520,7 @@ production O 0
 of O 0
 B. O 0
 taurus O 0
-dairy O 1
+dairy O 0
 breeds O 0
 and O 0
 the O 0
@@ -14540,8 +14540,8 @@ environments O 0
 and O 0
 selection O 0
 in O 0
-milk O 1
-production O 1
+milk O 0
+production O 0
 have O 0
 shaped O 0
 the O 0
@@ -14570,7 +14570,7 @@ milk B-Trait 1
 yield I-Trait 1
 of O 0
 crossbred O 0
-cows O 1
+cows O 0
 , O 0
 quantitative O 0
 trait O 0
@@ -14607,7 +14607,7 @@ total O 0
 of O 0
 123,042 O 0
 test-day B-Trait 0
-milk I-Trait 1
+milk I-Trait 0
 records O 0
 for O 0
 4,968 O 0
@@ -14627,7 +14627,7 @@ were O 0
 used O 0
 . O 0
 
-Breed O 1
+Breed O 0
 origins O 0
 were O 0
 assigned O 0
@@ -14635,7 +14635,7 @@ to O 0
 haplotypes O 0
 of O 0
 crossbred O 0
-cows O 1
+cows O 0
 , O 0
 and O 0
 from O 0
@@ -14669,7 +14669,7 @@ of O 0
 genomic O 0
 regions O 0
 showed O 0
-significant O 0
+significant O 1
 effects O 0
 of O 0
 B. O 0
@@ -14692,7 +14692,7 @@ ancestors O 0
 . O 0
 
 No O 0
-significant O 0
+significant O 1
 regions O 0
 were O 0
 detected O 0
@@ -14733,7 +14733,7 @@ detected O 0
 
 The O 0
 most O 0
-significant O 0
+significant O 1
 effects O 0
 , O 0
 at O 0
@@ -14755,7 +14755,7 @@ Mbp O 0
 that O 0
 differentiates O 0
 B. O 0
-indicus O 1
+indicus O 0
 from O 0
 B. O 0
 taurus O 0
@@ -14771,14 +14771,14 @@ approximately O 0
 10 O 0
 % O 0
 of O 0
-average B-Trait 0
+average B-Trait 1
 yield I-Trait 1
 , O 0
 in O 0
 favour O 0
 of O 0
 B. O 0
-indicus O 1
+indicus O 0
 origin O 0
 . O 0
 
@@ -14796,7 +14796,7 @@ indicus O 0
 and O 0
 B. O 0
 taurus O 0
-cattle O 1
+cattle O 0
 for O 0
 milk B-Trait 1
 yield I-Trait 1
@@ -14805,7 +14805,7 @@ as O 0
 expressed O 0
 in O 0
 crossbred O 0
-cows O 1
+cows O 0
 , O 0
 occur O 0
 at O 0
@@ -14861,15 +14861,15 @@ with O 0
 skin O 1
 yellowness O 1
 in O 0
-yellow O 1
-chickens O 1
+yellow O 0
+chickens O 0
 . O 0
 
 The O 0
 yellow B-Trait 1
 color I-Trait 1
-of I-Trait 1
-the I-Trait 1
+of I-Trait 0
+the I-Trait 0
 skin I-Trait 1
 is O 0
 an O 0
@@ -14877,8 +14877,8 @@ important O 0
 economic O 0
 trait O 0
 for O 0
-yellow O 1
-chickens O 1
+yellow O 0
+chickens O 0
 . O 0
 
 Low O 0
@@ -14888,8 +14888,8 @@ skin B-Trait 1
 yellowness I-Trait 1
 would O 0
 reduce O 0
-economic O 1
-efficiency O 1
+economic O 0
+efficiency O 0
 . O 0
 
 However O 0
@@ -14898,7 +14898,7 @@ the O 0
 regulatory O 0
 mechanism O 0
 of O 0
-chicken B-Trait 1
+chicken B-Trait 0
 skin I-Trait 1
 yellowness I-Trait 1
 has O 0
@@ -14941,7 +14941,7 @@ of O 0
 pure O 0
 lines O 0
 with O 0
-significant O 0
+significant O 1
 differences O 0
 in O 0
 skin B-Trait 1
@@ -15021,7 +15021,7 @@ its O 0
 different O 0
 genotypes O 0
 had O 0
-significant O 0
+significant O 1
 effects O 0
 on O 0
 the O 0
@@ -15044,7 +15044,7 @@ the O 0
 molecular O 0
 mechanism O 0
 of O 0
-chicken O 1
+chicken O 0
 skin B-Trait 1
 yellowness I-Trait 1
 and O 0
@@ -15052,7 +15052,7 @@ is O 0
 helpful O 0
 for O 0
 improving O 0
-chicken O 1
+chicken O 0
 skin B-Trait 1
 yellowness I-Trait 1
 . O 0
@@ -15103,7 +15103,7 @@ stillbirth B-Trait 1
 in O 0
 Holstein O 0
 Friesian O 0
-cattle O 1
+cattle O 0
 and O 0
 its O 0
 cross O 0
@@ -15390,7 +15390,7 @@ its O 0
 association O 0
 with O 0
 growth O 1
-traits O 1
+traits O 0
 . O 0
 
 OBJECTIVE O 0
@@ -15405,8 +15405,8 @@ genetic O 0
 resources O 0
 of O 0
 Ongole O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 globally O 0
 , O 0
 the O 0
@@ -15434,8 +15434,8 @@ and O 0
 its O 0
 association O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 . O 0
 
 MATERIALS O 0
@@ -15474,8 +15474,8 @@ and O 0
 finally O 0
 , O 0
 the O 0
-annealing O 0
-temperature O 0
+annealing O 1
+temperature O 1
 was O 0
 optimized O 0
 , O 0
@@ -15599,11 +15599,11 @@ and O 0
 its O 0
 correlation O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
-SO O 1
-cattle O 1
+SO O 0
+cattle O 0
 may O 0
 be O 0
 employed O 0
@@ -15612,12 +15612,12 @@ a O 0
 candidate O 0
 marker O 0
 in O 0
-SO O 1
-cattle O 1
+SO O 0
+cattle O 0
 and O 0
 other O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 breeds O 0
 . O 0
 Efficiency O 0
@@ -15635,10 +15635,10 @@ insights O 0
 into O 0
 fat O 1
 tail O 1
-selection O 1
+selection O 0
 in O 0
 Tunisian O 0
-sheep O 1
+sheep O 0
 . O 0
 
 In O 0
@@ -15659,14 +15659,14 @@ for O 0
 genetic O 0
 characterization O 0
 of O 0
-local O 1
-animal O 1
-resources O 1
+local O 0
+animal O 0
+resources O 0
 and O 0
 better O 0
 development O 0
 of O 0
-conservation O 1
+conservation O 0
 strategies O 0
 . O 0
 
@@ -15782,7 +15782,7 @@ reflecting O 0
 the O 0
 current O 0
 adopted O 0
-reproductive O 1
+reproductive O 0
 strategies O 0
 . O 0
 
@@ -15791,13 +15791,13 @@ genome-wide O 0
 association O 0
 study O 0
 contrasting O 0
-fat B-Trait 1
+fat B-Trait 0
 vs. O 0
-thin-tailed B-Trait 1
+thin-tailed B-Trait 0
 breeds O 0
 detected O 0
 41 O 0
-significant O 0
+significant O 1
 variants O 0
 including O 0
 a O 0
@@ -15858,7 +15858,7 @@ selection O 0
 pressure O 0
 in O 0
 local O 0
-sheep O 1
+sheep O 0
 breeds O 0
 . O 0
 
@@ -15879,11 +15879,11 @@ and O 0
 understand O 0
 insights O 0
 into O 0
-sheep O 1
+sheep O 0
 adaptation O 0
 to O 0
-arid O 1
-area O 1
+arid O 0
+area O 0
 . O 0
 
 GBS O 0
@@ -15935,13 +15935,13 @@ that O 0
 influences O 0
 consumers O 0
 ' O 0
-purchase O 1
-decisions O 1
+purchase O 0
+decisions O 0
 at O 0
 the O 0
-point O 1
-of O 1
-sale O 1
+point O 0
+of O 0
+sale O 0
 . O 0
 
 To O 0
@@ -15952,7 +15952,7 @@ basis O 0
 of O 0
 meat B-Trait 1
 color I-Trait 1
-traits I-Trait 1
+traits I-Trait 0
 , O 0
 we O 0
 performed O 0
@@ -16131,7 +16131,7 @@ In O 0
 total O 0
 , O 0
 3884 O 0
-significant O 0
+significant O 1
 SNPs O 0
 and O 0
 15 O 0
@@ -16206,7 +16206,7 @@ basis O 0
 of O 0
 meat B-Trait 1
 color I-Trait 1
-traits O 1
+traits O 0
 , O 0
 and O 0
 provides O 0
@@ -16221,7 +16221,7 @@ breeding O 0
 of O 0
 meat B-Trait 1
 color I-Trait 1
-traits O 1
+traits O 0
 in O 0
 pigs O 0
 . O 0
@@ -16264,7 +16264,7 @@ plays O 0
 a O 0
 role O 0
 in O 0
-immunity O 1
+immunity O 0
 and O 0
 growth O 1
 , O 0
@@ -16451,11 +16451,11 @@ Hap1 O 0
 AC O 0
 had O 0
 higher O 0
-28-day B-Trait 1
+28-day B-Trait 0
 body I-Trait 1
 weight I-Trait 1
 , O 0
-35-day B-Trait 1
+35-day B-Trait 0
 body I-Trait 1
 weight I-Trait 1
 , O 0
@@ -16480,7 +16480,7 @@ P O 0
 . O 0
 
 Further O 0
-luciferase O 0
+luciferase O 1
 activity O 0
 assay O 0
 demonstrated O 0
@@ -16518,7 +16518,7 @@ that O 0
 STAT5A O 0
 positively O 0
 regulated O 0
-porcine O 1
+porcine O 0
 CISH O 0
 transcription O 0
 , O 0
@@ -16535,8 +16535,8 @@ associated O 0
 with O 0
 the O 0
 Min O 0
-piglet O 1
-growth B-Trait 1
+piglet O 0
+growth B-Trait 0
 trait I-Trait 0
 . O 0
 A O 0
@@ -16553,13 +16553,13 @@ litter B-Trait 1
 size I-Trait 1
 in O 0
 Guizhou O 0
-white O 1
-goats O 1
+white O 0
+goats O 0
 . O 0
 
 Oxidized O 0
 low-density O 0
-lipoprotein O 1
+lipoprotein O 0
 receptor-1 O 0
 ( O 0
 OLR1 O 0
@@ -16567,7 +16567,7 @@ OLR1 O 0
 encodes O 0
 a O 0
 low-density O 0
-lipoprotein O 1
+lipoprotein O 0
 receptor O 0
 belonging O 0
 to O 0
@@ -16622,11 +16622,11 @@ expression O 0
 levels O 0
 in O 0
 the O 0
-gonadal O 1
+gonadal O 0
 axis O 0
 of O 0
 Guizhou O 0
-white O 1
+white O 0
 goats O 0
 were O 0
 evaluated O 0
@@ -16673,18 +16673,18 @@ uterus O 0
 of O 0
 mothers O 0
 with O 0
-multiple O 1
-kids O 1
+multiple O 0
+kids O 0
 and O 0
 highest O 0
 in O 0
 the O 0
-ovaries O 1
+ovaries O 0
 of O 0
 mothers O 0
 with O 0
-single O 1
-kids O 1
+single O 0
+kids O 0
 . O 0
 
 OLR1 O 0
@@ -16693,12 +16693,12 @@ expression O 0
 levels O 0
 in O 0
 the O 0
-ovaries O 1
+ovaries O 0
 of O 0
 mothers O 0
 with O 0
-single O 1
-kids O 1
+single O 0
+kids O 0
 were O 0
 two O 0
 times O 0
@@ -16706,12 +16706,12 @@ higher O 0
 than O 0
 in O 0
 the O 0
-ovaries O 1
+ovaries O 0
 of O 0
 mothers O 0
 with O 0
 multiple O 0
-kids O 1
+kids O 0
 . O 0
 
 The O 0
@@ -16853,7 +16853,7 @@ could O 0
 change O 0
 the O 0
 local O 0
-conformation O 0
+conformation O 1
 and O 0
 reduce O 0
 the O 0
@@ -16870,8 +16870,8 @@ litter B-Trait 1
 size I-Trait 1
 of O 0
 the O 0
-nanny O 1
-goat O 1
+nanny O 0
+goat O 0
 . O 0
 
 These O 0
@@ -16880,8 +16880,8 @@ confirm O 0
 that O 0
 OLR1 O 0
 affects O 0
-goat O 1
-kidding B-Trait 1
+goat O 0
+kidding B-Trait 0
 traits I-Trait 0
 and O 0
 provide O 0
@@ -16929,15 +16929,15 @@ many O 0
 important O 0
 roles O 0
 in O 0
-dairy O 1
-cattle O 1
+dairy O 0
+cattle O 0
 , O 0
 including O 0
-immunological O 1
-defense O 1
+immunological O 0
+defense O 0
 and O 0
-mechanical O 1
-protection O 1
+mechanical O 0
+protection O 0
 . O 0
 
 The O 0
@@ -16957,9 +16957,9 @@ subcutaneous B-Trait 1
 fat I-Trait 1
 deposition I-Trait 1
 in O 0
-high-producing O 1
-dairy O 1
-cows O 1
+high-producing O 0
+dairy O 0
+cows O 0
 by O 0
 integrating O 0
 genomic O 0
@@ -17124,17 +17124,17 @@ involved O 0
 in O 0
 metabolism O 0
 , O 0
-oxidative O 1
-phosphorylation O 1
+oxidative O 0
+phosphorylation O 0
 , O 0
-thermogenesis O 1
+thermogenesis O 0
 , O 0
-fatty O 1
-acid O 1
-degradation O 1
+fatty O 0
+acid O 0
+degradation O 0
 , O 0
 and O 0
-glycolysis/gluconeogenesis O 1
+glycolysis/gluconeogenesis O 0
 pathways O 0
 . O 0
 
@@ -17188,9 +17188,9 @@ underlying O 0
 fat B-Trait 1
 deposition I-Trait 1
 in O 0
-high-producing O 1
-dairy O 1
-cows O 1
+high-producing O 0
+dairy O 0
+cows O 0
 , O 0
 which O 0
 will O 0
@@ -17207,8 +17207,8 @@ A O 0
 SNP O 0
 in O 0
 the O 0
-ovine O 1
-cathepsin O 1
+ovine O 0
+cathepsin O 0
 K O 0
 ( O 0
 CTSK O 0
@@ -17223,7 +17223,7 @@ performance O 1
 in O 0
 a O 0
 crossbred O 0
-sheep O 1
+sheep O 0
 population O 0
 . O 0
 
@@ -17239,8 +17239,8 @@ protease O 0
 existent O 0
 in O 0
 the O 0
-skeletal O 1
-muscles O 1
+skeletal O 0
+muscles O 0
 which O 0
 is O 0
 involved O 0
@@ -17249,7 +17249,7 @@ biochemical O 0
 processes O 0
 related O 0
 to O 0
-obesity O 1
+obesity O 0
 . O 0
 
 Several O 0
@@ -17264,7 +17264,7 @@ gene O 0
 on O 0
 body B-Trait 1
 weight I-Trait 1
-and O 1
+and O 0
 fat B-Trait 1
 deposition I-Trait 1
 in O 0
@@ -17386,7 +17386,7 @@ gain I-Trait 1
 ADWG B-Trait 1
 ) O 0
 per B-Trait 0
-year I-Trait 1
+year I-Trait 0
 , O 0
 fat-tail B-Trait 1
 weight I-Trait 1
@@ -17408,10 +17408,10 @@ muscle B-Trait 1
 cross-sectional I-Trait 1
 area I-Trait 1
 ( O 0
-MCSA B-Trait 0
+MCSA B-Trait 1
 ) O 0
 of O 0
-animals O 1
+animals O 0
 ( O 0
 p O 0
 < O 0
@@ -17450,8 +17450,8 @@ CTSK O 0
 gene O 0
 effects O 0
 on O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 sheep O 0
 . O 0
@@ -17474,7 +17474,7 @@ in O 0
 goats O 0
 . O 0
 
-Litter B-Trait 1
+Litter B-Trait 0
 size I-Trait 1
 is O 0
 an O 0
@@ -17483,15 +17483,15 @@ economic O 0
 trait O 0
 in O 0
 the O 0
-goat O 1
-industry O 1
+goat O 0
+industry O 0
 . O 0
 
 Previous O 0
 studies O 0
 on O 0
 the O 0
-bone O 1
+bone O 0
 morphogenetic O 0
 protein O 0
 15 O 0
@@ -17693,7 +17693,7 @@ an O 0
 additive O 0
 model O 0
 ( O 0
-SMD O 0
+SMD O 1
 = O 0
 0.755 O 0
 , O 0
@@ -17724,7 +17724,7 @@ G O 0
 polymorphism O 0
 was O 0
 not O 0
-significant O 0
+significant O 1
 under O 0
 recessive O 0
 ( O 0
@@ -17819,8 +17819,8 @@ single O 0
 nucleotide O 0
 polymorphisms O 0
 in O 0
-heat O 1
-stress O 1
+heat O 0
+stress O 0
 protein O 0
 70 O 0
 ( O 0
@@ -17836,11 +17836,11 @@ the O 0
 susceptibility B-Trait 0
 of O 0
 Pakistani O 0
-sheep O 1
-breeds O 1
+sheep O 0
+breeds O 0
 to O 0
-hemoparasitic O 1
-infections O 1
+hemoparasitic O 0
+infections O 0
 . O 0
 
 The O 0
@@ -17912,9 +17912,9 @@ these O 0
 sheep O 0
 to B-Trait 0
 the I-Trait 0
-blood-borne I-Trait 1
-parasitic I-Trait 1
-infection I-Trait 1
+blood-borne I-Trait 0
+parasitic I-Trait 0
+infection I-Trait 0
 . O 0
 
 The O 0
@@ -17931,7 +17931,7 @@ T-ARMS-PCR O 0
 approach O 0
 revealed O 0
 a O 0
-significant O 0
+significant O 1
 variation O 0
 ( O 0
 p O 0
@@ -18074,9 +18074,9 @@ with O 0
 the O 0
 susceptibility B-Trait 0
 to I-Trait 0
-blood-borne I-Trait 1
-parasitic I-Trait 1
-infection I-Trait 1
+blood-borne I-Trait 0
+parasitic I-Trait 0
+infection I-Trait 0
 ( O 0
 p O 0
 > O 0
@@ -18111,8 +18111,8 @@ at O 0
 analyzed O 0
 SNPs O 0
 in O 0
-heat O 1
-stress O 1
+heat O 0
+stress O 0
 genes O 0
 . O 0
 
@@ -18156,13 +18156,13 @@ that O 0
 will O 0
 improve O 0
 the O 0
-profitability O 1
+profitability O 0
 and O 0
-sustainability O 1
-of O 1
-animal O 1
-production O 1
-systems O 1
+sustainability O 0
+of O 0
+animal O 0
+production O 0
+systems O 0
 in O 0
 Pakistan O 0
 . O 0
@@ -18180,11 +18180,11 @@ and O 0
 their O 0
 association O 0
 with O 0
-economic O 1
+economic O 0
 traits O 0
 in O 0
 several O 0
-goat O 1
+goat O 0
 breeds O 0
 . O 0
 
@@ -18208,14 +18208,14 @@ selected O 0
 individuals O 0
 of O 0
 Dazu-black O 0
-goat O 1
+goat O 0
 ( O 0
 DBG O 0
 ) O 0
 and O 0
 Inner-Mongolia O 0
-Cashmere O 1
-goat O 1
+Cashmere O 0
+goat O 0
 ( O 0
 IMCG O 0
 ) O 0
@@ -18287,7 +18287,7 @@ with O 0
 body B-Trait 1
 weight I-Trait 1
 and O 0
-dimensions B-Trait 1
+dimensions B-Trait 0
 ( O 0
 body B-Trait 1
 height I-Trait 1
@@ -18324,7 +18324,7 @@ studied O 0
 goat O 0
 breeds O 0
 ( O 0
-DBG O 0
+DBG O 1
 , O 0
 n O 0
 = O 0
@@ -18335,7 +18335,7 @@ n O 0
 ♀104 O 0
 ) O 0
 , O 0
-IMCG O 0
+IMCG O 1
 ( O 0
 n O 0
 = O 0
@@ -18348,8 +18348,8 @@ n O 0
 , O 0
 and O 0
 Hechuan O 0
-white O 1
-goat O 1
+white O 0
+goat O 0
 ( O 0
 HWG O 0
 , O 0
@@ -18380,9 +18380,9 @@ the O 0
 whole O 0
 genome O 0
 of O 0
-DBG O 0
+DBG O 1
 and O 0
-IMCG O 0
+IMCG O 1
 breeds O 0
 . O 0
 
@@ -18402,9 +18402,9 @@ of O 0
 and O 0
 55,527 O 0
 for O 0
-IMCG O 0
+IMCG O 1
 and O 0
-DBG O 0
+DBG O 1
 , O 0
 respectively O 0
 , O 0
@@ -18422,9 +18422,9 @@ of O 0
 and O 0
 16,103 O 0
 for O 0
-IMCG O 0
+IMCG O 1
 and O 0
-DBG O 0
+DBG O 1
 , O 0
 respectively O 0
 . O 0
@@ -18459,9 +18459,9 @@ of O 0
 Indels O 0
 mutations O 0
 in O 0
-IMCG O 0
+IMCG O 1
 and O 0
-DBG O 0
+DBG O 1
 , O 0
 respectively O 0
 . O 0
@@ -18474,7 +18474,7 @@ Indels O 0
 between O 0
 the O 0
 studied O 0
-goat O 1
+goat O 0
 breeds O 0
 revealed O 0
 100 O 0
@@ -18514,9 +18514,9 @@ and O 0
 candidate O 0
 genes O 0
 in O 0
-IMCG O 0
+IMCG O 1
 and O 0
-DBG O 0
+DBG O 1
 , O 0
 respectively O 0
 , O 0
@@ -18543,7 +18543,7 @@ of O 0
 Del/Del O 0
 genotype O 0
 in O 0
-DBG O 0
+DBG O 1
 were O 0
 significantly O 0
 higher O 0
@@ -18565,7 +18565,7 @@ and O 0
 body B-Trait 1
 length I-Trait 1
 of O 0
-Del/Del O 1
+Del/Del O 0
 genotype O 0
 in O 0
 IMCG O 0
@@ -18593,10 +18593,10 @@ and O 0
 heart B-Trait 1
 girth I-Trait 1
 of O 0
-Del/Del O 1
+Del/Del O 0
 genotype O 0
 in O 0
-HWG O 0
+HWG O 1
 were O 0
 significantly O 0
 higher O 0
@@ -18649,7 +18649,7 @@ Candidate O 0
 Genes O 0
 Associated O 0
 with O 0
-Unilateral O 1
+Unilateral O 0
 Cryptorchidism O 1
 in O 0
 Pigs O 0
@@ -18657,7 +18657,7 @@ Pigs O 0
 
 INTRODUCTION O 0
 : O 0
-Cryptorchidism B-Trait 0
+Cryptorchidism B-Trait 1
 is O 0
 a O 0
 hereditary O 0
@@ -18671,10 +18671,10 @@ of O 0
 one O 0
 or O 0
 both O 0
-testicles O 1
-to O 1
-the O 1
-scrotum O 1
+testicles O 0
+to O 0
+the O 0
+scrotum O 0
 . O 0
 
 One O 0
@@ -18688,10 +18688,10 @@ is O 0
 that O 0
 the O 0
 retained O 0
-testicle O 1
+testicle O 0
 maintains O 0
 its O 0
-endocrine O 1
+endocrine O 0
 function O 0
 . O 0
 
@@ -18702,20 +18702,20 @@ consequence O 0
 cryptorchid O 0
 animals O 0
 produce O 0
-hormone-tainted O 1
-meat O 1
+hormone-tainted O 0
+meat O 0
 in O 0
 comparison O 0
 to O 0
-castrated O 1
-animals O 1
+castrated O 0
+animals O 0
 and O 0
 are O 0
 likely O 0
 to O 0
 be O 0
 more O 0
-aggressive O 1
+aggressive O 0
 . O 0
 
 Cryptorchidism B-Trait 0
@@ -18723,12 +18723,12 @@ can O 0
 lead O 0
 to O 0
 reduced O 0
-animal O 1
-welfare O 1
-outcomes O 1
+animal O 0
+welfare O 0
+outcomes O 0
 and O 0
 cause O 0
-economic O 1
+economic O 0
 losses O 0
 . O 0
 
@@ -18971,7 +18971,7 @@ have O 0
 identified O 0
 the O 0
 following O 0
-significant O 0
+significant O 1
 adjusted O 0
 p O 0
 value O 0
@@ -18985,16 +18985,16 @@ biological O 0
 function O 0
 pathways O 0
 of O 0
-estrogen O 1
-signaling O 1
+estrogen O 0
+signaling O 0
 , O 0
-cytoskeleton O 1
+cytoskeleton O 0
 organization O 0
 , O 0
 and O 0
 the O 0
-pentose O 1
-phosphate O 1
+pentose O 0
+phosphate O 0
 pathway O 0
 . O 0
 
@@ -19068,7 +19068,7 @@ are O 0
 showing O 0
 that O 0
 the O 0
-estrogen O 1
+estrogen O 0
 signaling O 0
 pathway O 0
 may O 0
@@ -19107,21 +19107,21 @@ body O 1
 weight O 1
 in O 0
 rainbow O 0
-trout O 1
+trout O 0
 using O 0
 a O 0
 multi-trait O 0
 model O 0
 and O 0
 multi-generation O 0
-progeny O 1
+progeny O 0
 testing O 0
 . O 0
 
 BACKGROUND O 0
 : O 0
 In O 0
-aquaculture O 1
+aquaculture O 0
 , O 0
 the O 0
 proportion B-Trait 1
@@ -19129,7 +19129,7 @@ of I-Trait 1
 edible I-Trait 1
 meat I-Trait 1
 ( O 0
-FY B-Trait 0
+FY B-Trait 1
 = O 0
 fillet B-Trait 1
 yield I-Trait 1
@@ -19152,9 +19152,9 @@ this O 0
 trait O 0
 can O 0
 improve O 0
-efficiency O 1
+efficiency O 0
 and O 0
-profitability O 1
+profitability O 0
 . O 0
 
 Achieving O 0
@@ -19204,8 +19204,8 @@ weight I-Trait 1
 BW B-Trait 1
 ) O 0
 in O 0
-rainbow O 1
-trout O 1
+rainbow O 0
+trout O 0
 , O 0
 the O 0
 prediction O 0
@@ -19255,9 +19255,9 @@ a O 0
 two-trait O 0
 model O 0
 with O 0
-FY B-Trait 0
+FY B-Trait 1
 and O 0
-BW B-Trait 0
+BW B-Trait 1
 , O 0
 and O 0
 variance O 0
@@ -19293,7 +19293,7 @@ and O 0
 had O 0
 FY B-Trait 0
 and O 0
-BW B-Trait 1
+BW B-Trait 0
 phenotypic O 0
 records O 0
 , O 0
@@ -19447,7 +19447,7 @@ the O 0
 prediction O 0
 accuracy O 0
 of O 0
-breeding O 1
+breeding O 0
 values O 0
 and O 0
 is O 0
@@ -19462,17 +19462,17 @@ for O 0
 fillet B-Trait 1
 yield I-Trait 1
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 in O 0
 the O 0
 current O 0
-rainbow O 1
-trout O 1
+rainbow O 0
+trout O 0
 population O 0
 . O 0
 
 No O 0
-significant O 0
+significant O 1
 QTL O 0
 were O 0
 found O 0
@@ -19508,12 +19508,12 @@ of O 0
 Potential O 0
 Genes O 0
 and O 0
-Economic O 1
+Economic O 0
 Parameters O 0
 Associated O 0
 with O 0
-Growth O 1
-and O 1
+growth O 1
+and O 0
 Heat O 1
 Tolerance O 1
 in O 0
@@ -19538,29 +19538,29 @@ might O 0
 be O 0
 associated O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 and O 0
 heat B-Trait 1
 tolerance I-Trait 1
 in O 0
 two O 0
-sheep O 1
+sheep O 0
 breeds O 0
 . O 0
 
 Data O 0
 on O 0
-growth B-Trait 1
-performance I-Trait 1
+growth B-Trait 0
+performance I-Trait 0
 from O 0
 the O 0
 third O 0
 month O 0
 to O 0
 six O 0
-months O 1
-of O 1
-age O 1
+months O 0
+of O 0
+age O 0
 were O 0
 obtained O 0
 based O 0
@@ -19572,10 +19572,10 @@ In O 0
 comparison O 0
 to O 0
 Aboudeleik O 0
-lambs O 1
+lambs O 0
 , O 0
 Barki O 0
-lambs O 1
+lambs O 0
 developed O 0
 considerably O 0
 greater O 0
@@ -19597,9 +19597,9 @@ weight I-Trait 1
 gain I-Trait 1
 , O 0
 and O 0
-percentage B-Trait 1
-increase I-Trait 1
-in I-Trait 1
+percentage B-Trait 0
+increase I-Trait 0
+in I-Trait 0
 BW/month I-Trait 1
 . O 0
 
@@ -19675,13 +19675,13 @@ differentiated O 0
 groups O 0
 revealed O 0
 a O 0
-significant O 0
+significant O 1
 correlation O 0
 of O 0
 detected O 0
 SNPs O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 and O 0
 heat B-Trait 1
 tolerance I-Trait 1
@@ -19694,12 +19694,12 @@ p O 0
 . O 0
 
 Barki O 0
-lambs O 1
+lambs O 0
 elicited O 0
 greater O 0
 total O 1
-variable O 1
-costs O 1
+variable O 0
+costs O 0
 , O 0
 total O 1
 costs O 1
@@ -19755,12 +19755,12 @@ the O 0
 best O 0
 breed O 0
 of O 0
-sheep O 1
+sheep O 0
 for O 0
 traits O 0
 related O 0
 to O 0
-growth B-Trait 1
+growth B-Trait 0
 and O 0
 heat B-Trait 1
 tolerance I-Trait 1
@@ -19775,18 +19775,18 @@ Their O 0
 Association O 0
 with O 0
 the O 0
-Reproductive O 1
-Performance O 1
+Reproductive O 0
+performance O 1
 Parameters O 0
 in O 0
 Two O 0
 Mediterranean O 0
-Sheep O 1
+Sheep O 0
 Breeds O 0
 . O 0
 
-Sheep O 1
-farming O 1
+Sheep O 0
+farming O 0
 plays O 0
 an O 0
 important O 0
@@ -19798,11 +19798,11 @@ it O 0
 contributes O 0
 to O 0
 the O 0
-livelihoods O 1
+livelihoods O 0
 of O 0
 many O 0
-rural O 1
-poor O 1
+rural O 0
+poor O 0
 in O 0
 several O 0
 regions O 0
@@ -19821,8 +19821,8 @@ improvement O 0
 of O 0
 ewes O 0
 ' O 0
-reproductive B-Trait 1
-performance I-Trait 1
+reproductive B-Trait 0
+performance I-Trait 0
 is O 0
 a O 0
 pressing O 0
@@ -19846,11 +19846,11 @@ a O 0
 key O 0
 role O 0
 in O 0
-sheep O 1
-reproduction O 1
+sheep O 0
+reproduction O 0
 and O 0
 its O 0
-sexual O 1
+sexual O 0
 inactivity O 0
 . O 0
 
@@ -19861,12 +19861,12 @@ in O 0
 the O 0
 control O 0
 of O 0
-photoperiod-induced O 1
+photoperiod-induced O 0
 seasonality O 1
 mediated O 0
 by O 0
-melatonin O 1
-secretion O 1
+melatonin O 0
+secretion O 0
 . O 0
 
 The O 0
@@ -19893,7 +19893,7 @@ B O 0
 ) O 0
 and O 0
 Queue O 0
-Fine O 1
+Fine O 0
 de O 0
 l'Ouest O 0
 ( O 0
@@ -20034,7 +20034,7 @@ p O 0
 however O 0
 , O 0
 no O 0
-significant O 0
+significant O 1
 difference O 0
 was O 0
 detected O 0
@@ -20056,7 +20056,7 @@ two O 0
 SNPs O 0
 . O 0
 
-Fertility B-Trait 1
+Fertility B-Trait 0
 rate I-Trait 1
 and O 0
 litter B-Trait 1
@@ -20083,8 +20083,8 @@ and O 0
 ( O 0
 B O 0
 ) O 0
-lambs O 1
-' O 1
+lambs O 0
+' O 0
 birth B-Trait 1
 weights I-Trait 1
 ( O 0
@@ -20103,9 +20103,9 @@ the O 0
 A/A O 0
 genotype O 0
 gave O 0
-birth O 1
-to O 1
-lambs O 1
+birth O 0
+to O 0
+lambs O 0
 with O 0
 a O 0
 higher O 0
@@ -20142,7 +20142,7 @@ QFO O 0
 ) O 0
 ewes O 0
 ' O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 parameters I-Trait 0
 . O 0
 
@@ -20157,7 +20157,7 @@ sheep O 0
 selection O 0
 programs O 0
 for O 0
-reproductive O 1
+reproductive O 0
 genetic O 0
 improvement O 0
 . O 0
@@ -20181,8 +20181,8 @@ Reproductive O 1
 Efficiency O 1
 in O 0
 Retinta O 0
-Beef O 1
-Cattle O 1
+Beef O 0
+Cattle O 0
 . O 0
 
 In O 0
@@ -20206,18 +20206,18 @@ the O 0
 optimal O 0
 and O 0
 real O 0
-parity O 1
-number O 1
+parity O 0
+number O 0
 of O 1
 females O 1
 at O 0
 each O 0
-stage O 1
-of O 1
+stage O 0
+of O 0
 the O 0
-cow O 1
+cow O 0
 's O 0
-life O 1
+life O 0
 , O 0
 in O 0
 12,554 O 0
@@ -20227,7 +20227,7 @@ to O 0
 the O 0
 Retinta O 0
 Spanish O 0
-cattle O 1
+cattle O 0
 breed O 0
 , O 0
 using O 0
@@ -20263,7 +20263,7 @@ throughout O 0
 the O 0
 cow O 0
 's O 0
-life O 1
+life O 0
 . O 0
 
 The O 0
@@ -20379,7 +20379,7 @@ related O 0
 to O 0
 fertility B-Trait 1
 in O 0
-cattle O 1
+cattle O 0
 and O 0
 mice O 0
 models O 0
@@ -20399,8 +20399,8 @@ the O 0
 genetic O 0
 architecture O 0
 of O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 in O 0
 this O 0
 species O 0
@@ -20413,9 +20413,9 @@ us O 0
 to O 0
 accurately O 0
 select O 0
-more O 1
-fertile O 1
-cows O 1
+more O 0
+fertile O 0
+cows O 0
 . O 0
 Detection O 0
 of O 0
@@ -20429,7 +20429,7 @@ its O 0
 relationship O 0
 with O 0
 growth O 1
-traits O 1
+traits O 0
 in O 0
 sheep O 0
 . O 0
@@ -20470,8 +20470,8 @@ analyzing O 0
 its O 0
 effect O 0
 on O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 1102 O 0
 sheep O 0
@@ -20508,8 +20508,8 @@ was O 0
 significantly O 0
 associated O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 sheep O 0
 ( O 0
@@ -20551,8 +20551,8 @@ was O 0
 significantly O 0
 associated O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 sheep O 0
 . O 0
@@ -20580,21 +20580,21 @@ highly O 0
 expressed O 0
 in O 0
 the O 0
-liver O 1
+liver O 0
 , O 0
-spleen O 1
+spleen O 0
 and O 0
-duodenum O 1
+duodenum O 0
 . O 0
 
 As O 0
 important O 0
 metabolic O 0
 , O 0
-immune O 1
+immune O 0
 and O 0
-digestive O 1
-absorption O 1
+digestive O 0
+absorption O 0
 organs O 0
 in O 0
 animals O 0
@@ -20605,20 +20605,20 @@ tissues O 0
 can O 0
 regulate O 0
 the O 0
-excitability O 1
+excitability O 0
 of O 0
-intestinal O 1
-smooth O 1
-muscle O 1
+intestinal O 0
+smooth O 0
+muscle O 0
 by O 0
 participating O 0
 in O 0
 the O 0
-body O 1
-metabolism O 1
+body O 0
+metabolism O 0
 and O 0
-nutrient O 1
-metabolism O 1
+nutrient O 0
+metabolism O 0
 of O 0
 sheep O 0
 , O 0
@@ -20628,7 +20628,7 @@ sheep O 0
 can O 0
 show O 0
 better O 0
-growth B-Trait 1
+growth B-Trait 0
 characteristics I-Trait 0
 . O 0
 
@@ -20663,28 +20663,28 @@ chromosome O 0
 17 O 0
 contributes O 0
 to O 0
-skeletal O 1
-muscle O 1
-development O 1
+skeletal O 0
+muscle O 0
+development O 0
 in O 0
 Boer O 0
 goats O 0
 . O 0
 
 The O 0
-Boer O 1
-goat O 1
+Boer O 0
+goat O 0
 is O 0
 one O 0
 of O 0
 the O 0
 top O 0
-meat O 1
+meat O 0
 breeds O 0
 in O 0
 modern O 0
-animal O 1
-husbandry O 1
+animal O 0
+husbandry O 0
 and O 0
 has O 0
 attracted O 0
@@ -20694,7 +20694,7 @@ for O 0
 its O 0
 unique O 0
 growth O 1
-performance O 0
+performance O 1
 . O 0
 
 However O 0
@@ -20703,8 +20703,8 @@ the O 0
 genetic O 0
 basis O 0
 of O 0
-muscle O 1
-development O 1
+muscle O 0
+development O 0
 in O 0
 the O 0
 Boer O 0
@@ -20744,8 +20744,8 @@ related O 0
 candidate O 0
 genes O 0
 in O 0
-muscle O 1
-development O 1
+muscle O 0
+development O 0
 . O 0
 
 A O 0
@@ -20782,7 +20782,7 @@ highest O 0
 signal O 0
 CNV O 0
 ( O 0
-HSV O 0
+HSV O 1
 ) O 0
 was O 0
 a O 0
@@ -20838,7 +20838,7 @@ TMEM184C O 0
 The O 0
 homozygous O 0
 duplicated O 0
-HSV O 0
+HSV O 1
 genotype O 0
 ( O 0
 +/+ O 0
@@ -20905,14 +20905,14 @@ were O 0
 involved O 0
 in O 0
 the O 0
-proliferation O 1
+proliferation O 0
 and O 0
-differentiation O 1
+differentiation O 0
 of O 0
-skeletal O 1
-muscle O 1
-satellite O 1
-cells O 1
+skeletal O 0
+muscle O 0
+satellite O 0
+cells O 0
 ( O 0
 SMSCs O 0
 ) O 0
@@ -20928,7 +20928,7 @@ SAA3 O 0
 . O 0
 
 The O 0
-HSV O 0
+HSV O 1
 of O 0
 the O 0
 Boer O 0
@@ -20936,8 +20936,8 @@ goat O 0
 contributed O 0
 to O 0
 superior O 0
-skeletal O 1
-muscle O 1
+skeletal O 0
+muscle O 0
 growth O 1
 via O 0
 the O 0
@@ -20973,7 +20973,7 @@ and O 0
 its O 0
 association O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 . O 0
 
@@ -20994,9 +20994,9 @@ of O 0
 candidate O 0
 genes O 0
 for O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 in O 0
 sheep O 0
@@ -21022,8 +21022,8 @@ and O 0
 its O 0
 association O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 MEGA O 0
 ( O 0
@@ -21070,7 +21070,7 @@ resulted O 0
 the O 0
 amplicons O 0
 with O 0
-size O 0
+size O 1
 of140 O 0
 bp O 0
 . O 0
@@ -21155,8 +21155,8 @@ were O 0
 not O 0
 associated O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 MEGA O 0
 sheep O 0
@@ -21168,13 +21168,13 @@ thermo-tolerance O 1
 are O 0
 associated O 0
 with O 0
-reproductive O 1
+reproductive O 0
 and O 0
-physiological O 1
-traits O 1
+physiological O 0
+traits O 0
 in O 0
 Pelibuey O 0
-ewes O 1
+ewes O 0
 raised O 0
 in O 0
 a O 0
@@ -21185,8 +21185,8 @@ environment O 0
 Pelibuey O 0
 sheep O 0
 exhibit O 0
-reproductive O 1
-activity O 1
+reproductive O 0
+activity O 0
 through O 0
 the O 0
 year O 0
@@ -21203,7 +21203,7 @@ physiological O 0
 limitations O 0
 of O 0
 environmental O 0
-heat O 1
+heat O 0
 stress O 0
 . O 0
 
@@ -21239,10 +21239,10 @@ thermo-tolerance B-Trait 1
 SNP O 0
 markers O 0
 with O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 and O 0
-physiological B-Trait 1
-traits I-Trait 1
+physiological B-Trait 0
+traits I-Trait 0
 in O 0
 Pelibuey O 0
 ewes O 0
@@ -21291,12 +21291,12 @@ group O 0
 . O 0
 
 All O 0
-ewes O 1
+ewes O 0
 were O 0
 exposed O 0
 to O 0
-fertile O 1
-rams O 1
+fertile O 0
+rams O 0
 and O 0
 assessed O 0
 for O 0
@@ -21311,7 +21311,7 @@ day O 1
 was O 0
 reported O 0
 at O 0
-birth O 1
+birth O 0
 . O 0
 
 These O 0
@@ -21320,7 +21320,7 @@ served O 0
 to O 0
 calculate O 0
 the O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 traits I-Trait 0
 of O 0
 services B-Trait 1
@@ -21416,10 +21416,10 @@ as O 0
 markers O 0
 associated O 0
 with O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 and O 0
-physiological B-Trait 1
-traits I-Trait 1
+physiological B-Trait 0
+traits I-Trait 0
 ( O 0
 P O 0
 < O 0
@@ -21498,7 +21498,7 @@ traits O 0
 . O 0
 
 Reproductive O 0
-performance O 0
+performance O 1
 improved O 0
 ( O 0
 P O 0
@@ -21528,22 +21528,22 @@ were O 0
 associated O 0
 with O 0
 improved O 0
-reproductive O 1
+reproductive O 0
 and O 0
-physiological B-Trait 1
+physiological B-Trait 0
 traits I-Trait 0
 in O 0
 a O 0
 prospective O 0
 population O 0
 of O 0
-heat-stressed O 1
-ewes O 1
+heat-stressed O 0
+ewes O 0
 raised O 0
 in O 0
 a O 0
-semiarid O 1
-environment O 1
+semiarid O 0
+environment O 0
 . O 0
 Novel O 0
 genomic O 0
@@ -21552,11 +21552,11 @@ and O 0
 genes O 0
 related O 0
 to O 0
-reproduction O 1
+reproduction O 0
 in O 0
 prolific O 0
 Chios O 0
-dairy O 1
+dairy O 0
 sheep O 0
 : O 0
 a O 0
@@ -21568,8 +21568,8 @@ study O 0
 Genetic O 0
 architecture O 0
 of O 0
-sheep O 1
-reproduction O 1
+sheep O 0
+reproduction O 0
 is O 0
 increasingly O 0
 gaining O 0
@@ -21581,8 +21581,8 @@ the O 0
 major O 0
 impact O 0
 on O 0
-sheep O 1
-production O 1
+sheep O 0
+production O 0
 systems O 0
 . O 0
 
@@ -21636,7 +21636,7 @@ were O 0
 selected O 0
 as O 0
 representative O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 traits I-Trait 0
 and O 0
 estimated O 0
@@ -21663,7 +21663,7 @@ novel O 0
 genome-wide O 0
 and O 0
 suggestive O 0
-significant O 0
+significant O 1
 single-nucleotide O 0
 polymorphisms O 0
 ( O 0
@@ -21718,7 +21718,7 @@ genes O 0
 such O 0
 as O 0
 the O 0
-collagen-type O 1
+collagen-type O 0
 genes O 0
 and O 0
 the O 0
@@ -21728,15 +21728,15 @@ gene O 0
 that O 0
 participate O 0
 in O 0
-osteogenesis O 1
+osteogenesis O 0
 , O 0
-myogenesis O 1
+myogenesis O 0
 , O 0
-skeletal O 1
+skeletal O 0
 and O 0
 muscle O 1
 mass O 1
-development O 1
+development O 0
 resembling O 0
 the O 0
 functionality O 0
@@ -21748,7 +21748,7 @@ the O 0
 ovulation B-Trait 1
 rate I-Trait 1
 and O 0
-prolificacy B-Trait 1
+prolificacy B-Trait 0
 . O 0
 
 Additional O 0
@@ -21757,12 +21757,12 @@ enrichment O 0
 analysis O 0
 associated O 0
 the O 0
-collagen-type O 1
+collagen-type O 0
 genes O 0
 with O 0
 multiple O 0
-uterine-related O 1
-disfunctions O 1
+uterine-related O 0
+disfunctions O 0
 , O 0
 such O 0
 as O 0
@@ -21774,8 +21774,8 @@ prolapse O 1
 and O 0
 abnormalities O 0
 of O 0
-the O 1
-uterine O 1
+the O 0
+uterine O 0
 cervix O 1
 . O 0
 
@@ -21810,16 +21810,16 @@ clusters O 0
 majorly O 0
 involved O 0
 in O 0
-developmental O 1
+developmental O 0
 and O 0
-biosynthetic O 1
+biosynthetic O 0
 pathways O 0
 , O 0
-apoptosis O 1
+apoptosis O 0
 , O 0
 and O 0
-nucleic O 1
-acid-templated O 1
+nucleic O 0
+acid-templated O 0
 transcription O 0
 . O 0
 
@@ -21837,8 +21837,8 @@ that O 0
 are O 0
 important O 0
 for O 0
-sheep O 1
-reproduction O 1
+sheep O 0
+reproduction O 0
 and O 0
 could O 0
 be O 0
@@ -21854,9 +21854,9 @@ architecture O 0
 of O 0
 innate O 0
 and O 0
-adaptive O 1
-immune O 1
-cells O 1
+adaptive O 0
+immune O 0
+cells O 0
 in O 0
 pigs O 0
 . O 0
@@ -21877,11 +21877,11 @@ programs O 0
 to O 0
 produce O 0
 more O 0
-robust O 1
+robust O 0
 and O 0
-resilient O 1
-pig O 1
-populations O 1
+resilient O 0
+pig O 0
+populations O 0
 . O 0
 
 The O 0
@@ -21897,12 +21897,12 @@ the O 0
 genetic O 0
 determinism O 0
 of O 0
-lymphocyte B-Trait 1
-subpopulations I-Trait 1
+lymphocyte B-Trait 0
+subpopulations I-Trait 0
 in O 0
 the O 0
-peripheral O 1
-blood O 1
+peripheral O 0
+blood O 0
 of O 0
 pigs O 0
 and O 0
@@ -21929,7 +21929,7 @@ cells O 0
 to O 0
 measure O 0
 ten O 0
-immune-cell-related B-Trait 1
+immune-cell-related B-Trait 0
 traits I-Trait 0
 including O 0
 the O 0
@@ -21939,17 +21939,17 @@ of O 0
 different O 0
 populations B-Trait 0
 of O 0
-lymphocytes B-Trait 1
+lymphocytes B-Trait 0
 , O 0
 the O 0
 proportions B-Trait 0
 of O 0
 CD4+ B-Trait 0
-T I-Trait 1
-cells I-Trait 1
+T I-Trait 0
+cells I-Trait 0
 and O 0
 CD8+ B-Trait 0
-T I-Trait 1
+T I-Trait 0
 cells I-Trait 0
 , O 0
 and O 0
@@ -21957,7 +21957,7 @@ the O 0
 ratio B-Trait 0
 of O 0
 CD4+/CD8+ B-Trait 0
-T I-Trait 1
+T I-Trait 0
 cells I-Trait 0
 from O 0
 391 O 0
@@ -21978,10 +21978,10 @@ observed O 0
 for O 0
 the O 0
 ten O 0
-immune-cell-related B-Trait 1
+immune-cell-related B-Trait 0
 traits I-Trait 0
 and O 0
-significant O 0
+significant O 1
 genetic O 0
 correlations O 0
 were O 0
@@ -21991,7 +21991,7 @@ the O 0
 proportion B-Trait 0
 of I-Trait 0
 some O 0
-lymphocytes B-Trait 1
+lymphocytes B-Trait 0
 populations I-Trait 0
 . O 0
 
@@ -22023,16 +22023,16 @@ as O 0
 significantly O 0
 associated O 0
 to O 0
-T-helper B-Trait 1
-cells I-Trait 1
+T-helper B-Trait 0
+cells I-Trait 0
 , O 0
-memory B-Trait 1
-T-helper I-Trait 1
-cells I-Trait 1
+memory B-Trait 0
+T-helper I-Trait 0
+cells I-Trait 0
 and O 0
 γδ B-Trait 0
-T I-Trait 1
-cells I-Trait 1
+T I-Trait 0
+cells I-Trait 0
 . O 0
 
 Several O 0
@@ -22099,12 +22099,12 @@ extreme O 0
 proportions B-Trait 0
 of I-Trait 0
 γδ I-Trait 0
-T I-Trait 1
+T I-Trait 0
 , O 0
-T-helper B-Trait 1
+T-helper B-Trait 0
 and O 0
 memory B-Trait 0
-T-helper I-Trait 1
+T-helper I-Trait 0
 cells I-Trait 0
 identified O 0
 differentially O 0
@@ -22135,8 +22135,8 @@ genes O 0
 specific O 0
 of O 0
 different O 0
-T B-Trait 1
-cells I-Trait 1
+T B-Trait 0
+cells I-Trait 0
 subpopulations I-Trait 0
 were O 0
 identified O 0
@@ -22148,8 +22148,8 @@ WC1 O 0
 genes O 0
 for O 0
 γδ B-Trait 0
-T I-Trait 1
-cells I-Trait 1
+T I-Trait 0
+cells I-Trait 0
 . O 0
 
 Our O 0
@@ -22173,10 +22173,10 @@ optimize O 0
 the O 0
 induction O 0
 of O 0
-immune O 1
-responses O 1
+immune O 0
+responses O 0
 to O 0
-vaccines O 1
+vaccines O 0
 against O 0
 pathogens O 0
 . O 0
@@ -22194,7 +22194,7 @@ selection O 0
 programs O 0
 for O 0
 improving O 0
-immunocompetence O 1
+immunocompetence O 0
 in O 0
 pigs O 0
 and O 0
@@ -22222,8 +22222,8 @@ loci O 0
 of O 0
 microRNA O 0
 in O 0
-longissimus O 1
-muscle O 1
+longissimus O 0
+muscle O 0
 of O 0
 eight-way O 0
 crossbred O 0
@@ -22238,10 +22238,10 @@ are O 0
 key O 0
 regulators O 0
 of O 0
-myocyte B-Trait 1
-development I-Trait 1
+myocyte B-Trait 0
+development I-Trait 0
 and O 0
-traits B-Trait 1
+traits B-Trait 0
 , O 0
 yet O 0
 insight O 0
@@ -22278,8 +22278,8 @@ for O 0
 miRNA O 0
 profiling O 0
 in O 0
-longissimus O 1
-muscle O 1
+longissimus O 0
+muscle O 0
 of O 0
 pigs O 0
 from O 0
@@ -22428,14 +22428,14 @@ P O 0
 correlated O 0
 with O 0
 the O 0
-density B-Trait 1
+density B-Trait 0
 and O 0
-percentage B-Trait 1
-of I-Trait 1
-type I-Trait 1
-I I-Trait 1
-muscle I-Trait 1
-fibers I-Trait 1
+percentage B-Trait 0
+of I-Trait 0
+type I-Trait 0
+I I-Trait 0
+muscle I-Trait 0
+fibers I-Trait 0
 . O 0
 
 Altogether O 0
@@ -22476,11 +22476,11 @@ Genetic O 0
 Resistance O 0
 to O 0
 Bovine O 0
-Paratuberculosis O 1
+Paratuberculosis O 0
 in O 0
 Marchigiana O 0
-Beef O 1
-Cattle O 1
+Beef O 0
+Cattle O 0
 , O 0
 an O 0
 Italian O 0
@@ -22502,7 +22502,7 @@ the O 0
 causative O 0
 agent O 0
 of O 0
-paratuberculosis B-Trait 1
+paratuberculosis B-Trait 0
 ( O 0
 PTB B-Trait 0
 ) O 0
@@ -22548,8 +22548,8 @@ factors O 0
 In O 0
 particular O 0
 , O 0
-PTB B-Trait 0
-susceptibility I-Trait 0
+PTB B-Trait 1
+susceptibility I-Trait 1
 seems O 0
 to O 0
 be O 0
@@ -22583,15 +22583,15 @@ verify O 0
 , O 0
 in O 0
 Italian O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 , O 0
 an O 0
 association O 0
 between O 0
-MAP B-Trait 0
+MAP B-Trait 1
 infectious I-Trait 1
-status I-Trait 0
+status I-Trait 1
 and O 0
 the O 0
 presence O 0
@@ -22623,8 +22623,8 @@ conducted O 0
 on O 0
 a O 0
 native O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 breed O 0
 , O 0
 known O 0
@@ -22666,7 +22666,7 @@ to O 0
 contrast O 0
 or O 0
 contain O 0
-PTB O 0
+PTB O 1
 . O 0
 
 In O 0
@@ -22844,7 +22844,7 @@ already O 0
 associated O 0
 with O 0
 PTB B-Trait 1
-resistance I-Trait 0
+resistance I-Trait 1
 were O 0
 found O 0
 more O 0
@@ -22855,7 +22855,7 @@ population O 0
 , O 0
 suggesting O 0
 potential O 0
-resistance B-Trait 0
+resistance B-Trait 1
 traits I-Trait 0
 in O 0
 the O 0
@@ -22874,7 +22874,7 @@ and O 0
 Molecules O 0
 Related O 0
 to O 0
-Lamb O 1
+Lamb O 0
 Tenderness O 1
 . O 0
 
@@ -22891,14 +22891,14 @@ the O 0
 public O 0
 acceptance O 0
 of O 0
-lamb O 1
-consumption O 1
+lamb O 0
+consumption O 0
 , O 0
 so O 0
 genetic O 0
 improvement O 0
 toward O 0
-lamb O 1
+lamb O 0
 with O 0
 higher O 0
 tenderness B-Trait 1
@@ -22907,8 +22907,8 @@ pivotal O 0
 for O 0
 a O 0
 sustainable O 0
-sheep O 1
-industry O 1
+sheep O 0
+industry O 0
 . O 0
 
 However O 0
@@ -22939,7 +22939,7 @@ and O 0
 polymorphisms O 0
 related O 0
 to O 0
-divergent O 1
+divergent O 0
 lamb B-Trait 1
 tenderness I-Trait 1
 using O 0
@@ -22955,9 +22955,9 @@ and O 0
 enzymes O 0
 that O 0
 control O 0
-muscle O 1
+muscle O 0
 growth O 1
-and O 1
+and O 0
 tenderness B-Trait 1
 are O 0
 metabolized O 0
@@ -23044,8 +23044,8 @@ respectively O 0
 Pathway O 0
 analysis O 0
 showed O 0
-steroid O 1
-hormone O 1
+steroid O 0
+hormone O 0
 biosynthesis O 0
 as O 0
 the O 0
@@ -23180,9 +23180,9 @@ a O 0
 selection O 0
 program O 0
 for O 0
-lamb O 1
+lamb O 0
 with O 0
-high O 1
+high O 0
 tenderness B-Trait 1
 . O 0
 Bovine O 0
@@ -23207,7 +23207,7 @@ Their O 0
 Associations O 0
 with O 0
 Carcass O 1
-Traits O 1
+Traits O 0
 . O 0
 
 The O 0
@@ -23218,11 +23218,11 @@ HOXA11 O 0
 ) O 0
 gene O 0
 regulates O 0
-limb O 1
-skeletal O 1
-development O 1
+limb O 0
+skeletal O 0
+development O 0
 and O 0
-muscle O 1
+muscle O 0
 growth O 1
 , O 0
 thus O 0
@@ -23236,7 +23236,7 @@ candidate O 0
 gene O 0
 for O 0
 bovine O 0
-carcass B-Trait 1
+carcass B-Trait 0
 traits I-Trait 0
 . O 0
 
@@ -23276,8 +23276,8 @@ as O 0
 molecular O 0
 markers O 0
 for O 0
-cattle O 1
-breeding O 1
+cattle O 0
+breeding O 0
 . O 0
 
 The O 0
@@ -23298,9 +23298,9 @@ highly O 0
 expressed O 0
 in O 0
 both O 0
-fat O 1
+fat O 0
 and O 0
-muscle O 1
+muscle O 0
 . O 0
 
 The O 0
@@ -23312,7 +23312,7 @@ HOXA11 O 0
 in O 0
 myoblasts O 0
 and O 0
-adipocytes O 1
+adipocytes O 0
 indicated O 0
 that O 0
 HOXA11 O 0
@@ -23324,9 +23324,9 @@ the O 0
 differentiation O 0
 of O 0
 bovine O 0
-myoblasts O 1
+myoblasts O 0
 and O 0
-adipocytes O 1
+adipocytes O 0
 . O 0
 
 The O 0
@@ -23425,8 +23425,8 @@ in O 0
 the O 0
 640 O 0
 Shandong O 0
-Black O 1
-Cattle O 1
+Black O 0
+Cattle O 0
 Genetic O 0
 Resource O 0
 ( O 0
@@ -23492,7 +23492,7 @@ Meanwhile O 0
 P2-Del-8-bp O 0
 displayed O 0
 a O 0
-significant O 0
+significant O 1
 correlation O 0
 with O 0
 the O 0
@@ -23615,9 +23615,9 @@ and O 0
 Its O 0
 Associations O 0
 with O 0
-Chicken O 1
-Production O 1
-Traits O 1
+Chicken O 0
+Production O 0
+Traits O 0
 . O 0
 
 A O 0
@@ -23636,8 +23636,8 @@ repeat O 0
 and O 0
 suppressors O 0
 of O 0
-cytokine O 1
-signaling O 1
+cytokine O 0
+signaling O 0
 ( O 0
 SOCS O 0
 ) O 0
@@ -23655,26 +23655,26 @@ biological O 0
 processes O 0
 such O 0
 as O 0
-cell O 1
+cell O 0
 growth O 1
 , O 0
-tissue O 1
-development O 1
+tissue O 0
+development O 0
 , O 0
-insulin O 1
-signaling O 1
+insulin O 0
+signaling O 0
 , O 0
 ubiquitination O 0
 , O 0
-protein O 1
-degradation O 1
+protein O 0
+degradation O 0
 , O 0
 and O 0
-skeletal O 1
-muscle O 1
-membrane O 1
-protein O 1
-formation O 1
+skeletal O 0
+muscle O 0
+membrane O 0
+protein O 0
+formation O 0
 , O 0
 while O 0
 the O 0
@@ -23764,16 +23764,16 @@ was O 0
 significantly O 0
 related O 0
 to O 0
-growth B-Trait 1
+growth B-Trait 0
 and O 0
-carcass B-Trait 1
-traits I-Trait 1
+carcass B-Trait 0
+traits I-Trait 0
 . O 0
 
 The O 0
 significantly O 0
 associated O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 were O 0
 body B-Trait 1
@@ -23793,8 +23793,8 @@ at O 0
 and O 0
 12 O 0
 weeks O 0
-of O 1
-age O 1
+of O 0
+age O 0
 ; O 0
 sternal B-Trait 1
 length I-Trait 1
@@ -23808,9 +23808,9 @@ at O 0
 , O 0
 and O 0
 12 O 0
-weeks O 1
-of O 1
-age O 1
+weeks O 0
+of O 0
+age O 0
 ; O 0
 body B-Trait 1
 slope I-Trait 1
@@ -23825,9 +23825,9 @@ at O 0
 , O 0
 and O 0
 12 O 0
-weeks O 1
-of O 1
-age O 1
+weeks O 0
+of O 0
+age O 0
 ; O 0
 shank B-Trait 1
 girth I-Trait 1
@@ -23838,20 +23838,20 @@ at O 0
 4 O 0
 and O 0
 12 O 0
-weeks O 1
-of O 1
-age O 1
+weeks O 0
+of O 0
+age O 0
 ; O 0
 tibia B-Trait 1
 length I-Trait 1
 ( O 0
-TL B-Trait 1
+TL B-Trait 0
 ) O 0
 at O 0
 12 O 0
-weeks O 1
-of O 1
-age O 1
+weeks O 0
+of O 0
+age O 0
 ; O 0
 and O 0
 pelvic B-Trait 1
@@ -23862,8 +23862,8 @@ PW B-Trait 1
 at O 0
 4 O 0
 weeks O 0
-of O 1
-age O 1
+of O 0
+age O 0
 ( O 0
 p O 0
 < O 0
@@ -23878,7 +23878,7 @@ also O 0
 significantly O 0
 correlated O 0
 with O 0
-carcass B-Trait 1
+carcass B-Trait 0
 traits I-Trait 0
 including O 0
 semievisceration B-Trait 1
@@ -23968,8 +23968,8 @@ higher O 0
 levels O 0
 in O 0
 the O 0
-leg O 1
-muscles O 1
+leg O 0
+muscles O 0
 of O 0
 Arbor O 0
 Acres O 0
@@ -23987,8 +23987,8 @@ was O 0
 true O 0
 for O 0
 the O 0
-breast O 1
-muscles O 1
+breast O 0
+muscles O 0
 . O 0
 
 In O 0
@@ -24010,16 +24010,16 @@ the O 0
 ASB9 O 0
 gene O 0
 in O 0
-muscle O 1
-tissue O 1
+muscle O 0
+tissue O 0
 and O 0
 was O 0
 associated O 0
 with O 0
 multiple O 0
-growth B-Trait 1
-and O 1
-carcass B-Trait 1
+growth B-Trait 0
+and O 0
+carcass B-Trait 0
 traits I-Trait 0
 in O 0
 the O 0
@@ -24050,8 +24050,8 @@ for O 0
 traits O 0
 related O 0
 to O 0
-chicken O 1
-growth B-Trait 1
+chicken O 0
+growth B-Trait 0
 . O 0
 Study O 0
 on O 0
@@ -24062,7 +24062,7 @@ LRRC8B O 0
 Gene O 0
 InDel O 0
 and O 0
-Sheep O 1
+Sheep O 0
 Body O 1
 Conformation O 1
 Traits O 0
@@ -24075,7 +24075,7 @@ an O 0
 important O 0
 method O 0
 for O 0
-livestock O 1
+livestock O 0
 breeding O 0
 . O 0
 
@@ -24135,7 +24135,7 @@ traits I-Trait 0
 in O 0
 two O 0
 native O 0
-sheep O 1
+sheep O 0
 breeds O 0
 in O 0
 China O 0
@@ -24294,9 +24294,9 @@ following O 0
 challenge O 0
 with O 0
 porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
+respiratory I-Trait 0
 syndrome I-Trait 0
 virus I-Trait 0
 . O 0
@@ -24304,32 +24304,32 @@ virus I-Trait 0
 Introduction O 0
 : O 0
 Porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
-syndrome I-Trait 1
+respiratory I-Trait 0
+syndrome I-Trait 0
 virus I-Trait 0
 ( O 0
 PRRSV B-Trait 0
 ) O 0
 causes O 0
-respiratory O 1
-disease O 1
+respiratory O 0
+disease O 0
 in O 0
-piglets O 1
+piglets O 0
 and O 0
-reproductive O 1
-disease O 1
+reproductive O 0
+disease O 0
 in O 0
-sows O 1
+sows O 0
 . O 0
 
 Piglet O 0
 and O 0
-fetal O 1
-serum B-Trait 1
-thyroid I-Trait 1
-hormone I-Trait 1
+fetal O 0
+serum B-Trait 0
+thyroid I-Trait 0
+hormone I-Trait 0
 ( O 0
 i.e. O 0
 , O 0
@@ -24344,10 +24344,10 @@ in O 0
 response O 0
 to O 0
 Porcine O 0
-reproductive O 1
+reproductive O 0
 and O 0
-respiratory O 1
-syndrome O 1
+respiratory O 0
+syndrome O 0
 virus O 0
 infection O 0
 . O 0
@@ -24394,14 +24394,14 @@ levels I-Trait 0
 of O 0
 piglets O 0
 and O 0
-fetuses O 1
+fetuses O 0
 challenged O 0
 with O 0
 Porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
-syndrome I-Trait 1
+respiratory I-Trait 0
+syndrome I-Trait 0
 virus I-Trait 0
 . O 0
 
@@ -24426,10 +24426,10 @@ DPI O 0
 ) O 0
 with O 0
 Porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
-syndrome I-Trait 1
+respiratory I-Trait 0
+syndrome I-Trait 0
 virus I-Trait 0
 were O 0
 assayed O 0
@@ -24462,13 +24462,13 @@ DPMI O 0
 ) O 0
 with O 0
 Porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
-syndrome I-Trait 1
+respiratory I-Trait 0
+syndrome I-Trait 0
 virus I-Trait 0
 of O 0
-sows O 1
+sows O 0
 ( O 0
 N O 0
 = O 0
@@ -24569,7 +24569,7 @@ and O 0
 genetic O 0
 correlations O 0
 of O 0
-piglet_T3 B-Trait 1
+piglet_T3 B-Trait 0
 levels I-Trait 0
 with O 0
 weight B-Trait 1
@@ -24591,7 +24591,7 @@ respectively O 0
 . O 0
 
 Nine O 0
-significant O 0
+significant O 1
 quantitative O 0
 trait O 0
 loci O 0
@@ -24634,7 +24634,7 @@ the O 0
 genetic O 0
 variation O 0
 ( O 0
-GV O 0
+GV O 1
 ) O 0
 , O 0
 with O 0
@@ -24657,7 +24657,7 @@ variation O 0
 . O 0
 
 Three O 0
-significant O 0
+significant O 1
 quantitative O 0
 trait O 0
 loci O 0
@@ -24682,7 +24682,7 @@ variation O 0
 . O 0
 
 Five O 0
-significant O 0
+significant O 1
 quantitative O 0
 trait O 0
 loci O 0
@@ -24732,14 +24732,14 @@ MAPK8 O 0
 
 Discussion O 0
 : O 0
-Thyroid B-Trait 1
-hormone I-Trait 1
+Thyroid B-Trait 0
+hormone I-Trait 0
 levels I-Trait 0
 following O 0
 Porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
+respiratory I-Trait 0
 syndrome I-Trait 0
 virus I-Trait 0
 infection O 0
@@ -24773,9 +24773,9 @@ during O 0
 challenge O 0
 with O 0
 Porcine B-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
+respiratory I-Trait 0
 syndrome I-Trait 0
 virus I-Trait 0
 and O 0
@@ -24800,16 +24800,16 @@ growth O 1
 effects O 0
 of O 0
 both O 0
-piglet O 1
+piglet O 0
 and O 0
-fetal O 1
+fetal O 0
 response B-Trait 0
 to I-Trait 0
 Porcine I-Trait 0
-reproductive I-Trait 1
+reproductive I-Trait 0
 and I-Trait 0
-respiratory I-Trait 1
-syndrome I-Trait 1
+respiratory I-Trait 0
+syndrome I-Trait 0
 virus I-Trait 0
 infection I-Trait 0
 , O 0
@@ -24831,8 +24831,8 @@ for O 0
 eumelanin O 1
 pigmentation O 1
 in O 0
-chicken O 1
-plumage O 1
+chicken O 0
+plumage O 0
 using O 0
 a O 0
 computer O 0
@@ -24840,7 +24840,7 @@ vision O 0
 approach O 0
 . O 0
 
-Chicken B-Trait 1
+Chicken B-Trait 0
 plumage I-Trait 1
 colouration I-Trait 1
 is O 0
@@ -24849,10 +24849,10 @@ important O 0
 trait O 0
 related O 0
 to O 0
-productivity O 1
+productivity O 0
 in O 0
-poultry O 1
-industry O 1
+poultry O 0
+industry O 0
 . O 0
 
 Therefore O 0
@@ -24863,8 +24863,8 @@ basis O 0
 for O 0
 pigmentation B-Trait 1
 in O 0
-chicken O 1
-plumage B-Trait 1
+chicken O 0
+plumage B-Trait 0
 is O 0
 an O 0
 area O 0
@@ -24888,7 +24888,7 @@ trait O 0
 and O 0
 representing O 0
 colour B-Trait 1
-variations O 1
+variations O 0
 is O 0
 difficult O 0
 . O 0
@@ -24917,7 +24917,7 @@ pure O 0
 lines O 0
 : O 0
 White O 0
-Leghorn O 1
+Leghorn O 0
 and O 0
 the O 0
 Korean O 0
@@ -24943,7 +24943,7 @@ region O 0
 , O 0
 we O 0
 identified O 0
-significant O 0
+significant O 1
 genomic O 0
 regions O 0
 on O 0
@@ -24977,10 +24977,10 @@ MTAP O 0
 that O 0
 might O 0
 have O 0
-significant O 0
+significant O 1
 effects O 0
 on O 0
-melanin-based B-Trait 1
+melanin-based B-Trait 0
 plumage I-Trait 1
 pigmentation I-Trait 1
 . O 0
@@ -25006,7 +25006,7 @@ the O 0
 genetic O 0
 basis O 0
 of O 0
-melanin-based B-Trait 1
+melanin-based B-Trait 0
 feather I-Trait 1
 colouration I-Trait 1
 in O 0
@@ -25017,8 +25017,8 @@ association O 0
 study O 0
 of O 0
 17 O 0
-serum B-Trait 1
-biochemical I-Trait 1
+serum B-Trait 0
+biochemical I-Trait 0
 indicators I-Trait 0
 in O 0
 a O 0
@@ -25033,7 +25033,7 @@ population O 0
 
 BACKGROUND O 0
 : O 0
-Serum B-Trait 1
+Serum B-Trait 0
 biochemical I-Trait 0
 indicators I-Trait 0
 are O 0
@@ -25044,9 +25044,9 @@ direct O 0
 reflections O 0
 of O 0
 animal O 0
-metabolism O 1
+metabolism O 0
 and O 0
-health O 1
+health O 0
 . O 0
 
 The O 0
@@ -25103,8 +25103,8 @@ the O 0
 understanding O 0
 of O 0
 the O 0
-serum B-Trait 1
-biochemical I-Trait 1
+serum B-Trait 0
+biochemical I-Trait 0
 indicators I-Trait 0
 in O 0
 chickens O 0
@@ -25240,19 +25240,19 @@ GGA15 O 0
 might O 0
 affect O 0
 the O 0
-alkaline B-Trait 1
-phosphatase I-Trait 1
+alkaline B-Trait 0
+phosphatase I-Trait 0
 ( O 0
-AKP B-Trait 1
+AKP B-Trait 0
 ) O 0
 , O 0
-cholinesterase B-Trait 1
+cholinesterase B-Trait 0
 ( O 0
-CHE B-Trait 1
+CHE B-Trait 0
 ) O 0
 and O 0
-γ-glutamyl B-Trait 1
-transpeptidase I-Trait 1
+γ-glutamyl B-Trait 0
+transpeptidase I-Trait 0
 ( O 0
 GGT B-Trait 0
 ) O 0
@@ -25280,10 +25280,10 @@ the O 0
 molecular O 0
 mechanisms O 0
 of O 0
-chicken O 1
-serum B-Trait 1
-biochemical I-Trait 1
-indicator I-Trait 1
+chicken O 0
+serum B-Trait 0
+biochemical I-Trait 0
+indicator I-Trait 0
 regulation I-Trait 0
 and O 0
 provide O 0
@@ -25291,7 +25291,7 @@ a O 0
 theoretical O 0
 basis O 0
 for O 0
-chicken O 1
+chicken O 0
 breeding O 0
 programs O 0
 . O 0
@@ -25305,11 +25305,11 @@ the O 0
 genetic O 0
 basis O 0
 of O 0
-high O 1
+high O 0
 meat O 1
 yield O 1
 in O 0
-chickens O 1
+chickens O 0
 . O 0
 
 INTRODUCTION O 0
@@ -25323,9 +25323,9 @@ genomic O 0
 signatures O 0
 related O 0
 to O 0
-chicken O 1
-meat O 1
-production O 1
+chicken O 0
+meat O 0
+production O 0
 by O 0
 combing O 0
 multi-omics O 0
@@ -25336,15 +25336,15 @@ new O 0
 insights O 0
 into O 0
 modern O 0
-chicken O 1
-breeding O 1
+chicken O 0
+breeding O 0
 technology O 0
 systems O 0
 . O 0
 
 OBJECT O 0
 : O 0
-Chicken O 1
+Chicken O 0
 is O 0
 one O 0
 of O 0
@@ -25359,8 +25359,8 @@ livestock O 0
 especially O 0
 the O 0
 fast-growing O 0
-white-feathered O 1
-chicken O 1
+white-feathered O 0
+chicken O 0
 ( O 0
 broiler O 0
 ) O 0
@@ -25393,7 +25393,7 @@ resequencing O 0
 of O 0
 three O 0
 purebred O 0
-broilers O 1
+broilers O 0
 ( O 0
 n O 0
 = O 0
@@ -25515,7 +25515,7 @@ differentially O 0
 expressed O 0
 between O 0
 purebred O 0
-broilers O 1
+broilers O 0
 and O 0
 local O 0
 chickens O 0
@@ -25524,7 +25524,7 @@ chickens O 0
 Notably O 0
 , O 0
 muscle B-Trait 1
-development I-Trait 1
+development I-Trait 0
 was O 0
 proven O 0
 to O 0
@@ -25534,10 +25534,10 @@ major O 0
 difference O 0
 between O 0
 purebred O 0
-broilers O 1
+broilers O 0
 and O 0
-local O 1
-chickens O 1
+local O 0
+chickens O 0
 , O 0
 or O 0
 ancestors O 0
@@ -25565,11 +25565,11 @@ top O 0
 selection O 0
 signatures O 0
 and O 0
-muscle-specific O 1
+muscle-specific O 0
 expression O 0
 in O 0
 purebred O 0
-broilers O 1
+broilers O 0
 . O 0
 
 Furthermore O 0
@@ -25602,7 +25602,7 @@ provided O 0
 which O 0
 had O 0
 a O 0
-significant O 0
+significant O 1
 effect O 0
 on O 0
 SOX6 O 0
@@ -25629,8 +25629,8 @@ and O 0
 transcriptional O 0
 characteristics O 0
 for O 0
-muscle B-Trait 1
-development I-Trait 1
+muscle B-Trait 0
+development I-Trait 0
 and O 0
 suggests O 0
 a O 0
@@ -25646,7 +25646,7 @@ breast B-Trait 1
 muscle I-Trait 1
 yield I-Trait 1
 and O 0
-myopathy B-Trait 0
+myopathy B-Trait 1
 , O 0
 which O 0
 could O 0
@@ -25660,11 +25660,11 @@ selective O 0
 breeding O 0
 aimed O 0
 at O 0
-high O 1
+high O 0
 meat B-Trait 1
 yield I-Trait 1
 in O 0
-broiler O 1
+broiler O 0
 chickens O 0
 . O 0
 Goat O 0
@@ -25687,7 +25687,7 @@ traits O 0
 
 The O 0
 Myogenic O 0
-differentiation O 1
+differentiation O 0
 1 O 0
 ( O 0
 MyoD1 O 0
@@ -25698,10 +25698,10 @@ a O 0
 crucial O 0
 regulator O 0
 of O 0
-muscle O 1
-formation O 1
+muscle O 0
+formation O 0
 and O 0
-differentiation O 1
+differentiation O 0
 . O 0
 
 However O 0
@@ -25724,10 +25724,10 @@ and O 0
 its O 0
 effect O 0
 on O 0
-goat O 1
+goat O 0
 growth O 1
 and O 0
-development O 1
+development O 0
 . O 0
 
 To O 0
@@ -25753,18 +25753,18 @@ adult O 0
 goats O 0
 , O 0
 containing O 0
-heart O 1
+heart O 0
 , O 0
-liver O 1
+liver O 0
 , O 0
-spleen O 1
+spleen O 0
 , O 0
-lung O 1
+lung O 0
 , O 0
-kidney O 1
+kidney O 0
 and O 0
-skeletal O 1
-muscle O 1
+skeletal O 0
+muscle O 0
 . O 0
 
 The O 0
@@ -25778,8 +25778,8 @@ the O 0
 MyoD1 O 0
 gene O 0
 in O 0
-skeletal O 1
-muscle O 1
+skeletal O 0
+muscle O 0
 of O 0
 fetal O 0
 goats O 0
@@ -25795,11 +25795,11 @@ its O 0
 important O 0
 role O 0
 in O 0
-skeletal O 1
-muscle O 1
-formation O 1
+skeletal O 0
+muscle O 0
+formation O 0
 and O 0
-development O 1
+development O 0
 . O 0
 
 Following O 0
@@ -25809,8 +25809,8 @@ total O 0
 of O 0
 619 O 0
 Shaanbei O 0
-White O 1
-Cashmere O 1
+White O 0
+Cashmere O 0
 goats O 0
 ( O 0
 SBWCs O 0
@@ -25822,7 +25822,7 @@ monitor O 0
 the O 0
 InDel O 0
 ( O 0
-Insertion/Deletion O 1
+Insertion/Deletion O 0
 ) O 0
 and O 0
 CNV O 0
@@ -25848,12 +25848,12 @@ and O 0
 there O 0
 was O 0
 no O 0
-significant O 0
+significant O 1
 correlation O 0
 with O 0
-goat B-Trait 1
-growth I-Trait 1
-traits I-Trait 1
+goat B-Trait 0
+growth I-Trait 0
+traits I-Trait 0
 . O 0
 
 Furthermore O 0
@@ -25870,13 +25870,13 @@ with O 0
 three O 0
 types O 0
 ( O 0
-Loss O 1
+Loss O 0
 type O 0
 , O 0
 Normal O 0
 type O 0
 , O 0
-Gain O 1
+Gain O 0
 type O 0
 ) O 0
 were O 0
@@ -25950,7 +25950,7 @@ for O 0
 marker-assisted O 0
 breeding O 0
 of O 0
-goats O 1
+goats O 0
 . O 0
 
 Overall O 0
@@ -25963,13 +25963,13 @@ scientific O 0
 basis O 0
 for O 0
 breeding O 0
-goats O 1
+goats O 0
 with O 0
 better O 0
-growth B-Trait 1
-and O 1
-development B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+and O 0
+development B-Trait 0
+traits I-Trait 0
 . O 0
 Single-step O 0
 genome-wide O 0
@@ -25981,7 +25981,7 @@ horn O 1
 lesions O 1
 in O 0
 Holstein O 0
-cattle O 1
+cattle O 0
 using O 0
 linear O 0
 and O 0
@@ -25993,21 +25993,21 @@ BACKGROUND O 0
 : O 0
 Lameness B-Trait 1
 in O 0
-dairy O 1
-cattle O 1
+dairy O 0
+cattle O 0
 is O 0
 primarily O 0
 caused O 0
 by O 0
 foot B-Trait 1
-lesions I-Trait 1
+lesions I-Trait 0
 including O 0
 the O 0
 claw B-Trait 1
 horn I-Trait 1
 lesions I-Trait 1
 ( O 0
-CHL B-Trait 0
+CHL B-Trait 1
 ) O 0
 of O 0
 sole B-Trait 1
@@ -26027,7 +26027,7 @@ white B-Trait 1
 line I-Trait 1
 disease I-Trait 1
 ( O 0
-WL B-Trait 0
+WL B-Trait 1
 ) O 0
 . O 0
 
@@ -26047,8 +26047,8 @@ detailed O 0
 animal O 0
 phenotypes O 0
 of O 0
-CHL B-Trait 0
-susceptibility I-Trait 0
+CHL B-Trait 1
+susceptibility I-Trait 1
 and O 0
 severity B-Trait 0
 . O 0
@@ -26112,10 +26112,10 @@ respectively O 0
 
 Heritability O 0
 of O 0
-SH B-Trait 0
+SH B-Trait 1
 and O 0
-SU B-Trait 0
-severity I-Trait 0
+SU B-Trait 1
+severity I-Trait 1
 were O 0
 0.12 O 0
 and O 0
@@ -26126,7 +26126,7 @@ respectively O 0
 
 Heritability O 0
 of O 0
-WL B-Trait 0
+WL B-Trait 1
 was O 0
 relatively O 0
 lower O 0
@@ -26141,7 +26141,7 @@ presence O 0
 and O 0
 development O 0
 of O 0
-WL B-Trait 0
+WL B-Trait 1
 than O 0
 the O 0
 other O 0
@@ -26177,7 +26177,7 @@ SH B-Trait 0
 and O 0
 SU B-Trait 0
 with O 0
-WL B-Trait 0
+WL B-Trait 1
 also O 0
 tended O 0
 to O 0
@@ -26196,7 +26196,7 @@ were O 0
 identified O 0
 for O 0
 all O 0
-CHL O 0
+CHL O 1
 , O 0
 including O 0
 some O 0
@@ -26297,7 +26297,7 @@ genomic O 0
 regions O 0
 associated O 0
 with O 0
-CHL O 0
+CHL O 1
 harbour O 0
 annotated O 0
 genes O 0
@@ -26305,30 +26305,30 @@ that O 0
 are O 0
 linked O 0
 to O 0
-immune O 1
-system O 1
-function O 1
+immune O 0
+system O 0
+function O 0
 and O 0
-inflammation O 1
-responses O 1
+inflammation O 0
+responses O 0
 , O 0
-lipid O 1
-metabolism O 1
+lipid O 0
+metabolism O 0
 , O 0
-calcium O 1
-ion O 1
-activities O 1
+calcium O 0
+ion O 0
+activities O 0
 , O 0
 and O 0
-neuronal O 1
-excitability O 1
+neuronal O 0
+excitability O 0
 . O 0
 
 CONCLUSIONS O 0
 : O 0
 The O 0
 studied O 0
-CHL O 0
+CHL O 1
 are O 0
 complex O 0
 traits O 0
@@ -26350,7 +26350,7 @@ that O 0
 animal O 0
 resistance B-Trait 0
 to O 0
-CHL B-Trait 0
+CHL B-Trait 1
 can O 0
 be O 0
 improved O 0
@@ -26359,7 +26359,7 @@ breeding O 0
 . O 0
 
 The O 0
-CHL B-Trait 0
+CHL B-Trait 1
 traits I-Trait 0
 were O 0
 positively O 0
@@ -26373,7 +26373,7 @@ improvement O 0
 for O 0
 resistance B-Trait 0
 to O 0
-CHL B-Trait 0
+CHL B-Trait 1
 as O 0
 a O 0
 whole O 0
@@ -26394,7 +26394,7 @@ SH I-Trait 0
 SU B-Trait 0
 , O 0
 and O 0
-WL B-Trait 0
+WL B-Trait 1
 provide O 0
 insights O 0
 into O 0
@@ -26418,8 +26418,8 @@ enhancing O 0
 foot O 1
 health O 1
 in O 0
-dairy O 1
-cattle O 1
+dairy O 0
+cattle O 0
 . O 0
 Low-coverage O 0
 sequencing O 0
@@ -26521,7 +26521,7 @@ generations O 0
 being O 0
 generated O 0
 for O 0
-replication O 0
+growth O 0
 and O 0
 fine-mapping O 0
 . O 0
@@ -26636,7 +26636,7 @@ total O 0
 , O 0
 12 O 0
 genome-wide O 0
-significant O 0
+significant O 1
 , O 0
 and O 0
 30 O 0
@@ -26709,7 +26709,7 @@ content O 0
 
 The O 0
 12 O 0
-significant O 0
+significant O 1
 QTL O 0
 explain O 0
 > O 0
@@ -26730,13 +26730,13 @@ than O 0
 2 O 0
 previously O 0
 reported O 0
-significant O 0
+significant O 1
 QTL O 0
 . O 0
 
 The O 0
 42 O 0
-significant O 0
+significant O 1
 and O 0
 suggestive O 0
 QTL O 0
@@ -26826,7 +26826,7 @@ the O 0
 Virginia O 0
 body B-Trait 1
 weight I-Trait 1
-chicken O 1
+chicken O 0
 lines O 0
 . O 0
 Genetics O 0
@@ -26835,17 +26835,17 @@ rearing O 1
 success O 1
 in O 0
 four O 0
-pure O 1
-laying O 1
-hen O 1
+pure O 0
+laying O 0
+hen O 0
 lines O 0
 during O 0
 the O 0
-first O 1
-17 O 1
-weeks O 1
-of O 1
-age O 1
+first O 0
+17 O 0
+weeks O 0
+of O 0
+age O 0
 . O 0
 
 This O 0
@@ -26859,15 +26859,15 @@ of O 0
 rearing B-Trait 1
 success I-Trait 1
 ( O 0
-RS B-Trait 0
+RS B-Trait 1
 ) O 0
 in O 0
-laying O 1
-hens O 1
+laying O 0
+hens O 0
 . O 0
 
 Four O 0
-rearing B-Trait 1
+rearing B-Trait 0
 traits I-Trait 0
 : O 0
 clutch B-Trait 1
@@ -26886,14 +26886,14 @@ FWM B-Trait 1
 rearing B-Trait 1
 abnormalities I-Trait 1
 ( O 0
-RA B-Trait 0
+RA B-Trait 1
 ) O 0
 , O 0
 and O 0
 natural B-Trait 1
 death I-Trait 1
 ( O 0
-ND B-Trait 0
+ND B-Trait 1
 ) O 0
 , O 0
 were O 0
@@ -26901,7 +26901,7 @@ included O 0
 as O 0
 factors O 0
 determining O 0
-RS B-Trait 0
+RS B-Trait 1
 . O 0
 
 Pedigree O 0
@@ -26957,7 +26957,7 @@ increase O 0
 was O 0
 observed O 0
 for O 0
-CS B-Trait 1
+CS B-Trait 0
 and O 0
 a O 0
 decrease O 0
@@ -26996,15 +26996,15 @@ low O 0
 ( O 0
 0.05-0.19 O 0
 for O 0
-CS B-Trait 0
+CS B-Trait 1
 , O 0
 0.01-0.04 O 0
 for O 0
-FWM B-Trait 0
+FWM B-Trait 1
 , O 0
 0.02-0.06 O 0
 for O 0
-RA B-Trait 0
+RA B-Trait 1
 , O 0
 0.02-0.04 O 0
 for O 0
@@ -27057,10 +27057,10 @@ different O 0
 SNPs O 0
 having O 0
 a O 0
-significant O 0
+significant O 1
 effect O 0
 on O 0
-RS O 0
+RS O 1
 . O 0
 
 Thus O 0
@@ -27076,7 +27076,7 @@ of O 0
 the O 0
 genetics O 0
 of O 0
-RS B-Trait 0
+RS B-Trait 1
 in O 0
 laying O 0
 hens O 0
@@ -27094,8 +27094,8 @@ and O 0
 GASK1B O 0
 genes O 0
 with O 0
-reproductive O 1
-traits O 1
+reproductive O 0
+traits O 0
 in O 0
 Dazu O 0
 Black O 0
@@ -27138,14 +27138,14 @@ and O 0
 GASK1B O 0
 , O 0
 and O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 ( O 0
-kidding B-Trait 1
-traits I-Trait 1
+kidding B-Trait 0
+traits I-Trait 0
 and O 0
-placental B-Trait 1
-traits I-Trait 1
+placental B-Trait 0
+traits I-Trait 0
 ) O 0
 in O 0
 goats O 0
@@ -27159,8 +27159,8 @@ data O 0
 of O 0
 150 O 0
 Dazu O 0
-Black O 1
-Goats O 1
+Black O 0
+Goats O 0
 to O 0
 perform O 0
 correlation O 0
@@ -27192,7 +27192,7 @@ remaining O 0
 150 O 0
 Dazu O 0
 Black O 0
-Goats O 1
+Goats O 0
 . O 0
 
 The O 0
@@ -27293,14 +27293,14 @@ highly O 0
 expressed O 0
 in O 0
 the O 0
-udder O 1
+udder O 0
 , O 0
-kidney O 1
+kidney O 0
 , O 0
-uterus O 1
+uterus O 0
 , O 0
 and O 0
-ovary O 1
+ovary O 0
 . O 0
 
 It O 0
@@ -27313,7 +27313,7 @@ genes O 0
 might O 0
 affect O 0
 the O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 traits I-Trait 0
 , O 0
 which O 0
@@ -27324,12 +27324,12 @@ as O 0
 candidate O 0
 markers O 0
 for O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 traits I-Trait 0
 in O 0
 Dazu O 0
 Black O 0
-Goats O 1
+Goats O 0
 . O 0
 
 Moreover O 0
@@ -27352,8 +27352,8 @@ these O 0
 SNPs O 0
 have O 0
 on O 0
-reproductive B-Trait 1
-traits I-Trait 1
+reproductive B-Trait 0
+traits I-Trait 0
 . O 0
 Design O 0
 of O 0
@@ -27369,7 +27369,7 @@ and O 0
 fatty O 1
 acid O 1
 composition O 1
-of O 1
+of O 0
 backfat O 1
 in O 0
 free-range O 0
@@ -27389,16 +27389,16 @@ acids I-Trait 1
 ( O 0
 FA B-Trait 1
 ) O 0
-profile B-Trait 0
+profile B-Trait 1
 determine O 0
 important O 0
-sensory B-Trait 1
+sensory B-Trait 0
 and O 0
-technological B-Trait 1
+technological B-Trait 0
 characteristics I-Trait 0
 of O 0
 the B-Trait 0
-meat I-Trait 1
+meat I-Trait 0
 , O 0
 being O 0
 interesting O 0
@@ -27509,7 +27509,7 @@ commercial O 0
 population O 0
 of O 0
 Iberian O 0
-pigs O 1
+pigs O 0
 . O 0
 
 The O 0
@@ -27524,7 +27524,7 @@ determined O 0
 in O 0
 940 O 0
 Iberian O 0
-pigs O 1
+pigs O 0
 . O 0
 
 A O 0
@@ -27589,11 +27589,11 @@ MAF O 0
 . O 0
 
 Regarding O 0
-IMF B-Trait 0
-content I-Trait 0
+IMF B-Trait 1
+content I-Trait 1
 , O 0
 a O 0
-significant O 0
+significant O 1
 additive O 0
 effect O 0
 ( O 0
@@ -27606,7 +27606,7 @@ value O 0
 was O 0
 observed O 0
 for O 0
-ADIPOQ O 0
+ADIPOQ O 1
 : O 0
 g.124646194T O 0
 > O 0
@@ -27646,14 +27646,14 @@ For O 0
 the O 0
 backfat B-Trait 1
 FA I-Trait 1
-composition I-Trait 0
+composition I-Trait 1
 , O 0
 we O 0
 observed O 0
 24 O 0
 SNP O 0
 with O 0
-significant O 0
+significant O 1
 associations O 0
 . O 0
 
@@ -27689,22 +27689,22 @@ a O 0
 lower O 0
 percentage B-Trait 0
 of I-Trait 0
-palmitic I-Trait 1
+palmitic I-Trait 0
 ( O 0
 C16:0 B-Trait 0
 ) O 0
 and O 0
-palmitoleic B-Trait 1
+palmitoleic B-Trait 0
 ( O 0
 C16:1 B-Trait 0
 ) O 0
-acids B-Trait 1
+acids B-Trait 0
 and O 0
 an O 0
 increase O 0
 in O 0
-oleic B-Trait 1
-acid I-Trait 1
+oleic B-Trait 0
+acid I-Trait 0
 ( O 0
 C18:1 B-Trait 0
 ) O 0
@@ -27721,12 +27721,12 @@ g.49043886C O 0
 G O 0
 SNP O 0
 had O 0
-significant O 0
+significant O 1
 effects O 0
 on O 0
 C16:0 B-Trait 0
 , O 0
-stearic B-Trait 1
+stearic B-Trait 0
 ( O 0
 C18:0 B-Trait 0
 ) O 0
@@ -27737,16 +27737,16 @@ on O 0
 the O 0
 sum B-Trait 0
 of I-Trait 0
-saturated I-Trait 1
+saturated I-Trait 0
 and O 0
-monounsaturated B-Trait 1
-fatty I-Trait 1
-acids I-Trait 1
+monounsaturated B-Trait 0
+fatty I-Trait 0
+acids I-Trait 0
 . O 0
 
 Finally O 0
 , O 0
-significant O 0
+significant O 1
 effects O 0
 of O 0
 the O 0
@@ -27794,11 +27794,11 @@ for O 0
 Iberian O 0
 pigs O 0
 including O 0
-FA B-Trait 0
-profile I-Trait 0
+FA B-Trait 1
+profile I-Trait 1
 and O 0
-IMF B-Trait 0
-content I-Trait 0
+IMF B-Trait 1
+content I-Trait 1
 as O 0
 selection O 0
 goals O 0
@@ -27819,8 +27819,8 @@ controlled O 0
 Convergent O 0
 changes O 0
 in O 0
-melanocortin O 1
-receptor O 1
+melanocortin O 0
+receptor O 0
 1 O 0
 gene O 0
 are O 0
@@ -27846,7 +27846,7 @@ the O 0
 coat B-Trait 1
 color I-Trait 1
 of O 0
-sheep O 1
+sheep O 0
 is O 0
 an O 0
 ideal O 0
@@ -27867,7 +27867,7 @@ mammals O 0
 One O 0
 distinguishable O 0
 coat B-Trait 1
-color I-Trait 0
+color I-Trait 1
 is O 0
 the O 0
 black-headed O 1
@@ -27877,8 +27877,8 @@ such O 0
 as O 0
 the O 0
 famous O 0
-black-headed O 1
-Dorper O 1
+black-headed O 0
+Dorper O 0
 sheep O 0
 from O 0
 Africa O 0
@@ -27951,7 +27951,7 @@ harbor O 0
 a O 0
 haplotype O 0
 covering O 0
-melanocortin O 1
+melanocortin O 0
 receptor O 0
 1 O 0
 ( O 0
@@ -27967,7 +27967,7 @@ this O 0
 haplotype O 0
 by O 0
 the O 0
-black-headed O 1
+black-headed O 0
 sheep O 0
 from O 0
 Africa O 0
@@ -28054,7 +28054,7 @@ coat B-Trait 1
 color I-Trait 1
 genetics O 0
 in O 0
-sheep O 1
+sheep O 0
 and O 0
 expands O 0
 our O 0
@@ -28068,13 +28068,13 @@ gene O 0
 and O 0
 varying O 0
 pigmentation B-Trait 1
-patterns I-Trait 1
+patterns I-Trait 0
 in O 0
-sheep O 1
+sheep O 0
 . O 0
 The O 0
 growth O 1
-hormone O 1
+hormone O 0
 gene O 0
 polymorphism O 0
 and O 0
@@ -28083,12 +28083,12 @@ relationship O 0
 to O 0
 performance O 1
 and O 0
-carcass O 1
-features O 1
+carcass O 0
+features O 0
 in O 0
 Egyptian O 0
 Awassi O 0
-lambs O 1
+lambs O 0
 . O 0
 
 The O 0
@@ -28108,47 +28108,47 @@ genotypic O 0
 polymorphisms O 0
 of O 0
 the O 0
-Growth O 1
-hormone O 1
+growth O 1
+hormone O 0
 ( O 0
-GH O 1
+GH O 0
 ) O 0
 gene O 0
 and O 0
 its O 0
 correlation O 0
 with O 0
-growth B-Trait 1
-indices I-Trait 1
+growth B-Trait 0
+indices I-Trait 0
 , O 0
 efficiency B-Trait 1
 of I-Trait 1
 consumed I-Trait 1
 feed I-Trait 1
 , O 0
-some O 1
-body B-Trait 1
-indices I-Trait 1
+some O 0
+body B-Trait 0
+indices I-Trait 0
 and O 0
-carcass B-Trait 1
-traits I-Trait 1
+carcass B-Trait 0
+traits I-Trait 0
 of O 0
 the O 0
 Egyptian O 0
 Awassi O 0
-sheep O 1
+sheep O 0
 . O 0
 
 Forty O 0
 Egyptian O 0
 Awassi O 0
-male O 1
-lambs O 1
+male O 0
+lambs O 0
 were O 0
 selected O 0
 for O 0
 their O 0
-growing B-Trait 1
+growing B-Trait 0
 indices I-Trait 0
 ( O 0
 post-weaning B-Trait 1
@@ -28196,8 +28196,8 @@ index I-Trait 1
 ) O 0
 , O 0
 and O 0
-carcass B-Trait 1
-features I-Trait 1
+carcass B-Trait 0
+features I-Trait 0
 ( O 0
 dressing B-Trait 1
 % I-Trait 1
@@ -28216,14 +28216,14 @@ loin O 1
 % O 1
 , O 0
 ribs B-Trait 1
-% I-Trait 1
+% I-Trait 0
 , O 0
 abdominal B-Trait 1
 fat I-Trait 1
 % I-Trait 1
 , O 0
 Tail B-Trait 1
-% I-Trait 1
+% I-Trait 0
 and O 0
 hind-legs B-Trait 1
 % I-Trait 1
@@ -28290,7 +28290,7 @@ AB O 0
 ) O 0
 exhibited O 0
 moderate O 0
-significant O 0
+significant O 1
 influence O 0
 ( O 0
 P O 0
@@ -28318,7 +28318,7 @@ BB O 0
 ) O 0
 of O 0
 expressed O 0
-GH O 1
+GH O 0
 gene O 0
 significantly O 0
 ( O 0
@@ -28384,9 +28384,9 @@ body B-Trait 1
 mass I-Trait 1
 index I-Trait 1
 and O 0
-post-weaning B-Trait 1
+post-weaning B-Trait 0
 daily I-Trait 1
-growth I-Trait 1
+growth I-Trait 0
 ; O 0
 conversely O 0
 , O 0
@@ -28415,8 +28415,8 @@ loin B-Trait 1
 % I-Trait 1
 , O 0
 and O 0
-tail B-Trait 0
-% I-Trait 0
+tail B-Trait 1
+% I-Trait 1
 . O 0
 
 While O 0
@@ -28429,7 +28429,7 @@ revealed O 0
 to O 0
 be O 0
 highly O 0
-significant O 0
+significant O 1
 ( O 0
 P O 0
 < O 0
@@ -28438,9 +28438,9 @@ P O 0
 in O 0
 relation O 0
 to O 0
-post-weaning B-Trait 1
-daily I-Trait 1
-growth I-Trait 1
+post-weaning B-Trait 0
+daily I-Trait 0
+growth I-Trait 0
 , O 0
 feed B-Trait 1
 intake I-Trait 1
@@ -28463,23 +28463,23 @@ GH O 0
 gene O 0
 variation O 0
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 , O 0
 efficiency B-Trait 1
 of I-Trait 1
 consumed I-Trait 1
 feed I-Trait 1
 , O 0
-body B-Trait 1
-measurements I-Trait 1
+body B-Trait 0
+measurements I-Trait 0
 , O 0
 and O 0
-carcass B-Trait 1
-features I-Trait 1
+carcass B-Trait 0
+features I-Trait 0
 of O 0
 Egyptian O 0
 Awassi O 0
-sheep O 1
+sheep O 0
 and O 0
 applying O 0
 marker O 0
@@ -28487,7 +28487,7 @@ assisted O 0
 selection O 0
 with O 0
 the O 0
-GH O 1
+GH O 0
 gene O 0
 to O 0
 improve O 0
@@ -28499,12 +28499,12 @@ and O 0
 will O 0
 be O 0
 of O 0
-significant O 0
+significant O 1
 economic O 0
 value O 0
 to O 0
-sheep O 1
-production O 1
+sheep O 0
+production O 0
 . O 0
 Screening O 0
 of O 0
@@ -28515,21 +28515,21 @@ PRDM6 O 0
 , O 0
 myostatin O 0
 and O 0
-IGF2BP1 O 1
+IGF2BP1 O 0
 genes O 0
 and O 0
 association O 0
 analysis O 0
 with O 0
-body O 1
-measurement O 1
+body O 0
+measurement O 0
 traits O 0
 in O 0
 Malabari O 0
 and O 0
 Attappadi O 0
-black O 1
-goats O 1
+black O 0
+goats O 0
 . O 0
 
 An O 0
@@ -28553,9 +28553,9 @@ myostatin O 0
 MSTN O 0
 ) O 0
 and O 0
-insulin-like O 1
+insulin-like O 0
 growth O 1
-factor O 1
+factor O 0
 2 O 0
 mRNA O 0
 binding O 0
@@ -28582,15 +28582,15 @@ of O 0
 identified O 0
 InDels O 0
 and O 0
-body B-Trait 1
-measurement I-Trait 1
+body B-Trait 0
+measurement I-Trait 0
 traits I-Trait 0
 was O 0
 also O 0
 performed O 0
 . O 0
 
-Body B-Trait 1
+Body B-Trait 0
 measurements I-Trait 0
 included O 0
 body B-Trait 1
@@ -28611,10 +28611,10 @@ width I-Trait 1
 and O 0
 hip B-Trait 1
 height I-Trait 1
-at I-Trait 1
-the I-Trait 1
-hip I-Trait 1
-cross I-Trait 1
+at I-Trait 0
+the I-Trait 0
+hip I-Trait 0
+cross I-Trait 0
 . O 0
 
 The O 0
@@ -28680,11 +28680,11 @@ calculated O 0
 . O 0
 
 A O 0
-significant O 0
+significant O 1
 difference O 0
 in O 0
-body B-Trait 1
-measurements I-Trait 1
+body B-Trait 0
+measurements I-Trait 0
 was O 0
 found O 0
 across O 0
@@ -28695,7 +28695,7 @@ ages O 0
 and O 0
 breed O 0
 x O 0
-age O 1
+age O 0
 interactions O 0
 . O 0
 
@@ -28706,8 +28706,8 @@ was O 0
 also O 0
 associated O 0
 with O 0
-body B-Trait 1
-measurement I-Trait 1
+body B-Trait 0
+measurement I-Trait 0
 traits I-Trait 0
 , O 0
 such O 0
@@ -28761,8 +28761,8 @@ for O 0
 marker-assisted O 0
 selection O 0
 of O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 among O 0
 goats O 0
 . O 0
@@ -28773,19 +28773,19 @@ variant O 0
 upstream O 0
 of O 0
 growth O 1
-differentiation O 1
+differentiation O 0
 factor O 0
 11 O 0
 ( O 0
 GDF11 O 0
 ) O 0
 on O 0
-carcass O 1
-traits O 1
+carcass O 0
+traits O 0
 in O 0
 crossbred O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 . O 0
 
 The O 0
@@ -28829,7 +28829,7 @@ a O 0
 phenotype O 0
 known O 0
 as O 0
-double-muscling O 1
+double-muscling O 0
 . O 0
 
 Mutations O 0
@@ -28843,10 +28843,10 @@ muscle O 1
 mass O 1
 and O 0
 reduce O 0
-fat O 1
-and O 1
-bone O 1
-tissues O 1
+fat O 0
+and O 0
+bone O 0
+tissues O 0
 , O 0
 but O 0
 also O 0
@@ -28866,15 +28866,15 @@ mortality O 1
 
 GDF11 O 0
 influences O 0
-skeletal O 1
-muscle O 1
-development O 1
+skeletal O 0
+muscle O 0
+development O 0
 in O 0
 mice O 0
 , O 0
 and O 0
-muscular O 1
-atrophy O 1
+muscular O 0
+atrophy O 0
 can O 0
 be O 0
 induced O 0
@@ -28897,8 +28897,8 @@ GDF11 O 0
 role O 0
 in O 0
 bovine O 0
-carcass B-Trait 1
-traits I-Trait 1
+carcass B-Trait 0
+traits I-Trait 0
 . O 0
 
 To O 0
@@ -28910,8 +28910,8 @@ and O 0
 carcass B-Trait 1
 quality I-Trait 1
 in O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 , O 0
 bovine O 0
 GDF11 O 0
@@ -28920,8 +28920,8 @@ examined O 0
 in O 0
 crossbred O 0
 Canadian O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 populations O 0
 during O 0
 finishing O 0
@@ -29015,8 +29015,8 @@ in O 0
 carcass B-Trait 1
 quality I-Trait 1
 in O 0
-beef O 1
-cattle O 1
+beef O 0
+cattle O 0
 and O 0
 may O 0
 provide O 0
@@ -29025,10 +29025,10 @@ selection O 0
 tool O 0
 to O 0
 improve O 0
-carcass B-Trait 1
-traits I-Trait 1
+carcass B-Trait 0
+traits I-Trait 0
 in O 0
-cattle O 1
+cattle O 0
 . O 0
 Integrative O 0
 genomics O 0
@@ -29038,24 +29038,24 @@ functionally O 0
 relevant O 0
 genes O 0
 for O 0
-equine O 1
-behaviour O 1
+equine O 0
+behaviour O 0
 . O 0
 
 Behavioural O 0
-plasticity O 1
+plasticity O 0
 enables O 0
 horses O 0
 entering O 0
 an O 0
-exercise O 1
-training O 1
+exercise O 0
+training O 0
 programme O 0
 to O 0
-adapt O 1
+adapt O 0
 with O 0
-reduced O 1
-stress O 1
+reduced O 0
+stress O 0
 . O 0
 
 We O 0
@@ -29065,7 +29065,7 @@ associated O 0
 with O 0
 behaviour B-Trait 0
 in O 0
-yearling O 1
+yearling O 0
 Thoroughbred O 0
 horses O 0
 using O 0
@@ -29079,11 +29079,11 @@ phenotypes O 0
 1 O 0
 ) O 0
 handler-assessed O 0
-coping B-Trait 1
-with I-Trait 1
-early I-Trait 1
-training I-Trait 1
-events I-Trait 1
+coping B-Trait 0
+with I-Trait 0
+early I-Trait 0
+training I-Trait 0
+events I-Trait 0
 [ O 0
 coping B-Trait 0
 ] O 0
@@ -29102,13 +29102,13 @@ in O 0
 salivary B-Trait 1
 cortisol I-Trait 1
 concentration I-Trait 1
-at I-Trait 1
-the I-Trait 1
-first I-Trait 1
-backing I-Trait 1
-event I-Trait 1
+at I-Trait 0
+the I-Trait 0
+first I-Trait 0
+backing I-Trait 0
+event I-Trait 0
 [ O 0
-cortisol B-Trait 1
+cortisol B-Trait 0
 ] O 0
 ( O 0
 n O 0
@@ -29206,37 +29206,37 @@ with O 0
 biological O 0
 functions O 0
 in O 0
-social O 1
-behaviour O 1
+social O 0
+behaviour O 0
 , O 0
-autism O 1
-spectrum O 1
+autism O 0
+spectrum O 0
 disorder O 0
 , O 0
-suicide O 1
+suicide O 0
 , O 0
-stress-induced O 1
-anxiety O 1
+stress-induced O 0
+anxiety O 0
 and O 0
-depression O 1
+depression O 0
 , O 0
-Alzheimer O 1
+Alzheimer O 0
 's O 0
 disease O 0
 , O 0
-neurodevelopmental O 1
+neurodevelopmental O 0
 disorders O 0
 , O 0
-neuroinflammatory O 1
+neuroinflammatory O 0
 disease O 0
 , O 0
-fear-induced O 1
-behaviours O 1
+fear-induced O 0
+behaviours O 0
 and O 0
-alcohol O 1
+alcohol O 0
 and O 0
-cocaine O 1
-addiction O 1
+cocaine O 0
+addiction O 0
 . O 0
 
 The O 0
@@ -29249,7 +29249,7 @@ q O 0
 ) O 0
 was O 0
 with O 0
-NDN O 0
+NDN O 1
 , O 0
 a O 0
 gene O 0
@@ -29273,7 +29273,7 @@ behavioural O 0
 adaptation O 0
 of O 0
 Thoroughbred O 0
-horses O 1
+horses O 0
 that O 0
 will O 0
 contribute O 0
@@ -29285,8 +29285,8 @@ genetic O 0
 markers O 0
 to O 0
 improve O 0
-racehorse O 1
-welfare O 1
+racehorse O 0
+welfare O 0
 . O 0
 Identification O 0
 of O 0
@@ -29299,10 +29299,10 @@ Associated O 0
 with O 0
 Body O 1
 Size O 1
-Traits O 1
+Traits O 0
 in O 0
 Chinese O 0
-Holstein O 1
+Holstein O 0
 Cattle O 0
 Based O 0
 on O 0
@@ -29321,8 +29321,8 @@ economically O 0
 important O 0
 traits O 0
 of O 0
-dairy O 1
-cattle O 1
+dairy O 0
+cattle O 0
 , O 0
 as O 0
 it O 0
@@ -29330,18 +29330,18 @@ is O 0
 significantly O 0
 associated O 0
 with O 0
-cow O 1
-longevity O 1
+cow O 0
+longevity O 0
 , O 0
-production O 1
+production O 0
 , O 0
-health O 1
+health O 0
 , O 0
 fertility O 1
 , O 0
 and O 0
-environmental O 1
-adaptation O 1
+environmental O 0
+adaptation O 0
 . O 0
 
 The O 0
@@ -29412,8 +29412,8 @@ planning O 0
 for O 0
 selection O 0
 in O 0
-dairy O 1
-cows O 1
+dairy O 0
+cows O 0
 . O 0
 
 In O 0
@@ -29480,14 +29480,14 @@ total O 0
 we O 0
 identified O 0
 11 O 0
-significant O 0
+significant O 1
 SNPs O 0
 in O 0
 association O 0
 with O 0
 body B-Trait 1
 size I-Trait 1
-traits I-Trait 1
+traits I-Trait 0
 at O 0
 the O 0
 threshold O 0
@@ -29527,7 +29527,7 @@ downstream O 0
 ) O 0
 of O 0
 the O 0
-significant O 0
+significant O 1
 SNPs O 0
 were O 0
 identified O 0
@@ -29600,7 +29600,7 @@ architecture O 0
 of O 0
 body B-Trait 1
 size I-Trait 1
-traits I-Trait 1
+traits I-Trait 0
 . O 0
 
 They O 0
@@ -29616,8 +29616,8 @@ selection O 0
 work O 0
 on O 0
 Chinese O 0
-Holstein O 1
-cattle O 1
+Holstein O 0
+cattle O 0
 . O 0
 Estimates O 0
 of O 0
@@ -29628,11 +29628,11 @@ the O 0
 Marker-Derived O 0
 Gene O 0
 for O 0
-Re O 1
+Re O 0
 ( O 0
-Production O 1
+Production O 0
 ) O 0
-Traits O 1
+Traits O 0
 in O 0
 Xinggao O 0
 Sheep O 0
@@ -29646,15 +29646,15 @@ breed O 0
 of O 0
 Chinese O 0
 domestic O 0
-sheep O 1
+sheep O 0
 that O 0
 are O 0
 adapted O 0
 to O 0
 the O 0
 extremely O 0
-cold O 1
-climatic O 1
+cold O 0
+climatic O 0
 features O 0
 of O 0
 the O 0
@@ -29667,10 +29667,10 @@ China O 0
 The O 0
 economically O 0
 vital O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 trait I-Trait 0
 of O 0
-ewes O 1
+ewes O 0
 ( O 0
 litter B-Trait 1
 size I-Trait 1
@@ -29678,10 +29678,10 @@ size I-Trait 1
 LS B-Trait 0
 ) O 0
 and O 0
-productive B-Trait 1
+productive B-Trait 0
 traits I-Trait 0
-of O 1
-lambs O 1
+of O 0
+lambs O 0
 ( O 0
 birth B-Trait 1
 weight I-Trait 1
@@ -29751,7 +29751,7 @@ on O 0
 a O 0
 small O 0
 sample O 0
-size O 0
+size O 1
 to O 0
 identify O 0
 novel O 0
@@ -29763,16 +29763,16 @@ MTAs O 0
 ) O 0
 associated O 0
 with O 0
-prolificacy B-Trait 1
+prolificacy B-Trait 0
 and O 0
-growth B-Trait 1
+growth B-Trait 0
 . O 0
 
 We O 0
 detected O 0
 two O 0
 suggestive O 0
-significant O 0
+significant O 1
 single-nucleotide O 0
 polymorphisms O 0
 ( O 0
@@ -29783,15 +29783,15 @@ with O 0
 LS B-Trait 0
 and O 0
 eight O 0
-significant O 0
+significant O 1
 SNPs O 0
 for O 0
-BWT B-Trait 0
+BWT B-Trait 1
 , O 0
-WWT B-Trait 0
+WWT B-Trait 1
 , O 0
 and O 0
-ADG B-Trait 0
+ADG B-Trait 1
 . O 0
 
 These O 0
@@ -29811,9 +29811,9 @@ QTLs O 0
 and O 0
 improvement O 0
 of O 0
-reproductive B-Trait 1
+reproductive B-Trait 0
 and O 0
-productive B-Trait 1
+productive B-Trait 0
 traits I-Trait 0
 in O 0
 sheep O 0
@@ -29825,12 +29825,12 @@ Reveal O 0
 New O 0
 Loci O 0
 Affecting O 0
-Milk O 1
-Production O 1
+Milk O 0
+Production O 0
 in O 0
 German O 0
-Black O 1
-Pied O 1
+Black O 0
+Pied O 0
 Cattle O 0
 ( O 0
 DSN O 0
@@ -29866,8 +29866,8 @@ fine-map O 0
 genomic O 0
 loci O 0
 for O 0
-milk B-Trait 1
-production I-Trait 1
+milk B-Trait 0
+production I-Trait 0
 traits I-Trait 0
 and O 0
 to O 0
@@ -29883,7 +29883,7 @@ studied O 0
 genome-wide O 0
 associations O 0
 for O 0
-milk-production B-Trait 1
+milk-production B-Trait 0
 traits I-Trait 0
 in O 0
 2160 O 0
@@ -29984,7 +29984,7 @@ variant O 0
 for O 0
 high O 0
 milk B-Trait 1
-and O 1
+and O 0
 protein B-Trait 1
 yield I-Trait 1
 . O 0
@@ -29993,8 +29993,8 @@ A O 0
 key O 0
 gene O 0
 affecting O 0
-protein B-Trait 0
-content I-Trait 0
+protein B-Trait 1
+content I-Trait 1
 was O 0
 CSN1S1 O 0
 ( O 0
@@ -30047,7 +30047,7 @@ of O 0
 FGF12 O 0
 for O 0
 protein B-Trait 1
-and O 1
+and O 0
 fat B-Trait 1
 yield I-Trait 1
 , O 0
@@ -30059,7 +30059,7 @@ yield I-Trait 1
 TLE4 O 0
 for O 0
 milk B-Trait 1
-and O 1
+and O 0
 protein B-Trait 1
 yield I-Trait 1
 , O 0
@@ -30067,7 +30067,7 @@ and O 0
 TNKS O 0
 for O 0
 milk B-Trait 1
-and O 1
+and O 0
 fat B-Trait 1
 yield I-Trait 1
 . O 0
@@ -30080,7 +30080,7 @@ can O 0
 improve O 0
 milk B-Trait 1
 yield I-Trait 1
-and O 1
+and O 0
 composition B-Trait 1
 . O 0
 
@@ -30108,7 +30108,7 @@ carefully O 0
 , O 0
 before O 0
 the O 0
-milk-associated O 1
+milk-associated O 0
 variants O 0
 can O 0
 be O 0
@@ -30135,7 +30135,7 @@ Population O 0
 . O 0
 
 `` O 0
-Livability B-Trait 0
+Livability B-Trait 1
 '' O 0
 was O 0
 defined O 0
@@ -30144,8 +30144,8 @@ the O 0
 inverse O 0
 of O 0
 the O 0
-probability B-Trait 1
-of I-Trait 1
+probability B-Trait 0
+of I-Trait 0
 death I-Trait 1
 . O 0
 
@@ -30169,8 +30169,8 @@ the O 0
 livability B-Trait 1
 of O 0
 Israeli O 0
-Holstein O 1
-cows O 1
+Holstein O 0
+cows O 0
 ; O 0
 estimate O 0
 the O 0
@@ -30188,7 +30188,7 @@ included O 0
 in O 0
 the O 0
 Israeli O 0
-breeding O 1
+breeding O 0
 index O 0
 ; O 0
 estimate O 0
@@ -30202,12 +30202,12 @@ livability B-Trait 1
 in O 0
 the O 0
 Israeli O 0
-breeding O 1
+breeding O 0
 index O 0
 on O 0
 expected O 0
-genetic O 1
-gains O 1
+genetic O 0
+gains O 0
 ; O 0
 and O 0
 compute O 0
@@ -30239,9 +30239,9 @@ database O 0
 of O 0
 the O 0
 Israeli O 0
-dairy O 1
-cattle O 1
-herd-book O 1
+dairy O 0
+cattle O 0
+herd-book O 0
 . O 0
 
 The O 0
@@ -30254,8 +30254,8 @@ data O 0
 set O 0
 of O 0
 523,954 O 0
-cows O 1
-born O 1
+cows O 0
+born O 0
 from O 0
 2000 O 0
 through O 0
@@ -30277,13 +30277,13 @@ Livability B-Trait 1
 generally O 0
 increased O 0
 with O 0
-parity O 1
+parity O 0
 and O 0
 days O 1
 in O 1
 milk O 1
-within O 1
-parity O 1
+within O 0
+parity O 0
 . O 0
 
 Heritability O 0
@@ -30322,7 +30322,7 @@ included O 0
 in O 0
 the O 0
 Israeli O 0
-breeding O 1
+breeding O 0
 index O 0
 , O 0
 accounting O 0
@@ -30340,13 +30340,13 @@ by O 0
 1.3 O 0
 % O 0
 and O 0
-protein O 1
-production O 1
+protein O 0
+production O 0
 would O 0
 decrease O 0
 by O 0
 11 O 0
-kg O 1
+kg O 0
 over O 0
 the O 0
 next O 0
@@ -30382,8 +30382,8 @@ activity O 0
 in O 0
 cattle O 0
 affects O 0
-calving-associated O 1
-pathologies O 1
+calving-associated O 0
+pathologies O 0
 and O 0
 maternal O 1
 death O 1
@@ -30395,7 +30395,7 @@ livability B-Trait 1
 in O 0
 the O 0
 Israeli O 0
-breeding O 1
+breeding O 0
 index O 0
 is O 0
 not O 0
@@ -30406,9 +30406,9 @@ of O 0
 Dwarfism O 1
 in O 0
 Italian O 0
-Local O 1
-Chicken O 1
-Breeds O 1
+Local O 0
+Chicken O 0
+Breeds O 0
 . O 0
 
 The O 0
@@ -30435,9 +30435,9 @@ leaving O 0
 the O 0
 differentiation O 0
 between O 0
-dwarf O 1
+dwarf O 0
 and O 0
-small O 1
+small O 0
 breeds O 0
 ambiguous O 0
 . O 0
@@ -30542,12 +30542,12 @@ PPP O 0
 
 We O 0
 compared O 0
-MERI O 0
+MERI O 1
 , O 0
-MUG O 0
+MUG O 1
 , O 0
 and O 0
-PPP O 0
+PPP O 1
 with O 0
 the O 0
 four O 0
@@ -30565,7 +30565,7 @@ studies O 0
 
 Results O 0
 showed O 0
-significant O 0
+significant O 1
 SNPs O 0
 associated O 0
 with O 0
@@ -30604,7 +30604,7 @@ a O 0
 meta-population O 0
 , O 0
 observing O 0
-significant O 0
+significant O 1
 SNPs O 0
 in O 0
 the O 0
@@ -30665,11 +30665,11 @@ Carotenoid O 1
 Concentration O 1
 in O 0
 the O 0
-Skin O 1
+Skin O 0
 of O 0
 Chinese O 0
 Indigenous O 0
-Chicken O 1
+Chicken O 0
 . O 0
 
 Carotenoid O 0
@@ -30680,36 +30680,36 @@ risk O 0
 of O 0
 cancer O 0
 , O 0
-osteoporosis O 1
+osteoporosis O 0
 , O 0
 or O 0
-neurodegenerative O 1
+neurodegenerative O 0
 diseases O 0
 through O 0
 interrupting O 0
 the O 0
 formation O 0
 of O 0
-free O 1
-radicals O 1
+free O 0
+radicals O 0
 . O 0
 
 The O 0
-deposition O 0
+deposition O 1
 of O 0
 carotenoids O 1
 in O 0
-chicken O 1
-skin O 1
+chicken O 0
+skin O 0
 makes O 0
-the O 1
+the O 0
 skin B-Trait 1
 color I-Trait 1
 turn O 0
 from O 0
-white O 1
+white O 0
 into O 0
-yellow O 1
+yellow O 0
 . O 0
 
 The O 0
@@ -30729,7 +30729,7 @@ the O 0
 degradation O 0
 process O 0
 of O 0
-carotenoids O 1
+carotenoids O 0
 in O 0
 skin O 0
 . O 0
@@ -30741,9 +30741,9 @@ affects O 0
 the O 0
 skin B-Trait 1
 color I-Trait 1
-of O 1
+of O 0
 the O 0
-chicken O 1
+chicken O 0
 and O 0
 whether O 0
 it O 0
@@ -30758,10 +30758,10 @@ the O 0
 phenotypic O 0
 difference O 0
 between O 0
-yellow- O 1
+yellow- O 0
 and O 0
-white-skin O 1
-chickens O 1
+white-skin O 0
+chickens O 0
 are O 0
 still O 0
 unclear O 0
@@ -30779,36 +30779,36 @@ concentration B-Trait 0
 of I-Trait 0
 carotenoids I-Trait 1
 in I-Trait 0
-chicken O 1
-skin B-Trait 1
+chicken O 0
+skin B-Trait 0
 by O 0
 HPLC O 0
 showed O 0
 that O 0
 the O 0
 carotenoid B-Trait 1
-concentration I-Trait 0
+concentration I-Trait 1
 in O 0
 chickens O 0
 with O 0
 a O 0
-yellow O 1
-skin O 1
+yellow O 0
+skin O 0
 was O 0
 significantly O 0
 higher O 0
 than O 0
 that O 0
 in O 0
-white-skin O 1
-chickens O 1
+white-skin O 0
+chickens O 0
 . O 0
 
 Moreover O 0
 , O 0
 there O 0
 were O 0
-significant O 0
+significant O 1
 differences O 0
 in O 0
 BCO2 O 0
@@ -30816,12 +30816,12 @@ gene O 0
 expression O 0
 in O 0
 the O 0
-back O 1
-skin O 1
+back O 0
+skin O 0
 between O 0
-yellow- O 1
+yellow- O 0
 and O 0
-white-skin O 1
+white-skin O 0
 chickens O 0
 . O 0
 
@@ -30845,8 +30845,8 @@ gene O 0
 in O 0
 white O 0
 and O 0
-yellow O 1
-skin O 1
+yellow O 0
+skin O 0
 chicken O 0
 . O 0
 
@@ -30864,7 +30864,7 @@ be O 0
 associated O 0
 with O 0
 the O 0
-chicken O 1
+chicken O 0
 skin B-Trait 1
 color I-Trait 1
 and O 0
@@ -30883,13 +30883,13 @@ skin O 1
 in O 0
 Chinese O 0
 indigenous O 0
-chickens O 1
+chickens O 0
 . O 0
 Genome-Wide O 0
 Scan O 0
 of O 0
-Wool B-Trait 1
-Production I-Trait 1
+Wool B-Trait 0
+Production I-Trait 0
 Traits I-Trait 0
 in O 0
 Akkaraman O 0
@@ -30912,7 +30912,7 @@ wool B-Trait 1
 quality I-Trait 1
 , O 0
 a O 0
-production B-Trait 1
+production B-Trait 0
 trait I-Trait 0
 , O 0
 by O 0
@@ -30928,7 +30928,7 @@ sheep O 0
 . O 0
 
 The O 0
-wool B-Trait 1
+wool B-Trait 0
 characteristics I-Trait 0
 measured O 0
 included O 0
@@ -30945,10 +30945,10 @@ SL B-Trait 1
 ) O 0
 at O 0
 the O 0
-age O 1
-of O 1
-8 O 1
-months O 1
+age O 0
+of O 0
+8 O 0
+months O 0
 and O 0
 yearling B-Trait 1
 fibre I-Trait 1
@@ -30973,9 +30973,9 @@ YGFW B-Trait 1
 ) O 0
 at O 0
 18 O 0
-months O 1
-of O 1
-age O 1
+months O 0
+of O 0
+age O 0
 . O 0
 
 Animals O 0
@@ -31050,7 +31050,7 @@ genome- O 0
 and O 0
 six O 0
 chromosome-wide O 0
-significant O 0
+significant O 1
 SNPs O 0
 were O 0
 associated O 0
@@ -31060,7 +31060,7 @@ wool B-Trait 1
 traits I-Trait 0
 in O 0
 Akkaraman O 0
-lambs O 1
+lambs O 0
 . O 0
 
 Accordingly O 0
@@ -31154,7 +31154,7 @@ and O 0
 suggests O 0
 targets O 0
 for O 0
-breeders O 1
+breeders O 0
 during O 0
 systematic O 0
 breeding O 0
@@ -31173,15 +31173,15 @@ with O 0
 the O 0
 Fatty B-Trait 1
 Acid I-Trait 1
-Composition I-Trait 0
+Composition I-Trait 1
 of O 0
-Cows O 1
-Milked O 1
+Cows O 0
+Milked O 0
 Once O 0
 and O 0
 Twice O 0
 a O 0
-Day O 1
+Day O 0
 . O 0
 
 A O 0
@@ -31195,7 +31195,7 @@ rs109421300 O 0
 of O 0
 the O 0
 diacylglycerol O 0
-acyltransferase O 1
+acyltransferase O 0
 1 O 0
 ( O 0
 DGAT1 O 0
@@ -31229,35 +31229,35 @@ of O 0
 SNP O 0
 rs109421300 O 0
 on O 0
-production B-Trait 1
-traits I-Trait 1
+production B-Trait 0
+traits I-Trait 0
 and O 0
 the O 0
 fatty B-Trait 1
 acid I-Trait 1
 composition I-Trait 1
-of I-Trait 1
-milk I-Trait 1
-from O 1
-cows O 1
-milked O 1
-once O 1
-a O 1
-day O 1
+of I-Trait 0
+milk I-Trait 0
+from O 0
+cows O 0
+milked O 0
+once O 0
+a O 0
+day O 0
 ( O 0
 OAD O 1
 ) O 0
 and O 0
-twice O 1
-a O 1
-day O 1
+twice O 0
+a O 0
+day O 0
 ( O 0
 TAD O 1
 ) O 0
 under O 0
 New O 0
 Zealand O 0
-grazing O 1
+grazing O 0
 conditions O 0
 . O 0
 
@@ -31314,13 +31314,13 @@ percentage I-Trait 1
 and O 0
 lower O 0
 milk B-Trait 1
-and O 1
+and O 0
 protein B-Trait 1
 yields I-Trait 1
 in O 0
 both O 0
-milking O 1
-frequencies O 1
+milking O 0
+frequencies O 0
 . O 0
 
 The O 0
@@ -31365,7 +31365,7 @@ C18:1 B-Trait 0
 cis-9 I-Trait 0
 in O 0
 both O 0
-milking O 1
+milking O 0
 frequencies O 0
 . O 0
 
@@ -31374,8 +31374,8 @@ association O 0
 of O 0
 SNP O 0
 with O 0
-fatty B-Trait 1
-acids I-Trait 1
+fatty B-Trait 0
+acids I-Trait 0
 was O 0
 similar O 0
 in O 0
@@ -31392,14 +31392,14 @@ magnitudes O 0
 The O 0
 SFC10 B-Trait 0
 of O 0
-cows O 1
-milked O 1
+cows O 0
+milked O 0
 OAD O 1
 was O 0
 lower O 0
 than O 0
-cows O 1
-milked O 1
+cows O 0
+milked O 0
 TAD O 1
 for O 0
 all O 0
@@ -31411,12 +31411,12 @@ the O 0
 suitability O 0
 of O 0
 OAD O 1
-milk O 1
+milk O 0
 for O 0
-producing O 1
-easily O 1
-spreadable O 1
-butter O 1
+producing O 0
+easily O 0
+spreadable O 0
+butter O 0
 . O 0
 
 These O 0
@@ -31434,7 +31434,7 @@ beneficial O 0
 for O 0
 New O 0
 Zealand O 0
-dairy O 1
+dairy O 0
 farmers O 0
 with O 0
 the O 0
@@ -31459,7 +31459,7 @@ for O 0
 skeletal O 1
 muscle O 1
 glycolytic O 1
-potential O 1
+potential O 0
 in O 0
 Chinese O 0
 Erhualian O 0
@@ -31503,27 +31503,27 @@ on O 0
 the O 0
 contents B-Trait 0
 of I-Trait 0
-residual I-Trait 1
-glycogen I-Trait 1
-and I-Trait 1
-glucose I-Trait 1
+residual I-Trait 0
+glycogen I-Trait 0
+and I-Trait 0
+glucose I-Trait 0
 ( O 0
 RG B-Trait 0
 ) O 0
 , O 0
-glucose-6-phosphate B-Trait 1
+glucose-6-phosphate B-Trait 0
 ( O 0
-G6P B-Trait 1
+G6P B-Trait 0
 ) O 0
 , O 0
 and O 0
-lactate B-Trait 1
+lactate B-Trait 0
 ( O 0
 LAT B-Trait 0
 ) O 0
 contents B-Trait 0
 in O 0
-muscle B-Trait 1
+muscle B-Trait 0
 . O 0
 
 However O 0
@@ -31532,11 +31532,11 @@ the O 0
 genetic O 0
 mechanism O 0
 of O 0
-glycolytic O 1
-metabolism O 1
+glycolytic O 0
+metabolism O 0
 in O 0
-skeletal O 1
-muscle O 1
+skeletal O 0
+muscle O 0
 of O 0
 pigs O 0
 remains O 0
@@ -31606,15 +31606,15 @@ SNPs O 0
 ) O 0
 chips O 0
 for O 0
-longissimus B-Trait 1
-RG I-Trait 1
+longissimus B-Trait 0
+RG I-Trait 0
 , O 0
 G6P B-Trait 0
 , O 0
 LAT B-Trait 0
 , O 0
 and O 0
-GP B-Trait 1
+GP B-Trait 0
 levels I-Trait 0
 in O 0
 301 O 0
@@ -31705,7 +31705,7 @@ loci O 0
 eight O 0
 were O 0
 genome-wide O 0
-significant O 0
+significant O 1
 ( O 0
 p O 0
 < O 0
@@ -31757,7 +31757,7 @@ GP-associated O 0
 SNPs O 0
 also O 0
 showed O 0
-significant O 0
+significant O 1
 effect O 0
 on O 0
 other O 0
@@ -31819,9 +31819,9 @@ a O 0
 classical O 0
 model O 0
 for O 0
-hot O 1
-climate O 1
-adaptation O 1
+hot O 0
+climate O 0
+adaptation O 0
 following O 0
 the O 0
 evolution O 0
@@ -31879,7 +31879,7 @@ suggestive O 0
 SNPs O 0
 and O 0
 4 O 0
-significant O 0
+significant O 1
 SNPs O 0
 that O 0
 were O 0
@@ -31892,7 +31892,7 @@ size I-Trait 1
 
 The O 0
 most O 0
-significant O 0
+significant O 1
 locus O 0
 ( O 0
 P O 0
@@ -31914,7 +31914,7 @@ seventh O 0
 exon O 0
 of O 0
 integrin-binding O 0
-sialoprotein O 1
+sialoprotein O 0
 ( O 0
 IBSP O 0
 ) O 0
@@ -31979,7 +31979,7 @@ SweeD O 0
 Results O 0
 suggested O 0
 that O 0
-IBSP O 0
+IBSP O 1
 was O 0
 under O 0
 positive O 0
@@ -31989,7 +31989,7 @@ four O 0
 breeds O 0
 with O 0
 relatively O 0
-large O 1
+large O 0
 ear B-Trait 1
 sizes I-Trait 1
 . O 0
@@ -31998,14 +31998,14 @@ The O 0
 expression O 0
 levels O 0
 of O 0
-IBSP O 0
+IBSP O 1
 in O 0
-ear O 1
-tissues O 1
+ear O 0
+tissues O 0
 of O 0
 large- O 0
 and O 0
-small-ear O 1
+small-ear O 0
 cattle O 0
 were O 0
 significantly O 0
@@ -32080,7 +32080,7 @@ lactose O 1
 content O 1
 in O 0
 Sarda O 0
-dairy O 1
+dairy O 0
 sheep O 0
 . O 0
 
@@ -32091,7 +32091,7 @@ principal O 0
 carbohydrate O 0
 found O 0
 in O 0
-milk O 1
+milk O 0
 , O 0
 plays O 0
 an O 0
@@ -32102,8 +32102,8 @@ the O 0
 physiological O 0
 processes O 0
 of O 0
-milk O 1
-production O 1
+milk O 0
+production O 0
 because O 0
 it O 0
 is O 0
@@ -32118,16 +32118,16 @@ is O 0
 responsible O 0
 for O 0
 the O 0
-osmotic O 1
-equilibrium O 1
-between O 1
-blood O 1
-and O 1
-milk O 1
+osmotic O 0
+equilibrium O 0
+between O 0
+blood O 0
+and O 0
+milk O 0
 in O 0
 the O 0
-mammary O 1
-gland O 1
+mammary O 0
+gland O 0
 . O 0
 
 In O 0
@@ -32142,8 +32142,8 @@ content I-Trait 1
 LC B-Trait 1
 ) O 0
 in O 0
-sheep O 1
-milk B-Trait 1
+sheep O 0
+milk B-Trait 0
 are O 0
 investigated O 0
 . O 0
@@ -32173,7 +32173,7 @@ LC B-Trait 0
 and O 0
 other O 0
 main O 0
-milk B-Trait 1
+milk B-Trait 0
 traits I-Trait 0
 were O 0
 analyzed O 0
@@ -32188,7 +32188,7 @@ days O 1
 in O 1
 milk O 1
 ( O 0
-DIM O 0
+DIM O 1
 ) O 0
 class O 0
 , O 0
@@ -32205,10 +32205,10 @@ as O 0
 fixed O 0
 effects O 0
 and O 0
-animal O 1
+animal O 0
 , O 0
-permanent O 1
-environment O 1
+permanent O 0
+environment O 0
 , O 0
 and O 0
 flock O 1
@@ -32262,15 +32262,15 @@ i.e. O 0
 DIM O 0
 class O 0
 , O 0
-parity O 1
+parity O 0
 , O 0
 lambing O 1
 month O 1
 , O 0
 and O 0
 type O 0
-of O 1
-lambing O 1
+of O 0
+lambing O 0
 ) O 0
 . O 0
 
@@ -32403,7 +32403,7 @@ complex O 0
 traits O 0
 suggest O 0
 that O 0
-pleiotropic O 1
+pleiotropic O 0
 variants O 0
 contribute O 0
 to O 0
@@ -32460,9 +32460,9 @@ and O 0
 phenotypes O 0
 for O 0
 24 O 0
-reproduction B-Trait 1
+reproduction B-Trait 0
 , O 0
-production B-Trait 1
+production B-Trait 0
 , O 0
 and O 0
 conformation B-Trait 1
@@ -32511,8 +32511,8 @@ breed O 0
 that O 0
 had O 0
 deregressed O 0
-breeding O 1
-values O 1
+breeding O 0
+values O 0
 for O 0
 24 O 0
 traits O 0
@@ -32667,7 +32667,7 @@ Our O 0
 findings O 0
 in O 0
 a O 0
-medium-size O 0
+medium-size O 1
 cohort O 0
 of O 0
 pigs O 0
@@ -32743,7 +32743,7 @@ associated O 0
 with O 0
 the O 0
 growth O 1
-traits O 1
+traits O 0
 in O 0
 Hu O 0
 sheep O 0
@@ -32766,8 +32766,8 @@ genes O 0
 related O 0
 to O 0
 growth O 1
-and O 1
-development O 1
+and O 0
+development O 0
 is O 0
 helpful O 0
 for O 0
@@ -32775,14 +32775,14 @@ the O 0
 genetic O 0
 improvement O 0
 of O 0
-ovine B-Trait 1
-growth I-Trait 1
+ovine B-Trait 0
+growth I-Trait 0
 traits I-Trait 0
 . O 0
 
 The O 0
-fatty O 1
-acid O 1
+fatty O 0
+acid O 0
 desaturase O 0
 3 O 0
 ( O 0
@@ -32796,13 +32796,13 @@ important O 0
 genes O 0
 affecting O 0
 the O 0
-synthesis O 1
+synthesis O 0
 and O 0
-accumulation O 1
+accumulation O 0
 of O 0
-polyunsaturated O 1
-fatty O 1
-acids O 1
+polyunsaturated O 0
+fatty O 0
+acids O 0
 in O 0
 animals O 0
 . O 0
@@ -32826,8 +32826,8 @@ FADS3 O 0
 gene O 0
 associated O 0
 with O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 Hu O 0
 sheep O 0
@@ -32925,7 +32925,7 @@ was O 0
 associated O 0
 significantly O 0
 with O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 ( O 0
 including O 0
@@ -32957,7 +32957,7 @@ genotype O 0
 showed O 0
 significantly O 0
 better O 0
-growth B-Trait 1
+growth B-Trait 0
 traits I-Trait 0
 than O 0
 those O 0
@@ -32975,8 +32975,8 @@ candidate O 0
 gene O 0
 for O 0
 improving O 0
-growth B-Trait 1
-traits I-Trait 1
+growth B-Trait 0
+traits I-Trait 0
 in O 0
 Hu O 0
 sheep O 0
@@ -32988,8 +32988,8 @@ reveals O 0
 candidate O 0
 genes O 0
 for O 0
-pollution O 1
-excreta B-Trait 1
+pollution O 0
+excreta B-Trait 0
 traits I-Trait 0
 in O 0
 pigs O 0
@@ -33016,11 +33016,11 @@ time O 0
 
 With O 0
 the O 0
-growth O 0
+growth O 1
 of O 0
 intensive O 0
-pig O 1
-farming O 1
+pig O 0
+farming O 0
 , O 0
 plenty O 0
 of O 0
@@ -33038,9 +33038,9 @@ to O 0
 pay O 0
 attention O 0
 to O 0
-pig O 1
-excreta O 1
-behaviors O 1
+pig O 0
+excreta O 0
+behaviors O 0
 from O 0
 genetics O 0
 and O 0
@@ -33054,7 +33054,7 @@ the O 0
 genetic O 0
 architecture O 0
 of O 0
-excreta B-Trait 1
+excreta B-Trait 0
 traits I-Trait 0
 remains O 0
 unclear O 0
@@ -33066,20 +33066,20 @@ the O 0
 genetic O 0
 architecture O 0
 of O 0
-excreta B-Trait 1
+excreta B-Trait 0
 traits I-Trait 0
 in O 0
 pigs O 0
 , O 0
 eight O 0
-excreta B-Trait 1
+excreta B-Trait 0
 traits I-Trait 0
 and O 0
 feed B-Trait 1
 conversion I-Trait 1
 ratio I-Trait 1
 ( O 0
-FCR B-Trait 0
+FCR B-Trait 1
 ) O 0
 were O 0
 analyzed O 0
@@ -33130,16 +33130,16 @@ eight O 0
 and O 0
 22 O 0
 genome-wide O 0
-significant O 0
+significant O 1
 SNPs O 0
 were O 0
 detected O 0
 for O 0
-FCR B-Trait 0
+FCR B-Trait 1
 and O 0
 the O 0
 eight O 0
-excreta B-Trait 1
+excreta B-Trait 0
 traits I-Trait 0
 in O 0
 single-trait O 0
@@ -33155,7 +33155,7 @@ a O 0
 multi-trait O 0
 meta-analysis O 0
 for O 0
-excreta B-Trait 1
+excreta B-Trait 0
 traits I-Trait 0
 , O 0
 six O 0
@@ -33187,10 +33187,10 @@ Mb O 0
 of O 0
 the O 0
 genome-wide O 0
-significant O 0
+significant O 1
 SNPs O 0
 for O 0
-FCR B-Trait 0
+FCR B-Trait 1
 , O 0
 excreta B-Trait 0
 traits I-Trait 0
@@ -33225,7 +33225,7 @@ to O 0
 feed B-Trait 1
 efficiency I-Trait 1
 and O 0
-excreta B-Trait 1
+excreta B-Trait 0
 traits I-Trait 0
 might O 0
 be O 0
@@ -33246,23 +33246,22 @@ that O 0
 most O 0
 of O 0
 the O 0
-significant O 0
+significant O 1
 pathways O 0
 are O 0
 associated O 0
 with O 0
 the O 0
-glutathione O 1
-catabolic O 1
+glutathione O 0
+catabolic O 0
 process O 0
 , O 0
 DNA O 0
-topological O 1
+topological O 0
 change O 0
 and O 0
-replication O 1
-fork O 1
+replication O 0
+fork O 0
 protection O 0
 complex O 0
 . O 0
-
