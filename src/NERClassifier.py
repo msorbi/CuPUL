@@ -611,3 +611,42 @@ class NERClassifier(object):
                 self.performance_report(self.y_true, y_pred)
         
         self.save_model(model, "final_model.pt", self.output_dir)
+
+
+    def load_dataset(self, data_name=""):
+        tensor_data = self.processor.get_tensor(data_name=data_name, max_seq_length=self.max_seq_length, drop_o_ratio=self.args.drop_other, drop_e_ratio=self.args.drop_entity)
+
+        all_idx = tensor_data["all_idx"]
+        all_input_ids = tensor_data["all_input_ids"]
+        all_attention_mask = tensor_data["all_attention_mask"]
+        all_labels = tensor_data["all_labels"]
+        all_valid_pos = tensor_data["all_valid_pos"]
+
+        self.loaded_data = TensorDataset(all_idx, all_input_ids, all_attention_mask, all_valid_pos, all_labels)
+
+    def predict_data(self, dt="test"):
+        data_name = dt
+        self.load_dataset(data_name)
+
+        if self.args.do_eval:
+            y_pred, _ = self.eval(self.model, self.eval_dataloader)
+            print(f"\n****** Model Evaluating on {self.args.eval_on} set: ******\n")
+            self.performance_report(self.y_true, y_pred)
+
+        eval_sampler = SequentialSampler(self.loaded_data)
+        eval_dataloader = DataLoader(self.loaded_data, sampler=eval_sampler, batch_size=self.args.eval_batch_size)
+        y_pred, pred_probs = self.eval(self.model, eval_dataloader)
+        # self.performance_report(self.y_true, y_pred)
+
+        train_sentences = self.processor.read_txt(self.dir_path, self.dataset_name, data_name)
+        write_file_name = os.path.join(self.dir_path, self.dataset_name, f"pred_{data_name}.txt")
+        count = 0
+        with open(write_file_name, "w") as fp:
+            for sentence, pred in zip(train_sentences, y_pred):
+                if not len(sentence) == len(pred):
+                    count += 1
+                    pred.extend(["O"]*(len(sentence)-len(pred)))
+                for (w, t), p in zip(sentence, pred):
+                    fp.writelines(" ".join([w, t, str(self.label_map[p])]) + "\n")
+                fp.writelines("\n")
+        print(f"mismatch sentence number: {count}")
