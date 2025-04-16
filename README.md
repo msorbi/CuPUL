@@ -38,6 +38,17 @@ python train.py --do_train --do_eval --dataset_name QTL \
 
 Parameters are tuned from validation set, and all hyper-parameters show in Appendix D, Table 5. 
 
+Predict on QTL. It will load model in ../data/{args.dataset_name}/output and predict ../data/{args.dataset_name}/test.txt.
+
+```python
+python predict.py --dataset_name QTL \ 
+        --loss_type MAE --m 20     \
+        --train_epochs 1 --train_lr 5e-7 --drop_other 0.5  \
+        --curriculum_train_sub_epochs 1 --curriculum_train_lr 2e-7  \ 
+        --curriculum_train_epochs 5 --self_train_lr 5e-7 --self_train_epochs 5  \
+        --max_seq_length 300
+```
+
 ### Citation
 
 ```
