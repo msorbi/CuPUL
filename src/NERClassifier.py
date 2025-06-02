@@ -379,7 +379,7 @@ class NERClassifier(object):
                 self.performance_report(self.y_true, y_pred)
             os.makedirs(f"{self.output_dir}/cl_model_{epoch}", exist_ok=True)
             self.save_model(model, f"cl_model_{epoch}.pt", f"{self.output_dir}/cl_model_{epoch}")
-            with open(f"Curriculum_conf_only_{epoch}.txt", "w") as fp:
+            with open(os.path.join(self.output_dir, f"Curriculum_conf_only_{epoch}.txt"), "w") as fp:
                 for i in y_pred:
                     fp.writelines(" ".join(i)+"\n")
             np.save(os.path.join(self.temp_dir, f"{self.dataset_name}_curr_train_loss"), np.array(loss_sum))
