@@ -93,9 +93,9 @@ def relax_eval(truth, preds):
 
 
 def main():
-    # data = read_file("/work/LAS/qli-lab/yuepei/DS_NER_ACTIVE/data/QTL_Final/pred_test.txt")
-    data = read_file("/work/LAS/qli-lab/yuepei/Conf-MPU-Trait/Conf-MPU-Trait/data/QTL/test_distant_labeling.txt")
-    types = read_type("/work/LAS/qli-lab/yuepei/DS_NER_ACTIVE/data/QTL_Final/types.txt")
+    # data = read_file("./work/LAS/qli-lab/yuepei/DS_NER_ACTIVE/data/QTL_Final/pred_test.txt")
+    data = read_file("./work/LAS/qli-lab/yuepei/Conf-MPU-Trait/Conf-MPU-Trait/data/QTL/test_distant_labeling.txt")
+    types = read_type("./work/LAS/qli-lab/yuepei/DS_NER_ACTIVE/data/QTL_Final/types.txt")
     # data = read_file("../data/CoNLL2003_KB/train.txt")
     # types = read_type("../data/CoNLL2003_KB/types.txt")
     id2type = {k: v for k, v in enumerate(types)}

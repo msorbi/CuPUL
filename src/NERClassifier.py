@@ -75,7 +75,7 @@ class NERClassifier(object):
         self.entity_threshold = args.entity_threshold
         self.ratio = args.ratio
 
-        self.tokenizer = RobertaTokenizer.from_pretrained(args.pretrained_model, do_lower_case=False, cache_dir="/work/LAS/qli-lab/yuepei/bert_model")
+        self.tokenizer = RobertaTokenizer.from_pretrained(args.pretrained_model, do_lower_case=False, cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
         self.processor = DataProcessor(self.dir_path, self.dataset_name, self.tokenizer, args.seed)
         self.label_map, self.inv_label_map = self.processor.get_label_map()
         self.num_labels = len(self.inv_label_map) - 1
@@ -90,7 +90,7 @@ class NERClassifier(object):
         # setup model
         self.model = NERModel.from_pretrained(args.pretrained_model, num_labels=self.num_labels,
                                                  hidden_dropout_prob=0.1, attention_probs_dropout_prob=0.1,
-                                                 cache_dir="/work/LAS/qli-lab/yuepei/bert_model")
+                                                 cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         self.setup_dataset(args)

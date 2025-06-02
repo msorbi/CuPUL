@@ -170,7 +170,7 @@ if __name__ == "__main__":
     dataset_name = "CoNLL2003_KB"
     pretrained_model = "roberta-base"
 
-    tokenizer = RobertaTokenizer.from_pretrained(pretrained_model, do_lower_case=False, cache_dir="/work/LAS/qli-lab/yuepei/bert_model")
+    tokenizer = RobertaTokenizer.from_pretrained(pretrained_model, do_lower_case=False, cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
     dp = DataProcessor(dir_path, dataset_name, tokenizer)
 
     # s, l = dp.read_file(f"{dir_path}/CoNLL2003_KB", "test.txt")
