@@ -182,8 +182,8 @@ def main():
 
     if args.do_train:
         for i in range(args.num_models):
-            # classifier = NERClassifier(args)
-            # classifier.train(i)
+            classifier = NERClassifier(args)
+            classifier.train(i)
             args.seed = args.seed + 1
 
         args.drop_other = 0.0
