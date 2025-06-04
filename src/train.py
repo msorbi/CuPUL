@@ -194,9 +194,14 @@ def main():
         classifier.token_hardness_score(classifier.temp_dir)
         classifier.ensemble_pred(classifier.temp_dir)
         # classifier.ensemble_eval()
-        classifier.curriculum_train()
 
-        # classifier.self_train()
+        classifier.curriculum_train()
+        classifier.predict_data(dt="valid", stage="ct")
+        classifier.predict_data(dt="test", stage="ct")
+
+        classifier.self_train()
+        classifier.predict_data(dt="valid", stage="st")
+        classifier.predict_data(dt="test", stage="st")
 
 
 if __name__ == "__main__":

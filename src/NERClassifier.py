@@ -624,7 +624,7 @@ class NERClassifier(object):
 
         self.loaded_data = TensorDataset(all_idx, all_input_ids, all_attention_mask, all_valid_pos, all_labels)
 
-    def predict_data(self, dt="test"):
+    def predict_data(self, dt="test", stage=""):
         data_name = dt
         self.load_dataset(data_name)
 
@@ -639,7 +639,7 @@ class NERClassifier(object):
         # self.performance_report(self.y_true, y_pred)
 
         train_sentences = self.processor.read_txt(self.dir_path, self.dataset_name, data_name)
-        write_file_name = os.path.join(self.dir_path, self.dataset_name, f"pred_{data_name}.txt")
+        write_file_name = os.path.join(self.dir_path, self.dataset_name, f"pred_{data_name}_{stage}.txt")
         count = 0
         with open(write_file_name, "w") as fp:
             for sentence, pred in zip(train_sentences, y_pred):
