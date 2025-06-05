@@ -1,3 +1,6 @@
+# CuPUL for Historical NER
+Fork of [liyp0095/CuPUL](https://github.com/liyp0095/CuPUL) with added datasets. Work in progress.
+
 ## Re-Examine Distantly Supervised NER: A New Benchmark and a Simple Approach
 
 This paper delves into Named Entity Recognition (NER) under the framework of Distant Supervision (DS-NER), where the main challenge lies in the compromised quality of labels due to inherent errors such as false positives, false negatives, and positive type errors. We critically assess the efficacy of current DS-NER methodologies using a real-world benchmark dataset named QTL, revealing that their performance often does not meet expectations. To tackle the prevalent issue of label noise, we introduce a simple yet effective approach, Curriculum-based Positive-Unlabeled Learning CuPUL, which strategically starts on "easy" and cleaner samples during the training process to enhance model resilience to noisy samples. Our empirical results highlight the capability of CuPUL to significantly reduce the impact of noisy labels and outperform existing methods.
