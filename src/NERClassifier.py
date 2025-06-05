@@ -84,7 +84,7 @@ class NERClassifier(object):
         self.label_map, self.inv_label_map = self.processor.get_label_map()
         self.num_labels = len(self.inv_label_map) - 1
 
-        self.risk = Risk(loss_type[args.dataset_name.split("/",1)[0]]["voter"], args.m, 0.5, self.num_labels, args.priors)
+        self.risk = Risk(loss_type[args.dataset_name.split("-",1)[0]]["voter"], args.m, 0.5, self.num_labels, args.priors)
 
 
         self.vocab = self.tokenizer.get_vocab()
