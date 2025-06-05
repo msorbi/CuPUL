@@ -1,5 +1,6 @@
 import argparse, shutil, os
 from NERClassifier import NERClassifier
+import json
 
 
 def main():
@@ -167,6 +168,13 @@ def main():
         args.priors = [0.0018034225918876403, 0.0007039866503272235, 0.0006952954571133071, 0.014179681728504506, 0.0044629277153460396, 0.0010863991517395424, 0.00092561207728209, 0.015844045228969487, 0.005006127291215811, 0.020446032035738186, 0.017312856882121346, 0.0017034738699276024, 9.560312535307972e-05, 0.004910524165862731, 0.0018121137851015566, 0.005975195334567483, 0.002242327849190415, 0.002155415917051252]
     elif "QTL" in args.dataset_name:
         args.priors = [0.0382405850627, 0.00994870190668]
+    elif args.dataset_name.startswith("hdsner"):
+        with open(os.path.join("..", "data", args.dataset_name, "types.txt")) as fp:
+            classes = fp.read().strip().split("\n")
+        with open(os.path.join("..", "data", args.dataset_name, "priors.json")) as fp:
+            priors = json.load(fp)
+        args.priors = [priors.get(c,0) for c in classes]
+
     else:
         args.priors = [0.0314966102568, 0.0376880632424, 0.0354240324761, 0.015502139428]
 

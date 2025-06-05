@@ -1,0 +1,21 @@
+	CoNLL03	Twitter	OntoNotes5.0	Wikigold	Webpage	BC5CDR	QTL	HDSNER
+voter drop negative	0.3	0.1	0.3	0.1	0.1	0.3	0.3	0.3
+voter learning rate	1.00E-05	1.00E-05	1.00E-05	1.00E-05	1.00E-05	1.00E-05	1.00E-05	0.00001
+voter learning epochs	1	5	1	10	15	5	1	1
+Conf-MPU γ	20	10	20	10	10	20	20	20
+curriculum learning stage epochs	1	2	1	2	2	1	1	1
+curriculum learning learning rate	1.00E-05	7.00E-05	3.00E-05	1.00E-05	5.00E-05	1.00E-05	5.00E-05	0.00001
+								#VALUE!
+train_epochs	1	5	1	5	10			1
+train_lr	2.00E-05	1.00E-05	3.00E-05	2.00E-05	3.00E-05			0.00001
+drop_other	0.5	0.1	0.2	0.1	0.1			0.3
+drop_entity	0	0.1	0	0.1	0			0
+curriculum_train_sub_epochs	1	3	1	2	3			1
+curriculum_train_lr	2.00E-05	2.00E-05	3.00E-05	1.00E-05	3.00E-05			0.00001
+curriculum_train_epochs	5	5	5	5	5			5
+self_train_lr	5.00E-07	5.00E-06	5.00E-07	1.00E-05	5.00E-07			0.0000005
+self_train_epochs	5	5	1	5	5			5
+m	20	10	0.6	10	10			20
+self_train_update_interval	100	150	500	100	20			100
+entity_threshold	0.8	0.9	0.8	0.8	0.8			0.8
+max_seq_length	128	128	230	128	128			128
