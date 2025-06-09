@@ -81,7 +81,7 @@ class NERClassifier(object):
 
         self.tokenizer = RobertaTokenizer.from_pretrained(args.pretrained_model, do_lower_case=False, cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
         self.processor = DataProcessor(self.dir_path, self.dataset_name, self.tokenizer, args.seed)
-        self.label_map, self.inv_label_map = self.processor.get_label_map()
+        self.label_map, self.inv_label_map = self.processor.get_label_map(tag_scheme=args.tag_scheme)
         self.num_labels = len(self.inv_label_map) - 1
 
         self.risk = Risk(loss_type[args.dataset_name.split("-",1)[0]]["voter"], args.m, 0.5, self.num_labels, args.priors)
@@ -96,6 +96,8 @@ class NERClassifier(object):
                                                  hidden_dropout_prob=0.1, attention_probs_dropout_prob=0.1,
                                                  cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+        self.no_gt_output = args.no_gt_output
 
         self.setup_dataset(args)
 
@@ -651,6 +653,9 @@ class NERClassifier(object):
                     count += 1
                     pred.extend(["O"]*(len(sentence)-len(pred)))
                 for (w, t), p in zip(sentence, pred):
-                    fp.writelines(" ".join([w, t, str(self.label_map[p])]) + "\n")
+                    if self.no_gt_output:
+                        fp.writelines(" ".join([w, p]) + "\n")
+                    else:
+                        fp.writelines(" ".join([w, t, str(self.label_map[p])]) + "\n")
                 fp.writelines("\n")
         print(f"mismatch sentence number: {count}")

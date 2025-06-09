@@ -10,6 +10,7 @@ source="../hdsner-utils/data/${setting}/ner_medieval_multilingual/FR/"
 dataset_prefix="../data/hdsner-${setting}"
 
 cd src
+
 # copy and format datasets
 rm -r ${dataset_prefix}*
 # mkdir -p "${datadir}"
@@ -27,5 +28,6 @@ do
         --drop_other 0.3 --drop_entity 0.0 \
         --curriculum_train_sub_epochs 1 --curriculum_train_lr 1e-5 --curriculum_train_epochs 5 \
         --self_train_lr 5e-7 --self_train_epochs 5 --m 20 \
+        --no_gt_output \
     > "${dataset}/stdout.txt" 2> "${dataset}/stderr.txt"
 done

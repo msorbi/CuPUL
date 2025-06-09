@@ -36,6 +36,9 @@ def main():
                         type=str,
                         choices=['iob', 'io'],
                         help="the tagging scheme used.")
+    parser.add_argument("--no_gt_output",
+                        action='store_true',
+                        help="Set to only output the predictions in prediction files, as IO(B) tags.")
 
 
     # training settting parameters

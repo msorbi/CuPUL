@@ -19,6 +19,12 @@ def copy_and_modify_files(input_dir, output_prefix, singleclass):
                 if os.path.isdir(os.path.join(dataset_path, class_dir)) and class_dir != "MULTICLASS":
                     class_names.append(class_dir)
             class_names.sort(reverse=True) # Ensure consistent order (PERS then LOC)
+            label_map = {'O': 0}
+            num_labels = 1
+            for entity_type in class_names:
+                label_map['B-'+entity_type] = num_labels
+                label_map['I-'+entity_type] = num_labels
+                num_labels += 1
 
         for class_type in os.listdir(dataset_path):
             class_path = os.path.join(dataset_path, class_type)
@@ -36,6 +42,8 @@ def copy_and_modify_files(input_dir, output_prefix, singleclass):
             os.makedirs(output_class_path, exist_ok=True)
 
             for filename in os.listdir(class_path):
+                if filename.endswith("stats.json"):
+                    continue
                 source_file_path = os.path.join(class_path, filename)
                 destination_filename = filename
 
@@ -53,11 +61,12 @@ def copy_and_modify_files(input_dir, output_prefix, singleclass):
                                 parts = line.strip().split(' ')
                                 if filename == "train.txt" and len(parts) >= 2:
                                     second_column = parts[1]
-                                    class_index = 1 if '-' in second_column else 0
+                                    class_index = label_map[second_column]
                                     parts.append(str(class_index))
                                     outfile.write(' '.join(parts) + '\n')
                                 else:
                                     outfile.write(line) # Write original line if not enough columns
+                            outfile.write("\n")
                     else:
                         shutil.copy2(source_file_path, destination_file_path)
 
@@ -65,10 +74,9 @@ def copy_and_modify_files(input_dir, output_prefix, singleclass):
             types_txt_path = os.path.join(output_class_path, "types.txt")
             with open(types_txt_path, 'w') as f:
                 if singleclass:
-                    f.write(f"{class_type}\n")
+                    f.write(f"{class_type}")
                 else:
-                    for class_name in class_names:
-                        f.write(f"{class_name}\n")
+                    f.write("\n".join(class_names))
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Adapt datasets to CuPUL")
