@@ -11,7 +11,7 @@
 
     # prepare datasets
     bash src/download.sh
-    bash src/preprocess.sh "--max-seq-length 128"
+    bash src/preprocess.sh "--max-seq-length 64"
 
     # deactivate environment and return to project directory
     conda deactivate
