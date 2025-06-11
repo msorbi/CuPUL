@@ -29,7 +29,6 @@ do
                     --field-delimiter ' ' \
                 > /dev/null
                 echo "$output_file" # this is going to python below
-                break
             fi
         done | \
 python3 -c "import sys ${nl}\
