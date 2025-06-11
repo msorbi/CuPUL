@@ -59,13 +59,7 @@ def copy_and_modify_files(input_dir, output_prefix, singleclass):
                             for line in infile:
                                 line = line.replace(' ','_').replace('\t', ' ')
                                 parts = line.strip().split(' ')
-                                if filename == "train.txt" and len(parts) >= 2:
-                                    second_column = parts[1]
-                                    class_index = label_map[second_column]
-                                    parts.append(str(class_index))
-                                    outfile.write(' '.join(parts) + '\n')
-                                else:
-                                    outfile.write(line) # Write original line if not enough columns
+                                outfile.write(line)
                             outfile.write("\n")
                     else:
                         shutil.copy2(source_file_path, destination_file_path)
