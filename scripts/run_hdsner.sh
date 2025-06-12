@@ -13,7 +13,6 @@ cd src
 
 # copy and format datasets
 rm -r ${dataset_prefix}*
-# mkdir -p "${datadir}"
 python3 format_hdsner_datasets.py \
     --input-dir "${source}" \
     --output-prefix "${dataset_prefix}"

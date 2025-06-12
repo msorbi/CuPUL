@@ -7,7 +7,7 @@ Fork of [liyp0095/CuPUL](https://github.com/liyp0095/CuPUL) with added datasets.
 - `source scripts/prepare_hdsner.sh`
   - clones the datasets submodule
   - creates the datasets conda environment
-  - downloads and pre-processes the datasets, with sequence length 128
+  - downloads and pre-processes the datasets, with sequence length 64
 
 ### Environment setup
 This is the setup of the model environment, which differs from the one in the submodule. \
