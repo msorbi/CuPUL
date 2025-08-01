@@ -3,13 +3,13 @@ import argparse
 import os
 import shutil
 
-def copy_and_modify_files(input_dir, output_prefix, singleclass):
+def copy_and_modify_files(input_dir, output_prefix, output_suffix, singleclass):
     for dataset in os.listdir(input_dir):
         dataset_path = os.path.join(input_dir, dataset)
         if not os.path.isdir(dataset_path):
             continue
 
-        output_dataset_path = '-'.join([output_prefix, dataset])
+        output_dataset_path = '-'.join([output_prefix, dataset, output_suffix])
 
         class_names = []
         # Determine class names for types.txt
@@ -38,7 +38,7 @@ def copy_and_modify_files(input_dir, output_prefix, singleclass):
                 if class_type != "MULTICLASS":
                     continue
 
-            output_class_path = '-'.join([output_dataset_path, class_type])
+            output_class_path = '-'.join([output_dataset_path, class_type]) if class_type != "MULTICLASS" else output_dataset_path
             os.makedirs(output_class_path, exist_ok=True)
 
             for filename in os.listdir(class_path):
@@ -76,13 +76,14 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Adapt datasets to CuPUL")
     parser.add_argument('--input-dir', type=str, default="../hdsner-utils/data/distant/ner_medieval_multilingual/FR/", help='Path to the datasets directory.')
     parser.add_argument('--output-prefix', type=str, default="../data/hdsner-distant", help='Path to the destination directory.')
+    parser.add_argument('--output-suffix', type=str, default="-supervised", help='Destination suffix.')
     parser.add_argument('--singleclass', action='store_true', help='If set, copy only single class directories; otherwise, copy MULTICLASS.')
     args = parser.parse_args()
     return args
 
 def main():
     args = parse_args()
-    copy_and_modify_files(args.input_dir, args.output_prefix, args.singleclass)
+    copy_and_modify_files(args.input_dir, args.output_prefix, args.output_suffix, args.singleclass)
 
 if __name__ == "__main__":
     main()

@@ -4,24 +4,31 @@ Fork of [liyp0095/CuPUL](https://github.com/liyp0095/CuPUL) with added datasets.
 ## Historical NER Instructions
 
 ### Datasets preparation
-- `source scripts/prepare_hdsner.sh`
+```bash
+source scripts/prepare_hdsner.sh
+```
   - clones the datasets submodule
   - creates the datasets conda environment
   - downloads and pre-processes the datasets, with sequence length 64
 
 ### Environment setup
-This is the setup of the model environment, which differs from the one in the submodule. \
-`conda env create -n CuPUL -f environment.yml` \
-`conda activate CuPUL`
+This is the setup of the model environment, which differs from the one in the submodule.
+```bash
+conda env create -n CuPUL -f environment.yml
+conda activate CuPUL
+```
 
 ### Format data and run model
-`bash scripts/run_hdsner.sh supervised` # supervised setting \
-`bash scripts/run_hdsner.sh distant` # distantly-supervised setting \
-Results will be in data-hdsner-(supervised|distant)-DATASET. \
+```bash
+bash scripts/run_hdsner.sh
+```
+Results will be in `data/hdsner-(supervised|distant)-DATASET`. \
 **NOTE**: this will overwrite previous results.
 
 ### Evaluate results
-- `source scripts/eval_hdsner.sh`
+```bash
+source scripts/eval_hdsner.sh
+```
   - activate the datasets environment
   - evaluates results, writing to `data/hdsner_report_(valid|test)_(ct|st).json`
     - ct: curriculum training - st: self-training

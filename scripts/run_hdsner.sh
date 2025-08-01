@@ -1,21 +1,32 @@
-#!/bin/bash
-if [ $# -ne 1 ] || ([ "$1" != "supervised" ] && [ "$1" != "distant" ])
-then
-    echo "usage: $0 (supervised|distant)"
-    exit 1
-fi
-
 setting="$1"
-source="../hdsner-utils/data/${setting}/ner_medieval_multilingual/FR/"
-dataset_prefix="../data/hdsner-${setting}"
 
 cd src
 
-# copy and format datasets
+dataset_prefix="../data/hdsner"
 rm -r ${dataset_prefix}*
-python3 format_hdsner_datasets.py \
-    --input-dir "${source}" \
-    --output-prefix "${dataset_prefix}"
+for setting in `ls ../hdsner-utils/data/`
+do
+    source="../hdsner-utils/data/${setting}/ner_medieval_multilingual/FR/"
+    if [ ! -d "${source}" ] || [ "${setting}" = "data_raw" ]
+    then
+        echo "${dataset_prefix}${setting}"
+        continue
+    fi
+    if [ "${setting}" = "supervised" ]
+    then
+        output_suffix="Fully"
+    else
+        p=`echo "${setting}" | cut -d '-' -f 2`
+        output_suffix="Dict_${p}"
+    fi
+
+    # copy and format datasets
+    python3 format_hdsner_datasets.py \
+        "--input-dir="${source}"" \
+        "--output-prefix="${dataset_prefix}"" \
+        "--output-suffix="${output_suffix}""
+        # --output-dir "${output_dir}" \
+done
 
 # execute on all datasets
 for dataset in ${dataset_prefix}*
