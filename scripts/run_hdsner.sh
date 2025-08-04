@@ -1,5 +1,3 @@
-setting="$1"
-
 cd src
 
 dataset_prefix="../data/hdsner"
