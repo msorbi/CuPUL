@@ -23,7 +23,7 @@ conda activate CuPUL
 bash scripts/run_hdsner.sh
 ```
 Results will be in `data/hdsner-DATASET-(Fully|Dict_*)`. \
-**NOTE**: this will overwrite previous results.
+**NOTE**: This will overwrite previous results.
 
 ### Evaluate results
 ```bash

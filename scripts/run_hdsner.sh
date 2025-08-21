@@ -7,7 +7,6 @@ do
     source="../hdsner-utils/data/${setting}/ner_medieval_multilingual/FR/"
     if [ ! -d "${source}" ] || [ "${setting}" = "data_raw" ]
     then
-        echo "${dataset_prefix}${setting}"
         continue
     fi
     if [ "${setting}" = "supervised" ]
