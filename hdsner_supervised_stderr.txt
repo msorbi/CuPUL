@@ -1,0 +1,13 @@
+rm: cannot remove '../data/hdsner*': No such file or directory
+
+real	1m17.709s
+user	1m12.158s
+sys	0m7.073s
+
+real	6m39.138s
+user	6m29.637s
+sys	0m14.421s
+
+real	3m8.792s
+user	3m3.574s
+sys	0m9.630s

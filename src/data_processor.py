@@ -134,6 +134,9 @@ class DataProcessor(object):
                         label_idx[i] = self.label_map[label]
                         valid_pos[i] = 1
                         j += 1
+                if not (j == len(labels) or i == max_seq_length - 1):
+                    print(j, len(labels), i, max_seq_length - 1)
+                    print(tokens)
                 assert j == len(labels) or i == max_seq_length - 1
                 all_labels.append(label_idx.unsqueeze(0))
                 all_valid_pos.append(valid_pos.unsqueeze(0))

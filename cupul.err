@@ -1,0 +1,85 @@
+rm: cannot remove '../data/hdsner*': No such file or directory
+
+real	1m15.562s
+user	1m12.429s
+sys	0m7.271s
+
+real	1m15.860s
+user	1m12.508s
+sys	0m7.261s
+
+real	1m15.367s
+user	1m12.357s
+sys	0m7.109s
+
+real	1m15.056s
+user	1m12.409s
+sys	0m6.980s
+
+real	1m15.613s
+user	1m12.293s
+sys	0m7.294s
+
+real	1m15.190s
+user	1m12.353s
+sys	0m7.066s
+
+real	1m15.185s
+user	1m12.300s
+sys	0m7.029s
+
+real	6m39.115s
+user	6m29.764s
+sys	0m14.140s
+
+real	6m39.735s
+user	6m30.101s
+sys	0m14.420s
+
+real	6m39.996s
+user	6m30.658s
+sys	0m13.831s
+
+real	6m40.639s
+user	6m30.699s
+sys	0m13.949s
+
+real	6m40.353s
+user	6m31.135s
+sys	0m13.977s
+
+real	6m40.093s
+user	6m30.752s
+sys	0m14.080s
+
+real	6m39.698s
+user	6m30.615s
+sys	0m14.098s
+
+real	3m10.098s
+user	3m3.848s
+sys	0m9.613s
+
+real	3m9.711s
+user	3m3.599s
+sys	0m10.072s
+
+real	3m9.994s
+user	3m3.887s
+sys	0m10.036s
+
+real	3m9.745s
+user	3m4.531s
+sys	0m9.562s
+
+real	3m10.332s
+user	3m3.864s
+sys	0m10.301s
+
+real	3m10.031s
+user	3m4.467s
+sys	0m9.637s
+
+real	3m8.885s
+user	3m3.822s
+sys	0m9.634s
