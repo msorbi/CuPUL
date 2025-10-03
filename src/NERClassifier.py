@@ -14,6 +14,7 @@ from seqeval.metrics import classification_report
 # from loss import GCELoss
 from data_processor import DataProcessor
 from NERModel import NERModel
+from FlairModel import FlairTokenizer, FlairModel
 from risk import Risk
 
 loss_type = {
@@ -79,22 +80,22 @@ class NERClassifier(object):
         self.entity_threshold = args.entity_threshold
         self.ratio = args.ratio
 
-        self.tokenizer = RobertaTokenizer.from_pretrained(args.pretrained_model, do_lower_case=False, cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
+        self.tokenizer = FlairTokenizer(args)
         self.processor = DataProcessor(self.dir_path, self.dataset_name, self.tokenizer, args.seed)
         self.label_map, self.inv_label_map = self.processor.get_label_map(tag_scheme=args.tag_scheme)
         self.num_labels = len(self.inv_label_map) - 1
 
-        self.risk = Risk(loss_type[args.dataset_name.split("-",1)[0]]["voter"], args.m, 0.5, self.num_labels, args.priors)
+        args.loss_type = loss_type[args.dataset_name.split("-",1)[0]]["voter"] if args.loss_type is None else args.loss_type
+        args.curriculum_loss_type = loss_type[args.dataset_name.split("-",1)[0]]["curriculum"] if args.curriculum_loss_type is None else args.curriculum_loss_type
+        self.risk = Risk(args.loss_type, args.m, 0.5, self.num_labels, args.priors)
 
 
         self.vocab = self.tokenizer.get_vocab()
-        self.inv_vocab = {k: v for v, k in self.vocab.items()}
+        self.inv_vocab = self.tokenizer.get_inv_vocab() # {k: v for v, k in self.vocab.items()}
         self.mask_id = self.tokenizer.mask_token_id
 
         # setup model
-        self.model = NERModel.from_pretrained(args.pretrained_model, num_labels=self.num_labels,
-                                                 hidden_dropout_prob=0.1, attention_probs_dropout_prob=0.1,
-                                                 cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
+        self.model = FlairModel(self.args, dropout=0.1)
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         self.no_gt_output = args.no_gt_output
@@ -210,6 +211,7 @@ class NERClassifier(object):
                 y_pred, _ = self.eval(model, self.eval_dataloader)
                 print(f"\n****** Model Evaluating on {self.args.eval_on} set: ******\n")
                 self.performance_report(self.y_true, y_pred)
+                model.train()
 
         eval_sampler = SequentialSampler(self.train_data)
         eval_dataloader = DataLoader(self.train_data, sampler=eval_sampler, batch_size=self.args.eval_batch_size)
@@ -358,7 +360,7 @@ class NERClassifier(object):
                         continue
 
                     # loss = self.risk.compute_risk(type_logits, labels, risk_type=loss_type[self.args.dataset_name]["curriculum"], probs=1-soft_labels[:,0])
-                    loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN-CE", probs=1-soft_labels[:,0])
+                    loss = self.risk.compute_risk(type_logits, labels, risk_type=self.args.curriculum_loss_type, probs=1-soft_labels[:,0])
                     # loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN", probs=1-soft_labels[:,0])
                     if loss.item() == 0:
                         continue
@@ -438,7 +440,7 @@ class NERClassifier(object):
         self.tokenizer.save_pretrained(save_dir)
 
     def load_model(self, model_dir):
-        self.model = NERModel.from_pretrained(model_dir)
+        self.model = FlairModel.from_pretrained(model_dir, self.args)
 
    # use pre-trained RoBERTa to create contextualized augmentations given original sequences
     def aug(self, mask_prob=0.15, save_name="aug.pt"):

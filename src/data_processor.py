@@ -126,10 +126,10 @@ class DataProcessor(object):
                 valid_pos = torch.zeros(max_seq_length, dtype=torch.long)
                 tokens = self.tokenizer.convert_ids_to_tokens(input_ids[0])
                 j = 0
-                for i, token in enumerate(tokens[1:], start=1):  # skip [CLS]
+                for i, token in enumerate(tokens):
                     if token == self.tokenizer.sep_token:
                         break
-                    if i == 1 or token.startswith('Ġ'):
+                    if True or i == 1 or token.startswith('Ġ'):
                         label = labels[j]
                         label_idx[i] = self.label_map[label]
                         valid_pos[i] = 1

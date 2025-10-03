@@ -22,7 +22,6 @@ do
         "--input-dir="${source}"" \
         "--output-prefix="${dataset_prefix}"" \
         "--output-suffix="${output_suffix}""
-        # --output-dir "${output_dir}" \
 done
 
 # execute on all datasets
@@ -31,10 +30,14 @@ do
     time \
     python3 train.py \
         --do_train --do_eval --dataset_name "`echo "${dataset}" | cut -d '/' -f 3`" \
-        --train_epochs 1 --train_lr 1e-5 \
-        --drop_other 0.3 --drop_entity 0.0 \
-        --curriculum_train_sub_epochs 1 --curriculum_train_lr 1e-5 --curriculum_train_epochs 5 \
-        --self_train_lr 5e-7 --self_train_epochs 5 --m 20 \
+        --train_epochs 15 --train_lr 1e-3 \
+        --drop_other 0.1 --drop_entity 0.0 \
+        --loss_type MPN \
+        --curriculum_train_sub_epochs 1 --curriculum_train_lr 1e-3 --curriculum_train_epochs 20 \
+        --curriculum_loss_type MPN \
+        --self_train_epochs 0 \
+        --m 20 \
         --no_gt_output \
+        --eval_on valid \
     > "${dataset}/stdout.txt" 2> "${dataset}/stderr.txt"
 done
