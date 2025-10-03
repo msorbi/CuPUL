@@ -14,8 +14,8 @@ source scripts/prepare_hdsner.sh
 ### Environment setup
 This is the setup of the model environment, which differs from the one in the submodule.
 ```bash
-conda env create -n CuPUL -f environment.yml
-conda activate CuPUL
+conda env create -n CuPUL-flair -f environment.yml
+conda activate CuPUL-flair
 ```
 
 ### Format data and run model
