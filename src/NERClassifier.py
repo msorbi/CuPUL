@@ -6,7 +6,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler, TensorDataset, Subset)
-from transformers import (AdamW, RobertaTokenizer, get_linear_schedule_with_warmup)
+from transformers import (AdamW, RobertaTokenizer, get_linear_schedule_with_warmup, AutoTokenizer)
 from tqdm import tqdm
 from seqeval.metrics import classification_report
 # from utils import RoSTERUtils
@@ -79,12 +79,15 @@ class NERClassifier(object):
         self.entity_threshold = args.entity_threshold
         self.ratio = args.ratio
 
-        self.tokenizer = RobertaTokenizer.from_pretrained(args.pretrained_model, do_lower_case=False, cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
+        Tokenizer = RobertaTokenizer if args.pretrained_model.startswith('roberta-') else AutoTokenizer
+        self.tokenizer = Tokenizer.from_pretrained(args.pretrained_model, do_lower_case=False, cache_dir="./work/LAS/qli-lab/yuepei/bert_model")
         self.processor = DataProcessor(self.dir_path, self.dataset_name, self.tokenizer, args.seed)
         self.label_map, self.inv_label_map = self.processor.get_label_map(tag_scheme=args.tag_scheme)
         self.num_labels = len(self.inv_label_map) - 1
 
-        self.risk = Risk(loss_type[args.dataset_name.split("-",1)[0]]["voter"], args.m, 0.5, self.num_labels, args.priors)
+        args.loss_type = loss_type[args.dataset_name.split("-",1)[0]]["voter"] if args.loss_type is None else args.loss_type
+        args.curriculum_loss_type = loss_type[args.dataset_name.split("-",1)[0]]["curriculum"] if args.curriculum_loss_type is None else args.curriculum_loss_type
+        self.risk = Risk(args.loss_type, args.m, 0.5, self.num_labels, args.priors)
 
 
         self.vocab = self.tokenizer.get_vocab()
@@ -358,7 +361,7 @@ class NERClassifier(object):
                         continue
 
                     # loss = self.risk.compute_risk(type_logits, labels, risk_type=loss_type[self.args.dataset_name]["curriculum"], probs=1-soft_labels[:,0])
-                    loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN-CE", probs=1-soft_labels[:,0])
+                    loss = self.risk.compute_risk(type_logits, labels, risk_type=self.args.curriculum_loss_type, probs=1-soft_labels[:,0])
                     # loss = self.risk.compute_risk(type_logits, labels, risk_type="MPN", probs=1-soft_labels[:,0])
                     if loss.item() == 0:
                         continue

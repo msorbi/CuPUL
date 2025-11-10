@@ -58,9 +58,15 @@ def main():
                         type=str,
                         help="run eval on valid/test set.")
     parser.add_argument("--loss_type",
-                        default="MAE",
+                        default=None,
                         type=str,
-                        help="run eval on valid/test set.")
+                        choices=["MPN", "MPN-CE", "MPU", "MPU-CE", "Conf-MPU", "Conf-MPU-CE"],
+                        help="voter training loss type.")
+    parser.add_argument("--curriculum_loss_type",
+                        default=None,
+                        type=str,
+                        choices=["MPN", "MPN-CE", "MPU", "MPU-CE", "Conf-MPU", "Conf-MPU-CE"],
+                        help="curriculum training loss type.")
     parser.add_argument("--train_batch_size",
                         default=32,
                         type=int,
@@ -201,18 +207,29 @@ def main():
         args.drop_entity = 0.0
         args.curriculum = True
         # args.curriculum = False
-        classifier = NERClassifier(args)
-        classifier.token_hardness_score(classifier.temp_dir)
-        classifier.ensemble_pred(classifier.temp_dir)
-        # classifier.ensemble_eval()
 
-        classifier.curriculum_train()
-        classifier.predict_data(dt="valid", stage="ct")
-        classifier.predict_data(dt="test", stage="ct")
+        voter_prediction = True
 
-        classifier.self_train()
-        classifier.predict_data(dt="valid", stage="st")
-        classifier.predict_data(dt="test", stage="st")
+        if args.curriculum_train_epochs and args.curriculum_train_sub_epochs:
+            voter_prediction = False
+            classifier = NERClassifier(args)
+            classifier.token_hardness_score(classifier.temp_dir)
+            classifier.ensemble_pred(classifier.temp_dir)
+            # classifier.ensemble_eval()
+
+            classifier.curriculum_train()
+            classifier.predict_data(dt="valid", stage="ct")
+            classifier.predict_data(dt="test", stage="ct")
+        
+        if args.self_train_epochs:
+            voter_prediction = False
+            classifier.self_train()
+            classifier.predict_data(dt="valid", stage="st")
+            classifier.predict_data(dt="test", stage="st")
+        
+        if voter_prediction:
+            classifier.predict_data(dt="valid", stage="vt")
+            classifier.predict_data(dt="test", stage="vt")
 
 
 if __name__ == "__main__":

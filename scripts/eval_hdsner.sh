@@ -14,11 +14,11 @@ conda activate hdsner
 # execute on all datasets
 for split in valid test
 do
-    for stage in ct st
+    for stage in vt ct st
     do
         for dataset in ${datasets}
         do
-            if [ -d "../${dataset}" ]
+            if [ -d "../${dataset}" ] && [ -f "../${dataset}/pred_${split}_${stage}.txt" ]
             then
                 output_file="../${dataset}/pred_${split}_${stage}.json"
                 python3 src/eval.py \
@@ -38,8 +38,9 @@ for f in sys.stdin: ${nl}\
     with open(f.strip(), 'r') as fp: ${nl}\
         x = json.load(fp) ${nl}\
     summary[f.strip().split('/')[-2]] = x ${nl}\
-with open(\"../data/hdsner_report_${split}_${stage}.json\", 'w') as fp: ${nl}\
-    json.dump(obj=summary, fp=fp) ${nl}\
+if len(summary): ${nl}\
+    with open(\"../data/hdsner_report_${split}_${stage}.json\", 'w') as fp: ${nl}\
+        json.dump(obj=summary, fp=fp) ${nl}\
 "
     done
 done

@@ -115,6 +115,7 @@ class DataProcessor(object):
             all_attention_mask = []
             all_labels = []
             all_valid_pos = []
+            word_start = self.tokenizer.convert_ids_to_tokens(self.tokenizer.encode_plus('A A', return_tensors='pt')['input_ids'][0])[2][0]
             for text, labels in tqdm(all_data, desc="Converting to tensors"):
                 encoded_dict = self.tokenizer.encode_plus(text, add_special_tokens=True, max_length=max_seq_length, 
                                                           padding='max_length', return_attention_mask=True, truncation=True, return_tensors='pt')
@@ -129,7 +130,7 @@ class DataProcessor(object):
                 for i, token in enumerate(tokens[1:], start=1):  # skip [CLS]
                     if token == self.tokenizer.sep_token:
                         break
-                    if i == 1 or token.startswith('Ġ'):
+                    if i == 1 or token.startswith(word_start):
                         label = labels[j]
                         label_idx[i] = self.label_map[label]
                         valid_pos[i] = 1

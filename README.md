@@ -34,6 +34,20 @@ source scripts/eval_hdsner.sh
     - ct: curriculum training - st: self-training
     - it contains both supervised and distant results, if previously run, in the same file
 
+### Fine-tuning
+#### Voters fine-tuning
+```bash
+source scripts/tune_hdsner_voter.sh
+```
+Results will be in `output/hdsner/tune/voter` \
+Selected hyperparameters must be copied by hand to the curriculum fine-tuning and training scripts.
+#### Curriculum fine-tuning
+```bash
+source scripts/tune_hdsner_curriculum.sh
+```
+Results will be in `output/hdsner/tune/curriculum` \
+Selected hyperparameters must be copied by hand to the training script.
+
 # Forked Readme
 
 ## Re-Examine Distantly Supervised NER: A New Benchmark and a Simple Approach
