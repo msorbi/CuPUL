@@ -4,7 +4,7 @@ Fork of [liyp0095/CuPUL](https://github.com/liyp0095/CuPUL) with added datasets.
 ## Historical NER Instructions
 
 ### Datasets preparation
-Clone the `hdsner-utils` submodule, and follow its README to download the texts and create the environment.
+Clone the `hdsner-utils` submodule, and follow its README to download the texts and create the environment. Then, you can run:
 ```bash
 source scripts/prepare_rcnum.sh
 ```
@@ -23,5 +23,5 @@ conda activate CuPUL-flair
 ```bash
 bash scripts/run_rcnum.sh
 ```
-Results will be in `data/hdsner-DATASET-(Fully|Dict_*)`. \
+Results will be in `data/rcnum-IOB-Dict_1.00`. \
 **NOTE**: This will overwrite previous results.
