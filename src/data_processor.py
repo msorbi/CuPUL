@@ -94,7 +94,7 @@ class DataProcessor(object):
     def get_data(self, dataset_name, data_name):
         sentences, labels = self.read_file(self.data_dir, dataset_name, data_name)
         sent_len = [len(sent) for sent in sentences]
-        print(f"****** {dataset_name} set stats (before tokenization): sentence length: {np.average(sent_len)} (avg) / {np.max(sent_len)} (max) ******")
+        # print(f"****** {dataset_name} set stats (before tokenization): sentence length: {np.average(sent_len)} (avg) / {np.max(sent_len)} (max) ******")
         data = []
         for sentence, label in zip(sentences, labels):
             text = ' '.join(sentence)
@@ -129,6 +129,8 @@ class DataProcessor(object):
                 for i, token in enumerate(tokens):
                     if token == self.tokenizer.sep_token:
                         break
+                    if i >= 128:
+                        print(tokens)
                     if True or i == 1 or token.startswith('Ġ'):
                         label = labels[j]
                         label_idx[i] = self.label_map[label]

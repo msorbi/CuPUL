@@ -60,7 +60,8 @@ def copy_and_modify_files(input_dir, output_prefix, output_suffix, singleclass):
                                 line = line.replace(' ','_').replace('\t', ' ')
                                 parts = line.strip().split(' ')
                                 outfile.write(line)
-                            outfile.write("\n")
+                            if not line.endswith('\n'):
+                                outfile.write("\n")
                     else:
                         shutil.copy2(source_file_path, destination_file_path)
 

@@ -428,7 +428,8 @@ class NERClassifier(object):
                 print(f"Warning: Sequence {i} is truncated for eval! ({len(y_pred[i])}/{len(y_true[i])})")
                 y_pred[i] = y_pred[i] + ['O'] * (len(y_true[i])-len(y_pred[i]))
 
-        report = classification_report(y_true, y_pred, digits=4)
+        print(len(y_true), len(y_pred))
+        report = classification_report(y_true, y_pred, digits=4, zero_division=0)
         print(report)
         return report 
 

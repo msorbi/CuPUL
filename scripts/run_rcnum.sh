@@ -1,17 +1,9 @@
-#!/bin/bash
-if [ $# -ne 1 ] || ([ "$1" != "supervised" ] && [ "`echo "$1" | cut -d '-' -f 1`" != "distant" ])
-then
-    echo "usage: $0 (supervised|distant-p)"
-    exit 1
-fi
-setting="$1"
-
 cd src
 
-dataset_prefix="../data/hdsner"
+dataset_prefix="../data/rcnum"
 rm -r ${dataset_prefix}*
-# for setting in `ls ../hdsner-utils/data/`
-# do
+for setting in `ls ../hdsner-utils/data/`
+do
     source="../hdsner-utils/data/${setting}/rcnum/"
     if [ ! -d "${source}" ] || [ "${setting}" = "data_raw" ]
     then
@@ -30,19 +22,22 @@ rm -r ${dataset_prefix}*
         "--input-dir="${source}"" \
         "--output-prefix="${dataset_prefix}"" \
         "--output-suffix="${output_suffix}""
-        # --output-dir "${output_dir}" \
-# done
+done
 
 # execute on all datasets
-for dataset in ${dataset_prefix}*${output_suffix}
+for dataset in ${dataset_prefix}*
 do
     time \
     python3 train.py \
-        --do_train --do_eval --dataset_name "`echo "${dataset}" | cut -d '/' -f 3`" \
-        --train_epochs 1 --train_lr 1e-5 \
-        --drop_other 0.3 --drop_entity 0.0 \
-        --curriculum_train_sub_epochs 1 --curriculum_train_lr 1e-5 --curriculum_train_epochs 5 \
-        --self_train_lr 5e-7 --self_train_epochs 5 --m 20 \
+        --do_train --dataset_name "`echo "${dataset}" | cut -d '/' -f 3`" \
+        --train_epochs 15 --train_lr 1e-3 \
+        --drop_other 0.1 --drop_entity 0.0 \
+        --loss_type MPN \
+        --curriculum_train_sub_epochs 1 --curriculum_train_lr 1e-3 --curriculum_train_epochs 20 \
+        --curriculum_loss_type MPN \
+        --self_train_epochs 0 \
+        --m 20 \
         --no_gt_output \
+        --do_eval --eval_on valid \
     > "${dataset}/stdout.txt" 2> "${dataset}/stderr.txt"
 done
