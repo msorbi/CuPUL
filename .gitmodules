@@ -1,4 +1,4 @@
 [submodule "hdsner-utils"]
 	path = hdsner-utils
 	url = https://github.com/msorbi/hdsner-utils.git
-	branch = rcnum
+	branch = rcnum-ned
