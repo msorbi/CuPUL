@@ -5,7 +5,7 @@
     cd hdsner-utils
 
     # create and activate environment
-    conda activate hdsner_rcnum
+    conda activate hdsner_rcnum_ned
 
     # prepare datasets
     bash src/rcnum_preprocessing/preprocess.sh 

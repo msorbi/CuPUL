@@ -41,3 +41,7 @@ do
         --do_eval --eval_on valid \
     > "${dataset}/stdout.txt" 2> "${dataset}/stderr.txt"
 done
+
+# copy predictions to utils directory
+cd ..
+cp data/rcnum-IOB-Fully/pred_test_ct.txt hdsner-utils/data/data_raw/rcnum/pred.iob
